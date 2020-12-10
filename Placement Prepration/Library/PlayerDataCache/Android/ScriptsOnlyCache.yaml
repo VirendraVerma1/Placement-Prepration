@@ -392,7 +392,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: da06eef3c61f798162049563331043ac
+      Hash: 5544f13b9ccea5c34f45a081ab8e5617
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AppManager
@@ -525,4 +525,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Virendra/Desktop/Placement Prepration.apk
+  playerPath: C:/Users/Virendra/Desktop/APK/Placement Prepration.apk

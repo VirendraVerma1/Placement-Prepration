@@ -1,19 +1,23 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class AppManager : MonoBehaviour
 {
-    string GetCourseDataLink = "http://kreasaard.atwebpages.com/PlacementPrepration/getallcourse.php";
-    string GetSubjectDataLink = "http://kreasaard.atwebpages.com/PlacementPrepration/getallsubject.php";
-    string GetCompanyDataLink = "http://kreasaard.atwebpages.com/PlacementPrepration/getallcompany.php";
+    string GetCourseDataLink = "PlacementPrepration/getallcourse.php";
+    string GetSubjectDataLink = "PlacementPrepration/getallsubject.php";
+    string GetCompanyDataLink = "PlacementPrepration/getallcompany.php";
 
-    string GetAllQuesDataLink = "http://kreasaard.atwebpages.com/PlacementPrepration/getallquesfromsubject.php";
+    string GetAllQuesDataLink = "PlacementPrepration/getallquesfromsubject.php";
 
     List<string> courseValues = new List<string>();
     List<string> subjectValues = new List<string>();
     List<string> companyValues = new List<string>();
+
+    public string AllCourseData = "";
+    public string AllSubjectData = "";
+    public string AllCompanyData = "";
 
     List<QuesDataBean> quesData = new List<QuesDataBean>();
 
@@ -21,6 +25,7 @@ public class AppManager : MonoBehaviour
     int quesid = 0;
     void Start()
     {
+        ReportText.gameObject.SetActive(false);
         StartCoroutine(PutCourseValuesToListFromServer());
         
     }
@@ -31,10 +36,13 @@ public class AppManager : MonoBehaviour
 
     IEnumerator PutCourseValuesToListFromServer()
     {
-        WWW www = new WWW(GetCourseDataLink);
+        WWW www = new WWW(saveload.ServerLink+GetCourseDataLink);
         sendOnPath++;
         //ActivateLoadingDatafromServerPannel();
         yield return www;
+
+        AllCourseData = www.text;
+
         sendOnPath--;
         if (www.text != "" && www.text.Contains(";"))
         {
@@ -66,10 +74,11 @@ public class AppManager : MonoBehaviour
 
     IEnumerator PutSubjectValuesToListFromServer()
     {
-        WWW www = new WWW(GetSubjectDataLink);
+        WWW www = new WWW(saveload.ServerLink+GetSubjectDataLink);
         sendOnPath++;
         //ActivateLoadingDatafromServerPannel();
         yield return www;
+        AllSubjectData = www.text;
         sendOnPath--;
         if (www.text != "" && www.text.Contains(";"))
         {
@@ -103,7 +112,7 @@ public class AppManager : MonoBehaviour
 
     IEnumerator PutCompanyValuesToListFromServer()
     {
-        WWW www = new WWW(GetCompanyDataLink);
+        WWW www = new WWW(saveload.ServerLink+GetCompanyDataLink);
         sendOnPath++;
         //ActivateLoadingDatafromServerPannel();
         yield return www;
@@ -143,6 +152,7 @@ public class AppManager : MonoBehaviour
 
     void InstantiateLeftPannelThings()
     {
+        int d = 0;
         for (int i = 0; i < courseValues.Count-1; i++)
         {
             GameObject go = GameObject.Instantiate(CourseGO);
@@ -150,14 +160,24 @@ public class AppManager : MonoBehaviour
             go.transform.Find("Text").transform.GetComponent<Text>().text = courseValues[i];
             go.name = i.ToString();
 
-            for (int j = 0; j < subjectValues.Count - 1; j++)
+            for (int j = d; j < subjectValues.Count - 1; j++)
             {
-                go = GameObject.Instantiate(SubjectGO);
-                go.transform.SetParent(LocationToSpawn.transform);
-                go.transform.Find("Text").transform.GetComponent<Text>().text = subjectValues[j];
-                int num = j;
-                go.GetComponent<Button>().onClick.AddListener(() => OnSubjectButtonPressed(num));
-                go.name = num.ToString();
+                d++;
+                if (subjectValues[j] != "NextQ")
+                {
+                    go = GameObject.Instantiate(SubjectGO);
+                    go.transform.SetParent(LocationToSpawn.transform);
+                    go.transform.Find("Text").transform.GetComponent<Text>().text = subjectValues[j];
+                    int num = j;
+                    go.GetComponent<Button>().onClick.AddListener(() => OnSubjectButtonPressed(num));
+                    go.name = num.ToString();
+                   
+                }
+                else
+                {
+                    break;
+                }
+                
             }
         }
     }
@@ -203,7 +223,7 @@ public class AppManager : MonoBehaviour
     {
         WWWForm form1 = new WWWForm();
         form1.AddField("Subject", subjct);
-        WWW www = new WWW(GetAllQuesDataLink, form1);
+        WWW www = new WWW(saveload.ServerLink+GetAllQuesDataLink, form1);
         //ShowLoadingRemoveRest();
         yield return www;
         print(www.text);
@@ -317,6 +337,22 @@ public class AppManager : MonoBehaviour
         InitalizeUICenterOnNewQues();
         OnCloseLeftPannelButtonPressed();
         CheckAndActivateUI(currentQues);
+
+        StartCoroutine(TextAlighByGeometry(QuesTextCenter));
+        StartCoroutine(TextAlighByGeometry(Option1TextCenter));
+        StartCoroutine(TextAlighByGeometry(Option2TextCenter));
+        StartCoroutine(TextAlighByGeometry(Option3TextCenter));
+        StartCoroutine(TextAlighByGeometry(Option4TextCenter));
+        StartCoroutine(TextAlighByGeometry(ExplanationTextCenter));
+        StartCoroutine(TextAlighByGeometry(YoutubeLinkCenter));
+    }
+
+    IEnumerator TextAlighByGeometry(Text text)
+    {
+        yield return new WaitForSeconds(0.1f);
+        text.GetComponent<ContentSizeFitter>().enabled = false;
+        yield return new WaitForSeconds(0.1f);
+        text.GetComponent<ContentSizeFitter>().enabled = true;
     }
 
     void UpdateQuesMarker(int quesid)
@@ -354,7 +390,7 @@ public class AppManager : MonoBehaviour
     public Image MainMenuImage;
     public GameObject CloseLeftPannelGO;
 
-    bool isLeftPannelOpen=true;
+    bool isLeftPannelOpen=false;
     public void OnMainMenuButtonPressed()
     {
         if (isLeftPannelOpen)
@@ -390,6 +426,7 @@ public class AppManager : MonoBehaviour
 
     public Sprite TickCheckBox;
     public Sprite UnTickCheckBox;
+    public Sprite WrongTickCheckBox;
 
     public GameObject CheckBox1;
     public GameObject CheckBox2;
@@ -492,6 +529,58 @@ public class AppManager : MonoBehaviour
         currentCheckBox = code;
     }
 
+    public void InitializeCheckBoxWrong(int codeWorng, int codeRight)
+    {
+
+        CheckBox1.GetComponent<Image>().sprite = UnTickCheckBox;
+        CheckBox2.GetComponent<Image>().sprite = UnTickCheckBox;
+        CheckBox3.GetComponent<Image>().sprite = UnTickCheckBox;
+        CheckBox4.GetComponent<Image>().sprite = UnTickCheckBox;
+
+        if (codeWorng == 1)
+        {
+
+            CheckBox1.GetComponent<Image>().sprite = WrongTickCheckBox;
+        }
+        else if (codeWorng == 2)
+        {
+
+            CheckBox2.GetComponent<Image>().sprite = WrongTickCheckBox;
+        }
+        else if (codeWorng == 3)
+        {
+
+            CheckBox3.GetComponent<Image>().sprite = WrongTickCheckBox;
+        }
+        else if (codeWorng == 4)
+        {
+
+            CheckBox4.GetComponent<Image>().sprite = WrongTickCheckBox;
+        }
+
+        if (codeRight == 1)
+        {
+
+            CheckBox1.GetComponent<Image>().sprite = TickCheckBox;
+        }
+        else if (codeRight == 2)
+        {
+
+            CheckBox2.GetComponent<Image>().sprite = TickCheckBox;
+        }
+        else if (codeRight == 3)
+        {
+
+            CheckBox3.GetComponent<Image>().sprite = TickCheckBox;
+        }
+        else if (codeRight == 4)
+        {
+
+            CheckBox4.GetComponent<Image>().sprite = TickCheckBox;
+        }
+        currentCheckBox = codeWorng;
+    }
+
     public GameObject SubmitButton;
     public void OnSubmitButton()
     {
@@ -505,6 +594,7 @@ public class AppManager : MonoBehaviour
             else
             {
                 WrongAnswerText.gameObject.SetActive(true);
+                InitializeCheckBoxWrong(currentCheckBox, correctAns);
             }
 
             ShowExplanation();
@@ -517,6 +607,26 @@ public class AppManager : MonoBehaviour
         ExplanationTextCenter.gameObject.SetActive(true);
         SubmitButton.SetActive(false);
         ExplanationText.SetActive(true);
+    }
+
+    #endregion
+
+    #region Logo Area
+
+    [Header("Logo Pannel")]
+    public Text ReportText;
+
+    public void OnPreprationButtonPressed()
+    {
+        isLeftPannelOpen = false;
+        OnMainMenuButtonPressed();
+    }
+
+    public void OnRevisionTestButtonPressed()
+    {
+        ReportText.gameObject.SetActive(true);
+        ReportText.text="In development";
+        StartCoroutine(ShowAndHideAfterTime(ReportText.gameObject, 2));
     }
 
     #endregion
@@ -555,6 +665,12 @@ public class AppManager : MonoBehaviour
         if (value.Contains("|"))
             value = value.Remove(value.IndexOf("|"));
         return value;
+    }
+
+    IEnumerator ShowAndHideAfterTime(GameObject go, float Time)
+    {
+        yield return new WaitForSeconds(Time);
+        go.SetActive(false);
     }
 
     #endregion

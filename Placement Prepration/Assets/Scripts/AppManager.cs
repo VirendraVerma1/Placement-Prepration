@@ -116,6 +116,8 @@ public class AppManager : MonoBehaviour
         sendOnPath++;
         //ActivateLoadingDatafromServerPannel();
         yield return www;
+        print("COmpany" + www.text);
+        AllCompanyData = www.text;
         sendOnPath--;
         if (www.text != "" && www.text.Contains(";"))
         {

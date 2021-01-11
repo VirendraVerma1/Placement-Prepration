@@ -13,6 +13,7 @@ public class AppController : MonoBehaviour
     string GetCompanyDataLink = "http://kreasaard.atwebpages.com/PlacementPrepration/getallcompany.php";
     string GetQuesDataLink = "http://kreasaard.atwebpages.com/PlacementPrepration/getcurrentquesdetails.php";
     string UpdateQuesDataLink = "http://kreasaard.atwebpages.com/PlacementPrepration/updatequesdetails.php";
+    string TotalQues = "http://kreasaard.atwebpages.com/PlacementPrepration/gettotalques.php";
 
     List<string> courseValues = new List<string>();
     List<string> subjectValues = new List<string>();
@@ -55,8 +56,24 @@ public class AppController : MonoBehaviour
         StartCoroutine(PutSubjectValuesToListFromServer());
         StartCoroutine(PutCompanyValuesToListFromServer());
         StartCoroutine(PutPublisherValuesToListFromServer());
-       
+        StartCoroutine(GetTotalQues());
     }
+
+    IEnumerator GetTotalQues()
+    {
+        WWW www = new WWW(TotalQues);
+        sendOnPath++;
+        ActivateLoadingDatafromServerPannel();
+        yield return www;
+        sendOnPath--;
+        print(www.text);
+        if (www.text != "")
+        {
+            prevQuesIndex = www.text;
+            prevQuesIndexCopy = www.text;
+        }
+    }
+
 
     #region Course
 
@@ -193,8 +210,7 @@ public class AppController : MonoBehaviour
             }
         }
         InitializeSubject();
-        prevQuesIndex = counter.ToString();
-        prevQuesIndexCopy=prevQuesIndex;
+        
         SetQuesNum();
     }
 
@@ -476,13 +492,13 @@ public class AppController : MonoBehaviour
         if (www.text.Contains("|"))
         {
            sendOnPath--;
-           QuesText.text= GetDataValue(www.text, "Ques:");
-           Option1Text.text = GetDataValue(www.text, "Option1:");
-           Option2Text.text = GetDataValue(www.text, "Option2:");
-           Option3Text.text = GetDataValue(www.text, "Option3:");
-           Option4Text.text = GetDataValue(www.text, "Option4:");
-           ExplanationText.text = GetDataValue(www.text, "Explanation:");
-           YoutubeText.text = GetDataValue(www.text, "YoutubeLink:");
+           QuesText.text= SymbolDecoder( GetDataValue(www.text, "Ques:"));
+           Option1Text.text = SymbolDecoder( GetDataValue(www.text, "Option1:"));
+           Option2Text.text = SymbolDecoder( GetDataValue(www.text, "Option2:"));
+           Option3Text.text = SymbolDecoder( GetDataValue(www.text, "Option3:"));
+           Option4Text.text = SymbolDecoder( GetDataValue(www.text, "Option4:"));
+           ExplanationText.text = SymbolDecoder( GetDataValue(www.text, "Explanation:"));
+           YoutubeText.text = SymbolDecoder( GetDataValue(www.text, "YoutubeLink:"));
 
             //set drop downs
             //Course Dropdown
@@ -555,34 +571,24 @@ public class AppController : MonoBehaviour
         GetAllTheValues();
 
         //Send To Server
-        StartCoroutine(SendToDatabase());
+       StartCoroutine(SendToDatabase());
     }
 
     void GetAllTheValues()
     {
+        
+        currentCourse = SymbolEncoder(courseValues[courseDropdown.value]);
+        currentSubject = SymbolEncoder(subjectValues[subjectDropdown.value]);
+        currentCompany = SymbolEncoder(companyValues[CompanyDropdown.value]);
+        currentPublisher = SymbolEncoder(publisherValues[publisherDropdown.value]);
+        currentQues = SymbolEncoder(QuesText.text.ToString());
+        currentOption1 = SymbolEncoder(Option1Text.text.ToString());
+        currentOption2 = SymbolEncoder(Option2Text.text.ToString());
+        currentOption3 = SymbolEncoder(Option3Text.text.ToString());
+        currentOption4 = SymbolEncoder(Option4Text.text.ToString());
+        currentExplanation = SymbolEncoder(ExplanationText.text.ToString());
+        currentYoutubeLink = SymbolEncoder(YoutubeText.text.ToString());
 
-        currentCourse = filterMaker(courseValues[courseDropdown.value]);
-        currentSubject = filterMaker(subjectValues[subjectDropdown.value]);
-        currentCompany = filterMaker(companyValues[CompanyDropdown.value]);
-        currentPublisher = filterMaker(publisherValues[publisherDropdown.value]);
-        currentQues = filterMaker(QuesText.text.ToString());
-        currentOption1 = filterMaker(Option1Text.text.ToString());
-        currentOption2 = filterMaker(Option2Text.text.ToString());
-        currentOption3 = filterMaker(Option3Text.text.ToString());
-        currentOption4 = filterMaker(Option4Text.text.ToString());
-        currentExplanation = filterMaker(ExplanationText.text.ToString());
-        currentYoutubeLink = filterMaker(YoutubeText.text.ToString());
-
-    }
-
-    string filterMaker(string s)
-    {
-        s = s.Replace("'s", "");
-        s = s.Replace("|", "");
-        s = s.Replace("'", "");
-        s = s.Replace(":", "");
-        s = s.Replace(";", "");
-        return s;
     }
 
     public void CorrectOptionSelect(int option)
@@ -810,6 +816,113 @@ public class AppController : MonoBehaviour
         if (value.Contains("|"))
             value = value.Remove(value.IndexOf("|"));
         return value;
+    }
+
+    string SymbolEncoder(string str)
+    {
+        
+        str = str.Replace(",", "iyecommahaiyecommahaihaii");
+        str = str.Replace(":", "idoubledotdubledothaii");
+        str = str.Replace("|", "islashslashhaii");
+        str = str.Replace(";", "isemicolonhaisemicolonhaii");
+        
+        str = MySymbolEncoder(str,"iyenewlinehaiyenewlinehaii",92);
+        str = MySymbolEncoder(str, "iyedoublecotehaii", 34);
+        str = MySymbolEncoder(str, "iyecolonhaii", 39);
+        str = MySymbolEncoder(str, "iyebackslashhaii", 47);
+        str = MySymbolEncoder(str, "iyecurlylefthaii", 123);
+        str = MySymbolEncoder(str, "iyecurlyrighthaii", 125);
+        return str;
+    }
+
+    string SymbolDecoder(string str)
+    {
+        str += " ";
+        str = str.Replace("iyecommahaiyecommahaihaii", ",");
+        str = str.Replace("idoubledotdubledothaii", ":");
+        str = str.Replace("islashslashhaii", "|");
+        str = str.Replace("isemicolonhaisemicolonhaii", ";");
+
+        str = MySymbolDecoder(str, "iyenewlinehaiyenewlinehaii",92);
+        str = MySymbolDecoder(str, "iyedoublecotehaii", 34);
+        str = MySymbolDecoder(str, "iyecolonhaii", 39);
+        str = MySymbolDecoder(str, "iyebackslashhaii", 47);
+        str = MySymbolDecoder(str, "iyecurlylefthaii", 123);
+        str = MySymbolDecoder(str, "iyecurlyrighthaii", 125);
+        str = MySymbolDecoder(str, "iyenewlinehaiyenewlinehaii", 92);
+        str = MySymbolDecoder(str, "iyedoublecotehaii", 34);
+        str = MySymbolDecoder(str, "iyecolonhaii", 39);
+        str = MySymbolDecoder(str, "iyebackslashhaii", 47);
+        str = MySymbolDecoder(str, "iyecurlylefthaii", 123);
+        str = MySymbolDecoder(str, "iyecurlyrighthaii", 125);
+        return str;
+    }
+
+    string MySymbolEncoder(string str, string code, int ascicode)
+    {
+        int n = ascicode;
+        char sumbol = Convert.ToChar(n);
+        string newstr = "";
+        foreach (char s in str)
+        {
+            if (sumbol == s)
+            {
+                newstr += code;
+            }
+            else
+            {
+                newstr += s;
+            }
+            
+        }
+        return newstr;
+    }
+
+    string MySymbolDecoder(string str,string code,int ascicode)
+    {
+        int n = ascicode;
+        char sumbol = Convert.ToChar(n);
+        string newstr = "";
+        string newlineencode = code;
+        int c = 0;
+        string symbolchecher = "";
+        foreach (char s in str)
+        {
+            if (c < newlineencode.Length)
+            {
+                if (s == newlineencode[c])
+                {
+                    symbolchecher += s;
+                    c++;
+                }
+                else
+                {
+                    if (newlineencode == symbolchecher)
+                    {
+                        symbolchecher = "";
+                        newstr += Convert.ToChar(n);
+                    }
+                    c = 0;
+                    newstr += symbolchecher;
+                    newstr += s;
+                    symbolchecher = "";
+                }
+            }
+            else
+            {
+                if (newlineencode == symbolchecher)
+                {
+                    symbolchecher = "";
+                    newstr += Convert.ToChar(n);
+                }
+
+                c = 0;
+                newstr += symbolchecher;
+                newstr += s;
+                symbolchecher = "";
+            }
+        }
+        return newstr;
     }
     
 }

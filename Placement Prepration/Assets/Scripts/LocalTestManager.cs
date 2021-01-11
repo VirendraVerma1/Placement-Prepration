@@ -5,14 +5,16 @@ using UnityEngine.UI;
 
 public class LocalTestManager : MonoBehaviour
 {
-    
-    string[] courseData;
-    string[] subjectData;
-    string[] companyData;
 
-    int[] courseDataSelected;
-    int[] subjectDataSelected;
-    int[] companyDataSelected;
+    string GetQuestion = "PlacementPrepration/LocalTest/createlocaltest.php";
+    
+     string[] courseData;
+     string[] subjectData;
+     string[] companyData;
+
+     int[] courseDataSelected;
+     int[] subjectDataSelected;
+     int[] companyDataSelected;
 
     bool isNoTimer = false;
     string timerInputed = "";
@@ -512,7 +514,9 @@ public class LocalTestManager : MonoBehaviour
     {
         SetUpQuesDurationDropdown();
         SetUpTimerInputField();
-
+        EncodeSubjectFU();
+        EncodeCompanyFU();
+        StartCoroutine(GetCourseAndItsSubjectWithTotalQuestions());
     }
 
     void SetUpQuesDurationDropdown()
@@ -532,6 +536,49 @@ public class LocalTestManager : MonoBehaviour
                 timerInputed = "60";
             }
         }
+    }
+
+    string encodeSubject = "";
+    string encodeCompany = "";
+
+    void EncodeSubjectFU()
+    {
+        //subjectData
+        //    subjectDataSelected
+        for (int i = 0; i < subjectDataSelected.Length; i++)
+        {
+            if (subjectDataSelected[i] == 1)
+            {
+                encodeSubject += subjectData[i] + ";";
+            }
+        }
+    }
+
+    void EncodeCompanyFU()
+    {
+        //subjectData
+        //    subjectDataSelected
+        for (int i = 0; i < companyDataSelected.Length; i++)
+        {
+            if (companyDataSelected[i] == 1)
+            {
+                encodeCompany += companyData[i] + ";";
+            }
+        }
+    }
+
+    IEnumerator GetCourseAndItsSubjectWithTotalQuestions()
+    {
+        WWWForm form1 = new WWWForm();
+        form1.AddField("Subject", encodeSubject);
+        form1.AddField("Company", encodeCompany);
+        form1.AddField("Timer", timerInputed);
+        WWW www = new WWW(saveload.ServerLink + GetQuestion, form1);
+        //sendOnPath++;
+        //ActivateLoadingDatafromServerPannel();
+        yield return www;
+
+        print("Return Ques Data = "+www.text);
     }
 
     #endregion

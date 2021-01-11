@@ -40,7 +40,7 @@ public class AppManager : MonoBehaviour
         sendOnPath++;
         //ActivateLoadingDatafromServerPannel();
         yield return www;
-
+        print(www.text);
         AllCourseData = www.text;
 
         sendOnPath--;
@@ -78,6 +78,7 @@ public class AppManager : MonoBehaviour
         sendOnPath++;
         //ActivateLoadingDatafromServerPannel();
         yield return www;
+        print(www.text);
         AllSubjectData = www.text;
         sendOnPath--;
         if (www.text != "" && www.text.Contains(";"))
@@ -116,7 +117,7 @@ public class AppManager : MonoBehaviour
         sendOnPath++;
         //ActivateLoadingDatafromServerPannel();
         yield return www;
-        print("COmpany" + www.text);
+        print(www.text);
         AllCompanyData = www.text;
         sendOnPath--;
         if (www.text != "" && www.text.Contains(";"))

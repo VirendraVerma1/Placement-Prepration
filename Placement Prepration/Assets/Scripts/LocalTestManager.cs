@@ -569,6 +569,9 @@ public class LocalTestManager : MonoBehaviour
 
     IEnumerator GetCourseAndItsSubjectWithTotalQuestions()
     {
+        print(encodeSubject);
+        print(encodeCompany);
+        print(timerInputed);
         WWWForm form1 = new WWWForm();
         form1.AddField("Subject", encodeSubject);
         form1.AddField("Company", encodeCompany);
@@ -579,6 +582,13 @@ public class LocalTestManager : MonoBehaviour
         yield return www;
 
         print("Return Ques Data = "+www.text);
+
+        string[] items = www.text.Split(';');
+        print(items.Length);
+        for (int i = 0; i < items.Length - 1; i++)
+        {
+            
+        }
     }
 
     #endregion

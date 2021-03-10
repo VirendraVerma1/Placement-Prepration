@@ -156,32 +156,38 @@ public class AppManager : MonoBehaviour
     void InstantiateLeftPannelThings()
     {
         int d = 0;
-        for (int i = 0; i < courseValues.Count-1; i++)
+        
+        for (int i = 0; i < courseValues.Count; i++)
         {
-            GameObject go = GameObject.Instantiate(CourseGO);
-            go.transform.SetParent(LocationToSpawn.transform);
-            go.transform.Find("Text").transform.GetComponent<Text>().text = courseValues[i];
-            go.name = i.ToString();
-
-            for (int j = d; j < subjectValues.Count - 1; j++)
+            d++;
+            if (courseValues[i] != "" && courseValues[i] != null && courseValues[i] != " ")
             {
-                d++;
-                if (subjectValues[j] != "NextQ")
+                GameObject go = GameObject.Instantiate(CourseGO);
+                go.transform.SetParent(LocationToSpawn.transform);
+                go.transform.Find("Text").transform.GetComponent<Text>().text = courseValues[i];
+                go.name = i.ToString();
+                print(d);
+                for (int j = d; j < subjectValues.Count; j++)
                 {
-                    go = GameObject.Instantiate(SubjectGO);
-                    go.transform.SetParent(LocationToSpawn.transform);
-                    go.transform.Find("Text").transform.GetComponent<Text>().text = subjectValues[j];
-                    int num = j;
-                    go.GetComponent<Button>().onClick.AddListener(() => OnSubjectButtonPressed(num));
-                    go.name = num.ToString();
-                   
+                    
+                    if (subjectValues[j] != "NextQ")
+                    {
+                        go = GameObject.Instantiate(SubjectGO);
+                        go.transform.SetParent(LocationToSpawn.transform);
+                        go.transform.Find("Text").transform.GetComponent<Text>().text = subjectValues[j];
+                        int num = j;
+                        go.GetComponent<Button>().onClick.AddListener(() => OnSubjectButtonPressed(num));
+                        go.name = num.ToString();
+
+                    }
+                    else
+                    {
+                        break;
+                    }
+                    d++;
                 }
-                else
-                {
-                    break;
-                }
-                
             }
+            
         }
     }
 

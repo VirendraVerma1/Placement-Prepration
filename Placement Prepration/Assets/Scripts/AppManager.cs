@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class AppManager : MonoBehaviour
 {
+    public GameObject LoadingScreen;
+    public GameObject PracticePannel;
+
     string GetCourseDataLink = "PlacementPrepration/getallcourse.php";
     string GetSubjectDataLink = "PlacementPrepration/getallsubject.php";
     string GetCompanyDataLink = "PlacementPrepration/getallcompany.php";
@@ -25,6 +29,7 @@ public class AppManager : MonoBehaviour
     int quesid = 0;
     void Start()
     {
+        LoadingScreen.SetActive(true);
         ReportText.gameObject.SetActive(false);
         StartCoroutine(PutCourseValuesToListFromServer());
         
@@ -115,6 +120,7 @@ public class AppManager : MonoBehaviour
     {
         WWW www = new WWW(saveload.ServerLink+GetCompanyDataLink);
         sendOnPath++;
+        LoadingScreen.SetActive(true);
         //ActivateLoadingDatafromServerPannel();
         yield return www;
         print(www.text);
@@ -138,6 +144,7 @@ public class AppManager : MonoBehaviour
                 if (flag == false)
                     companyValues.Add(s);
             }
+            LoadingScreen.SetActive(false);
         }
         InstantiateLeftPannelThings();
         //InitializeCompany();
@@ -234,7 +241,9 @@ public class AppManager : MonoBehaviour
         form1.AddField("Subject", subjct);
         WWW www = new WWW(saveload.ServerLink+GetAllQuesDataLink, form1);
         //ShowLoadingRemoveRest();
+        LoadingScreen.SetActive(true);
         yield return www;
+        LoadingScreen.SetActive(false);
         print(www.text);
         quesData.Clear();
         quesid = 0;
@@ -243,17 +252,17 @@ public class AppManager : MonoBehaviour
             string[] items=www.text.Split(';');
             for(int i=0;i<items.Length-1;i++){
 
-                string course=GetDataValue(items[i],"Course:");
-                string subject = GetDataValue(items[i], "Subject:");
-                string ques = GetDataValue(items[i], "Ques:");
-                string option1 = GetDataValue(items[i], "Option1:");
-                string Option2 = GetDataValue(items[i], "Option2:");
-                string option3 = GetDataValue(items[i], "Option3:");
-                string Option4 = GetDataValue(items[i], "Option4:");
-                string explanation = GetDataValue(items[i], "Explanation:");
+                string course=SymbolDecoder(GetDataValue(items[i],"Course:"));
+                string subject = SymbolDecoder(GetDataValue(items[i], "Subject:"));
+                string ques = SymbolDecoder(GetDataValue(items[i], "Ques:"));
+                string option1 = SymbolDecoder(GetDataValue(items[i], "Option1:"));
+                string Option2 = SymbolDecoder(GetDataValue(items[i], "Option2:"));
+                string option3 = SymbolDecoder(GetDataValue(items[i], "Option3:"));
+                string Option4 = SymbolDecoder(GetDataValue(items[i], "Option4:"));
+                string explanation = SymbolDecoder(GetDataValue(items[i], "Explanation:"));
                 int correct = int.Parse(GetDataValue(items[i], "Correct:"));
-                string company = GetDataValue(items[i], "Company:");
-                string youtubelink = GetDataValue(items[i], "YoutubeLink:");
+                string company = SymbolDecoder(GetDataValue(items[i], "Company:"));
+                string youtubelink = SymbolDecoder(GetDataValue(items[i], "YoutubeLink:"));
                 quesData.Add(new QuesDataBean(course, subject, ques, option1, Option2, option3, Option4, explanation, correct, company, youtubelink));
                 quesid++;
             }
@@ -348,20 +357,20 @@ public class AppManager : MonoBehaviour
         CheckAndActivateUI(currentQues);
 
         StartCoroutine(TextAlighByGeometry(QuesTextCenter));
-        StartCoroutine(TextAlighByGeometry(Option1TextCenter));
-        StartCoroutine(TextAlighByGeometry(Option2TextCenter));
-        StartCoroutine(TextAlighByGeometry(Option3TextCenter));
-        StartCoroutine(TextAlighByGeometry(Option4TextCenter));
+        //StartCoroutine(TextAlighByGeometry(Option1TextCenter));
+        //StartCoroutine(TextAlighByGeometry(Option2TextCenter));
+        //StartCoroutine(TextAlighByGeometry(Option3TextCenter));
+        //StartCoroutine(TextAlighByGeometry(Option4TextCenter));
         StartCoroutine(TextAlighByGeometry(ExplanationTextCenter));
         StartCoroutine(TextAlighByGeometry(YoutubeLinkCenter));
     }
 
-    IEnumerator TextAlighByGeometry(Text text)
+    IEnumerator TextAlighByGeometry(Text textt)
     {
         yield return new WaitForSeconds(0.1f);
-        text.GetComponent<ContentSizeFitter>().enabled = false;
+        textt.GetComponent<ContentSizeFitter>().enabled = false;
         yield return new WaitForSeconds(0.1f);
-        text.GetComponent<ContentSizeFitter>().enabled = true;
+        textt.GetComponent<ContentSizeFitter>().enabled = true;
     }
 
     void UpdateQuesMarker(int quesid)
@@ -408,6 +417,7 @@ public class AppManager : MonoBehaviour
         }
         else
         {
+            PracticePannel.SetActive(true);
             isLeftPannelOpen = true;
             LeftPannel.SetActive(true);
             CloseLeftPannelGO.SetActive(true);
@@ -599,11 +609,13 @@ public class AppManager : MonoBehaviour
             {
                 //right ans
                 RightAnswerText.gameObject.SetActive(true);
+                saveload.correct++;
             }
             else
             {
                 WrongAnswerText.gameObject.SetActive(true);
                 InitializeCheckBoxWrong(currentCheckBox, correctAns);
+                saveload.wrong++;
             }
 
             ShowExplanation();
@@ -680,6 +692,117 @@ public class AppManager : MonoBehaviour
     {
         yield return new WaitForSeconds(Time);
         go.SetActive(false);
+    }
+
+    #endregion
+
+    #region My Personal Decoder
+
+    string SymbolEncoder(string str)
+    {
+        
+        str = str.Replace(",", "iyecommahaiyecommahaihaii");
+        str = str.Replace(":", "idoubledotdubledothaii");
+        str = str.Replace("|", "islashslashhaii");
+        str = str.Replace(";", "isemicolonhaisemicolonhaii");
+        
+        str = MySymbolEncoder(str,"iyenewlinehaiyenewlinehaii",92);
+        str = MySymbolEncoder(str, "iyedoublecotehaii", 34);
+        str = MySymbolEncoder(str, "iyecolonhaii", 39);
+        str = MySymbolEncoder(str, "iyebackslashhaii", 47);
+        str = MySymbolEncoder(str, "iyecurlylefthaii", 123);
+        str = MySymbolEncoder(str, "iyecurlyrighthaii", 125);
+        return str;
+    }
+
+    string SymbolDecoder(string str)
+    {
+        str += " ";
+        str = str.Replace("iyecommahaiyecommahaihaii", ",");
+        str = str.Replace("idoubledotdubledothaii", ":");
+        str = str.Replace("islashslashhaii", "|");
+        str = str.Replace("isemicolonhaisemicolonhaii", ";");
+
+        str = MySymbolDecoder(str, "iyenewlinehaiyenewlinehaii",92);
+        str = MySymbolDecoder(str, "iyedoublecotehaii", 34);
+        str = MySymbolDecoder(str, "iyecolonhaii", 39);
+        str = MySymbolDecoder(str, "iyebackslashhaii", 47);
+        str = MySymbolDecoder(str, "iyecurlylefthaii", 123);
+        str = MySymbolDecoder(str, "iyecurlyrighthaii", 125);
+        str = MySymbolDecoder(str, "iyenewlinehaiyenewlinehaii", 92);
+        str = MySymbolDecoder(str, "iyedoublecotehaii", 34);
+        str = MySymbolDecoder(str, "iyecolonhaii", 39);
+        str = MySymbolDecoder(str, "iyebackslashhaii", 47);
+        str = MySymbolDecoder(str, "iyecurlylefthaii", 123);
+        str = MySymbolDecoder(str, "iyecurlyrighthaii", 125);
+        return str;
+    }
+
+    string MySymbolEncoder(string str, string code, int ascicode)
+    {
+        int n = ascicode;
+        char sumbol = Convert.ToChar(n);
+        string newstr = "";
+        foreach (char s in str)
+        {
+            if (sumbol == s)
+            {
+                newstr += code;
+            }
+            else
+            {
+                newstr += s;
+            }
+            
+        }
+        return newstr;
+    }
+
+    string MySymbolDecoder(string str,string code,int ascicode)
+    {
+        int n = ascicode;
+        char sumbol = Convert.ToChar(n);
+        string newstr = "";
+        string newlineencode = code;
+        int c = 0;
+        string symbolchecher = "";
+        foreach (char s in str)
+        {
+            if (c < newlineencode.Length)
+            {
+                if (s == newlineencode[c])
+                {
+                    symbolchecher += s;
+                    c++;
+                }
+                else
+                {
+                    if (newlineencode == symbolchecher)
+                    {
+                        symbolchecher = "";
+                        newstr += Convert.ToChar(n);
+                    }
+                    c = 0;
+                    newstr += symbolchecher;
+                    newstr += s;
+                    symbolchecher = "";
+                }
+            }
+            else
+            {
+                if (newlineencode == symbolchecher)
+                {
+                    symbolchecher = "";
+                    newstr += Convert.ToChar(n);
+                }
+
+                c = 0;
+                newstr += symbolchecher;
+                newstr += s;
+                symbolchecher = "";
+            }
+        }
+        return newstr;
     }
 
     #endregion

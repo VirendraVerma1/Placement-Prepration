@@ -5,9 +5,11 @@ using UnityEngine.UI;
 
 public class LocalTestManager : MonoBehaviour
 {
-
+    public GameObject LoadingScreen;
     string GetQuestion = "PlacementPrepration/LocalTest/createlocaltest.php";
     
+    string[] revisionTestQuestions;
+
      string[] courseData;
      string[] subjectData;
      string[] companyData;
@@ -16,9 +18,9 @@ public class LocalTestManager : MonoBehaviour
      int[] subjectDataSelected;
      int[] companyDataSelected;
 
-    bool isNoTimer = false;
-    string timerInputed = "";
-    bool canSkip = false;
+     bool isNoTimer = true;
+     string timerInputed = "";
+     bool canSkip = false;
     string quesDuration = "";
 
     [Header("Common")]
@@ -31,6 +33,7 @@ public class LocalTestManager : MonoBehaviour
 
     public void OnLocalRevisionButtonPressed()
     {
+        StartTestButton.SetActive(false);
         LocalTestPannel.SetActive(true);
         LoadCourseDataFromAppManager();
         LoadSubjectDataFromAppManager();
@@ -370,7 +373,7 @@ public class LocalTestManager : MonoBehaviour
 
         for (int i = 0; i < companyData.Length; i++)
         {
-            if (companyData[i] != "" && companyData[i] != "None")
+            if (companyData[i] != "" )//&& companyData[i] != "None")
             {
                 companyDataSelected[i] = 1;
                 GameObject go = Instantiate(BoxFromScrollViewData);
@@ -423,7 +426,7 @@ public class LocalTestManager : MonoBehaviour
     {
         for (int i = 0; i < companyData.Length; i++)
         {
-            if (companyData[i] != "" && companyData[i] != "None")
+            if (companyData[i] != "")// && companyData[i] != "None")
             {
                 companyDataSelected[i] = 1;
             }
@@ -509,6 +512,8 @@ public class LocalTestManager : MonoBehaviour
     public Dropdown GenerateQuestionDropdown;
     public Text TotalQues;
     public Text TotalDuration;
+    public Text TotalTimeDuration;
+    public GameObject StartTestButton;
 
     public void OnGenerateQuestionButtonPressed()
     {
@@ -516,8 +521,27 @@ public class LocalTestManager : MonoBehaviour
         SetUpTimerInputField();
         EncodeSubjectFU();
         EncodeCompanyFU();
+        SetQuestions();
         StartCoroutine(GetCourseAndItsSubjectWithTotalQuestions());
     }
+
+     #region Total Ques
+
+    [Header("Total Questions")]
+    public InputField TotalQuestionInputfield;
+    int totalQuestionFilter=20;
+
+    void SetQuestions()
+    {
+        if(TotalQuestionInputfield.text=="")
+        {
+            totalQuestionFilter=20;
+        }else{
+            totalQuestionFilter=int.Parse(TotalQuestionInputfield.text.ToString());
+        }
+    }
+
+    #endregion
 
     void SetUpQuesDurationDropdown()
     {
@@ -545,6 +569,8 @@ public class LocalTestManager : MonoBehaviour
     {
         //subjectData
         //    subjectDataSelected
+
+        encodeSubject="";
         for (int i = 0; i < subjectDataSelected.Length; i++)
         {
             if (subjectDataSelected[i] == 1)
@@ -558,6 +584,7 @@ public class LocalTestManager : MonoBehaviour
     {
         //subjectData
         //    subjectDataSelected
+        encodeCompany="";
         for (int i = 0; i < companyDataSelected.Length; i++)
         {
             if (companyDataSelected[i] == 1)
@@ -569,26 +596,87 @@ public class LocalTestManager : MonoBehaviour
 
     IEnumerator GetCourseAndItsSubjectWithTotalQuestions()
     {
+        StartTestButton.SetActive(false);
         print(encodeSubject);
         print(encodeCompany);
         print(timerInputed);
         WWWForm form1 = new WWWForm();
         form1.AddField("Subject", encodeSubject);
         form1.AddField("Company", encodeCompany);
-        form1.AddField("Timer", timerInputed);
+        form1.AddField("Ques", totalQuestionFilter);
         WWW www = new WWW(saveload.ServerLink + GetQuestion, form1);
         //sendOnPath++;
         //ActivateLoadingDatafromServerPannel();
+        LoadingScreen.SetActive(true);
         yield return www;
+        print(www.text);
 
-        print("Return Ques Data = "+www.text);
-
-        string[] items = www.text.Split(';');
-        print(items.Length);
-        for (int i = 0; i < items.Length - 1; i++)
+        if(www.text!="")
         {
+            LoadingScreen.SetActive(false);
+            revisionTestQuestions = www.text.Split(';');
+            gameObject.GetComponent<TestContoller>().SetMyDataTest(revisionTestQuestions,canSkip,isNoTimer,timerInputed);
+            SetDetails();
+        }
+    }
+
+    void SetDetails()
+    {
+        TotalQues.text="Total Question : "+(revisionTestQuestions.Length-1).ToString();
+        if(isNoTimer==false){
+            TotalDuration.text="Total Test Duration : ";
+            UpdateTimeForEveryDayTreasure((int.Parse(timerInputed)*(revisionTestQuestions.Length-1)),TotalTimeDuration);
+        }
+        StartTestButton.SetActive(true);
+    }
+
+    void UpdateTimeForEveryDayTreasure(float time,Text showTimeText)
+    {
+       float mainTimer = time;
+       float tempsec=0f;
+       float tempmin=0f;
+       float temphr=0f;
+        if (mainTimer > 0)
+        {
+            float min=Mathf.Floor(mainTimer / 60);
+            tempmin=min;
+            string minutes="";
+            string hour="";
+            if (min > 60)
+            {
+                temphr=Mathf.Floor(min/60);
+                hour = temphr.ToString("00");
+                tempmin=(min % 60);
+                minutes = tempmin.ToString("00");
+            }
+            else
+            {
+                hour = "00";
+                tempmin=min;
+                minutes = tempmin.ToString("00");
+            }
+            tempsec=(mainTimer % 60);
+            string seconds = tempsec.ToString("00");
+             
+            //showTimeText.text = hour+":"+minutes + ":" + seconds;
+            string timeadd="";
+
+            if(temphr>0)
+            timeadd += hour+" hr ";
+            if(tempmin>0)
+            timeadd += minutes + " min ";
+            if(tempsec>0)
+            timeadd += seconds+" sec";
+
+            showTimeText.text=timeadd;
             
         }
+        else
+        {
+            showTimeText.text = "";
+            
+        }
+
     }
 
     #endregion

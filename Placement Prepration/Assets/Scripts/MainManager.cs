@@ -174,10 +174,10 @@ public class MainManager : MonoBehaviour
     }
 
 
-    void CheckTimerIfHaveThenShowAds()
+    public void CheckTimerIfHaveThenShowAds()
     { 
         defaultValue-=15;
-        if(defaultValue<0)
+        if(defaultValue<0 && gameObject.GetComponent<TestContoller>().istestOn==false)
         {
             defaultValue=tempdefaultValue;
             //cheack and Show Ads

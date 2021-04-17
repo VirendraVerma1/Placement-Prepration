@@ -6,6 +6,7 @@ using System;
 
 public class TestContoller : MonoBehaviour
 {
+    
     public LocalTestManager localTestManager;
     List<QuesDataBean> quesData = new List<QuesDataBean>();
     string[] items;
@@ -22,7 +23,7 @@ public class TestContoller : MonoBehaviour
     bool isNoTimer=false;
     string timerInputed="";
     int timetakenCounter=0;
-    bool istestOn=false;
+    public bool istestOn=false;
 
 
     #region callback functions
@@ -101,6 +102,7 @@ public class TestContoller : MonoBehaviour
     }
 
     int testTime=0;
+    bool colorChanger=false;
     IEnumerator Countdown(int completeTime)
     {
         testTime=completeTime;
@@ -110,8 +112,19 @@ public class TestContoller : MonoBehaviour
             testTime--;
             
             TimerCountdownText.text=testTime.ToString();
+            if(colorChanger){
+                TimerCountdownText.color=Color.red;
+                colorChanger=false;
+            }
+            else{
+                TimerCountdownText.color=Color.green;
+                colorChanger=true;
+            }
+            
         }
         TimerCountdownText.text="";
+        
+
         if(quesid<items.Length)
         {
             ShowData();
@@ -265,6 +278,13 @@ public class TestContoller : MonoBehaviour
         else if(percent>0)
         ReportText.text="Clear your basic concepts";
         
+        StartCoroutine(waitAndShowAds());
+    }
+
+    IEnumerator waitAndShowAds()
+    {
+        yield return new WaitForSeconds(1);
+        gameObject.GetComponent<MainManager>().CheckTimerIfHaveThenShowAds();
     }
 
     IEnumerator TimeTakenCounterFU()

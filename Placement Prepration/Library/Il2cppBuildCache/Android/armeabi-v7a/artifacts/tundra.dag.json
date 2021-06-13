@@ -22,7 +22,12 @@
       "Inputs": [
         "D:/Programs/Unity/Placement-Prepration/Placement Prepration/Temp/StagingArea/assets/bin/Data/Managed",
         "D:/Programs/Unity/Placement-Prepration/Placement Prepration/Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll",
+        "D:/Programs/Unity/Placement-Prepration/Placement Prepration/Temp/StagingArea/assets/bin/Data/Managed/Google.MiniJson.dll",
+        "D:/Programs/Unity/Placement-Prepration/Placement Prepration/Temp/StagingArea/assets/bin/Data/Managed/GoogleMobileAds.Common.dll",
+        "D:/Programs/Unity/Placement-Prepration/Placement Prepration/Temp/StagingArea/assets/bin/Data/Managed/GoogleMobileAds.Core.dll",
         "D:/Programs/Unity/Placement-Prepration/Placement Prepration/Temp/StagingArea/assets/bin/Data/Managed/GoogleMobileAds.dll",
+        "D:/Programs/Unity/Placement-Prepration/Placement Prepration/Temp/StagingArea/assets/bin/Data/Managed/GoogleMobileAds.Placement.dll",
+        "D:/Programs/Unity/Placement-Prepration/Placement Prepration/Temp/StagingArea/assets/bin/Data/Managed/GoogleMobileAds.Platforms.dll",
         "D:/Programs/Unity/Placement-Prepration/Placement Prepration/Temp/StagingArea/assets/bin/Data/Managed/Mono.Security.dll",
         "D:/Programs/Unity/Placement-Prepration/Placement Prepration/Temp/StagingArea/assets/bin/Data/Managed/mscorlib.dll",
         "D:/Programs/Unity/Placement-Prepration/Placement Prepration/Temp/StagingArea/assets/bin/Data/Managed/System.Configuration.dll",

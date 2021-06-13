@@ -100,6 +100,7 @@ public class LocalTestManager : MonoBehaviour
                 courseDataSelected[i] = 1;
                 GameObject go = Instantiate(BoxFromScrollViewData);
                 go.transform.SetParent(CourseCustomPlaceData.transform);
+                go.transform.localScale = Vector3.one;
                 go.tag = "Course";
                 go.transform.Find("Course").GetComponent<Image>().sprite = TickSprite;
                 go.transform.Find("Course").transform.Find("Text").GetComponent<Text>().text = courseData[i];
@@ -239,6 +240,7 @@ public class LocalTestManager : MonoBehaviour
                 subjectDataSelected[i] = 1;
                 GameObject go = Instantiate(BoxFromScrollViewData);
                 go.transform.SetParent(SubjectCustomPlaceData.transform);
+                go.transform.localScale = Vector3.one;
                 go.tag = "Subject";
                 go.transform.Find("Course").GetComponent<Image>().sprite = TickSprite;
                 go.transform.Find("Course").transform.Find("Text").GetComponent<Text>().text = subjectData[i];
@@ -378,6 +380,7 @@ public class LocalTestManager : MonoBehaviour
                 companyDataSelected[i] = 1;
                 GameObject go = Instantiate(BoxFromScrollViewData);
                 go.transform.SetParent(CompanyCustomPlaceData.transform);
+                go.transform.localScale = Vector3.one;
                 go.tag = "Company";
                 go.transform.Find("Course").GetComponent<Image>().sprite = TickSprite;
                 go.transform.Find("Course").transform.Find("Text").GetComponent<Text>().text = companyData[i];

@@ -37,14 +37,16 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\LocalTestManager.cs" />
-     <Compile Include="Assets\Scripts\QuesController.cs" />
-     <Compile Include="Assets\Scripts\MainManager.cs" />
      <Compile Include="Assets\Scripts\QuesDataBean.cs" />
      <Compile Include="Assets\Scripts\LoadingScreen\LoadingScreenManager.cs" />
      <Compile Include="Assets\Scripts\AppManager.cs" />
      <Compile Include="Assets\Scripts\saveload.cs" />
-     <Compile Include="Assets\Scripts\TestContoller.cs" />
      <Compile Include="Assets\Scripts\Ads\AdScript.cs" />
+     <Compile Include="Assets\Scripts\TestContoller.cs" />
+     <Compile Include="Assets\Scripts\QuesController.cs" />
+     <Compile Include="Assets\Scripts\MainManager.cs" />
+     <Compile Include="Assets\NativeAdsPackage\AdNativeAdCustom.cs" />
+     <None Include="Assets\GoogleMobileAds\link.xml" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Software/Installed/UnitySetup/2020.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -257,6 +259,24 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>D:/Software/Installed/UnitySetup/2020.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Placement">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Assets/GoogleMobileAds/GoogleMobileAds.Placement.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Core">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Assets/GoogleMobileAds/GoogleMobileAds.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Assets/GoogleMobileAds/GoogleMobileAds.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Platforms">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Assets/GoogleMobileAds/GoogleMobileAds.Platforms.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Assets/Plugins/Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Common">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Assets/GoogleMobileAds/GoogleMobileAds.Common.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>D:/Software/Installed/UnitySetup/2020.3.0f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -618,14 +638,20 @@
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Monetization">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -633,19 +659,14 @@
     <Reference Include="Unity.Rider.Editor">
         <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="GoogleMobileAds.csproj">
-      <Project>{330d24eb-9c6b-dc66-c34c-40eda5057210}</Project>
-      <Name>GoogleMobileAds</Name>
-    </ProjectReference>
-    <ProjectReference Include="GoogleMobileAds.Editor.csproj">
-      <Project>{109ea4d3-48cb-4e80-c597-68939515ee03}</Project>
-      <Name>GoogleMobileAds.Editor</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

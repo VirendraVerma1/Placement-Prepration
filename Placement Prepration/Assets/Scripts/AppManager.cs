@@ -171,6 +171,7 @@ public class AppManager : MonoBehaviour
             {
                 GameObject go = GameObject.Instantiate(CourseGO);
                 go.transform.SetParent(LocationToSpawn.transform);
+                go.transform.localScale = Vector3.one;
                 go.transform.Find("Text").transform.GetComponent<Text>().text = courseValues[i];
                 go.name = i.ToString();
                 print(d);
@@ -181,6 +182,7 @@ public class AppManager : MonoBehaviour
                     {
                         go = GameObject.Instantiate(SubjectGO);
                         go.transform.SetParent(LocationToSpawn.transform);
+                        go.transform.localScale = Vector3.one;
                         go.transform.Find("Text").transform.GetComponent<Text>().text = subjectValues[j];
                         int num = j;
                         go.GetComponent<Button>().onClick.AddListener(() => OnSubjectButtonPressed(num));
@@ -309,6 +311,7 @@ public class AppManager : MonoBehaviour
         {
             GameObject go = Instantiate(QuesGO);
             go.transform.SetParent(LocationToSpawn.transform);
+            go.transform.localScale = Vector3.one;
             currentsubjectchildindex++;
             go.transform.SetSiblingIndex(currentsubjectchildindex);
             

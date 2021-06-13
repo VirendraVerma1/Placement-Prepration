@@ -36,11 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsSettingsEditor.cs" />
      <Compile Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsSettings.cs" />
-     <Compile Include="Assets\GoogleMobileAds\Editor\PListProcessor.cs" />
-     <Compile Include="Assets\GoogleMobileAds\Editor\ManifestProcessor.cs" />
      <Compile Include="Assets\GoogleMobileAds\Editor\AndroidBuildPostProcessor.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Editor\PListProcessor.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsSettingsEditor.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Editor\ManifestProcessor.cs" />
      <None Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsSKAdNetworkItems.xml" />
      <None Include="Assets\GoogleMobileAds\Editor\GoogleMobileAds.Editor.asmdef" />
      <None Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsDependencies.xml" />
@@ -278,8 +278,41 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
         <HintPath>D:/Software/Installed/UnitySetup/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Google.VersionHandlerImpl_v1.2.164">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Library/PackageCache/com.google.external-dependency-manager@1.2.164/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.164.dll</HintPath>
+    </Reference>
     <Reference Include="Google.VersionHandler">
-        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Library/PackageCache/com.google.external-dependency-manager@1.2.164/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver_v1.2.164">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Library/PackageCache/com.google.external-dependency-manager@1.2.164/ExternalDependencyManager/Editor/Google.JarResolver_v1.2.164.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.IOSResolver_v1.2.164">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Library/PackageCache/com.google.external-dependency-manager@1.2.164/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.164.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.PackageManagerResolver_v1.2.164">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Library/PackageCache/com.google.external-dependency-manager@1.2.164/ExternalDependencyManager/Editor/Google.PackageManagerResolver_v1.2.164.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Placement">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Assets/GoogleMobileAds/GoogleMobileAds.Placement.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Core">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Assets/GoogleMobileAds/GoogleMobileAds.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Assets/GoogleMobileAds/GoogleMobileAds.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Platforms">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Assets/GoogleMobileAds/GoogleMobileAds.Platforms.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Assets/Plugins/Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Editor">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Assets/GoogleMobileAds/Editor/GoogleMobileAds.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Common">
+        <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Assets/GoogleMobileAds/GoogleMobileAds.Common.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>D:/Programs/Unity/Placement-Prepration/Placement Prepration/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>

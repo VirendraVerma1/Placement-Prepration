@@ -9,6 +9,7 @@ public class MainManager : MonoBehaviour
     public GameObject LogoPannel;
     public GameObject PracticePannel;
     public GameObject TestReportPannel;
+    public GameObject JobPannel;
 
     void Awake()
     {
@@ -25,6 +26,7 @@ public class MainManager : MonoBehaviour
         LogoPannel.SetActive(panelToBeActivated.Equals(LogoPannel.name));
         TestReportPannel.SetActive(panelToBeActivated.Equals(TestReportPannel.name));
         PracticePannel.SetActive(panelToBeActivated.Equals(PracticePannel.name));
+        JobPannel.SetActive(panelToBeActivated.Equals(JobPannel.name));
     }
 
     public void OnHomePageButtonPressed()
@@ -32,6 +34,10 @@ public class MainManager : MonoBehaviour
         ActivatePanel(LogoPannel.name);
     }
 
+    public void OnJobPannelButtonPressed()
+    {
+        ActivatePanel(JobPannel.name);
+    }
 
     public void OnPrivacyPolicyButtonPressed()
     {

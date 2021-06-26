@@ -17,7 +17,7 @@ public class saveload : MonoBehaviour
     public static string UpdateRepeatUser = "PlacementPrepration/Users/updaterepeat.php";
     public static string UpdateStats = "PlacementPrepration/Users/updatestats.php";
     public static string AdsFreq = "PlacementPrepration/Users/adsfreq.php";
-    public static string JobDetails = "PlacementPrepration/Users/adsfreq.php";
+    public static string JobDetails = "PlacementPrepration/getalljobdetails.php";
 
     public static int totalTime=0;
     public static int correct=0;

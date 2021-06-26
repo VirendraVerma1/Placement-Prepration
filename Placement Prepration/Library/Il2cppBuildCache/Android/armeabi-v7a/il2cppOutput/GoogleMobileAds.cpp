@@ -9780,7 +9780,7 @@ IL_0163:
 		AdLoaderClientArgs_t0B00CA604CF85B4BFE245D07A670C612F35C58C7 * L_44 = V_5;
 		NullCheck(L_43);
 		RuntimeObject* L_45;
-		L_45 = InterfaceFuncInvoker1< RuntimeObject*, AdLoaderClientArgs_t0B00CA604CF85B4BFE245D07A670C612F35C58C7 * >::Invoke(5 /* GoogleMobileAds.Common.IAdLoaderClient GoogleMobileAds.IClientFactory::BuildAdLoaderClient(GoogleMobileAds.Common.AdLoaderClientArgs) */, IClientFactory_t3D75B59DB98B4B51B8FED12F623005B8C3BC48EA_il2cpp_TypeInfo_var, L_43, L_44);
+		L_45 = InterfaceFuncInvoker1< RuntimeObject*, AdLoaderClientArgs_t0B00CA604CF85B4BFE245D07A670C612F35C58C7 * >::Invoke(4 /* GoogleMobileAds.Common.IAdLoaderClient GoogleMobileAds.IClientFactory::BuildAdLoaderClient(GoogleMobileAds.Common.AdLoaderClientArgs) */, IClientFactory_t3D75B59DB98B4B51B8FED12F623005B8C3BC48EA_il2cpp_TypeInfo_var, L_43, L_44);
 		__this->set__uonCwX68Pn3xo7fvbtgwyUyqw6p_0(L_45);
 		Utils_CheckInitialization_mE001429498A9FF565187EF55ADA48A2FD6500957(/*hidden argument*/NULL);
 		RuntimeObject* L_46 = __this->get__uonCwX68Pn3xo7fvbtgwyUyqw6p_0();
@@ -14504,7 +14504,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileAds_SetiOSAppPauseOnBackground_mF0
 		RuntimeObject* L_1 = L_0->get__PdbQgPRNu3avbiwZinBxFNm0PTg_0();
 		bool L_2 = ___pause0;
 		NullCheck(L_1);
-		InterfaceActionInvoker1< bool >::Invoke(5 /* System.Void GoogleMobileAds.Common.IMobileAdsClient::SetiOSAppPauseOnBackground(System.Boolean) */, IMobileAdsClient_tCA31E0D6066E04EC32E0614B6507282B43837A9F_il2cpp_TypeInfo_var, L_1, L_2);
+		InterfaceActionInvoker1< bool >::Invoke(2 /* System.Void GoogleMobileAds.Common.IMobileAdsClient::SetiOSAppPauseOnBackground(System.Boolean) */, IMobileAdsClient_tCA31E0D6066E04EC32E0614B6507282B43837A9F_il2cpp_TypeInfo_var, L_1, L_2);
 		return;
 	}
 }
@@ -14667,7 +14667,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MobileAds__oJ2RD88INyys92DQymV
 		L_0 = MobileAds__KD2wkuhOzCK4kMxCFtdg7vuMSHJ_mCB99F543EB3426D72B0FB4B8F49DA39ADC757637(/*hidden argument*/NULL);
 		NullCheck(L_0);
 		RuntimeObject* L_1;
-		L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(6 /* GoogleMobileAds.Common.IMobileAdsClient GoogleMobileAds.IClientFactory::MobileAdsInstance() */, IClientFactory_t3D75B59DB98B4B51B8FED12F623005B8C3BC48EA_il2cpp_TypeInfo_var, L_0);
+		L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(5 /* GoogleMobileAds.Common.IMobileAdsClient GoogleMobileAds.IClientFactory::MobileAdsInstance() */, IClientFactory_t3D75B59DB98B4B51B8FED12F623005B8C3BC48EA_il2cpp_TypeInfo_var, L_0);
 		return L_1;
 	}
 }
@@ -14711,7 +14711,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAd__ctor_m3FDF5017F3E3DACC4920A7
 		L_0 = MobileAds__KD2wkuhOzCK4kMxCFtdg7vuMSHJ_mCB99F543EB3426D72B0FB4B8F49DA39ADC757637(/*hidden argument*/NULL);
 		NullCheck(L_0);
 		RuntimeObject* L_1;
-		L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(3 /* GoogleMobileAds.Common.IRewardedAdClient GoogleMobileAds.IClientFactory::BuildRewardedAdClient() */, IClientFactory_t3D75B59DB98B4B51B8FED12F623005B8C3BC48EA_il2cpp_TypeInfo_var, L_0);
+		L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(2 /* GoogleMobileAds.Common.IRewardedAdClient GoogleMobileAds.IClientFactory::BuildRewardedAdClient() */, IClientFactory_t3D75B59DB98B4B51B8FED12F623005B8C3BC48EA_il2cpp_TypeInfo_var, L_0);
 		__this->set__PdbQgPRNu3avbiwZinBxFNm0PTg_0(L_1);
 		RuntimeObject* L_2 = __this->get__PdbQgPRNu3avbiwZinBxFNm0PTg_0();
 		String_t* L_3 = p0;
@@ -16108,7 +16108,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAd_Show_m97EB3DC60C0273CF7F5A49E
 	{
 		RuntimeObject* L_0 = __this->get__PdbQgPRNu3avbiwZinBxFNm0PTg_0();
 		NullCheck(L_0);
-		InterfaceActionInvoker0::Invoke(19 /* System.Void GoogleMobileAds.Common.IRewardedAdClient::Show() */, IRewardedAdClient_t3F59EE9FA1FAE4BF936E7BAA44235964F2B5DCF2_il2cpp_TypeInfo_var, L_0);
+		InterfaceActionInvoker0::Invoke(17 /* System.Void GoogleMobileAds.Common.IRewardedAdClient::Show() */, IRewardedAdClient_t3F59EE9FA1FAE4BF936E7BAA44235964F2B5DCF2_il2cpp_TypeInfo_var, L_0);
 		return;
 	}
 }
@@ -16638,7 +16638,7 @@ IL_0042:
 		EventHandler_1_t0E5210AFDC000598EB6E2E3D4E3C2B21CAC2AEE0 * L_4 = (EventHandler_1_t0E5210AFDC000598EB6E2E3D4E3C2B21CAC2AEE0 *)il2cpp_codegen_object_new(EventHandler_1_t0E5210AFDC000598EB6E2E3D4E3C2B21CAC2AEE0_il2cpp_TypeInfo_var);
 		EventHandler_1__ctor_m5A69B92B6273857ACEE90EEF6C1F355760A821EA(L_4, __this, (intptr_t)((intptr_t)RewardedInterstitialAd__DXx6XQTEry4VQVmZp5FmVJ6BNeq_mB037C20EED5C070D0A7D67954B583DFB450B0E4D_RuntimeMethod_var), /*hidden argument*/EventHandler_1__ctor_m5A69B92B6273857ACEE90EEF6C1F355760A821EA_RuntimeMethod_var);
 		NullCheck(L_3);
-		InterfaceActionInvoker1< EventHandler_1_t0E5210AFDC000598EB6E2E3D4E3C2B21CAC2AEE0 * >::Invoke(8 /* System.Void GoogleMobileAds.Common.IRewardedInterstitialAdClient::add_OnAdFailedToPresentFullScreenContent(System.EventHandler`1<GoogleMobileAds.Api.AdErrorEventArgs>) */, IRewardedInterstitialAdClient_t5FA94CEC899D09F91C9AAF4AEEF5A484BBB143B4_il2cpp_TypeInfo_var, L_3, L_4);
+		InterfaceActionInvoker1< EventHandler_1_t0E5210AFDC000598EB6E2E3D4E3C2B21CAC2AEE0 * >::Invoke(6 /* System.Void GoogleMobileAds.Common.IRewardedInterstitialAdClient::add_OnAdFailedToPresentFullScreenContent(System.EventHandler`1<GoogleMobileAds.Api.AdErrorEventArgs>) */, IRewardedInterstitialAdClient_t5FA94CEC899D09F91C9AAF4AEEF5A484BBB143B4_il2cpp_TypeInfo_var, L_3, L_4);
 		uint32_t L_5 = V_0;
 		G_B2_0 = ((int32_t)((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_5, (int32_t)((int32_t)1468924660)))^(int32_t)((int32_t)-570705831)));
 		goto IL_000b;
@@ -16650,12 +16650,12 @@ IL_0068:
 		EventHandler_1_tA707D618BF8F29DB61DFD553B055AE4E516C1722 * L_7 = (EventHandler_1_tA707D618BF8F29DB61DFD553B055AE4E516C1722 *)il2cpp_codegen_object_new(EventHandler_1_tA707D618BF8F29DB61DFD553B055AE4E516C1722_il2cpp_TypeInfo_var);
 		EventHandler_1__ctor_m8148EF3B917382C44769399C79A42A3EA9C06C3C(L_7, __this, (intptr_t)((intptr_t)RewardedInterstitialAd__euv8VvbnvC7feqsLGLaHRLdcRjp_m9C567C6A5DF9E6B42137D4FBDB135A043DD4F8D5_RuntimeMethod_var), /*hidden argument*/EventHandler_1__ctor_m8148EF3B917382C44769399C79A42A3EA9C06C3C_RuntimeMethod_var);
 		NullCheck(L_6);
-		InterfaceActionInvoker1< EventHandler_1_tA707D618BF8F29DB61DFD553B055AE4E516C1722 * >::Invoke(10 /* System.Void GoogleMobileAds.Common.IRewardedInterstitialAdClient::add_OnAdDidPresentFullScreenContent(System.EventHandler`1<System.EventArgs>) */, IRewardedInterstitialAdClient_t5FA94CEC899D09F91C9AAF4AEEF5A484BBB143B4_il2cpp_TypeInfo_var, L_6, L_7);
+		InterfaceActionInvoker1< EventHandler_1_tA707D618BF8F29DB61DFD553B055AE4E516C1722 * >::Invoke(8 /* System.Void GoogleMobileAds.Common.IRewardedInterstitialAdClient::add_OnAdDidPresentFullScreenContent(System.EventHandler`1<System.EventArgs>) */, IRewardedInterstitialAdClient_t5FA94CEC899D09F91C9AAF4AEEF5A484BBB143B4_il2cpp_TypeInfo_var, L_6, L_7);
 		RuntimeObject* L_8 = __this->get__32MEWULUdpDENbCULMUVs8eKfkg_0();
 		EventHandler_1_tA707D618BF8F29DB61DFD553B055AE4E516C1722 * L_9 = (EventHandler_1_tA707D618BF8F29DB61DFD553B055AE4E516C1722 *)il2cpp_codegen_object_new(EventHandler_1_tA707D618BF8F29DB61DFD553B055AE4E516C1722_il2cpp_TypeInfo_var);
 		EventHandler_1__ctor_m8148EF3B917382C44769399C79A42A3EA9C06C3C(L_9, __this, (intptr_t)((intptr_t)RewardedInterstitialAd__1T55o1qW3y10pN0h0H3yNHodrXc_mCED98D99592404109CCA5608BA8B4F6779C1C443_RuntimeMethod_var), /*hidden argument*/EventHandler_1__ctor_m8148EF3B917382C44769399C79A42A3EA9C06C3C_RuntimeMethod_var);
 		NullCheck(L_8);
-		InterfaceActionInvoker1< EventHandler_1_tA707D618BF8F29DB61DFD553B055AE4E516C1722 * >::Invoke(12 /* System.Void GoogleMobileAds.Common.IRewardedInterstitialAdClient::add_OnAdDidDismissFullScreenContent(System.EventHandler`1<System.EventArgs>) */, IRewardedInterstitialAdClient_t5FA94CEC899D09F91C9AAF4AEEF5A484BBB143B4_il2cpp_TypeInfo_var, L_8, L_9);
+		InterfaceActionInvoker1< EventHandler_1_tA707D618BF8F29DB61DFD553B055AE4E516C1722 * >::Invoke(10 /* System.Void GoogleMobileAds.Common.IRewardedInterstitialAdClient::add_OnAdDidDismissFullScreenContent(System.EventHandler`1<System.EventArgs>) */, IRewardedInterstitialAdClient_t5FA94CEC899D09F91C9AAF4AEEF5A484BBB143B4_il2cpp_TypeInfo_var, L_8, L_9);
 		return;
 	}
 }
@@ -17376,7 +17376,7 @@ IL_0044:
 		NullCheck(L_2);
 		RuntimeObject* L_3 = L_2->get__PdbQgPRNu3avbiwZinBxFNm0PTg_1();
 		NullCheck(L_3);
-		InterfaceActionInvoker0::Invoke(14 /* System.Void GoogleMobileAds.Common.IRewardedInterstitialAdClient::CreateRewardedInterstitialAd() */, IRewardedInterstitialAdClient_t5FA94CEC899D09F91C9AAF4AEEF5A484BBB143B4_il2cpp_TypeInfo_var, L_3);
+		InterfaceActionInvoker0::Invoke(12 /* System.Void GoogleMobileAds.Common.IRewardedInterstitialAdClient::CreateRewardedInterstitialAd() */, IRewardedInterstitialAdClient_t5FA94CEC899D09F91C9AAF4AEEF5A484BBB143B4_il2cpp_TypeInfo_var, L_3);
 		uint32_t L_4 = V_1;
 		G_B2_0 = ((int32_t)((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_4, (int32_t)((int32_t)-1809230992)))^(int32_t)((int32_t)-335481627)));
 		goto IL_000b;
@@ -17431,7 +17431,7 @@ IL_00c6:
 		String_t* L_20 = ___adUnitID0;
 		AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88 * L_21 = ___request1;
 		NullCheck(L_19);
-		InterfaceActionInvoker2< String_t*, AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88 * >::Invoke(15 /* System.Void GoogleMobileAds.Common.IRewardedInterstitialAdClient::LoadAd(System.String,GoogleMobileAds.Api.AdRequest) */, IRewardedInterstitialAdClient_t5FA94CEC899D09F91C9AAF4AEEF5A484BBB143B4_il2cpp_TypeInfo_var, L_19, L_20, L_21);
+		InterfaceActionInvoker2< String_t*, AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88 * >::Invoke(13 /* System.Void GoogleMobileAds.Common.IRewardedInterstitialAdClient::LoadAd(System.String,GoogleMobileAds.Api.AdRequest) */, IRewardedInterstitialAdClient_t5FA94CEC899D09F91C9AAF4AEEF5A484BBB143B4_il2cpp_TypeInfo_var, L_19, L_20, L_21);
 		uint32_t L_22 = V_1;
 		G_B2_0 = ((int32_t)((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_22, (int32_t)((int32_t)-1451722287)))^(int32_t)((int32_t)-1262785661)));
 		goto IL_000b;
@@ -17444,7 +17444,7 @@ IL_00e5:
 		L_24 = MobileAds__KD2wkuhOzCK4kMxCFtdg7vuMSHJ_mCB99F543EB3426D72B0FB4B8F49DA39ADC757637(/*hidden argument*/NULL);
 		NullCheck(L_24);
 		RuntimeObject* L_25;
-		L_25 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(4 /* GoogleMobileAds.Common.IRewardedInterstitialAdClient GoogleMobileAds.IClientFactory::BuildRewardedInterstitialAdClient() */, IClientFactory_t3D75B59DB98B4B51B8FED12F623005B8C3BC48EA_il2cpp_TypeInfo_var, L_24);
+		L_25 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(3 /* GoogleMobileAds.Common.IRewardedInterstitialAdClient GoogleMobileAds.IClientFactory::BuildRewardedInterstitialAdClient() */, IClientFactory_t3D75B59DB98B4B51B8FED12F623005B8C3BC48EA_il2cpp_TypeInfo_var, L_24);
 		NullCheck(L_23);
 		L_23->set__PdbQgPRNu3avbiwZinBxFNm0PTg_1(L_25);
 		uint32_t L_26 = V_1;
@@ -17541,7 +17541,7 @@ IL_0034:
 	{
 		RuntimeObject* L_2 = __this->get__32MEWULUdpDENbCULMUVs8eKfkg_0();
 		NullCheck(L_2);
-		InterfaceActionInvoker0::Invoke(17 /* System.Void GoogleMobileAds.Common.IRewardedInterstitialAdClient::Show() */, IRewardedInterstitialAdClient_t5FA94CEC899D09F91C9AAF4AEEF5A484BBB143B4_il2cpp_TypeInfo_var, L_2);
+		InterfaceActionInvoker0::Invoke(14 /* System.Void GoogleMobileAds.Common.IRewardedInterstitialAdClient::Show() */, IRewardedInterstitialAdClient_t5FA94CEC899D09F91C9AAF4AEEF5A484BBB143B4_il2cpp_TypeInfo_var, L_2);
 		uint32_t L_3 = V_1;
 		G_B2_0 = ((int32_t)((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_3, (int32_t)((int32_t)-51757181)))^(int32_t)((int32_t)-201917185)));
 		goto IL_000b;
@@ -17594,7 +17594,7 @@ IL_0085:
 		EventHandler_1_tEDC033EC5B1432E95DB35B1ED5B96B4F1F63E6E1 * L_13 = (EventHandler_1_tEDC033EC5B1432E95DB35B1ED5B96B4F1F63E6E1 *)il2cpp_codegen_object_new(EventHandler_1_tEDC033EC5B1432E95DB35B1ED5B96B4F1F63E6E1_il2cpp_TypeInfo_var);
 		EventHandler_1__ctor_m4E427DE98E6A65074F49EFB302CB5DDC876929F2(L_13, L_12, (intptr_t)((intptr_t)_dASSjhnrs7FChZ60ZjfAwl4Ei0p__A3hX7UbFLyNbQJvNA7afld0Az0P_mC2495B32E5024EC1E8D4169E56995BF24D265882_RuntimeMethod_var), /*hidden argument*/EventHandler_1__ctor_m4E427DE98E6A65074F49EFB302CB5DDC876929F2_RuntimeMethod_var);
 		NullCheck(L_11);
-		InterfaceActionInvoker1< EventHandler_1_tEDC033EC5B1432E95DB35B1ED5B96B4F1F63E6E1 * >::Invoke(6 /* System.Void GoogleMobileAds.Common.IRewardedInterstitialAdClient::add_OnUserEarnedReward(System.EventHandler`1<GoogleMobileAds.Api.Reward>) */, IRewardedInterstitialAdClient_t5FA94CEC899D09F91C9AAF4AEEF5A484BBB143B4_il2cpp_TypeInfo_var, L_11, L_13);
+		InterfaceActionInvoker1< EventHandler_1_tEDC033EC5B1432E95DB35B1ED5B96B4F1F63E6E1 * >::Invoke(4 /* System.Void GoogleMobileAds.Common.IRewardedInterstitialAdClient::add_OnUserEarnedReward(System.EventHandler`1<GoogleMobileAds.Api.Reward>) */, IRewardedInterstitialAdClient_t5FA94CEC899D09F91C9AAF4AEEF5A484BBB143B4_il2cpp_TypeInfo_var, L_11, L_13);
 		uint32_t L_14 = V_1;
 		G_B2_0 = ((int32_t)((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_14, (int32_t)((int32_t)1109550040)))^(int32_t)((int32_t)-1481577013)));
 		goto IL_000b;
@@ -19171,7 +19171,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnifiedNativeAd_GetHeadlineText_m4D
 		RuntimeObject* L_0 = __this->get__PdbQgPRNu3avbiwZinBxFNm0PTg_1();
 		NullCheck(L_0);
 		String_t* L_1;
-		L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(7 /* System.String GoogleMobileAds.Common.IUnifiedNativeAdClient::GetHeadline() */, IUnifiedNativeAdClient_tBBCE2D318C2C70FAA548D619E3CC62CF8C192260_il2cpp_TypeInfo_var, L_0);
+		L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(6 /* System.String GoogleMobileAds.Common.IUnifiedNativeAdClient::GetHeadline() */, IUnifiedNativeAdClient_tBBCE2D318C2C70FAA548D619E3CC62CF8C192260_il2cpp_TypeInfo_var, L_0);
 		return L_1;
 	}
 }
@@ -19189,7 +19189,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnifiedNativeAd_GetCallToActionText
 		RuntimeObject* L_0 = __this->get__PdbQgPRNu3avbiwZinBxFNm0PTg_1();
 		NullCheck(L_0);
 		String_t* L_1;
-		L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(9 /* System.String GoogleMobileAds.Common.IUnifiedNativeAdClient::GetCallToAction() */, IUnifiedNativeAdClient_tBBCE2D318C2C70FAA548D619E3CC62CF8C192260_il2cpp_TypeInfo_var, L_0);
+		L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(7 /* System.String GoogleMobileAds.Common.IUnifiedNativeAdClient::GetCallToAction() */, IUnifiedNativeAdClient_tBBCE2D318C2C70FAA548D619E3CC62CF8C192260_il2cpp_TypeInfo_var, L_0);
 		return L_1;
 	}
 }
@@ -19207,7 +19207,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnifiedNativeAd_GetAdvertiserText_m
 		RuntimeObject* L_0 = __this->get__PdbQgPRNu3avbiwZinBxFNm0PTg_1();
 		NullCheck(L_0);
 		String_t* L_1;
-		L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(10 /* System.String GoogleMobileAds.Common.IUnifiedNativeAdClient::GetAdvertiser() */, IUnifiedNativeAdClient_tBBCE2D318C2C70FAA548D619E3CC62CF8C192260_il2cpp_TypeInfo_var, L_0);
+		L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(8 /* System.String GoogleMobileAds.Common.IUnifiedNativeAdClient::GetAdvertiser() */, IUnifiedNativeAdClient_tBBCE2D318C2C70FAA548D619E3CC62CF8C192260_il2cpp_TypeInfo_var, L_0);
 		return L_1;
 	}
 }
@@ -20020,7 +20020,7 @@ IL_0049:
 		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_8 = V_1;
 		NullCheck(L_7);
 		bool L_9;
-		L_9 = InterfaceFuncInvoker1< bool, Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * >::Invoke(13 /* System.Boolean GoogleMobileAds.Common.IUnifiedNativeAdClient::RecordImpression(System.Collections.Generic.Dictionary`2<System.String,System.Object>) */, IUnifiedNativeAdClient_tBBCE2D318C2C70FAA548D619E3CC62CF8C192260_il2cpp_TypeInfo_var, L_7, L_8);
+		L_9 = InterfaceFuncInvoker1< bool, Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * >::Invoke(9 /* System.Boolean GoogleMobileAds.Common.IUnifiedNativeAdClient::RecordImpression(System.Collections.Generic.Dictionary`2<System.String,System.Object>) */, IUnifiedNativeAdClient_tBBCE2D318C2C70FAA548D619E3CC62CF8C192260_il2cpp_TypeInfo_var, L_7, L_8);
 		if (!L_9)
 		{
 			goto IL_0139;
@@ -20295,7 +20295,7 @@ IL_0052:
 		RuntimeObject* L_4 = __this->get__PdbQgPRNu3avbiwZinBxFNm0PTg_1();
 		Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5 * L_5 = V_2;
 		NullCheck(L_4);
-		InterfaceActionInvoker1< Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5 * >::Invoke(15 /* System.Void GoogleMobileAds.Common.IUnifiedNativeAdClient::ReportTouchEvent(System.Collections.Generic.Dictionary`2<System.String,System.String>) */, IUnifiedNativeAdClient_tBBCE2D318C2C70FAA548D619E3CC62CF8C192260_il2cpp_TypeInfo_var, L_4, L_5);
+		InterfaceActionInvoker1< Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5 * >::Invoke(11 /* System.Void GoogleMobileAds.Common.IUnifiedNativeAdClient::ReportTouchEvent(System.Collections.Generic.Dictionary`2<System.String,System.String>) */, IUnifiedNativeAdClient_tBBCE2D318C2C70FAA548D619E3CC62CF8C192260_il2cpp_TypeInfo_var, L_4, L_5);
 		uint32_t L_6 = V_3;
 		G_B2_0 = ((int32_t)((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_6, (int32_t)((int32_t)1755119326)))^(int32_t)((int32_t)-338380531)));
 		goto IL_0010;
@@ -20306,7 +20306,7 @@ IL_006d:
 		RuntimeObject* L_7 = __this->get__PdbQgPRNu3avbiwZinBxFNm0PTg_1();
 		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_8 = V_1;
 		NullCheck(L_7);
-		InterfaceActionInvoker1< Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * >::Invoke(14 /* System.Void GoogleMobileAds.Common.IUnifiedNativeAdClient::PerformClick(System.Collections.Generic.Dictionary`2<System.String,System.Object>) */, IUnifiedNativeAdClient_tBBCE2D318C2C70FAA548D619E3CC62CF8C192260_il2cpp_TypeInfo_var, L_7, L_8);
+		InterfaceActionInvoker1< Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * >::Invoke(10 /* System.Void GoogleMobileAds.Common.IUnifiedNativeAdClient::PerformClick(System.Collections.Generic.Dictionary`2<System.String,System.Object>) */, IUnifiedNativeAdClient_tBBCE2D318C2C70FAA548D619E3CC62CF8C192260_il2cpp_TypeInfo_var, L_7, L_8);
 		uint32_t L_9 = V_3;
 		G_B2_0 = ((int32_t)((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_9, (int32_t)((int32_t)-1715981049)))^(int32_t)((int32_t)-539065512)));
 		goto IL_0010;

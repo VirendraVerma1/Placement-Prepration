@@ -12,7 +12,6 @@ public class AppManager : MonoBehaviour
     string GetCourseDataLink = "PlacementPrepration/getallcourse.php";
     string GetSubjectDataLink = "PlacementPrepration/getallsubject.php";
     string GetCompanyDataLink = "PlacementPrepration/getallcompany.php";
-
     string GetAllQuesDataLink = "PlacementPrepration/getallquesfromsubject.php";
 
     List<string> courseValues = new List<string>();

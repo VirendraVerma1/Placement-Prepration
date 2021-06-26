@@ -8842,7 +8842,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Utils_GetDeviceSafeWidth_m79911C9DA93
 		RuntimeObject* L_1 = L_0->get__PdbQgPRNu3avbiwZinBxFNm0PTg_0();
 		NullCheck(L_1);
 		int32_t L_2;
-		L_2 = InterfaceFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 GoogleMobileAds.Common.IMobileAdsClient::GetDeviceSafeWidth() */, IMobileAdsClient_tCA31E0D6066E04EC32E0614B6507282B43837A9F_il2cpp_TypeInfo_var, L_1);
+		L_2 = InterfaceFuncInvoker0< int32_t >::Invoke(3 /* System.Int32 GoogleMobileAds.Common.IMobileAdsClient::GetDeviceSafeWidth() */, IMobileAdsClient_tCA31E0D6066E04EC32E0614B6507282B43837A9F_il2cpp_TypeInfo_var, L_1);
 		return L_2;
 	}
 }

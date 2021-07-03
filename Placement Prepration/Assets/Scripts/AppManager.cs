@@ -31,7 +31,22 @@ public class AppManager : MonoBehaviour
         LoadingScreen.SetActive(true);
         ReportText.gameObject.SetActive(false);
         StartCoroutine(PutCourseValuesToListFromServer());
-        
+        isPanellOpen = -1;
+    }
+
+
+    int isPanellOpen = 0;
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            if (isPanellOpen == 1)
+            {
+                isPanellOpen = -1;
+                gameObject.GetComponent<MainManager>().OnHomePageButtonPressed();
+            }
+            
+        }
     }
 
     #region Initalizing Left Pannel
@@ -341,6 +356,7 @@ public class AppManager : MonoBehaviour
 
     void OnQuesButtonPressed(int quesid)
     {
+        isPanellOpen = 1;
         QuesNumberText.text = "Ques "+(quesid + 1).ToString();
         QuesTextCenter.text = quesData[quesid].Ques;
         Option1TextCenter.text = quesData[quesid].Option1;

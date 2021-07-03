@@ -14,8 +14,34 @@ public class JobManager : MonoBehaviour
     {
         JobDetailPannel.SetActive(false);
         StartCoroutine(GetAllTheJobs());
+        isJobListOpen = 0;
     }
 
+    int isJobListOpen = 0;
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            if (isJobListOpen == 1)
+            {
+                StartCoroutine(DisableJobListThings(0));
+                OnJobDetailsCloseButtonPressed();
+            }
+            else if (isJobListOpen == 0)
+            {
+                StartCoroutine(DisableJobListThings(-1));
+                gameObject.GetComponent<MainManager>().OnHomePageButtonPressed();
+            }
+        }
+    }
+
+    IEnumerator DisableJobListThings(int setvalue)
+    {
+        yield return new WaitForSeconds(1);
+        isJobListOpen = setvalue;
+        if (isJobListOpen == -1)
+            gameObject.GetComponent<JobManager>().enabled = false;
+    }
 
     IEnumerator GetAllTheJobs()
     {
@@ -117,31 +143,134 @@ public class JobManager : MonoBehaviour
 
     void OnJobButtonPressed(int index)
     {
+        isJobListOpen = 1;
         JobDetailPannel.SetActive(true);
         JobDataBean g =jobData[index];
         GameObject go = JobDetailThings;
         GameObject ggo = OtherContent;
         StartCoroutine(PlaceImageToObject(go.transform.Find("CompanyLogo").transform.GetComponent<Image>(), g.CompanyPhoto));
         go.transform.Find("CompanyName").transform.GetComponent<Text>().text = g.CompanyName;
-        go.transform.Find("Post").transform.GetComponent<Text>().text = "Post: " + g.Post;
-        go.transform.Find("Package").transform.GetComponent<Text>().text = "Package: " + g.Package;
-        go.transform.Find("Experince").transform.GetComponent<Text>().text = "Experience: " + g.Experience + "year";
-        go.transform.Find("Location").transform.GetComponent<Text>().text = "Location:" + g.Location;
+        go.transform.Find("Post").transform.GetComponent<Text>().text = "<b>Post:</b> " + g.Post;
+        go.transform.Find("Package").transform.GetComponent<Text>().text = "<b>Package:</b> " + g.Package;
+        go.transform.Find("Experince").transform.GetComponent<Text>().text = "<b>Experience:</b> " + g.Experience + "year";
+        go.transform.Find("Location").transform.GetComponent<Text>().text = "<b>Location:</b> " + g.Location;
         go.transform.Find("LastDate").transform.GetComponent<Text>().text = g.LastApplyDate;
-        go.transform.Find("Skills").transform.GetComponent<Text>().text = "Skills:" + g.KeySkill;
+        go.transform.Find("Skills").transform.GetComponent<Text>().text = "<b>Skills:</b> " + g.KeySkill;
 
-        ggo.transform.Find("Bond").transform.GetComponent<Text>().text = "Bond: "+g.Bond+" year";
-        ggo.transform.Find("FunctionalArea").transform.GetComponent<Text>().text = "FunctionalArea: " + g.Bond;
-        ggo.transform.Find("IndustryType").transform.GetComponent<Text>().text = "IndustyType: " + g.IndustyType;
-        ggo.transform.Find("EmploymentType").transform.GetComponent<Text>().text = "EmploymentType: " + g.EmploymentType;
-        ggo.transform.Find("RoleCategory").transform.GetComponent<Text>().text = "RoleCategory: " + g.RoleCategory;
-        ggo.transform.Find("Education").transform.GetComponent<Text>().text = "Education: " + g.Education;
-        ggo.transform.Find("Responsibility").transform.GetComponent<Text>().text = "Responsibility: " + g.Responsibility;
-        ggo.transform.Find("Knowledge").transform.GetComponent<Text>().text = "Knowledge: " + g.Knowledge;
-        ggo.transform.Find("Benifit").transform.GetComponent<Text>().text = "Benifit: " + g.Benifit;
-        ggo.transform.Find("AboutCompany").transform.GetComponent<Text>().text = "AboutCompany: " + g.AboutCompany;
-        ggo.transform.Find("TotalEmployee").transform.GetComponent<Text>().text = "TotalEmployee: " + g.TotalEmployee;
-        ggo.transform.Find("Description").transform.GetComponent<Text>().text = "Description: " + g.Description;
+        if (g.Role != "")
+        {
+            ggo.transform.Find("Role").transform.localScale = Vector3.one;
+            ggo.transform.Find("Role").transform.GetComponent<Text>().text = "<b>Role:</b> " + g.Role;
+        }
+        else
+        {
+            ggo.transform.Find("Role").transform.GetComponent<Text>().text = "";
+            ggo.transform.Find("Role").transform.localScale = Vector3.zero;
+        }
+        if (g.Bond != "")
+        {
+            ggo.transform.Find("Bond").transform.localScale = Vector3.one;
+            ggo.transform.Find("Bond").transform.GetComponent<Text>().text = "<b>Bond:</b> " + g.Bond + " year";
+        }
+        else
+        {
+            ggo.transform.Find("Bond").transform.GetComponent<Text>().text = "";
+            ggo.transform.Find("Bond").transform.localScale = Vector3.zero;
+        }
+        if (g.FunctionalArea != "")
+        {
+            ggo.transform.Find("FunctionalArea").transform.localScale = Vector3.one;
+            ggo.transform.Find("FunctionalArea").transform.GetComponent<Text>().text = "<b>FunctionalArea:</b> " + g.FunctionalArea;
+        }
+        else
+        {
+            ggo.transform.Find("FunctionalArea").transform.GetComponent<Text>().text = "";
+            ggo.transform.Find("FunctionalArea").transform.localScale = Vector3.zero;
+        }
+        if (g.IndustyType != "")
+        {
+            ggo.transform.Find("IndustryType").transform.localScale = Vector3.one;
+            ggo.transform.Find("IndustryType").transform.GetComponent<Text>().text = "<b>IndustyType:</b> " + g.IndustyType;
+        }
+        else
+        {
+            ggo.transform.Find("IndustryType").transform.GetComponent<Text>().text = "";
+            ggo.transform.Find("IndustryType").transform.localScale = Vector3.zero;
+        }
+        if (g.EmploymentType != "")
+        {
+            ggo.transform.Find("EmploymentType").transform.localScale = Vector3.one;
+            ggo.transform.Find("EmploymentType").transform.GetComponent<Text>().text = "<b>EmploymentType:</b> " + g.EmploymentType;
+        }
+        else
+        {
+            ggo.transform.Find("EmploymentType").transform.GetComponent<Text>().text = "";
+            ggo.transform.Find("EmploymentType").transform.localScale = Vector3.zero;
+        }
+        if (g.RoleCategory != "")
+        {
+            ggo.transform.Find("RoleCategory").transform.localScale = Vector3.one;
+            ggo.transform.Find("RoleCategory").transform.GetComponent<Text>().text = "<b>RoleCategory:</b> " + g.RoleCategory;
+        }
+        else
+        {
+            ggo.transform.Find("RoleCategory").transform.GetComponent<Text>().text = "";
+            ggo.transform.Find("RoleCategory").transform.localScale = Vector3.zero;
+        }
+        if (g.Education != "")
+        {
+            ggo.transform.Find("Education").transform.localScale = Vector3.one;
+            ggo.transform.Find("Education").transform.GetComponent<Text>().text = "<b>Education:</b> " + g.Education;
+        }
+        else
+        {
+            ggo.transform.Find("Education").transform.GetComponent<Text>().text = "";
+            ggo.transform.Find("Education").transform.localScale = Vector3.zero;
+        }
+        if (g.Responsibility != "")
+        {
+            ggo.transform.Find("Responsibility").transform.localScale = Vector3.one;
+            ggo.transform.Find("Responsibility").transform.GetComponent<Text>().text = "<b>Responsibility:</b> " + g.Responsibility;
+        }
+        else
+        {
+            ggo.transform.Find("Responsibility").transform.GetComponent<Text>().text = "";
+            ggo.transform.Find("Responsibility").transform.localScale = Vector3.zero;
+        }
+        if (g.Knowledge != "")
+        {
+            ggo.transform.Find("Knowledge").transform.localScale = Vector3.one;
+            ggo.transform.Find("Knowledge").transform.GetComponent<Text>().text = "<b>Knowledge:</b> " + g.Knowledge;
+        }
+        else
+        {
+            ggo.transform.Find("Knowledge").transform.GetComponent<Text>().text = "";
+            ggo.transform.Find("Knowledge").transform.localScale = Vector3.zero;
+        }
+        if (g.Benifit != "")
+        {
+            ggo.transform.Find("Benifit").transform.localScale = Vector3.one;
+            ggo.transform.Find("Benifit").transform.GetComponent<Text>().text = "<b>Benifit:</b> " + g.Benifit;
+        }
+        else
+        {
+            ggo.transform.Find("Benifit").transform.GetComponent<Text>().text = "";
+            ggo.transform.Find("Benifit").transform.localScale = Vector3.zero;
+        }
+        if (g.TotalEmployee != 0)
+        {
+            ggo.transform.Find("TotalEmployee").transform.localScale = Vector3.one;
+            ggo.transform.Find("TotalEmployee").transform.GetComponent<Text>().text = "<b>TotalEmployee:</b> " + g.TotalEmployee;
+        }
+        else
+        {
+            ggo.transform.Find("TotalEmployee").transform.GetComponent<Text>().text = "";
+            ggo.transform.Find("TotalEmployee").transform.localScale = Vector3.zero;
+        }
+
+
+        ggo.transform.Find("AboutCompany").transform.GetComponent<Text>().text = "<b>AboutCompany:</b> " + g.AboutCompany;
+        ggo.transform.Find("Description").transform.GetComponent<Text>().text = "<b>Description:</b> " + g.Description;
         string Link = g.ApplyLink;
         ggo.transform.Find("ApplyLink").transform.Find("Button").GetComponent<Button>().onClick.AddListener(() => ApplyJob(Link));
     }

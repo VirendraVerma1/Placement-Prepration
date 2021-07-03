@@ -31,8 +31,44 @@ public class LocalTestManager : MonoBehaviour
 
     public GameObject BoxFromScrollViewData;
 
+    int isPannelOpenIndex = 0;
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            if (isPannelOpenIndex == 1)
+            {
+                isPannelOpenIndex = 0;
+                JobCancelPannel.SetActive(true);
+            }
+            
+        }
+    }
+
+    #region Test cancel Pannel
+
+    [Header("Test cancel Pannel")]
+    public GameObject JobCancelPannel;
+
+    public void onTestCancelButtonPressed()
+    {
+        isPannelOpenIndex = 1;
+        JobCancelPannel.SetActive(false);
+    }
+    public void OnTestYesButtonPressed()
+    {
+        isPannelOpenIndex = -1;
+        gameObject.GetComponent<MainManager>().OnHomePageButtonPressed();
+        gameObject.GetComponent<JobManager>().enabled = false;
+        JobCancelPannel.SetActive(false);
+    }
+
+    #endregion
+
     public void OnLocalRevisionButtonPressed()
     {
+        gameObject.GetComponent<LocalTestManager>().enabled = true;
+        isPannelOpenIndex = 1;
         StartTestButton.SetActive(false);
         LocalTestPannel.SetActive(true);
         LoadCourseDataFromAppManager();

@@ -31,11 +31,13 @@ public class MainManager : MonoBehaviour
 
     public void OnHomePageButtonPressed()
     {
+        gameObject.GetComponent<TestContoller>().TopBar.SetActive(true);
         ActivatePanel(LogoPannel.name);
     }
 
     public void OnJobPannelButtonPressed()
     {
+        gameObject.GetComponent<JobManager>().enabled = true;
         ActivatePanel(JobPannel.name);
     }
 

@@ -49,7 +49,7 @@ public class JobManager : MonoBehaviour
         WWW www = new WWW(saveload.ServerLink+saveload.JobDetails);
         //ShowLoadingRemoveRest();
         yield return www;
-        print(www.text);
+        print("JobData:"+www.text);
 
         if (www.text.Contains("CompanyName"))
         {
@@ -302,7 +302,7 @@ public class JobManager : MonoBehaviour
         go.sprite = null;
         WWW www = new WWW(URL);
         yield return www;
-        go.sprite = Sprite.Create(www.texture, new Rect(0, 0, www.texture.width, www.texture.height), new Vector2(0, 0));
+        //go.sprite = Sprite.Create(www.texture, new Rect(0, 0, www.texture.width, www.texture.height), new Vector2(0, 0));
 
     }
     

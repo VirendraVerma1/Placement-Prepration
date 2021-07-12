@@ -17,6 +17,8 @@ public class MainManager : MonoBehaviour
         CheackAccount();
         StartCoroutine(IncreaseTimePlayed());
         GetAdsFreqValueFromServer();
+        ActivatePanel(LogoPannel.name);
+        gameObject.GetComponent<JobManager>().LoadAllTheSkillData();
     }
 
     public void ActivatePanel(string panelToBeActivated)
@@ -38,6 +40,7 @@ public class MainManager : MonoBehaviour
     public void OnJobPannelButtonPressed()
     {
         gameObject.GetComponent<JobManager>().enabled = true;
+        gameObject.GetComponent<JobManager>().OnJobListButtonPressed();
         ActivatePanel(JobPannel.name);
     }
 

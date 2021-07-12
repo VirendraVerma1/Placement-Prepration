@@ -9,12 +9,60 @@ public class JobManager : MonoBehaviour
 {
     
     List<JobDataBean> jobData = new List<JobDataBean>();
-    
-    void Start()
+    List<string> allskills = new List<string>();
+    List<GameObject> allskillsgo = new List<GameObject>();
+
+    private void Start()
+    {
+        isJobListPageOn = false;
+        madedskills = "hello";
+        filteredexperience = "hello";
+    }
+
+
+    public void OnJobListButtonPressed()
     {
         JobDetailPannel.SetActive(false);
-        StartCoroutine(GetAllTheJobs());
+        StartCoroutine(GetNewAllTheJobs());
+        
         isJobListOpen = 0;
+        if(isJobListPageOn==false)
+        {
+            isJobListPageOn = true;
+            StartCoroutine(RefreshMyJob());
+        }
+        
+    }
+
+    //refresh jobs in every minute
+    bool isJobListPageOn = false;
+    IEnumerator RefreshMyJob()
+    {
+        int con = 1;
+        while(con>0)
+        {
+            yield return new WaitForSeconds(3);
+            print("revolve");
+            if(isJobListOpen == 0)
+            {
+                con = 0;
+                print("zero");
+            }
+            else if (isJobListOpen == -1)
+            {
+                con = -1;
+                print("sad");
+
+            }
+
+        }
+        if(con==0)
+        {
+            OnJobListButtonPressed();
+        }
+        isJobListPageOn = false;
+        
+        
     }
 
     int isJobListOpen = 0;
@@ -42,6 +90,83 @@ public class JobManager : MonoBehaviour
         if (isJobListOpen == -1)
             gameObject.GetComponent<JobManager>().enabled = false;
     }
+
+    #region new get all the jobs
+
+    IEnumerator GetNewAllTheJobs()
+    {
+        print(filteredexperience+"|"+madedskills);
+        WWWForm form1 = new WWWForm();
+        form1.AddField("experience", filteredexperience);
+        form1.AddField("keyskills", madedskills);
+        WWW www = new WWW(saveload.LaravelServerLink + saveload.JobDetails, form1);
+        
+        yield return www;
+        print("JobData:" + www.text);
+
+        if (www.error == null)
+            processjsonjobData(www.text);
+        else
+            print("something went wrong");
+
+    }
+
+    void processjsonjobData(string url_text)
+    {
+        JsonJobs jsonData = JsonUtility.FromJson<JsonJobs>(url_text);
+        GameObject[] ggo = GameObject.FindGameObjectsWithTag("JobList");
+        foreach (GameObject g in ggo)
+        {
+            Destroy(g);
+        }
+        jobData.Clear();
+
+        foreach (jobsData item in jsonData.jobs)
+        {
+            string CompanyPhoto = item.CompanyPhoto;
+            string CompanyName = item.CompanyName;
+            string Post = item.Post;
+            string Package = item.Package;
+            string Experience = item.Experience;
+            string Bond = item.Bond;
+            string Location = item.Location;
+            string Role = item.Role;
+            string IndustyType = item.IndustyType;
+            string FunctionalArea = item.FunctionalArea;
+            string EmploymentType = item.EmploymentType;
+            string RoleCategory = item.RoleCategory;
+            string Education = item.Education;
+            string KeySkill = item.KeySkill;
+            string Responsibility = item.Responsibility;
+            string Knowledge = item.Knowledge;
+            string Benifit = item.Benifit;
+            string AboutCompany = item.AboutCompany;
+            int TotalEmployee = item.TotalEmployee;
+            string LastApplyDate = item.LastApplyDate;
+            string ApplyLink = item.ApplyLink;
+            string Description = item.Description;
+            string Ago = item.ago;
+            jobData.Add(new JobDataBean(CompanyPhoto, CompanyName, Post, Package, Experience, Bond, Location, Role, IndustyType, FunctionalArea, EmploymentType
+            , RoleCategory
+            , Education
+            , KeySkill
+            , Responsibility
+            , Knowledge
+            , Benifit
+            , AboutCompany
+            , TotalEmployee
+            , LastApplyDate
+            , ApplyLink
+            , Description
+            , Ago));
+        }
+        CreteJobList();
+
+    }
+
+    #endregion
+
+    #region old get all jobs
 
     IEnumerator GetAllTheJobs()
     {
@@ -78,6 +203,7 @@ public class JobManager : MonoBehaviour
                 string LastApplyDate = GetDataValue(items[i], "LastApplyDate:");
                 string ApplyLink = GetDataValue(items[i], "ApplyLink:");
                 string Description = GetDataValue(items[i], "Description:");
+                string Ago = GetDataValue(items[i], "Ago:");
                 jobData.Add(new JobDataBean(CompanyPhoto, CompanyName, Post, Package, Experience, Bond, Location, Role, IndustyType, FunctionalArea, EmploymentType
                 , RoleCategory
                 , Education
@@ -89,7 +215,8 @@ public class JobManager : MonoBehaviour
                 , TotalEmployee
                 , LastApplyDate
                 , ApplyLink
-                , Description));
+                , Description
+                , Ago));
                 
                 
             }
@@ -114,7 +241,7 @@ public class JobManager : MonoBehaviour
             Destroy(g);
         }
 
-        int index = -1;
+        int index = 0;
         foreach (JobDataBean g in jobData)
         {
             GameObject go = GameObject.Instantiate(JobListPrefab);
@@ -122,13 +249,18 @@ public class JobManager : MonoBehaviour
             go.transform.localScale = Vector3.one;
             StartCoroutine(PlaceImageToObject(go.transform.Find("CompanyLogo").transform.GetComponent<Image>(), g.CompanyPhoto));
             go.transform.Find("CompanyName").transform.GetComponent<Text>().text = g.CompanyName;
-            go.transform.Find("Post").transform.GetComponent<Text>().text = "Post: "+g.Post;
-            go.transform.Find("Package").transform.GetComponent<Text>().text = "Package: "+g.Package;
-            go.transform.Find("Experince").transform.GetComponent<Text>().text = "Experience: "+g.Experience+"year";
-            go.transform.Find("Location").transform.GetComponent<Text>().text = "Location:"+g.Location;
-            go.transform.Find("LastDate").transform.GetComponent<Text>().text = g.LastApplyDate;
-            go.transform.Find("Skills").transform.GetComponent<Text>().text = "Skills:"+g.KeySkill;
-            go.GetComponent<Button>().onClick.AddListener(() => OnJobButtonPressed(index));
+            go.transform.Find("Post").transform.GetComponent<Text>().text = "<b>Post: </b>"+g.Post;
+            go.transform.Find("Package").transform.GetComponent<Text>().text = "<b>Package: </b>" + g.Package;
+            go.transform.Find("Experince").transform.GetComponent<Text>().text = "<b>Experience: </b>" + g.Experience+"year";
+            go.transform.Find("Location").transform.GetComponent<Text>().text = "<b>Location: </b>" + g.Location;
+            go.transform.Find("Ago").transform.GetComponent<Text>().text =  g.Ago;
+            if (g.LastApplyDate == "0000-00-00")
+                go.transform.Find("LastDate").transform.GetComponent<Text>().text = "";
+            else
+                go.transform.Find("LastDate").transform.GetComponent<Text>().text = g.LastApplyDate;
+            go.transform.Find("Skills").transform.GetComponent<Text>().text = "<b>Skills: </b>" + g.KeySkill;
+            int n = index;
+            go.GetComponent<Button>().onClick.AddListener(() => OnJobButtonPressed(n));
             index++;
         }
     }
@@ -140,6 +272,7 @@ public class JobManager : MonoBehaviour
     public GameObject JobDetailPannel;
     public GameObject JobDetailThings;
     public GameObject OtherContent;
+    public Text CompanyNameHead;
 
     void OnJobButtonPressed(int index)
     {
@@ -149,14 +282,38 @@ public class JobManager : MonoBehaviour
         GameObject go = JobDetailThings;
         GameObject ggo = OtherContent;
         StartCoroutine(PlaceImageToObject(go.transform.Find("CompanyLogo").transform.GetComponent<Image>(), g.CompanyPhoto));
+        CompanyNameHead.text= g.CompanyName;
         go.transform.Find("CompanyName").transform.GetComponent<Text>().text = g.CompanyName;
         go.transform.Find("Post").transform.GetComponent<Text>().text = "<b>Post:</b> " + g.Post;
         go.transform.Find("Package").transform.GetComponent<Text>().text = "<b>Package:</b> " + g.Package;
         go.transform.Find("Experince").transform.GetComponent<Text>().text = "<b>Experience:</b> " + g.Experience + "year";
         go.transform.Find("Location").transform.GetComponent<Text>().text = "<b>Location:</b> " + g.Location;
-        go.transform.Find("LastDate").transform.GetComponent<Text>().text = g.LastApplyDate;
-        go.transform.Find("Skills").transform.GetComponent<Text>().text = "<b>Skills:</b> " + g.KeySkill;
+        if (g.LastApplyDate == "0000-00-00")
+            go.transform.Find("LastDate").transform.GetComponent<Text>().text = "";
+        else
+            go.transform.Find("LastDate").transform.GetComponent<Text>().text = g.LastApplyDate;
+        //go.transform.Find("Skills").transform.GetComponent<Text>().text = "<b>Skills:</b> " + g.KeySkill;
 
+        if (g.Ago != "")
+        {
+            ggo.transform.Find("Ago").transform.localScale = Vector3.one;
+            ggo.transform.Find("Ago").transform.GetComponent<Text>().text = g.Ago;
+        }
+        else
+        {
+            ggo.transform.Find("Ago").transform.GetComponent<Text>().text = "";
+            ggo.transform.Find("Ago").transform.localScale = Vector3.zero;
+        }
+        if (g.KeySkill != "")
+        {
+            ggo.transform.Find("Skills").transform.localScale = Vector3.one;
+            ggo.transform.Find("Skills").transform.GetComponent<Text>().text = "<b>Skills:</b> " + g.KeySkill;
+        }
+        else
+        {
+            ggo.transform.Find("Skills").transform.GetComponent<Text>().text = "";
+            ggo.transform.Find("Skills").transform.localScale = Vector3.zero;
+        }
         if (g.Role != "")
         {
             ggo.transform.Find("Role").transform.localScale = Vector3.one;
@@ -268,9 +425,23 @@ public class JobManager : MonoBehaviour
             ggo.transform.Find("TotalEmployee").transform.localScale = Vector3.zero;
         }
 
-
-        ggo.transform.Find("AboutCompany").transform.GetComponent<Text>().text = "<b>AboutCompany:</b> " + g.AboutCompany;
-        ggo.transform.Find("Description").transform.GetComponent<Text>().text = "<b>Description:</b> " + g.Description;
+        if (g.AboutCompany != "")
+        {
+            ggo.transform.Find("AboutCompany").transform.GetComponent<Text>().text = "<b>About Company:</b> " + g.AboutCompany;
+        }
+        else
+        {
+            ggo.transform.Find("AboutCompany").transform.GetComponent<Text>().text = "";
+        }
+        if (g.Description != "")
+        {
+            ggo.transform.Find("Description").transform.GetComponent<Text>().text = "<b>Description:</b> " + g.Description;
+        }
+        else
+        {
+            ggo.transform.Find("Description").transform.GetComponent<Text>().text = "";
+        }
+        
         string Link = g.ApplyLink;
         ggo.transform.Find("ApplyLink").transform.Find("Button").GetComponent<Button>().onClick.AddListener(() => ApplyJob(Link));
     }
@@ -283,9 +454,169 @@ public class JobManager : MonoBehaviour
 
     #endregion
 
+    #endregion
+
+    #region get all the skills
+
+    [Header("Skills")]
+    public GameObject FilterPannel;
+    public GameObject SkillBox;
+    public Transform SkillContentPlace;
+    public Sprite TickSprite;
+    public Sprite UntickSprite;
+    List<string> savedSkills = new List<string>();
+    List<string> selectedSkills = new List<string>();
+
+    public void ShowFilterOption()
+    {
+        FilterPannel.SetActive(true);
+        LoadFilterSkills();
+    }
+
+    public void LoadAllTheSkillData()
+    {
+        StartCoroutine(GetAllTheSkills());
+    }
+
+    IEnumerator GetAllTheSkills()
+    {
+        WWWForm form1 = new WWWForm();
+        form1.AddField("connection_id", "Hello");
+        WWW www = new WWW(saveload.LaravelServerLink + saveload.SkillList, form1);
+
+        yield return www;
+        print("SkillData:" + www.text);
+
+        if (www.error == null)
+            processjsonallskillsData(www.text);
+        else
+            print("something went wrong");
+
+    }
+
+    void processjsonallskillsData(string url_text)
+    {
+        SkillList skillData = JsonUtility.FromJson<SkillList>(url_text);
+        
+        allskills.Clear();
+        allskillsgo.Clear();
+
+        foreach (skillData item in skillData.skills)
+        {
+            allskills.Add(item.name);
+        }
+        
+    }
+
+    
+
+    void LoadFilterSkills()//call it from the filter button
+    {
+        //getting old saved skills
+        if(saveload.allSkills!=null)
+        {
+            string[] olssavedSkills = saveload.allSkills.Split(',');
+            foreach (string s in olssavedSkills)
+            {
+                savedSkills.Add(s);
+            }
+        }
+        
+
+        //deleting previous skills for refreshing new one
+        GameObject[] ggo = GameObject.FindGameObjectsWithTag("SkillList");
+        foreach (GameObject g in ggo)
+        {
+            Destroy(g);
+        }
+
+        int index = 0;
+        //initializing new skills
+        foreach (string skill in allskills)
+        {
+            GameObject go = GameObject.Instantiate(SkillBox);
+            go.transform.SetParent(SkillContentPlace.transform);
+            go.transform.localScale = Vector3.one;
+            go.transform.Find("SkillName").GetComponent<Text>().text = skill;
+
+            bool flag=false;
+            foreach(string s in savedSkills)
+            {
+                if(s==skill)
+                {
+                    flag = true;
+                    break;
+                }
+            }
+            if(flag==false)
+            go.transform.Find("CheckBox").GetComponent<Image>().sprite = UntickSprite;
+            else
+            go.transform.Find("CheckBox").GetComponent<Image>().sprite = TickSprite;
+            int n = index;
+            go.GetComponent<Button>().onClick.AddListener(() => onperticularskillbuttonpressed(n));
+            allskillsgo.Add(go);
+            index++;
+        }
+    }
+
+    void onperticularskillbuttonpressed(int index)
+    {
+        print(allskills[index]+"pressed");
+        bool flag = false;
+        int i = 0;
+        foreach(string s in savedSkills)
+        {
+            if(s==allskills[index])
+            {
+                flag = true;
+                savedSkills.RemoveAt(i);//remove this name from the saved
+                break;
+            }
+            i++;
+        }
+
+        if(flag==true)
+        {
+            //means already selected unselect that item
+            allskillsgo[index].transform.Find("CheckBox").GetComponent<Image>().sprite = UntickSprite;
+        }
+        else
+        {
+            //add this item
+            savedSkills.Add(allskills[index]);
+            allskillsgo[index].transform.Find("CheckBox").GetComponent<Image>().sprite = TickSprite;
+        }
+    }
+
+    public void OnCloseFilterButton()
+    {
+        FilterPannel.SetActive(false);
+    }
+
+
+    public Dropdown ExperienceDropDown;
+    string madedskills="";
+    string filteredexperience = "";
+    public void OnSearchByFilterButtonPressed()
+    {
+        filteredexperience = ExperienceDropDown.options[ExperienceDropDown.value].text;
+        madedskills = "";
+        foreach (string s in savedSkills)
+        {
+            madedskills += s + ",";
+        }
+        print("hess"+madedskills);
+        FilterPannel.SetActive(false);
+        OnJobListButtonPressed();
+    }
+
+    #endregion
+
+
     public void OnJobDetailsCloseButtonPressed()
     {
         JobDetailPannel.SetActive(false);
+        isJobListOpen = 0;
     }
 
     string GetDataValue(string data, string index)

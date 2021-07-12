@@ -26,6 +26,7 @@ public class JobDataBean : MonoBehaviour
     public string LastApplyDate;
     public string ApplyLink;
     public string Description;
+    public string Ago;
 
     public JobDataBean(string companyPhoto,
      string companyName,
@@ -48,7 +49,8 @@ public class JobDataBean : MonoBehaviour
            int totalEmployee, 
            string lastApplyDate, 
            string applyLink, 
-           string description
+           string description,
+           string ago
            )
     {
         CompanyPhoto = companyPhoto;
@@ -72,7 +74,8 @@ public class JobDataBean : MonoBehaviour
         TotalEmployee = totalEmployee;
         LastApplyDate = lastApplyDate;
         ApplyLink = applyLink;
-        Description = description;       
+        Description = description;
+        Ago = ago;
 
     }
 }

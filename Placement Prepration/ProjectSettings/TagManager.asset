@@ -9,6 +9,7 @@ TagManager:
   - Ques
   - Company
   - JobList
+  - SkillList
   layers:
   - Default
   - TransparentFX

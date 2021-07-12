@@ -29,7 +29,7 @@ public class AdScript : MonoBehaviour, IUnityAdsListener
 
     public static AdScript Instance { get; private set; } // static singleton
 
-    void Awake()
+    void Start()
     {
         if (Instance == null) { Instance = this; }
         else { Destroy(gameObject); return; }
@@ -37,6 +37,7 @@ public class AdScript : MonoBehaviour, IUnityAdsListener
         googleAdLoopTurn = 1;
         isOffline=true;
         StartCoroutine(GetValueFromServerForAdNetwork());
+        this.RequestBanner();
         //InitializeUnityAds();
     }
 
@@ -471,6 +472,43 @@ public class AdScript : MonoBehaviour, IUnityAdsListener
         {
             this.rewardedAd.Show();
         }
+    }
+
+    #endregion
+
+    #region banner ads
+
+    private BannerView bannerView;
+
+    private void RequestBanner()
+    {
+
+        #if UNITY_ANDROID
+                string adUnitId = "ca-app-pub-3940256099942544/6300978111";
+        #elif UNITY_IPHONE
+                    string adUnitId = "ca-app-pub-3940256099942544/2934735716";
+        #else
+                    string adUnitId = "unexpected_platform";
+        #endif
+
+        this.bannerView = new BannerView(adUnitId, AdSize.Banner, AdPosition.Bottom);
+
+        // Called when an ad request has successfully loaded.
+        this.bannerView.OnAdLoaded += this.HandleOnAdLoaded;
+        // Called when an ad request failed to load.
+        this.bannerView.OnAdFailedToLoad += this.HandleOnAdFailedToLoad;
+        // Called when an ad is clicked.
+        this.bannerView.OnAdOpening += this.HandleOnAdOpened;
+        // Called when the user returned from the app after an ad click.
+        this.bannerView.OnAdClosed += this.HandleOnAdClosed;
+        // Called when the ad click caused the user to leave the application.
+        this.bannerView.OnAdLeavingApplication += this.HandleOnAdLeavingApplication;
+
+        // Create an empty ad request.
+        AdRequest request = new AdRequest.Builder().Build();
+
+        // Load the banner with the request.
+        this.bannerView.LoadAd(request);
     }
 
     #endregion

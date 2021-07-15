@@ -12,8 +12,8 @@ using System.Runtime.Serialization.Formatters.Binary;
 public class saveload : MonoBehaviour
 {
 
-    public static string ServerLink = "http://kreasaard.atwebpages.com/";
-    //public static string ServerLink = "http://localhost/";
+    //public static string ServerLink = "http://kreasaard.atwebpages.com/";
+    public static string ServerLink = "http://localhost/";
     public static string CreateAccount = "PlacementPrepration/Users/createaccount.php";
     public static string UpdateRepeatUser = "PlacementPrepration/Users/updaterepeat.php";
     public static string UpdateStats = "PlacementPrepration/Users/updatestats.php";
@@ -21,11 +21,10 @@ public class saveload : MonoBehaviour
     //public static string JobDetails = "PlacementPrepration/getalljobdetails.php";
 
     //laravel apis
-    public static string LaravelServerLink = "http://kreasaard.atwebpages.com/public/api/";
-   // public static string LaravelServerLink = "http://127.0.0.1:8000/api/";
+    //public static string LaravelServerLink = "http://kreasaard.atwebpages.com/public/api/";
+    public static string LaravelServerLink = "http://127.0.0.1:8000/api/";
     public static string JobDetails = "get_all_jobs";
     public static string SkillList = "get_all_skills";
-
 
     public static int totalTime=0;
     public static int correct=0;
@@ -35,6 +34,7 @@ public class saveload : MonoBehaviour
     public static int repeatUser=0;
 
     public static string allSkills = "";
+    public static string selectedexperience = "";
 
     public static string accountID = " ";
     public static string playerName = " ";
@@ -53,6 +53,7 @@ public class saveload : MonoBehaviour
         data.PlayerName = Encrypt(playerName);
 
         data.AllSkills = allSkills;
+        data.SelectedExperience = selectedexperience;
         
         data.TotalTime=totalTime;
         data.Correct=correct;
@@ -78,6 +79,7 @@ public class saveload : MonoBehaviour
             playerName=Decrypt(data.PlayerName);
 
             allSkills = data.AllSkills;
+            selectedexperience = data.SelectedExperience;
             
             totalTime=data.TotalTime;
             correct=data.Correct;
@@ -141,6 +143,7 @@ class Notebook_Data
     public  string PlayerName;
 
     public string AllSkills;
+    public string SelectedExperience;
 
     public int TotalTime;
     public int Correct;

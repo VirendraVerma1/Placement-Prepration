@@ -251,7 +251,7 @@ public class JobManager : MonoBehaviour
             go.transform.Find("CompanyName").transform.GetComponent<Text>().text = g.CompanyName;
             go.transform.Find("Post").transform.GetComponent<Text>().text = "<b>Post: </b>"+g.Post;
             go.transform.Find("Package").transform.GetComponent<Text>().text = "<b>Package: </b>" + g.Package;
-            go.transform.Find("Experince").transform.GetComponent<Text>().text = "<b>Experience: </b>" + g.Experience+"year";
+            go.transform.Find("Experince").transform.GetComponent<Text>().text = "<b>Experience: </b>" + g.Experience;
             go.transform.Find("Location").transform.GetComponent<Text>().text = "<b>Location: </b>" + g.Location;
             go.transform.Find("Ago").transform.GetComponent<Text>().text =  g.Ago;
             if (g.LastApplyDate == "0000-00-00")
@@ -286,7 +286,7 @@ public class JobManager : MonoBehaviour
         go.transform.Find("CompanyName").transform.GetComponent<Text>().text = g.CompanyName;
         go.transform.Find("Post").transform.GetComponent<Text>().text = "<b>Post:</b> " + g.Post;
         go.transform.Find("Package").transform.GetComponent<Text>().text = "<b>Package:</b> " + g.Package;
-        go.transform.Find("Experince").transform.GetComponent<Text>().text = "<b>Experience:</b> " + g.Experience + "year";
+        go.transform.Find("Experince").transform.GetComponent<Text>().text = "<b>Experience:</b> " + g.Experience;
         go.transform.Find("Location").transform.GetComponent<Text>().text = "<b>Location:</b> " + g.Location;
         if (g.LastApplyDate == "0000-00-00")
             go.transform.Find("LastDate").transform.GetComponent<Text>().text = "";
@@ -529,6 +529,7 @@ public class JobManager : MonoBehaviour
         {
             Destroy(g);
         }
+        allskillsgo.Clear();
 
         int index = 0;
         //initializing new skills
@@ -605,7 +606,10 @@ public class JobManager : MonoBehaviour
         {
             madedskills += s + ",";
         }
-        print("hess"+madedskills);
+
+        saveload.selectedexperience = filteredexperience;
+        saveload.allSkills = madedskills;
+        saveload.Save();
         FilterPannel.SetActive(false);
         OnJobListButtonPressed();
     }

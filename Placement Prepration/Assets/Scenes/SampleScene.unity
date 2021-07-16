@@ -1963,6 +1963,7 @@ MonoBehaviour:
   JobDetailThings: {fileID: 7335436148435781587}
   OtherContent: {fileID: 1828747610}
   CompanyNameHead: {fileID: 89867835}
+  ApplyLinkButton: {fileID: 2074088459}
   FilterPannel: {fileID: 1702570061}
   SkillBox: {fileID: 8501463026828188844, guid: 399cd7507ffc7784498879dd52606903,
     type: 3}

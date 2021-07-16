@@ -11,12 +11,14 @@ public class JobManager : MonoBehaviour
     List<JobDataBean> jobData = new List<JobDataBean>();
     List<string> allskills = new List<string>();
     List<GameObject> allskillsgo = new List<GameObject>();
+    private float refreshFrequency = 3f;
 
     private void Start()
     {
         isJobListPageOn = false;
         madedskills = "hello";
         filteredexperience = "hello";
+        refreshFrequency = 1f;
     }
 
 
@@ -41,7 +43,7 @@ public class JobManager : MonoBehaviour
         int con = 1;
         while(con>0)
         {
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(refreshFrequency);
             print("revolve");
             if(isJobListOpen == 0)
             {
@@ -120,7 +122,7 @@ public class JobManager : MonoBehaviour
             Destroy(g);
         }
         jobData.Clear();
-
+        refreshFrequency = 30f;
         foreach (jobsData item in jsonData.jobs)
         {
             string CompanyPhoto = item.CompanyPhoto;
@@ -273,6 +275,7 @@ public class JobManager : MonoBehaviour
     public GameObject JobDetailThings;
     public GameObject OtherContent;
     public Text CompanyNameHead;
+    public Button ApplyLinkButton;
 
     void OnJobButtonPressed(int index)
     {
@@ -444,12 +447,15 @@ public class JobManager : MonoBehaviour
         
         string Link = g.ApplyLink;
         ggo.transform.Find("ApplyLink").transform.Find("Button").GetComponent<Button>().onClick.AddListener(() => ApplyJob(Link));
+        
+        
     }
 
     void ApplyJob(string URL)
     {
-        print(URL);
+        ApplyLinkButton.onClick.RemoveAllListeners();
         Application.OpenURL(URL);
+
     }
 
     #endregion

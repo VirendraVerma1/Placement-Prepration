@@ -2357,7 +2357,7 @@ public:
 
 
 // UnityEngine.Advertisements.Utilities.EnumUtilities
-struct EnumUtilities_tB81160EE0D9691D283A8CD1F753844AF765E1241  : public RuntimeObject
+struct EnumUtilities_t840768F0A3B9FB29E9098E83A652CB007B918F15  : public RuntimeObject
 {
 public:
 
@@ -31967,7 +31967,7 @@ IL_001b:
 	}
 }
 // T UnityEngine.Advertisements.Utilities.EnumUtilities::GetEnumFromAndroidJavaObject<System.Int32Enum>(UnityEngine.AndroidJavaObject,T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EnumUtilities_GetEnumFromAndroidJavaObject_TisInt32Enum_t9B63F771913F2B6D586F1173B44A41FBE26F6B5C_mD7494E0BEEDE34113A4B48474DD08E65141A957B_gshared (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___androidJavaObject0, int32_t ___defaultValue1, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EnumUtilities_GetEnumFromAndroidJavaObject_TisInt32Enum_t9B63F771913F2B6D586F1173B44A41FBE26F6B5C_m472365E41BBE6470928B6049B3E2511CCCC39C6B_gshared (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___androidJavaObject0, int32_t ___defaultValue1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -32039,7 +32039,7 @@ IL_0037:
 	}
 }
 // T UnityEngine.Advertisements.Utilities.EnumUtilities::GetEnumFromAndroidJavaObject<System.Object>(UnityEngine.AndroidJavaObject,T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * EnumUtilities_GetEnumFromAndroidJavaObject_TisRuntimeObject_mCD09480EC98DE91FC087E0C892FFAFB1DF45BB0F_gshared (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___androidJavaObject0, RuntimeObject * ___defaultValue1, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * EnumUtilities_GetEnumFromAndroidJavaObject_TisRuntimeObject_m725BF38FB94D4523453CD78CEC2BA8DD1574CD9A_gshared (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___androidJavaObject0, RuntimeObject * ___defaultValue1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)

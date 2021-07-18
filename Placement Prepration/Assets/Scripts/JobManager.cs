@@ -20,6 +20,7 @@ public class JobManager : MonoBehaviour
         filteredexperience = "";
         madedlocation = "";
         refreshFrequency = 1f;
+        state = "all";
         RecommendedFilterPannel.SetActive(false);
     }
 
@@ -120,7 +121,10 @@ public class JobManager : MonoBehaviour
         AllJobsImage.color = Color.white;
         RecommendedJobsImage.color = ButtonPressedColor;
 
-        InitializeinRecommendedFilter();
+        if ((saveload.allSkills == "" || saveload.allSkills == null) && (saveload.selectedLocations == "" || saveload.selectedLocations == null))
+            InitializeinRecommendedFilter();
+        else
+            OnRecommendedSearchButtonPressed();
     }
 
     #endregion
@@ -490,7 +494,8 @@ public class JobManager : MonoBehaviour
     {
         ApplyLinkButton.onClick.RemoveAllListeners();
         Application.OpenURL(URL);
-
+        saveload.applyCount++;
+        saveload.Save();
     }
 
     public void OnJobDetailsCloseButtonPressed()
@@ -514,8 +519,15 @@ public class JobManager : MonoBehaviour
 
     public void ShowFilterOption()
     {
-        FilterPannel.SetActive(true);
-        LoadFilterSkills();
+        if(state=="all")
+        {
+            FilterPannel.SetActive(true);
+            LoadFilterSkills();
+        }
+        else
+        {
+            InitializeinRecommendedFilter();
+        }
     }
 
     public void LoadAllTheSkillData()
@@ -820,6 +832,7 @@ public class JobManager : MonoBehaviour
         RecommendedFilterPannel.SetActive(false);
     }
 
+    
     #endregion
 
     #region common functions

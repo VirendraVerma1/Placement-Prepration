@@ -57,7 +57,7 @@ extern void AdScript_ShowInterstitialAd_mCA01A3746B2F1781FE340DB3499FE4A846BD59D
 // 0x00000016 System.Void AdScript::ShowRewardedVideo()
 extern void AdScript_ShowRewardedVideo_mDE9194AF143FBB69ECBA16A2477DD4D50B4474F7 (void);
 // 0x00000017 System.Void AdScript::OnUnityAdsDidFinish(System.String,UnityEngine.Advertisements.ShowResult)
-extern void AdScript_OnUnityAdsDidFinish_m48D39215A17C847A5878430280214DE81156889C (void);
+extern void AdScript_OnUnityAdsDidFinish_m800D3160C41B037A119DF1FAC6E464B60890E579 (void);
 // 0x00000018 System.Void AdScript::OnUnityAdsReady(System.String)
 extern void AdScript_OnUnityAdsReady_m7C09EE43B0EC074E2D4D9BC7810B7EFB94C9370A (void);
 // 0x00000019 System.Void AdScript::OnUnityAdsDidError(System.String)
@@ -846,7 +846,7 @@ static Il2CppMethodPointer s_methodPointers[405] =
 	AdScript_InitializeUnityAds_m4BCC6FB8FB6D1EBEC76B563655E59CC0F3F6163C,
 	AdScript_ShowInterstitialAd_mCA01A3746B2F1781FE340DB3499FE4A846BD59DF,
 	AdScript_ShowRewardedVideo_mDE9194AF143FBB69ECBA16A2477DD4D50B4474F7,
-	AdScript_OnUnityAdsDidFinish_m48D39215A17C847A5878430280214DE81156889C,
+	AdScript_OnUnityAdsDidFinish_m800D3160C41B037A119DF1FAC6E464B60890E579,
 	AdScript_OnUnityAdsReady_m7C09EE43B0EC074E2D4D9BC7810B7EFB94C9370A,
 	AdScript_OnUnityAdsDidError_m31FF6C733A3EFF045FD8AB9696058ACDE11BD3C8,
 	AdScript_OnUnityAdsDidStart_mC4DDD2C1DEB64085E8D0E5E9E748B83FC6DA2B4F,

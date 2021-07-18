@@ -488,11 +488,11 @@ static const Il2CppTokenRangePair s_rgctxIndices[3] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[6] = 
 {
-	{ (Il2CppRGCTXDataType)3, 5492 },
+	{ (Il2CppRGCTXDataType)3, 5486 },
 	{ (Il2CppRGCTXDataType)1, 16 },
-	{ (Il2CppRGCTXDataType)3, 5500 },
-	{ (Il2CppRGCTXDataType)3, 5498 },
-	{ (Il2CppRGCTXDataType)3, 6723 },
+	{ (Il2CppRGCTXDataType)3, 5494 },
+	{ (Il2CppRGCTXDataType)3, 5492 },
+	{ (Il2CppRGCTXDataType)3, 6717 },
 	{ (Il2CppRGCTXDataType)2, 17 },
 };
 extern const CustomAttributesCacheGenerator g_GoogleMobileAds_Placement_AttributeGenerators[];

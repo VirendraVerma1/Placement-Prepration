@@ -37,6 +37,8 @@ public class saveload : MonoBehaviour
     public static string selectedexperience = "";
     public static string selectedLocations = "";
 
+    public static int applyCount = 0;
+
     public static string accountID = " ";
     public static string playerName = " ";
     
@@ -56,7 +58,8 @@ public class saveload : MonoBehaviour
         data.AllSkills = allSkills;
         data.SelectedExperience = selectedexperience;
         data.SelectedLocations = selectedLocations;
-        
+        data.ApplyCount = applyCount;
+
         data.TotalTime=totalTime;
         data.Correct=correct;
         data.Wrong=wrong;
@@ -83,6 +86,7 @@ public class saveload : MonoBehaviour
             allSkills = data.AllSkills;
             selectedexperience = data.SelectedExperience;
             selectedLocations=data.SelectedLocations;
+            applyCount = data.ApplyCount;
             
             totalTime=data.TotalTime;
             correct=data.Correct;
@@ -148,6 +152,7 @@ class Notebook_Data
     public string AllSkills;
     public string SelectedExperience;
     public string SelectedLocations;
+    public int ApplyCount;
 
     public int TotalTime;
     public int Correct;

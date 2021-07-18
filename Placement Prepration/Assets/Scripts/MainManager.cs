@@ -147,6 +147,9 @@ public class MainManager : MonoBehaviour
         form1.AddField("wrong", saveload.wrong);
         form1.AddField("revision", saveload.revision);
         form1.AddField("ads", saveload.ads);
+        form1.AddField("skills", saveload.allSkills);
+        form1.AddField("location", saveload.selectedLocations);
+        form1.AddField("apply", saveload.applyCount);
         WWW www = new WWW(saveload.ServerLink + saveload.UpdateStats, form1);
         yield return www;
         
@@ -174,7 +177,7 @@ public class MainManager : MonoBehaviour
 
     IEnumerator GetAdsFreqValue()
     {
-        defaultValue=120;
+        defaultValue=500;
        WWW www = new WWW(saveload.ServerLink + saveload.AdsFreq);
         yield return www;
         if(www.text!="")
@@ -205,16 +208,15 @@ public class MainManager : MonoBehaviour
 
     #region notification manager
 
-    public Sprite appIcon;
     void SetNotification()
     {
         Assets.SimpleAndroidNotifications.NotificationManager.CancelAll();//21,600
         var notificationParams = new Assets.SimpleAndroidNotifications.NotificationParams
         {
             Id = UnityEngine.Random.Range(0, int.MaxValue),
-            Delay = TimeSpan.FromSeconds(20),
-            Title = "Placement Prepration",
-            Message = "More jobs has been updated",
+            Delay = TimeSpan.FromSeconds(21600),
+            Title = "Apply for jobs",
+            Message = "More job offers has been updated",
             Ticker = "Ticker",
             Sound = true,
             Vibrate = true,

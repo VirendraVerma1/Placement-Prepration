@@ -17,15 +17,15 @@ public class AdScript : MonoBehaviour, IUnityAdsListener
     int googleAdLoopTurn = 1;
 
     //---unity ads variables
-    string gameId = "4063783";
+    string gameId = "4222485";
     string mySurfacingId = "rewardedVideo";
     public string surfacingId = "banner";
-    bool testMode = true;
+    bool testMode = false;
 
     //----google admob variable
     string AppId = "ca-app-pub-4773340848320054~8618294187";
     string RewardAdd = "ca-app-pub-3940256099942544/5224354917";//"ca-app-pub-3940256099942544/5224354917";
-    string interstitialAdd = "ca-app-pub-3940256099942544/1033173712";//"ca-app-pub-4773340848320054/5992130841";
+    string interstitialAdd = "ca-app-pub-4773340848320054/5992130841";//"ca-app-pub-4773340848320054/5992130841";
 
     public static AdScript Instance { get; private set; } // static singleton
 
@@ -484,7 +484,7 @@ public class AdScript : MonoBehaviour, IUnityAdsListener
     {
 
         #if UNITY_ANDROID
-                string adUnitId = "ca-app-pub-3940256099942544/6300978111";
+                string adUnitId = "ca-app-pub-4773340848320054/1533226603";
         #elif UNITY_IPHONE
                     string adUnitId = "ca-app-pub-3940256099942544/2934735716";
         #else

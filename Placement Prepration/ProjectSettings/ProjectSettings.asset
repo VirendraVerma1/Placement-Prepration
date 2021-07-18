@@ -239,7 +239,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: D:/Extra/Extra/New folder/CISCEfiles/lib/Keystores/PlacementPrepration/user.keystore
+  AndroidKeystoreName: D:/Programs/GameDevelopments/KreaSaar Production/Keystores/PlacementPrepration/user.keystore
   AndroidKeyaliasName: placement prepration
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0

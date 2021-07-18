@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class MainManager : MonoBehaviour
@@ -19,6 +20,7 @@ public class MainManager : MonoBehaviour
         GetAdsFreqValueFromServer();
         ActivatePanel(LogoPannel.name);
         gameObject.GetComponent<JobManager>().LoadAllTheSkillData();
+        SetNotification();
     }
 
     public void ActivatePanel(string panelToBeActivated)
@@ -73,7 +75,7 @@ public class MainManager : MonoBehaviour
 
     IEnumerator CreateAccountToServer()
     {
-        saveload.playerName = "Player" + Random.Range(1111, 99999);
+        saveload.playerName = "Player" + UnityEngine.Random.Range(1111, 99999);
         saveload.Save();
         WWWForm form1 = new WWWForm();
         form1.AddField("name", saveload.playerName);
@@ -197,6 +199,32 @@ public class MainManager : MonoBehaviour
                 FindObjectOfType<AdScript>().ShowIntertesialAdsSwitch();
             }
         }
+    }
+
+    #endregion
+
+    #region notification manager
+
+    public Sprite appIcon;
+    void SetNotification()
+    {
+        Assets.SimpleAndroidNotifications.NotificationManager.CancelAll();//21,600
+        var notificationParams = new Assets.SimpleAndroidNotifications.NotificationParams
+        {
+            Id = UnityEngine.Random.Range(0, int.MaxValue),
+            Delay = TimeSpan.FromSeconds(20),
+            Title = "Placement Prepration",
+            Message = "More jobs has been updated",
+            Ticker = "Ticker",
+            Sound = true,
+            Vibrate = true,
+            Light = true,
+            SmallIcon = Assets.SimpleAndroidNotifications.NotificationIcon.Bell,
+            SmallIconColor = new Color(0, 0.5f, 0),
+            LargeIcon = "app_icon"
+        };
+
+        Assets.SimpleAndroidNotifications.NotificationManager.SendCustom(notificationParams);
     }
 
     #endregion

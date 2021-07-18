@@ -138,7 +138,7 @@ IL2CPP_EXTERN_C_END
 #endif
 
 // <Module>
-struct  U3CModuleU3E_t2A0D8F051F48CD9528C6DD37A399544C6685AC5B 
+struct U3CModuleU3E_t2A0D8F051F48CD9528C6DD37A399544C6685AC5B 
 {
 public:
 
@@ -150,7 +150,7 @@ public:
 
 
 // System.Collections.Generic.Dictionary`2<System.String,System.String>
-struct  Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5  : public RuntimeObject
+struct Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5  : public RuntimeObject
 {
 public:
 	// System.Int32[] System.Collections.Generic.Dictionary`2::buckets
@@ -264,7 +264,7 @@ public:
 
 
 // System.Collections.Generic.HashSet`1<System.String>
-struct  HashSet_1_t45F75268054D01D9E70EB33D7F6D2FA609DB9229  : public RuntimeObject
+struct HashSet_1_t45F75268054D01D9E70EB33D7F6D2FA609DB9229  : public RuntimeObject
 {
 public:
 	// System.Int32[] System.Collections.Generic.HashSet`1::_buckets
@@ -356,7 +356,7 @@ public:
 
 
 // System.Collections.Generic.List`1<GoogleMobileAds.Api.Mediation.MediationExtras>
-struct  List_1_t50C0B8B75CFA60A3BC928889704474AE375F3DA2  : public RuntimeObject
+struct List_1_t50C0B8B75CFA60A3BC928889704474AE375F3DA2  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -423,7 +423,7 @@ public:
 
 
 // System.Collections.Generic.List`1<System.String>
-struct  List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3  : public RuntimeObject
+struct List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -494,7 +494,7 @@ struct Il2CppArrayBounds;
 
 
 // System.EventArgs
-struct  EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA  : public RuntimeObject
+struct EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA  : public RuntimeObject
 {
 public:
 
@@ -520,7 +520,7 @@ public:
 
 
 // GoogleMobileAds.Api.MaxAdContentRating
-struct  MaxAdContentRating_t97B6C977E2DF25EE0930E67FF6023691F9B48CC7  : public RuntimeObject
+struct MaxAdContentRating_t97B6C977E2DF25EE0930E67FF6023691F9B48CC7  : public RuntimeObject
 {
 public:
 	// System.String GoogleMobileAds.Api.MaxAdContentRating::<Value>k__BackingField
@@ -539,7 +539,7 @@ public:
 
 
 // GoogleMobileAds.Api.Mediation.MediationExtras
-struct  MediationExtras_t1EE0BE1EFD1D7074DEA573F2637A183382E14AD7  : public RuntimeObject
+struct MediationExtras_t1EE0BE1EFD1D7074DEA573F2637A183382E14AD7  : public RuntimeObject
 {
 public:
 	// System.Collections.Generic.Dictionary`2<System.String,System.String> GoogleMobileAds.Api.Mediation.MediationExtras::<Extras>k__BackingField
@@ -558,7 +558,7 @@ public:
 
 
 // System.Reflection.MemberInfo
-struct  MemberInfo_t  : public RuntimeObject
+struct MemberInfo_t  : public RuntimeObject
 {
 public:
 
@@ -567,7 +567,7 @@ public:
 
 
 // GoogleMobileAds.Api.ServerSideVerificationOptions
-struct  ServerSideVerificationOptions_t6E45A76963A37FA5C1F37C375CB017B76A1A8CD0  : public RuntimeObject
+struct ServerSideVerificationOptions_t6E45A76963A37FA5C1F37C375CB017B76A1A8CD0  : public RuntimeObject
 {
 public:
 	// System.String GoogleMobileAds.Api.ServerSideVerificationOptions::<UserId>k__BackingField
@@ -597,7 +597,7 @@ public:
 
 
 // System.String
-struct  String_t  : public RuntimeObject
+struct String_t  : public RuntimeObject
 {
 public:
 	// System.Int32 System.String::m_stringLength
@@ -642,7 +642,7 @@ public:
 
 
 // System.ValueType
-struct  ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
 {
 public:
 
@@ -659,7 +659,7 @@ struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_com
 };
 
 // System.Nullable`1<System.Boolean>
-struct  Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3 
+struct Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3 
 {
 public:
 	// T System.Nullable`1::value
@@ -687,7 +687,7 @@ public:
 
 
 // GoogleMobileAds.Api.AdErrorEventArgs
-struct  AdErrorEventArgs_t7BE23EFD9ED89D56679A86F126120BFFB36EFC81  : public EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA
+struct AdErrorEventArgs_t7BE23EFD9ED89D56679A86F126120BFFB36EFC81  : public EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA
 {
 public:
 	// System.String GoogleMobileAds.Api.AdErrorEventArgs::<Message>k__BackingField
@@ -706,7 +706,7 @@ public:
 
 
 // GoogleMobileAds.Api.AdFailedToLoadEventArgs
-struct  AdFailedToLoadEventArgs_t97F2528C8232E0F8581A80A6959EDB1539333814  : public EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA
+struct AdFailedToLoadEventArgs_t97F2528C8232E0F8581A80A6959EDB1539333814  : public EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA
 {
 public:
 	// System.String GoogleMobileAds.Api.AdFailedToLoadEventArgs::<Message>k__BackingField
@@ -725,7 +725,7 @@ public:
 
 
 // GoogleMobileAds.Api.AdValueEventArgs
-struct  AdValueEventArgs_tE77B2BAE1A257737CB31A54D8A50CB46675F31A3  : public EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA
+struct AdValueEventArgs_tE77B2BAE1A257737CB31A54D8A50CB46675F31A3  : public EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA
 {
 public:
 	// GoogleMobileAds.Api.AdValue GoogleMobileAds.Api.AdValueEventArgs::<AdValue>k__BackingField
@@ -744,7 +744,7 @@ public:
 
 
 // System.Boolean
-struct  Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
+struct Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
 {
 public:
 	// System.Boolean System.Boolean::m_value
@@ -790,7 +790,7 @@ public:
 
 
 // System.DateTime
-struct  DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 
+struct DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 
 {
 public:
 	// System.UInt64 System.DateTime::dateData
@@ -856,7 +856,7 @@ public:
 
 
 // System.Double
-struct  Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181 
+struct Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181 
 {
 public:
 	// System.Double System.Double::m_value
@@ -890,7 +890,7 @@ public:
 
 
 // System.Enum
-struct  Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
+struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
 {
 public:
 
@@ -924,7 +924,7 @@ struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_marshaled_com
 };
 
 // System.Int32
-struct  Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046 
+struct Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046 
 {
 public:
 	// System.Int32 System.Int32::m_value
@@ -942,7 +942,7 @@ public:
 
 
 // System.Int64
-struct  Int64_t378EE0D608BD3107E77238E85F30D2BBD46981F3 
+struct Int64_t378EE0D608BD3107E77238E85F30D2BBD46981F3 
 {
 public:
 	// System.Int64 System.Int64::m_value
@@ -960,7 +960,7 @@ public:
 
 
 // System.IntPtr
-struct  IntPtr_t 
+struct IntPtr_t 
 {
 public:
 	// System.Void* System.IntPtr::m_value
@@ -994,7 +994,7 @@ public:
 
 
 // GoogleMobileAds.Api.Reward
-struct  Reward_tCAE9570117A696C08D451C1CAAC4C6AAB71610CF  : public EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA
+struct Reward_tCAE9570117A696C08D451C1CAAC4C6AAB71610CF  : public EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA
 {
 public:
 	// System.String GoogleMobileAds.Api.Reward::<Type>k__BackingField
@@ -1023,7 +1023,7 @@ public:
 
 
 // System.Void
-struct  Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
+struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
 {
 public:
 	union
@@ -1039,7 +1039,7 @@ public:
 
 
 // System.Nullable`1<System.DateTime>
-struct  Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D 
+struct Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D 
 {
 public:
 	// T System.Nullable`1::value
@@ -1067,7 +1067,7 @@ public:
 
 
 // GoogleMobileAds.Api.AdPosition
-struct  AdPosition_tF317317EE617B2B7B0C5536A54396E1AE5BFA9FE 
+struct AdPosition_tF317317EE617B2B7B0C5536A54396E1AE5BFA9FE 
 {
 public:
 	// System.Int32 GoogleMobileAds.Api.AdPosition::value__
@@ -1085,7 +1085,7 @@ public:
 
 
 // System.Reflection.BindingFlags
-struct  BindingFlags_tAAAB07D9AC588F0D55D844E51D7035E96DF94733 
+struct BindingFlags_tAAAB07D9AC588F0D55D844E51D7035E96DF94733 
 {
 public:
 	// System.Int32 System.Reflection.BindingFlags::value__
@@ -1103,7 +1103,7 @@ public:
 
 
 // GoogleMobileAds.Api.Gender
-struct  Gender_tB3AB5E04BD5E09A5C1E709CF838BB734ED12D517 
+struct Gender_tB3AB5E04BD5E09A5C1E709CF838BB734ED12D517 
 {
 public:
 	// System.Int32 GoogleMobileAds.Api.Gender::value__
@@ -1121,7 +1121,7 @@ public:
 
 
 // GoogleMobileAds.Api.NativeAdType
-struct  NativeAdType_t3E56777FFD8666BF09AD207DA63BCD4FE03B0BEF 
+struct NativeAdType_t3E56777FFD8666BF09AD207DA63BCD4FE03B0BEF 
 {
 public:
 	// System.Int32 GoogleMobileAds.Api.NativeAdType::value__
@@ -1139,7 +1139,7 @@ public:
 
 
 // GoogleMobileAds.Api.Orientation
-struct  Orientation_tAA32985C1371FF119E753379A6A751BE28F2225B 
+struct Orientation_tAA32985C1371FF119E753379A6A751BE28F2225B 
 {
 public:
 	// System.Int32 GoogleMobileAds.Api.Orientation::value__
@@ -1157,7 +1157,7 @@ public:
 
 
 // System.RuntimeTypeHandle
-struct  RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9 
+struct RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9 
 {
 public:
 	// System.IntPtr System.RuntimeTypeHandle::value
@@ -1175,7 +1175,7 @@ public:
 
 
 // GoogleMobileAds.Api.TagForChildDirectedTreatment
-struct  TagForChildDirectedTreatment_t607900808310018F0F7A2699E48774D8D9AD65BF 
+struct TagForChildDirectedTreatment_t607900808310018F0F7A2699E48774D8D9AD65BF 
 {
 public:
 	// System.Int32 GoogleMobileAds.Api.TagForChildDirectedTreatment::value__
@@ -1193,7 +1193,7 @@ public:
 
 
 // GoogleMobileAds.Api.TagForUnderAgeOfConsent
-struct  TagForUnderAgeOfConsent_t639288BF86B23AEAB494D3045A9A224B03E61E37 
+struct TagForUnderAgeOfConsent_t639288BF86B23AEAB494D3045A9A224B03E61E37 
 {
 public:
 	// System.Int32 GoogleMobileAds.Api.TagForUnderAgeOfConsent::value__
@@ -1211,7 +1211,7 @@ public:
 
 
 // GoogleMobileAds.Api.AdSize/Type
-struct  Type_tE65D664BFE046EF99C5F84B2051D976C661A0B2D 
+struct Type_tE65D664BFE046EF99C5F84B2051D976C661A0B2D 
 {
 public:
 	// System.Int32 GoogleMobileAds.Api.AdSize/Type::value__
@@ -1229,7 +1229,7 @@ public:
 
 
 // GoogleMobileAds.Api.AdValue/PrecisionType
-struct  PrecisionType_tD9BFF783627461FD9D821F247ED9A5E16F70DE94 
+struct PrecisionType_tD9BFF783627461FD9D821F247ED9A5E16F70DE94 
 {
 public:
 	// System.Int32 GoogleMobileAds.Api.AdValue/PrecisionType::value__
@@ -1247,7 +1247,7 @@ public:
 
 
 // System.Nullable`1<GoogleMobileAds.Api.Gender>
-struct  Nullable_1_t25955BA0860068DD4A24D5F1F6D0DA7AFF729289 
+struct Nullable_1_t25955BA0860068DD4A24D5F1F6D0DA7AFF729289 
 {
 public:
 	// T System.Nullable`1::value
@@ -1275,7 +1275,7 @@ public:
 
 
 // System.Nullable`1<GoogleMobileAds.Api.TagForChildDirectedTreatment>
-struct  Nullable_1_t7880D2707BE1F30FCD9277BFE085E237050F6C2C 
+struct Nullable_1_t7880D2707BE1F30FCD9277BFE085E237050F6C2C 
 {
 public:
 	// T System.Nullable`1::value
@@ -1303,7 +1303,7 @@ public:
 
 
 // System.Nullable`1<GoogleMobileAds.Api.TagForUnderAgeOfConsent>
-struct  Nullable_1_t817784E58F22F201F73F40A25C68C0FFEC6621DF 
+struct Nullable_1_t817784E58F22F201F73F40A25C68C0FFEC6621DF 
 {
 public:
 	// T System.Nullable`1::value
@@ -1331,7 +1331,7 @@ public:
 
 
 // GoogleMobileAds.Api.AdSize
-struct  AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D  : public RuntimeObject
+struct AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D  : public RuntimeObject
 {
 public:
 	// GoogleMobileAds.Api.AdSize/Type GoogleMobileAds.Api.AdSize::type
@@ -1450,7 +1450,7 @@ public:
 
 
 // GoogleMobileAds.Api.AdValue
-struct  AdValue_t9B80AF56C00D2AC5F91A9D7E333E54CF4FCA686D  : public RuntimeObject
+struct AdValue_t9B80AF56C00D2AC5F91A9D7E333E54CF4FCA686D  : public RuntimeObject
 {
 public:
 	// GoogleMobileAds.Api.AdValue/PrecisionType GoogleMobileAds.Api.AdValue::<Precision>k__BackingField
@@ -1489,7 +1489,7 @@ public:
 
 
 // System.Type
-struct  Type_t  : public MemberInfo_t
+struct Type_t  : public MemberInfo_t
 {
 public:
 	// System.RuntimeTypeHandle System.Type::_impl
@@ -1589,7 +1589,7 @@ public:
 
 
 // GoogleMobileAds.Api.AdRequest
-struct  AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88  : public RuntimeObject
+struct AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88  : public RuntimeObject
 {
 public:
 	// System.Collections.Generic.List`1<System.String> GoogleMobileAds.Api.AdRequest::<TestDevices>k__BackingField
@@ -1671,7 +1671,7 @@ public:
 
 
 // GoogleMobileAds.Api.RequestConfiguration
-struct  RequestConfiguration_t165AE4D8CF388005D828CE65A91942600B9FFB47  : public RuntimeObject
+struct RequestConfiguration_t165AE4D8CF388005D828CE65A91942600B9FFB47  : public RuntimeObject
 {
 public:
 	// GoogleMobileAds.Api.MaxAdContentRating GoogleMobileAds.Api.RequestConfiguration::<MaxAdContentRating>k__BackingField
@@ -1721,7 +1721,7 @@ public:
 
 
 // GoogleMobileAds.Api.AdRequest/Builder
-struct  Builder_tDEC3EA9C2617E6B676AF0ABED231D4FDB2B2434C  : public RuntimeObject
+struct Builder_tDEC3EA9C2617E6B676AF0ABED231D4FDB2B2434C  : public RuntimeObject
 {
 public:
 	// System.Collections.Generic.List`1<System.String> GoogleMobileAds.Api.AdRequest/Builder::<TestDevices>k__BackingField
@@ -1803,7 +1803,7 @@ public:
 
 
 // GoogleMobileAds.Api.RequestConfiguration/Builder
-struct  Builder_t37DABB69A423FDC292759A5776581C42E90A1E9A  : public RuntimeObject
+struct Builder_t37DABB69A423FDC292759A5776581C42E90A1E9A  : public RuntimeObject
 {
 public:
 	// GoogleMobileAds.Api.MaxAdContentRating GoogleMobileAds.Api.RequestConfiguration/Builder::<MaxAdContentRating>k__BackingField

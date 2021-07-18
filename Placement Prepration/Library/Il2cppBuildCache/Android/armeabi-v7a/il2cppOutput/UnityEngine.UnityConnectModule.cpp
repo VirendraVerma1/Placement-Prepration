@@ -27,7 +27,7 @@ IL2CPP_EXTERN_C_END
 #endif
 
 // <Module>
-struct  U3CModuleU3E_tCFF5D2D27437B7CF9C2BD6BCBABFA2AA2AD9E163 
+struct U3CModuleU3E_tCFF5D2D27437B7CF9C2BD6BCBABFA2AA2AD9E163 
 {
 public:
 
@@ -43,7 +43,7 @@ struct Il2CppArrayBounds;
 
 
 // UnityEngine.Advertisements.UnityAdsSettings
-struct  UnityAdsSettings_t8981CDFAD06AC0BCC154F74A898E9569F57ACA43  : public RuntimeObject
+struct UnityAdsSettings_t8981CDFAD06AC0BCC154F74A898E9569F57ACA43  : public RuntimeObject
 {
 public:
 
@@ -52,7 +52,7 @@ public:
 
 
 // System.ValueType
-struct  ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
 {
 public:
 
@@ -69,7 +69,7 @@ struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_com
 };
 
 // System.Boolean
-struct  Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
+struct Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
 {
 public:
 	// System.Boolean System.Boolean::m_value

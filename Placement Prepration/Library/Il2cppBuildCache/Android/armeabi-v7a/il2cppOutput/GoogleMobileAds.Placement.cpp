@@ -425,7 +425,7 @@ IL2CPP_EXTERN_C_END
 #endif
 
 // <Module>
-struct  U3CModuleU3E_tA9A22F35B9D8DD9E79E806AB4E27DE42BB62703F 
+struct U3CModuleU3E_tA9A22F35B9D8DD9E79E806AB4E27DE42BB62703F 
 {
 public:
 
@@ -437,7 +437,7 @@ public:
 
 
 // System.Collections.Generic.Dictionary`2<System.String,GoogleMobileAds.Placement.PoolEntry>
-struct  Dictionary_2_t8EA7ECA7DA8F431F64D41640EF0F1BEAA281DC68  : public RuntimeObject
+struct Dictionary_2_t8EA7ECA7DA8F431F64D41640EF0F1BEAA281DC68  : public RuntimeObject
 {
 public:
 	// System.Int32[] System.Collections.Generic.Dictionary`2::buckets
@@ -551,7 +551,7 @@ public:
 
 
 // GoogleMobileAds.Placement.AdGameObjectPool
-struct  AdGameObjectPool_tAB721145459C1843B36343B2A73085F6D5521D3E  : public RuntimeObject
+struct AdGameObjectPool_tAB721145459C1843B36343B2A73085F6D5521D3E  : public RuntimeObject
 {
 public:
 	// System.Collections.Generic.Dictionary`2<System.String,GoogleMobileAds.Placement.PoolEntry> GoogleMobileAds.Placement.AdGameObjectPool::objects
@@ -591,7 +591,7 @@ struct Il2CppArrayBounds;
 
 
 // GoogleMobileAds.Api.BannerView
-struct  BannerView_tF8E40603F2B65ED257DB1A29BE3FE190AD13C737  : public RuntimeObject
+struct BannerView_tF8E40603F2B65ED257DB1A29BE3FE190AD13C737  : public RuntimeObject
 {
 public:
 	// GoogleMobileAds.Common.IBannerClient GoogleMobileAds.Api.BannerView::_PdbQgPRNu3avbiwZinBxFNm0PTg
@@ -676,7 +676,7 @@ public:
 
 
 // System.EventArgs
-struct  EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA  : public RuntimeObject
+struct EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA  : public RuntimeObject
 {
 public:
 
@@ -702,7 +702,7 @@ public:
 
 
 // GoogleMobileAds.Api.InitializationStatus
-struct  InitializationStatus_t25099F37FD201500FCFEDBA176E3CE410E21DB89  : public RuntimeObject
+struct InitializationStatus_t25099F37FD201500FCFEDBA176E3CE410E21DB89  : public RuntimeObject
 {
 public:
 	// GoogleMobileAds.Common.IInitializationStatusClient GoogleMobileAds.Api.InitializationStatus::_PdbQgPRNu3avbiwZinBxFNm0PTg
@@ -721,7 +721,7 @@ public:
 
 
 // GoogleMobileAds.Api.InterstitialAd
-struct  InterstitialAd_t9ED58965C70F2CF9E66F92EAE19149A1A237E8C9  : public RuntimeObject
+struct InterstitialAd_t9ED58965C70F2CF9E66F92EAE19149A1A237E8C9  : public RuntimeObject
 {
 public:
 	// GoogleMobileAds.Common.IInterstitialClient GoogleMobileAds.Api.InterstitialAd::_PdbQgPRNu3avbiwZinBxFNm0PTg
@@ -806,7 +806,7 @@ public:
 
 
 // System.Reflection.MemberInfo
-struct  MemberInfo_t  : public RuntimeObject
+struct MemberInfo_t  : public RuntimeObject
 {
 public:
 
@@ -815,7 +815,7 @@ public:
 
 
 // GoogleMobileAds.Api.MobileAdsExtensions
-struct  MobileAdsExtensions_tDBBA3979D0A9563012227DB36662956A763E76C5  : public RuntimeObject
+struct MobileAdsExtensions_tDBBA3979D0A9563012227DB36662956A763E76C5  : public RuntimeObject
 {
 public:
 
@@ -824,7 +824,7 @@ public:
 
 
 // GoogleMobileAds.Placement.PoolEntry
-struct  PoolEntry_t1048AF1B84AA46AA3AC59896D1AC8BD94E808212  : public RuntimeObject
+struct PoolEntry_t1048AF1B84AA46AA3AC59896D1AC8BD94E808212  : public RuntimeObject
 {
 public:
 	// UnityEngine.GameObject GoogleMobileAds.Placement.PoolEntry::gameObject
@@ -864,7 +864,7 @@ public:
 
 
 // GoogleMobileAds.Api.RewardedAd
-struct  RewardedAd_t8FEFB35C9DA5ADAB7F31286AEF45A40A314F3966  : public RuntimeObject
+struct RewardedAd_t8FEFB35C9DA5ADAB7F31286AEF45A40A314F3966  : public RuntimeObject
 {
 public:
 	// GoogleMobileAds.Common.IRewardedAdClient GoogleMobileAds.Api.RewardedAd::_PdbQgPRNu3avbiwZinBxFNm0PTg
@@ -960,7 +960,7 @@ public:
 
 
 // GoogleMobileAds.Api.RewardedInterstitialAd
-struct  RewardedInterstitialAd_t13AD29B4C81D2D266AFE57560B7E84CA080B5DBC  : public RuntimeObject
+struct RewardedInterstitialAd_t13AD29B4C81D2D266AFE57560B7E84CA080B5DBC  : public RuntimeObject
 {
 public:
 	// GoogleMobileAds.Common.IRewardedInterstitialAdClient GoogleMobileAds.Api.RewardedInterstitialAd::_32MEWULUdpDENbCULMUVs8eKfkg
@@ -1040,7 +1040,7 @@ public:
 
 
 // System.String
-struct  String_t  : public RuntimeObject
+struct String_t  : public RuntimeObject
 {
 public:
 	// System.Int32 System.String::m_stringLength
@@ -1085,7 +1085,7 @@ public:
 
 
 // UnityEngine.Events.UnityEventBase
-struct  UnityEventBase_tBB43047292084BA63C5CBB1A379A8BB88611C6FB  : public RuntimeObject
+struct UnityEventBase_tBB43047292084BA63C5CBB1A379A8BB88611C6FB  : public RuntimeObject
 {
 public:
 	// UnityEngine.Events.InvokableCallList UnityEngine.Events.UnityEventBase::m_Calls
@@ -1125,7 +1125,7 @@ public:
 
 
 // System.ValueType
-struct  ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
 {
 public:
 
@@ -1142,7 +1142,7 @@ struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_com
 };
 
 // GoogleMobileAds.Placement.BannerAdGameObject/<AddCallbacks>c__AnonStorey0
-struct  U3CAddCallbacksU3Ec__AnonStorey0_t12592703CA651C9615391B87753E413783354AAD  : public RuntimeObject
+struct U3CAddCallbacksU3Ec__AnonStorey0_t12592703CA651C9615391B87753E413783354AAD  : public RuntimeObject
 {
 public:
 	// GoogleMobileAds.Api.AdFailedToLoadEventArgs GoogleMobileAds.Placement.BannerAdGameObject/<AddCallbacks>c__AnonStorey0::args
@@ -1172,7 +1172,7 @@ public:
 
 
 // GoogleMobileAds.Placement.InterstitialAdGameObject/<AddCallbacks>c__AnonStorey0
-struct  U3CAddCallbacksU3Ec__AnonStorey0_t081A644FA198569137DFA4559F877929AF72E727  : public RuntimeObject
+struct U3CAddCallbacksU3Ec__AnonStorey0_t081A644FA198569137DFA4559F877929AF72E727  : public RuntimeObject
 {
 public:
 	// GoogleMobileAds.Api.AdFailedToLoadEventArgs GoogleMobileAds.Placement.InterstitialAdGameObject/<AddCallbacks>c__AnonStorey0::args
@@ -1202,7 +1202,7 @@ public:
 
 
 // GoogleMobileAds.Placement.RewardedAdGameObject/<AddCallbacks>c__AnonStorey0
-struct  U3CAddCallbacksU3Ec__AnonStorey0_t38AFA23C807DA5AEA56ED96119D7BF2697825B2B  : public RuntimeObject
+struct U3CAddCallbacksU3Ec__AnonStorey0_t38AFA23C807DA5AEA56ED96119D7BF2697825B2B  : public RuntimeObject
 {
 public:
 	// GoogleMobileAds.Api.AdErrorEventArgs GoogleMobileAds.Placement.RewardedAdGameObject/<AddCallbacks>c__AnonStorey0::args
@@ -1232,7 +1232,7 @@ public:
 
 
 // GoogleMobileAds.Placement.RewardedAdGameObject/<AddCallbacks>c__AnonStorey1
-struct  U3CAddCallbacksU3Ec__AnonStorey1_t0B5E5A4CB69D9EE597FF77EB35C56A4E1A2C4058  : public RuntimeObject
+struct U3CAddCallbacksU3Ec__AnonStorey1_t0B5E5A4CB69D9EE597FF77EB35C56A4E1A2C4058  : public RuntimeObject
 {
 public:
 	// GoogleMobileAds.Api.Reward GoogleMobileAds.Placement.RewardedAdGameObject/<AddCallbacks>c__AnonStorey1::args
@@ -1262,7 +1262,7 @@ public:
 
 
 // GoogleMobileAds.Placement.RewardedInterstitialAdGameObject/<AddCallbacks>c__AnonStorey2
-struct  U3CAddCallbacksU3Ec__AnonStorey2_tCCBC250F8408E7E16DB79E0D39B497CF72D09C07  : public RuntimeObject
+struct U3CAddCallbacksU3Ec__AnonStorey2_tCCBC250F8408E7E16DB79E0D39B497CF72D09C07  : public RuntimeObject
 {
 public:
 	// GoogleMobileAds.Api.AdErrorEventArgs GoogleMobileAds.Placement.RewardedInterstitialAdGameObject/<AddCallbacks>c__AnonStorey2::args
@@ -1292,7 +1292,7 @@ public:
 
 
 // GoogleMobileAds.Placement.RewardedInterstitialAdGameObject/<LoadAd>c__AnonStorey0
-struct  U3CLoadAdU3Ec__AnonStorey0_t4725D5E6C4DE9B6A9B5BCABC842E783CBF08B55E  : public RuntimeObject
+struct U3CLoadAdU3Ec__AnonStorey0_t4725D5E6C4DE9B6A9B5BCABC842E783CBF08B55E  : public RuntimeObject
 {
 public:
 	// System.String GoogleMobileAds.Placement.RewardedInterstitialAdGameObject/<LoadAd>c__AnonStorey0::error
@@ -1322,7 +1322,7 @@ public:
 
 
 // GoogleMobileAds.Placement.RewardedInterstitialAdGameObject/<ShowIfLoaded>c__AnonStorey1
-struct  U3CShowIfLoadedU3Ec__AnonStorey1_t6F6317F02C7C2C90F87699C4CD015289FD60CD0F  : public RuntimeObject
+struct U3CShowIfLoadedU3Ec__AnonStorey1_t6F6317F02C7C2C90F87699C4CD015289FD60CD0F  : public RuntimeObject
 {
 public:
 	// GoogleMobileAds.Api.Reward GoogleMobileAds.Placement.RewardedInterstitialAdGameObject/<ShowIfLoaded>c__AnonStorey1::reward
@@ -1352,7 +1352,7 @@ public:
 
 
 // System.Nullable`1<System.Boolean>
-struct  Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3 
+struct Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3 
 {
 public:
 	// T System.Nullable`1::value
@@ -1380,7 +1380,7 @@ public:
 
 
 // UnityEngine.Events.UnityEvent`1<GoogleMobileAds.Api.Reward>
-struct  UnityEvent_1_t57729AC9C63236D632215A051CBE27F805916414  : public UnityEventBase_tBB43047292084BA63C5CBB1A379A8BB88611C6FB
+struct UnityEvent_1_t57729AC9C63236D632215A051CBE27F805916414  : public UnityEventBase_tBB43047292084BA63C5CBB1A379A8BB88611C6FB
 {
 public:
 	// System.Object[] UnityEngine.Events.UnityEvent`1::m_InvokeArray
@@ -1399,7 +1399,7 @@ public:
 
 
 // UnityEngine.Events.UnityEvent`1<System.String>
-struct  UnityEvent_1_t208A952325F66BFCB1EDEECEFEF5F1C7A16298A0  : public UnityEventBase_tBB43047292084BA63C5CBB1A379A8BB88611C6FB
+struct UnityEvent_1_t208A952325F66BFCB1EDEECEFEF5F1C7A16298A0  : public UnityEventBase_tBB43047292084BA63C5CBB1A379A8BB88611C6FB
 {
 public:
 	// System.Object[] UnityEngine.Events.UnityEvent`1::m_InvokeArray
@@ -1418,7 +1418,7 @@ public:
 
 
 // GoogleMobileAds.Api.AdErrorEventArgs
-struct  AdErrorEventArgs_t7BE23EFD9ED89D56679A86F126120BFFB36EFC81  : public EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA
+struct AdErrorEventArgs_t7BE23EFD9ED89D56679A86F126120BFFB36EFC81  : public EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA
 {
 public:
 	// System.String GoogleMobileAds.Api.AdErrorEventArgs::<Message>k__BackingField
@@ -1437,7 +1437,7 @@ public:
 
 
 // GoogleMobileAds.Api.AdFailedToLoadEventArgs
-struct  AdFailedToLoadEventArgs_t97F2528C8232E0F8581A80A6959EDB1539333814  : public EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA
+struct AdFailedToLoadEventArgs_t97F2528C8232E0F8581A80A6959EDB1539333814  : public EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA
 {
 public:
 	// System.String GoogleMobileAds.Api.AdFailedToLoadEventArgs::<Message>k__BackingField
@@ -1456,7 +1456,7 @@ public:
 
 
 // System.Boolean
-struct  Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
+struct Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
 {
 public:
 	// System.Boolean System.Boolean::m_value
@@ -1502,7 +1502,7 @@ public:
 
 
 // System.Threading.CancellationToken
-struct  CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD 
+struct CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD 
 {
 public:
 	// System.Threading.CancellationTokenSource System.Threading.CancellationToken::m_source
@@ -1548,7 +1548,7 @@ struct CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD_marshaled_com
 };
 
 // UnityEngine.Color
-struct  Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659 
+struct Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659 
 {
 public:
 	// System.Single UnityEngine.Color::r
@@ -1596,7 +1596,7 @@ public:
 
 
 // System.DateTime
-struct  DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 
+struct DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 
 {
 public:
 	// System.UInt64 System.DateTime::dateData
@@ -1662,7 +1662,7 @@ public:
 
 
 // System.Enum
-struct  Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
+struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
 {
 public:
 
@@ -1696,7 +1696,7 @@ struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_marshaled_com
 };
 
 // System.Int32
-struct  Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046 
+struct Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046 
 {
 public:
 	// System.Int32 System.Int32::m_value
@@ -1714,7 +1714,7 @@ public:
 
 
 // System.IntPtr
-struct  IntPtr_t 
+struct IntPtr_t 
 {
 public:
 	// System.Void* System.IntPtr::m_value
@@ -1748,7 +1748,7 @@ public:
 
 
 // GoogleMobileAds.Api.Reward
-struct  Reward_tCAE9570117A696C08D451C1CAAC4C6AAB71610CF  : public EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA
+struct Reward_tCAE9570117A696C08D451C1CAAC4C6AAB71610CF  : public EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA
 {
 public:
 	// System.String GoogleMobileAds.Api.Reward::<Type>k__BackingField
@@ -1777,7 +1777,7 @@ public:
 
 
 // UnityEngine.SceneManagement.Scene
-struct  Scene_t5495AD2FDC587DB2E94D9BDE2B85868BFB9A92EE 
+struct Scene_t5495AD2FDC587DB2E94D9BDE2B85868BFB9A92EE 
 {
 public:
 	// System.Int32 UnityEngine.SceneManagement.Scene::m_Handle
@@ -1795,7 +1795,7 @@ public:
 
 
 // System.Single
-struct  Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E 
+struct Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E 
 {
 public:
 	// System.Single System.Single::m_value
@@ -1813,7 +1813,7 @@ public:
 
 
 // UnityEngine.Events.UnityEvent
-struct  UnityEvent_tA0EA9BC49FD7D5185E7A238EF2E0E6F5D0EE27F4  : public UnityEventBase_tBB43047292084BA63C5CBB1A379A8BB88611C6FB
+struct UnityEvent_tA0EA9BC49FD7D5185E7A238EF2E0E6F5D0EE27F4  : public UnityEventBase_tBB43047292084BA63C5CBB1A379A8BB88611C6FB
 {
 public:
 	// System.Object[] UnityEngine.Events.UnityEvent::m_InvokeArray
@@ -1832,7 +1832,7 @@ public:
 
 
 // UnityEngine.Vector2
-struct  Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 
+struct Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 
 {
 public:
 	// System.Single UnityEngine.Vector2::x
@@ -1946,7 +1946,7 @@ public:
 
 
 // UnityEngine.Vector4
-struct  Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7 
+struct Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7 
 {
 public:
 	// System.Single UnityEngine.Vector4::x
@@ -2040,7 +2040,7 @@ public:
 
 
 // System.Void
-struct  Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
+struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
 {
 public:
 	union
@@ -2056,7 +2056,7 @@ public:
 
 
 // System.Nullable`1<System.DateTime>
-struct  Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D 
+struct Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D 
 {
 public:
 	// T System.Nullable`1::value
@@ -2084,7 +2084,7 @@ public:
 
 
 // GoogleMobileAds.Api.AdErrorEvent
-struct  AdErrorEvent_tA2445CCCBF52E52151945892E3CB54880F1986DE  : public UnityEvent_1_t208A952325F66BFCB1EDEECEFEF5F1C7A16298A0
+struct AdErrorEvent_tA2445CCCBF52E52151945892E3CB54880F1986DE  : public UnityEvent_1_t208A952325F66BFCB1EDEECEFEF5F1C7A16298A0
 {
 public:
 
@@ -2093,7 +2093,7 @@ public:
 
 
 // GoogleMobileAds.Api.AdFailedToLoadEvent
-struct  AdFailedToLoadEvent_tE38FA5743B55D7790EE77B957075275296270418  : public UnityEvent_1_t208A952325F66BFCB1EDEECEFEF5F1C7A16298A0
+struct AdFailedToLoadEvent_tE38FA5743B55D7790EE77B957075275296270418  : public UnityEvent_1_t208A952325F66BFCB1EDEECEFEF5F1C7A16298A0
 {
 public:
 
@@ -2102,7 +2102,7 @@ public:
 
 
 // GoogleMobileAds.Api.AdPosition
-struct  AdPosition_tF317317EE617B2B7B0C5536A54396E1AE5BFA9FE 
+struct AdPosition_tF317317EE617B2B7B0C5536A54396E1AE5BFA9FE 
 {
 public:
 	// System.Int32 GoogleMobileAds.Api.AdPosition::value__
@@ -2120,7 +2120,7 @@ public:
 
 
 // System.Reflection.BindingFlags
-struct  BindingFlags_tAAAB07D9AC588F0D55D844E51D7035E96DF94733 
+struct BindingFlags_tAAAB07D9AC588F0D55D844E51D7035E96DF94733 
 {
 public:
 	// System.Int32 System.Reflection.BindingFlags::value__
@@ -2138,7 +2138,7 @@ public:
 
 
 // System.Delegate
-struct  Delegate_t  : public RuntimeObject
+struct Delegate_t  : public RuntimeObject
 {
 public:
 	// System.IntPtr System.Delegate::method_ptr
@@ -2290,7 +2290,7 @@ struct Delegate_t_marshaled_com
 };
 
 // System.Exception
-struct  Exception_t  : public RuntimeObject
+struct Exception_t  : public RuntimeObject
 {
 public:
 	// System.String System.Exception::_className
@@ -2516,7 +2516,7 @@ struct Exception_t_marshaled_com
 };
 
 // GoogleMobileAds.Api.Gender
-struct  Gender_tB3AB5E04BD5E09A5C1E709CF838BB734ED12D517 
+struct Gender_tB3AB5E04BD5E09A5C1E709CF838BB734ED12D517 
 {
 public:
 	// System.Int32 GoogleMobileAds.Api.Gender::value__
@@ -2534,7 +2534,7 @@ public:
 
 
 // GoogleMobileAds.Common.InitCompleteExecutor
-struct  InitCompleteExecutor_t55301797AD65594C10E3B2CE16F3367082EE2B0D  : public RuntimeObject
+struct InitCompleteExecutor_t55301797AD65594C10E3B2CE16F3367082EE2B0D  : public RuntimeObject
 {
 public:
 	// System.Collections.Generic.List`1<System.Action> GoogleMobileAds.Common.InitCompleteExecutor::_tb8XFgtze53EjMxVCobmBp9L7iP
@@ -2591,7 +2591,7 @@ public:
 
 
 // UnityEngine.Object
-struct  Object_tF2F3778131EFF286AF62B7B013A170F95A91571A  : public RuntimeObject
+struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A  : public RuntimeObject
 {
 public:
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
@@ -2635,7 +2635,7 @@ struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_marshaled_com
 };
 
 // GoogleMobileAds.Api.Orientation
-struct  Orientation_tAA32985C1371FF119E753379A6A751BE28F2225B 
+struct Orientation_tAA32985C1371FF119E753379A6A751BE28F2225B 
 {
 public:
 	// System.Int32 GoogleMobileAds.Api.Orientation::value__
@@ -2653,7 +2653,7 @@ public:
 
 
 // UnityEngine.RuntimePlatform
-struct  RuntimePlatform_tB8798C800FD9810C0FE2B7D2F2A0A3979D239065 
+struct RuntimePlatform_tB8798C800FD9810C0FE2B7D2F2A0A3979D239065 
 {
 public:
 	// System.Int32 UnityEngine.RuntimePlatform::value__
@@ -2671,7 +2671,7 @@ public:
 
 
 // System.RuntimeTypeHandle
-struct  RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9 
+struct RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9 
 {
 public:
 	// System.IntPtr System.RuntimeTypeHandle::value
@@ -2689,7 +2689,7 @@ public:
 
 
 // GoogleMobileAds.Api.UserEarnedRewardEvent
-struct  UserEarnedRewardEvent_t12981D0B66BD36B25AECD96D53B4A1CB943A4E62  : public UnityEvent_1_t57729AC9C63236D632215A051CBE27F805916414
+struct UserEarnedRewardEvent_t12981D0B66BD36B25AECD96D53B4A1CB943A4E62  : public UnityEvent_1_t57729AC9C63236D632215A051CBE27F805916414
 {
 public:
 
@@ -2698,7 +2698,7 @@ public:
 
 
 // GoogleMobileAds.Placement.AdPlacement/AdType
-struct  AdType_tF82A9866AC512410715BC683D1C6D29FA91F6899 
+struct AdType_tF82A9866AC512410715BC683D1C6D29FA91F6899 
 {
 public:
 	// System.Int32 GoogleMobileAds.Placement.AdPlacement/AdType::value__
@@ -2716,7 +2716,7 @@ public:
 
 
 // GoogleMobileAds.Api.AdSize/Type
-struct  Type_tE65D664BFE046EF99C5F84B2051D976C661A0B2D 
+struct Type_tE65D664BFE046EF99C5F84B2051D976C661A0B2D 
 {
 public:
 	// System.Int32 GoogleMobileAds.Api.AdSize/Type::value__
@@ -2734,7 +2734,7 @@ public:
 
 
 // System.Nullable`1<GoogleMobileAds.Api.Gender>
-struct  Nullable_1_t25955BA0860068DD4A24D5F1F6D0DA7AFF729289 
+struct Nullable_1_t25955BA0860068DD4A24D5F1F6D0DA7AFF729289 
 {
 public:
 	// T System.Nullable`1::value
@@ -2762,7 +2762,7 @@ public:
 
 
 // GoogleMobileAds.Placement.AdPlacement
-struct  AdPlacement_t9D21AC609DF1EE69E1826ED2062D9EA54AE368C5  : public RuntimeObject
+struct AdPlacement_t9D21AC609DF1EE69E1826ED2062D9EA54AE368C5  : public RuntimeObject
 {
 public:
 	// System.String GoogleMobileAds.Placement.AdPlacement::placementName
@@ -2833,7 +2833,7 @@ public:
 
 
 // GoogleMobileAds.Api.AdSize
-struct  AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D  : public RuntimeObject
+struct AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D  : public RuntimeObject
 {
 public:
 	// GoogleMobileAds.Api.AdSize/Type GoogleMobileAds.Api.AdSize::type
@@ -2952,7 +2952,7 @@ public:
 
 
 // GoogleMobileAds.Placement.AdSizeProperty
-struct  AdSizeProperty_tA92B054C63C507AD5A8A9AFF89481CE2970E7A48  : public RuntimeObject
+struct AdSizeProperty_tA92B054C63C507AD5A8A9AFF89481CE2970E7A48  : public RuntimeObject
 {
 public:
 	// GoogleMobileAds.Api.AdSize/Type GoogleMobileAds.Placement.AdSizeProperty::type
@@ -3000,7 +3000,7 @@ public:
 
 
 // UnityEngine.Component
-struct  Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
+struct Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
 {
 public:
 
@@ -3009,7 +3009,7 @@ public:
 
 
 // UnityEngine.GameObject
-struct  GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
+struct GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
 {
 public:
 
@@ -3018,7 +3018,7 @@ public:
 
 
 // System.MulticastDelegate
-struct  MulticastDelegate_t  : public Delegate_t
+struct MulticastDelegate_t  : public Delegate_t
 {
 public:
 	// System.Delegate[] System.MulticastDelegate::delegates
@@ -3047,7 +3047,7 @@ struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 };
 
 // UnityEngine.ScriptableObject
-struct  ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
+struct ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
 {
 public:
 
@@ -3064,7 +3064,7 @@ struct ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A_marshaled_com 
 };
 
 // System.SystemException
-struct  SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62  : public Exception_t
+struct SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62  : public Exception_t
 {
 public:
 
@@ -3073,7 +3073,7 @@ public:
 
 
 // System.Type
-struct  Type_t  : public MemberInfo_t
+struct Type_t  : public MemberInfo_t
 {
 public:
 	// System.RuntimeTypeHandle System.Type::_impl
@@ -3173,7 +3173,7 @@ public:
 
 
 // System.Action`1<GoogleMobileAds.Api.InitializationStatus>
-struct  Action_1_t73B690804B71062EA366B9EF731317DA6FE13907  : public MulticastDelegate_t
+struct Action_1_t73B690804B71062EA366B9EF731317DA6FE13907  : public MulticastDelegate_t
 {
 public:
 
@@ -3182,7 +3182,7 @@ public:
 
 
 // System.Action`1<GoogleMobileAds.Api.Reward>
-struct  Action_1_tC132930F086FCA3F70E9D2DB1EA528F969814734  : public MulticastDelegate_t
+struct Action_1_tC132930F086FCA3F70E9D2DB1EA528F969814734  : public MulticastDelegate_t
 {
 public:
 
@@ -3191,7 +3191,7 @@ public:
 
 
 // System.Action`2<GoogleMobileAds.Api.RewardedInterstitialAd,System.String>
-struct  Action_2_tDC5DD41B07D4331B8F93E93318EBE36191295F75  : public MulticastDelegate_t
+struct Action_2_tDC5DD41B07D4331B8F93E93318EBE36191295F75  : public MulticastDelegate_t
 {
 public:
 
@@ -3200,7 +3200,7 @@ public:
 
 
 // System.EventHandler`1<GoogleMobileAds.Api.AdErrorEventArgs>
-struct  EventHandler_1_t0E5210AFDC000598EB6E2E3D4E3C2B21CAC2AEE0  : public MulticastDelegate_t
+struct EventHandler_1_t0E5210AFDC000598EB6E2E3D4E3C2B21CAC2AEE0  : public MulticastDelegate_t
 {
 public:
 
@@ -3209,7 +3209,7 @@ public:
 
 
 // System.EventHandler`1<GoogleMobileAds.Api.AdFailedToLoadEventArgs>
-struct  EventHandler_1_tC26C79D74BE181ED179BBB5BA1D1EA5FE217B3A4  : public MulticastDelegate_t
+struct EventHandler_1_tC26C79D74BE181ED179BBB5BA1D1EA5FE217B3A4  : public MulticastDelegate_t
 {
 public:
 
@@ -3218,7 +3218,7 @@ public:
 
 
 // System.EventHandler`1<System.EventArgs>
-struct  EventHandler_1_tA707D618BF8F29DB61DFD553B055AE4E516C1722  : public MulticastDelegate_t
+struct EventHandler_1_tA707D618BF8F29DB61DFD553B055AE4E516C1722  : public MulticastDelegate_t
 {
 public:
 
@@ -3227,7 +3227,7 @@ public:
 
 
 // System.EventHandler`1<GoogleMobileAds.Api.Reward>
-struct  EventHandler_1_tEDC033EC5B1432E95DB35B1ED5B96B4F1F63E6E1  : public MulticastDelegate_t
+struct EventHandler_1_tEDC033EC5B1432E95DB35B1ED5B96B4F1F63E6E1  : public MulticastDelegate_t
 {
 public:
 
@@ -3236,7 +3236,7 @@ public:
 
 
 // System.Action
-struct  Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6  : public MulticastDelegate_t
+struct Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6  : public MulticastDelegate_t
 {
 public:
 
@@ -3245,7 +3245,7 @@ public:
 
 
 // GoogleMobileAds.Api.AdRequest
-struct  AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88  : public RuntimeObject
+struct AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88  : public RuntimeObject
 {
 public:
 	// System.Collections.Generic.List`1<System.String> GoogleMobileAds.Api.AdRequest::<TestDevices>k__BackingField
@@ -3327,7 +3327,7 @@ public:
 
 
 // System.ArgumentException
-struct  ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+struct ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
 {
 public:
 	// System.String System.ArgumentException::m_paramName
@@ -3346,7 +3346,7 @@ public:
 
 
 // UnityEngine.Behaviour
-struct  Behaviour_t1A3DDDCF73B4627928FBFE02ED52B7251777DBD9  : public Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684
+struct Behaviour_t1A3DDDCF73B4627928FBFE02ED52B7251777DBD9  : public Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684
 {
 public:
 
@@ -3355,7 +3355,7 @@ public:
 
 
 // GoogleMobileAds.Placement.GoogleMobileAdsPlacements
-struct  GoogleMobileAdsPlacements_tFC27FC75EBADB3609FF1A0DE93F5542465944360  : public ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A
+struct GoogleMobileAdsPlacements_tFC27FC75EBADB3609FF1A0DE93F5542465944360  : public ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A
 {
 public:
 	// System.Collections.Generic.List`1<GoogleMobileAds.Placement.AdPlacement> GoogleMobileAds.Placement.GoogleMobileAdsPlacements::allPlacements
@@ -3391,7 +3391,7 @@ public:
 
 
 // System.OperationCanceledException
-struct  OperationCanceledException_tA90317406FAE39FB4E2C6AA84E12135E1D56B6FB  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+struct OperationCanceledException_tA90317406FAE39FB4E2C6AA84E12135E1D56B6FB  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
 {
 public:
 	// System.Threading.CancellationToken System.OperationCanceledException::_cancellationToken
@@ -3410,7 +3410,7 @@ public:
 
 
 // GoogleMobileAds.Api.AdRequest/Builder
-struct  Builder_tDEC3EA9C2617E6B676AF0ABED231D4FDB2B2434C  : public RuntimeObject
+struct Builder_tDEC3EA9C2617E6B676AF0ABED231D4FDB2B2434C  : public RuntimeObject
 {
 public:
 	// System.Collections.Generic.List`1<System.String> GoogleMobileAds.Api.AdRequest/Builder::<TestDevices>k__BackingField
@@ -3492,7 +3492,7 @@ public:
 
 
 // System.ArgumentNullException
-struct  ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB  : public ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00
+struct ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB  : public ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00
 {
 public:
 
@@ -3501,7 +3501,7 @@ public:
 
 
 // UnityEngine.MonoBehaviour
-struct  MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A  : public Behaviour_t1A3DDDCF73B4627928FBFE02ED52B7251777DBD9
+struct MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A  : public Behaviour_t1A3DDDCF73B4627928FBFE02ED52B7251777DBD9
 {
 public:
 
@@ -3510,7 +3510,7 @@ public:
 
 
 // GoogleMobileAds.Placement.AdGameObject
-struct  AdGameObject_tE16C94DC0DAFC03FE28CA82346889A10CFA49734  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+struct AdGameObject_tE16C94DC0DAFC03FE28CA82346889A10CFA49734  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
 	// GoogleMobileAds.Placement.AdPlacement/AdType GoogleMobileAds.Placement.AdGameObject::adType
@@ -3580,7 +3580,7 @@ public:
 
 
 // TestController
-struct  TestController_tC25E6E59D63462EB99CA1138D860DEF204E2B78B  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+struct TestController_tC25E6E59D63462EB99CA1138D860DEF204E2B78B  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
 	// GoogleMobileAds.Placement.BannerAdGameObject TestController::bannerAd
@@ -3674,7 +3674,7 @@ public:
 
 
 // UnityEngine.EventSystems.UIBehaviour
-struct  UIBehaviour_tD1C6E2D542222546D68510ECE74036EFBC3C3B0E  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+struct UIBehaviour_tD1C6E2D542222546D68510ECE74036EFBC3C3B0E  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
 
@@ -3683,7 +3683,7 @@ public:
 
 
 // GoogleMobileAds.Placement.BannerAdGameObject
-struct  BannerAdGameObject_t0D88F994B8CC252A6C91A6FF76AABB64F0991F29  : public AdGameObject_tE16C94DC0DAFC03FE28CA82346889A10CFA49734
+struct BannerAdGameObject_t0D88F994B8CC252A6C91A6FF76AABB64F0991F29  : public AdGameObject_tE16C94DC0DAFC03FE28CA82346889A10CFA49734
 {
 public:
 	// GoogleMobileAds.Placement.AdSizeProperty GoogleMobileAds.Placement.BannerAdGameObject::adSize
@@ -3788,7 +3788,7 @@ public:
 
 
 // UnityEngine.UI.Graphic
-struct  Graphic_tF07D777035055CF93BA5F46F77ED5EDFEFF9AE24  : public UIBehaviour_tD1C6E2D542222546D68510ECE74036EFBC3C3B0E
+struct Graphic_tF07D777035055CF93BA5F46F77ED5EDFEFF9AE24  : public UIBehaviour_tD1C6E2D542222546D68510ECE74036EFBC3C3B0E
 {
 public:
 	// UnityEngine.Material UnityEngine.UI.Graphic::m_Material
@@ -4036,7 +4036,7 @@ public:
 
 
 // GoogleMobileAds.Placement.InterstitialAdGameObject
-struct  InterstitialAdGameObject_t9F2D77329343B8D67F2395B1E9B73AF306857AAE  : public AdGameObject_tE16C94DC0DAFC03FE28CA82346889A10CFA49734
+struct InterstitialAdGameObject_t9F2D77329343B8D67F2395B1E9B73AF306857AAE  : public AdGameObject_tE16C94DC0DAFC03FE28CA82346889A10CFA49734
 {
 public:
 	// UnityEngine.Events.UnityEvent GoogleMobileAds.Placement.InterstitialAdGameObject::onAdLoaded
@@ -4110,7 +4110,7 @@ public:
 
 
 // GoogleMobileAds.Placement.RewardedAdGameObject
-struct  RewardedAdGameObject_tA89AB9A27778351B5033BE6F27156EA1B2E1F7E8  : public AdGameObject_tE16C94DC0DAFC03FE28CA82346889A10CFA49734
+struct RewardedAdGameObject_tA89AB9A27778351B5033BE6F27156EA1B2E1F7E8  : public AdGameObject_tE16C94DC0DAFC03FE28CA82346889A10CFA49734
 {
 public:
 	// UnityEngine.Events.UnityEvent GoogleMobileAds.Placement.RewardedAdGameObject::onAdLoaded
@@ -4195,7 +4195,7 @@ public:
 
 
 // GoogleMobileAds.Placement.RewardedInterstitialAdGameObject
-struct  RewardedInterstitialAdGameObject_t54E6CB9B7A2D05009BED40E28550A85D2295CF80  : public AdGameObject_tE16C94DC0DAFC03FE28CA82346889A10CFA49734
+struct RewardedInterstitialAdGameObject_t54E6CB9B7A2D05009BED40E28550A85D2295CF80  : public AdGameObject_tE16C94DC0DAFC03FE28CA82346889A10CFA49734
 {
 public:
 	// UnityEngine.Events.UnityEvent GoogleMobileAds.Placement.RewardedInterstitialAdGameObject::onAdLoaded
@@ -4280,7 +4280,7 @@ public:
 
 
 // UnityEngine.UI.MaskableGraphic
-struct  MaskableGraphic_t0DB59E37E3C8AD2F5A4FB7FB091630CB21370CCE  : public Graphic_tF07D777035055CF93BA5F46F77ED5EDFEFF9AE24
+struct MaskableGraphic_t0DB59E37E3C8AD2F5A4FB7FB091630CB21370CCE  : public Graphic_tF07D777035055CF93BA5F46F77ED5EDFEFF9AE24
 {
 public:
 	// System.Boolean UnityEngine.UI.MaskableGraphic::m_ShouldRecalculateStencil
@@ -4392,7 +4392,7 @@ public:
 
 
 // UnityEngine.UI.Text
-struct  Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1  : public MaskableGraphic_t0DB59E37E3C8AD2F5A4FB7FB091630CB21370CCE
+struct Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1  : public MaskableGraphic_t0DB59E37E3C8AD2F5A4FB7FB091630CB21370CCE
 {
 public:
 	// UnityEngine.UI.FontData UnityEngine.UI.Text::m_FontData
@@ -5939,7 +5939,7 @@ IL_0016:
 		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 * L_8 = __this->get_address_of_adPositionOffset_12();
 		float L_9 = L_8->get_y_1();
 		BannerView_tF8E40603F2B65ED257DB1A29BE3FE190AD13C737 * L_10 = (BannerView_tF8E40603F2B65ED257DB1A29BE3FE190AD13C737 *)il2cpp_codegen_object_new(BannerView_tF8E40603F2B65ED257DB1A29BE3FE190AD13C737_il2cpp_TypeInfo_var);
-		BannerView__ctor_mB1C15D892356B0E0626805DABCA0B49BF8556F4E(L_10, L_3, L_5, ((int32_t)((int32_t)L_7)), ((int32_t)((int32_t)L_9)), /*hidden argument*/NULL);
+		BannerView__ctor_mB1C15D892356B0E0626805DABCA0B49BF8556F4E(L_10, L_3, L_5, il2cpp_codegen_cast_double_to_int<int32_t>(L_7), il2cpp_codegen_cast_double_to_int<int32_t>(L_9), /*hidden argument*/NULL);
 		__this->set_ad_18(L_10);
 		goto IL_007d;
 	}

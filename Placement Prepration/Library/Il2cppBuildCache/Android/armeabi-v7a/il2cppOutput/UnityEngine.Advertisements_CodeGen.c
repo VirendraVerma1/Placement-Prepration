@@ -13,191 +13,191 @@
 
 
 // 0x00000001 System.Void UnityEngine.Advertisements.Advertisement::.cctor()
-extern void Advertisement__cctor_mB44256768A89BD38E6BA522B4C178350A1983B74 (void);
+extern void Advertisement__cctor_mEB30FD458B55E90811E113F894F17BADF3ED8658 (void);
 // 0x00000002 System.Boolean UnityEngine.Advertisements.Advertisement::get_isInitialized()
-extern void Advertisement_get_isInitialized_mB504A790B305C52734533C91982678CA45EA9A4F (void);
+extern void Advertisement_get_isInitialized_mBC2B086E4633C893C4EED6FBDC1AB0615CD1B33A (void);
 // 0x00000003 System.Boolean UnityEngine.Advertisements.Advertisement::get_isSupported()
-extern void Advertisement_get_isSupported_m137C1841EE86BF502BD7EB1D9889078B2387CF8E (void);
+extern void Advertisement_get_isSupported_m4ECFA817DC2CBFBF90A66AE629C38396E75B925E (void);
 // 0x00000004 System.Boolean UnityEngine.Advertisements.Advertisement::get_debugMode()
-extern void Advertisement_get_debugMode_m6E32EAAA7633FA61F2312396E5DBA7367840080A (void);
+extern void Advertisement_get_debugMode_m316718060F88EC9B2B64EA9E853D7E87A965881B (void);
 // 0x00000005 System.Void UnityEngine.Advertisements.Advertisement::set_debugMode(System.Boolean)
-extern void Advertisement_set_debugMode_mA64998E948E522B05755757BDF7279866AD52067 (void);
+extern void Advertisement_set_debugMode_mE8C7E59B822ABF1F8DC7ECA7244F61A2A77558E6 (void);
 // 0x00000006 System.String UnityEngine.Advertisements.Advertisement::get_version()
-extern void Advertisement_get_version_m6574BA0BE4B94AA51E1E92D207BE3294C8E48FF1 (void);
+extern void Advertisement_get_version_m0988FB62997EB8938B580B5EE3D37CDDFAEBAFA7 (void);
 // 0x00000007 System.Boolean UnityEngine.Advertisements.Advertisement::get_isShowing()
-extern void Advertisement_get_isShowing_m004D5F97E151927DD0637A9967FAD7E704932123 (void);
+extern void Advertisement_get_isShowing_m37CBCF24417233A4B6BD625A523CD849878F854F (void);
 // 0x00000008 System.Void UnityEngine.Advertisements.Advertisement::Initialize(System.String)
-extern void Advertisement_Initialize_m4B4A6CA19B11047279C327CDF240F1E7223C39F2 (void);
+extern void Advertisement_Initialize_m082D5F19215B919660A314D4E72A7ED61AF8F704 (void);
 // 0x00000009 System.Void UnityEngine.Advertisements.Advertisement::Initialize(System.String,System.Boolean)
-extern void Advertisement_Initialize_m50E5DCFAC318D93B37B03C454C0B6648428A109F (void);
+extern void Advertisement_Initialize_mD4FCDAE8D46A87C062B95FDA009085530825A66E (void);
 // 0x0000000A System.Void UnityEngine.Advertisements.Advertisement::Initialize(System.String,System.Boolean,System.Boolean)
-extern void Advertisement_Initialize_mDC6992FA08E4C26BEF880B14E644F71DE9C9804D (void);
+extern void Advertisement_Initialize_mBF05AEF7A6C7E63B9111EB57E266A26E314F9C15 (void);
 // 0x0000000B System.Void UnityEngine.Advertisements.Advertisement::Initialize(System.String,System.Boolean,System.Boolean,UnityEngine.Advertisements.IUnityAdsInitializationListener)
-extern void Advertisement_Initialize_m8E5F0FE27AA821BC18C08CA9B0DFCD795EF0EB3E (void);
+extern void Advertisement_Initialize_m0FD976ECEA4D74BE3D60C60E6CCAB3027959C1AA (void);
 // 0x0000000C System.Boolean UnityEngine.Advertisements.Advertisement::IsReady()
-extern void Advertisement_IsReady_m4F30149C74D2F243D9DE8F95F4864B241236D016 (void);
+extern void Advertisement_IsReady_mFDE54C7D1C9D98D205C7DC5BF16E36E7041401C3 (void);
 // 0x0000000D System.Boolean UnityEngine.Advertisements.Advertisement::IsReady(System.String)
-extern void Advertisement_IsReady_m7880E5F097F352E81CED7DFA42B48F150B0EC682 (void);
+extern void Advertisement_IsReady_m7C3F32AA27ECF25EBED4FA413C77BFEF7B3DD858 (void);
 // 0x0000000E System.Void UnityEngine.Advertisements.Advertisement::Load(System.String)
-extern void Advertisement_Load_m0C9D79444FCD24319D033DCB6B305B8AF15FA2E5 (void);
+extern void Advertisement_Load_m2E6903F8D053377A617C356FB804FE8F8BB71756 (void);
 // 0x0000000F System.Void UnityEngine.Advertisements.Advertisement::Load(System.String,UnityEngine.Advertisements.IUnityAdsLoadListener)
-extern void Advertisement_Load_m2A2737F1D9BDBF23912614A7B8BAA7EC837CF1A8 (void);
+extern void Advertisement_Load_mA1912CED23684003576EC04DD6E14E06E1E47387 (void);
 // 0x00000010 System.Void UnityEngine.Advertisements.Advertisement::Show()
-extern void Advertisement_Show_m1FC1AE09403CE9104EDBCC088773B531C44C0C85 (void);
+extern void Advertisement_Show_m138EDDD0BF8B3C822671234133F31C237E2F0988 (void);
 // 0x00000011 System.Void UnityEngine.Advertisements.Advertisement::Show(UnityEngine.Advertisements.ShowOptions)
-extern void Advertisement_Show_m75759E89438020A5888F5083A67D4B00A428BAB5 (void);
+extern void Advertisement_Show_m4809AB1F96CC586C69AE6C6C94E036DEE956D670 (void);
 // 0x00000012 System.Void UnityEngine.Advertisements.Advertisement::Show(System.String)
-extern void Advertisement_Show_m8B3BB4A04BD6822D5B0A8CE6E675E6CDEDFDCEED (void);
+extern void Advertisement_Show_m72C78A977F924A61DAF5B5D92D88200DE9F9C98B (void);
 // 0x00000013 System.Void UnityEngine.Advertisements.Advertisement::Show(System.String,UnityEngine.Advertisements.ShowOptions)
-extern void Advertisement_Show_m542E0BE5F1952599326798CFF080DE113AA93D8C (void);
+extern void Advertisement_Show_m5ACBA6D0BF333D43B7EC3B7C36F8E55A10741C1D (void);
 // 0x00000014 System.Void UnityEngine.Advertisements.Advertisement::Show(System.String,UnityEngine.Advertisements.IUnityAdsShowListener)
-extern void Advertisement_Show_mC45B5B2EE78CAC1D790803BD9337FEF4472F8F33 (void);
+extern void Advertisement_Show_m59789CD39DAC86DA1171BD01ABC0821AE1164D3D (void);
 // 0x00000015 System.Void UnityEngine.Advertisements.Advertisement::Show(System.String,UnityEngine.Advertisements.ShowOptions,UnityEngine.Advertisements.IUnityAdsShowListener)
-extern void Advertisement_Show_m927377540F2FBAA7072449D8C011A7252A78FA3A (void);
+extern void Advertisement_Show_m51879852E416A638DC3789BBF67E36B33E2305D7 (void);
 // 0x00000016 System.Void UnityEngine.Advertisements.Advertisement::SetMetaData(UnityEngine.Advertisements.MetaData)
-extern void Advertisement_SetMetaData_mA9AA97AF50809D3FC117D28E80E24A1A31031F28 (void);
+extern void Advertisement_SetMetaData_mEDD78DDB6A5FB827E6060F446E485B67562BF7E1 (void);
 // 0x00000017 System.Void UnityEngine.Advertisements.Advertisement::AddListener(UnityEngine.Advertisements.IUnityAdsListener)
-extern void Advertisement_AddListener_m1548B00420180351DF863FBB372C0264AAE49C44 (void);
+extern void Advertisement_AddListener_mF100E2DDC96B1395807E4B43F7FE1159F7FAE76C (void);
 // 0x00000018 System.Void UnityEngine.Advertisements.Advertisement::RemoveListener(UnityEngine.Advertisements.IUnityAdsListener)
-extern void Advertisement_RemoveListener_m408A2E9C2793DC9FDC6806514CA7619A62B9D792 (void);
+extern void Advertisement_RemoveListener_mCBBCDA53A28FF8BD03BB168F6AEF5703D70BD3CC (void);
 // 0x00000019 UnityEngine.Advertisements.PlacementState UnityEngine.Advertisements.Advertisement::GetPlacementState()
-extern void Advertisement_GetPlacementState_mB65B8E93250DE669EA3B46F54A39C0D2D0132648 (void);
+extern void Advertisement_GetPlacementState_mA1A327D28199EBA054FD361E22FF6AF2FBE7CDBE (void);
 // 0x0000001A UnityEngine.Advertisements.PlacementState UnityEngine.Advertisements.Advertisement::GetPlacementState(System.String)
-extern void Advertisement_GetPlacementState_mE0B4AC310CDAFAF4D14A04992BB26220253EFF5B (void);
+extern void Advertisement_GetPlacementState_m0EBA0959072DBF04306C5C75BDE4A7C2E44E3C05 (void);
 // 0x0000001B UnityEngine.Advertisements.Platform.IPlatform UnityEngine.Advertisements.Advertisement::CreatePlatform()
-extern void Advertisement_CreatePlatform_mC1CDD4759D65156D6F201E06DDD979696B05D4E3 (void);
+extern void Advertisement_CreatePlatform_m7E8486F406293DCD2AA0A3690A6B2FD481BB5C63 (void);
 // 0x0000001C System.Boolean UnityEngine.Advertisements.Advertisement::IsSupported()
-extern void Advertisement_IsSupported_m251D8427493C493098367A60067F458251BD62DF (void);
+extern void Advertisement_IsSupported_mE13C31757D843704A28EBD64C1878F9E359C6FD0 (void);
 // 0x0000001D System.Void UnityEngine.Advertisements.Advertisement/Banner::Load()
-extern void Banner_Load_m06A48D7352F2E23A7AD41CF41409BB0946DD9A00 (void);
+extern void Banner_Load_m2B7A9D57BE812ACE56BD6FBB556C64275A5108D8 (void);
 // 0x0000001E System.Void UnityEngine.Advertisements.Advertisement/Banner::Load(UnityEngine.Advertisements.BannerLoadOptions)
-extern void Banner_Load_mB519531E433DB53EA86E74A2757DFF857B0E5CB6 (void);
+extern void Banner_Load_m51016602F237F1C5FFFB4A9F8CC78027ABFBD465 (void);
 // 0x0000001F System.Void UnityEngine.Advertisements.Advertisement/Banner::Load(System.String)
-extern void Banner_Load_mC922C4D831834C3649203DA96E78E5971CF40210 (void);
+extern void Banner_Load_m4B1707F275B6824F09AC6CA0400BAB31B84447D7 (void);
 // 0x00000020 System.Void UnityEngine.Advertisements.Advertisement/Banner::Load(System.String,UnityEngine.Advertisements.BannerLoadOptions)
-extern void Banner_Load_m000224EDA0BF2FF61EDE66E167148ACB8C294579 (void);
+extern void Banner_Load_m0B16B2F910D9AEA6F3C484E0A840B325BA604533 (void);
 // 0x00000021 System.Void UnityEngine.Advertisements.Advertisement/Banner::Show()
-extern void Banner_Show_mF34A748E029451235C4EB3C2EC0B1E8E128AEE96 (void);
+extern void Banner_Show_m0867EEFB56F00AD7CB56DDE26D113DE8841E92E0 (void);
 // 0x00000022 System.Void UnityEngine.Advertisements.Advertisement/Banner::Show(UnityEngine.Advertisements.BannerOptions)
-extern void Banner_Show_m40A12D094C9EAA6AF725784589EA3228F0EF2520 (void);
+extern void Banner_Show_m58ADAC207C46D38FB1D0F6C382760FAB7B03020A (void);
 // 0x00000023 System.Void UnityEngine.Advertisements.Advertisement/Banner::Show(System.String)
-extern void Banner_Show_m3C42E55C8F73C12F90BF9AB9D5A293CA7368906E (void);
+extern void Banner_Show_mA9C697F2D14854F4D63B73CE200C302BC001B95C (void);
 // 0x00000024 System.Void UnityEngine.Advertisements.Advertisement/Banner::Show(System.String,UnityEngine.Advertisements.BannerOptions)
-extern void Banner_Show_m73BE208CABEE908A5F4DAC936686A31A715EBCDB (void);
+extern void Banner_Show_m39F52F443284A243479F2C4C8CEB65D311BE577E (void);
 // 0x00000025 System.Void UnityEngine.Advertisements.Advertisement/Banner::Hide(System.Boolean)
-extern void Banner_Hide_mA828D623AAD961B197A2338FD1DF21D4D5D0C067 (void);
+extern void Banner_Hide_m34F6689FFF8EADF49DA305D28D8DB5EA546D47C8 (void);
 // 0x00000026 System.Void UnityEngine.Advertisements.Advertisement/Banner::SetPosition(UnityEngine.Advertisements.BannerPosition)
-extern void Banner_SetPosition_mB03D6FE7CBC2DA088649E8EC1DD89D352E201043 (void);
+extern void Banner_SetPosition_m22764F6738A68978315AE1F3E24C62504431C195 (void);
 // 0x00000027 System.Boolean UnityEngine.Advertisements.Advertisement/Banner::get_isLoaded()
-extern void Banner_get_isLoaded_m35305E62DC54136201C80DD82F6614D579F46875 (void);
+extern void Banner_get_isLoaded_mC869D39CF2B67DFC4C62E89997597FB66D346F31 (void);
 // 0x00000028 System.Void UnityEngine.Advertisements.Advertisement/<>c__DisplayClass32_0::.ctor()
-extern void U3CU3Ec__DisplayClass32_0__ctor_mFB01650D49D562E550A97CEF5AE47AD75A9B7DD7 (void);
+extern void U3CU3Ec__DisplayClass32_0__ctor_m1C91BFEF8EE8A0ECD9425543B019D89270DEE796 (void);
 // 0x00000029 System.Void UnityEngine.Advertisements.Advertisement/<>c__DisplayClass32_0::<CreatePlatform>b__0()
-extern void U3CU3Ec__DisplayClass32_0_U3CCreatePlatformU3Eb__0_mD0920F22572DB42E8D4918971E2DCA0BEA61C605 (void);
+extern void U3CU3Ec__DisplayClass32_0_U3CCreatePlatformU3Eb__0_mC86B1175C401A8C939E6DB8B2443A8674DBB8068 (void);
 // 0x0000002A UnityEngine.Advertisements.Utilities.IUnityLifecycleManager UnityEngine.Advertisements.Banner::get_UnityLifecycleManager()
-extern void Banner_get_UnityLifecycleManager_mF54F9B5DA7BC9F2937A66D5699D8DA858001F410 (void);
+extern void Banner_get_UnityLifecycleManager_m8D1890BD72B78FB9DFF2E5351A146882DC4EE675 (void);
 // 0x0000002B System.Boolean UnityEngine.Advertisements.Banner::get_IsLoaded()
-extern void Banner_get_IsLoaded_m5E13400241DEFF428441C8FA624F53180D7D2436 (void);
+extern void Banner_get_IsLoaded_m9381D3F941EBA8E7071C46ED56A3057CFAFFC0A2 (void);
 // 0x0000002C System.Boolean UnityEngine.Advertisements.Banner::get_ShowAfterLoad()
-extern void Banner_get_ShowAfterLoad_m18167D1F22BB9C243CAB3F43630C407EBF73DF92 (void);
+extern void Banner_get_ShowAfterLoad_m0149C039231E658B625C6DBA0AE981B1111C9F09 (void);
 // 0x0000002D System.Void UnityEngine.Advertisements.Banner::set_ShowAfterLoad(System.Boolean)
-extern void Banner_set_ShowAfterLoad_m25D9F9574C9405A6E5C3B17943CECFE8D0E672D0 (void);
+extern void Banner_set_ShowAfterLoad_m645CDCDB38358BFCE6030CD3064140CA287F4794 (void);
 // 0x0000002E System.Void UnityEngine.Advertisements.Banner::.ctor(UnityEngine.Advertisements.INativeBanner,UnityEngine.Advertisements.Utilities.IUnityLifecycleManager)
-extern void Banner__ctor_mAAB66E5B48DA4D19C92F7010E26267D320753F28 (void);
+extern void Banner__ctor_m5FA80FC5D6F4028AFDBBBAA5DD18517A53A3CD81 (void);
 // 0x0000002F System.Void UnityEngine.Advertisements.Banner::Load(System.String,UnityEngine.Advertisements.BannerLoadOptions)
-extern void Banner_Load_m02EF12198664BAFA0C0F2D2EB10653C816A63E1E (void);
+extern void Banner_Load_m7FB027911B94845C9AB4E5EEFEB2D98C3CC18544 (void);
 // 0x00000030 System.Void UnityEngine.Advertisements.Banner::Show(System.String,UnityEngine.Advertisements.BannerOptions)
-extern void Banner_Show_mDF4B91C253C1B26884B07F008037A2E02544F99E (void);
+extern void Banner_Show_m92C480622ECB96A9EEC110B9C6D9B69618C01913 (void);
 // 0x00000031 System.Void UnityEngine.Advertisements.Banner::Hide(System.Boolean)
-extern void Banner_Hide_m7C66B6BB7207D92974D1704E57BF087EA1E44601 (void);
+extern void Banner_Hide_m46D677B526C45AADF7C18E7311EA7988271DBF34 (void);
 // 0x00000032 System.Void UnityEngine.Advertisements.Banner::SetPosition(UnityEngine.Advertisements.BannerPosition)
-extern void Banner_SetPosition_m8892F4A92814ADD9C870F75074C03C15880B6504 (void);
+extern void Banner_SetPosition_m796058CCB4891D57CD4B1668A60566E11E296B0D (void);
 // 0x00000033 System.Void UnityEngine.Advertisements.Banner::UnityAdsBannerDidShow(System.String,UnityEngine.Advertisements.BannerOptions)
-extern void Banner_UnityAdsBannerDidShow_mD8BE33941D2EFB7BABDA2A76E49DC8A076F67615 (void);
+extern void Banner_UnityAdsBannerDidShow_m8A09CD159A21B06FFD8D8734F13E2DE04929D2CB (void);
 // 0x00000034 System.Void UnityEngine.Advertisements.Banner::UnityAdsBannerDidHide(System.String,UnityEngine.Advertisements.BannerOptions)
-extern void Banner_UnityAdsBannerDidHide_mC653817DB4091D2E1D17C2C2DC8F925100E95A96 (void);
+extern void Banner_UnityAdsBannerDidHide_m64A40CE58299FEB1EC2AF5B8E8DD5587701A0CBF (void);
 // 0x00000035 System.Void UnityEngine.Advertisements.Banner::UnityAdsBannerClick(System.String,UnityEngine.Advertisements.BannerOptions)
-extern void Banner_UnityAdsBannerClick_m10D3293D7D833DB6015C29F618155C4D827DC82A (void);
+extern void Banner_UnityAdsBannerClick_m589DEF392D6EA31211B7D152F200DC82EBECB951 (void);
 // 0x00000036 System.Void UnityEngine.Advertisements.Banner::UnityAdsBannerDidLoad(System.String,UnityEngine.Advertisements.BannerLoadOptions)
-extern void Banner_UnityAdsBannerDidLoad_mD75000EB978B1FE76D8FB67F6774A670EFB353D8 (void);
+extern void Banner_UnityAdsBannerDidLoad_m67E46A4082BDB8E38BF6BB671DDB62FE506BBC6D (void);
 // 0x00000037 System.Void UnityEngine.Advertisements.Banner::UnityAdsBannerDidError(System.String,UnityEngine.Advertisements.BannerLoadOptions)
-extern void Banner_UnityAdsBannerDidError_m6D321E25A913EC317789D61630D67CFFD77787B9 (void);
+extern void Banner_UnityAdsBannerDidError_mBAEDDC9BEEE536C436B8F2870883D011E09EFFD7 (void);
 // 0x00000038 System.Void UnityEngine.Advertisements.Banner/<>c__DisplayClass15_0::.ctor()
-extern void U3CU3Ec__DisplayClass15_0__ctor_m67A9A93608F4F936AA6F42CE50957BC4E2A9B7C4 (void);
+extern void U3CU3Ec__DisplayClass15_0__ctor_m0DB0934942645FDEE57D700579847E250B8B9D6D (void);
 // 0x00000039 System.Void UnityEngine.Advertisements.Banner/<>c__DisplayClass15_0::<UnityAdsBannerDidShow>b__0()
-extern void U3CU3Ec__DisplayClass15_0_U3CUnityAdsBannerDidShowU3Eb__0_m290D12AF0E2C5E24291DF62E5A32F4EDFFF55D59 (void);
+extern void U3CU3Ec__DisplayClass15_0_U3CUnityAdsBannerDidShowU3Eb__0_mD13EA19B4F6F57C9D9F7B7C217D1F8C98FC5A910 (void);
 // 0x0000003A System.Void UnityEngine.Advertisements.Banner/<>c__DisplayClass16_0::.ctor()
-extern void U3CU3Ec__DisplayClass16_0__ctor_m598B85B717722C83DA7A15A08816325E22B8D0AB (void);
+extern void U3CU3Ec__DisplayClass16_0__ctor_m20C0C90217B1373752842BB8599CC2476FBC2621 (void);
 // 0x0000003B System.Void UnityEngine.Advertisements.Banner/<>c__DisplayClass16_0::<UnityAdsBannerDidHide>b__0()
-extern void U3CU3Ec__DisplayClass16_0_U3CUnityAdsBannerDidHideU3Eb__0_mD693250A23E026FC2968DB1093357A9EF75887F2 (void);
+extern void U3CU3Ec__DisplayClass16_0_U3CUnityAdsBannerDidHideU3Eb__0_mF4E325C0BBA19A39DCA32D8785F5143E1857E314 (void);
 // 0x0000003C System.Void UnityEngine.Advertisements.Banner/<>c__DisplayClass17_0::.ctor()
-extern void U3CU3Ec__DisplayClass17_0__ctor_mD441B8465D66F3AB740A34B65BBC82DAE3CA0289 (void);
+extern void U3CU3Ec__DisplayClass17_0__ctor_mFF6DE5D6673EFE25526201D8D9534F65B44B8D97 (void);
 // 0x0000003D System.Void UnityEngine.Advertisements.Banner/<>c__DisplayClass17_0::<UnityAdsBannerClick>b__0()
-extern void U3CU3Ec__DisplayClass17_0_U3CUnityAdsBannerClickU3Eb__0_m71D54A12369066DDE53612B11C16A4DD5CBA633A (void);
+extern void U3CU3Ec__DisplayClass17_0_U3CUnityAdsBannerClickU3Eb__0_m4BF21D2B15528306906D50AABACF2EC97D833442 (void);
 // 0x0000003E System.Void UnityEngine.Advertisements.Banner/<>c__DisplayClass18_0::.ctor()
-extern void U3CU3Ec__DisplayClass18_0__ctor_mCF0DFDB73C55CE62D99AB2F0C50D512B21A4DA73 (void);
+extern void U3CU3Ec__DisplayClass18_0__ctor_m5650F32CAFB0E8540ECB8C817DA50BB5C541E5FE (void);
 // 0x0000003F System.Void UnityEngine.Advertisements.Banner/<>c__DisplayClass18_0::<UnityAdsBannerDidLoad>b__0()
-extern void U3CU3Ec__DisplayClass18_0_U3CUnityAdsBannerDidLoadU3Eb__0_m757FA977A4DB6BC2C878A072214A0261E64114DD (void);
+extern void U3CU3Ec__DisplayClass18_0_U3CUnityAdsBannerDidLoadU3Eb__0_m5E289A637853D4A68E819535A95EE58A0DECDA46 (void);
 // 0x00000040 System.Void UnityEngine.Advertisements.Banner/<>c__DisplayClass19_0::.ctor()
-extern void U3CU3Ec__DisplayClass19_0__ctor_m2E5BCC22AE13F767CC10CEEF8A6C9378EFD141B6 (void);
+extern void U3CU3Ec__DisplayClass19_0__ctor_mDFAA32A1AF754C5D4E96D6B080F395220A3783DB (void);
 // 0x00000041 System.Void UnityEngine.Advertisements.Banner/<>c__DisplayClass19_0::<UnityAdsBannerDidError>b__0()
-extern void U3CU3Ec__DisplayClass19_0_U3CUnityAdsBannerDidErrorU3Eb__0_m858AD48AEDD9C616E3385F73D8072347190CDA44 (void);
+extern void U3CU3Ec__DisplayClass19_0_U3CUnityAdsBannerDidErrorU3Eb__0_m8DB8BD5CC86C48514D5F4DC0796AA6161135CC80 (void);
 // 0x00000042 UnityEngine.Advertisements.BannerLoadOptions/LoadCallback UnityEngine.Advertisements.BannerLoadOptions::get_loadCallback()
-extern void BannerLoadOptions_get_loadCallback_mF742FFBF21191B852CCA2DDB31C8E0D850C7A2E2 (void);
+extern void BannerLoadOptions_get_loadCallback_mAB4AE91F6982F5C4E06F2168C9F3D26BD6906578 (void);
 // 0x00000043 System.Void UnityEngine.Advertisements.BannerLoadOptions::set_loadCallback(UnityEngine.Advertisements.BannerLoadOptions/LoadCallback)
-extern void BannerLoadOptions_set_loadCallback_m9D3C4E78D67CEC16AE816BF69B65A6423A6969B2 (void);
+extern void BannerLoadOptions_set_loadCallback_mF981A9D9527258C8F1524F4AAE178C0786B6518E (void);
 // 0x00000044 UnityEngine.Advertisements.BannerLoadOptions/ErrorCallback UnityEngine.Advertisements.BannerLoadOptions::get_errorCallback()
-extern void BannerLoadOptions_get_errorCallback_m7710B7894CAA75F3A117F2A766F24588AF1A6EFD (void);
+extern void BannerLoadOptions_get_errorCallback_m53924413EB917C85AABAD9B66FDEC9C84F08A4EB (void);
 // 0x00000045 System.Void UnityEngine.Advertisements.BannerLoadOptions::set_errorCallback(UnityEngine.Advertisements.BannerLoadOptions/ErrorCallback)
-extern void BannerLoadOptions_set_errorCallback_m5069D00E410DF3BEDFF097BF40F3B3476EF88B95 (void);
+extern void BannerLoadOptions_set_errorCallback_mD8598AF5C0A7BE058286EEB566E5912B6AC7D6B1 (void);
 // 0x00000046 System.Void UnityEngine.Advertisements.BannerLoadOptions::.ctor()
-extern void BannerLoadOptions__ctor_m4D5D26302DC12B8F2BA55508FDFDE6A152051DAD (void);
+extern void BannerLoadOptions__ctor_m46ACB4C63B65D85BCB79D0B5FDA716E3A6957B04 (void);
 // 0x00000047 System.Void UnityEngine.Advertisements.BannerLoadOptions/LoadCallback::.ctor(System.Object,System.IntPtr)
-extern void LoadCallback__ctor_m149C4CA2674F63DC85F26C60CF4BE852C5974D60 (void);
+extern void LoadCallback__ctor_m88910C05F7F71C398B7C12E68959C19D805BA703 (void);
 // 0x00000048 System.Void UnityEngine.Advertisements.BannerLoadOptions/LoadCallback::Invoke()
-extern void LoadCallback_Invoke_m5CCDF2F93BF4603344CE9A164AC93709559F99D9 (void);
+extern void LoadCallback_Invoke_m2E4DAA16907300D497321EB545722747501062A0 (void);
 // 0x00000049 System.IAsyncResult UnityEngine.Advertisements.BannerLoadOptions/LoadCallback::BeginInvoke(System.AsyncCallback,System.Object)
-extern void LoadCallback_BeginInvoke_m26CBBDD499B77472B762CCEBEAD5A80F539B3DAC (void);
+extern void LoadCallback_BeginInvoke_mED3103EDAAD26402C9C6CD01387AE13114220A6F (void);
 // 0x0000004A System.Void UnityEngine.Advertisements.BannerLoadOptions/LoadCallback::EndInvoke(System.IAsyncResult)
-extern void LoadCallback_EndInvoke_m82BE135E79EB3C0026A2B37FE3DD0ADF94A75845 (void);
+extern void LoadCallback_EndInvoke_mAD24BE381D4801F52672FF1A2AC29E7B32A66EB9 (void);
 // 0x0000004B System.Void UnityEngine.Advertisements.BannerLoadOptions/ErrorCallback::.ctor(System.Object,System.IntPtr)
-extern void ErrorCallback__ctor_m8C594084F860F0AC9D416B339E78D69649DFA7F1 (void);
+extern void ErrorCallback__ctor_m1AE24068DF33FED857A07398BD89201E51EC94F6 (void);
 // 0x0000004C System.Void UnityEngine.Advertisements.BannerLoadOptions/ErrorCallback::Invoke(System.String)
-extern void ErrorCallback_Invoke_mC151F8EE2510FBE8A39EEBAED2A4737AC53155F7 (void);
+extern void ErrorCallback_Invoke_m41AE86ABF14CA916455DF97513DDAF5402E264CB (void);
 // 0x0000004D System.IAsyncResult UnityEngine.Advertisements.BannerLoadOptions/ErrorCallback::BeginInvoke(System.String,System.AsyncCallback,System.Object)
-extern void ErrorCallback_BeginInvoke_mAA70F10967DC875DF3B654EE625BB7FB9F01D6B4 (void);
+extern void ErrorCallback_BeginInvoke_m80BA836285ABFDC1B4EDBC9A8EBEE541078BC129 (void);
 // 0x0000004E System.Void UnityEngine.Advertisements.BannerLoadOptions/ErrorCallback::EndInvoke(System.IAsyncResult)
-extern void ErrorCallback_EndInvoke_m5FF48332DD1390B74C606AD6867C78AE54BE6E81 (void);
+extern void ErrorCallback_EndInvoke_m2FDF0B737F2C234072C8E8591F0D97EA07ED659C (void);
 // 0x0000004F UnityEngine.Advertisements.BannerOptions/BannerCallback UnityEngine.Advertisements.BannerOptions::get_showCallback()
-extern void BannerOptions_get_showCallback_mDC81918C6D7C62040F55455F6E4A824E17FF8F2D (void);
+extern void BannerOptions_get_showCallback_m3EC0B33B8E5D4E959BE9572B3F57A549E8331C2F (void);
 // 0x00000050 System.Void UnityEngine.Advertisements.BannerOptions::set_showCallback(UnityEngine.Advertisements.BannerOptions/BannerCallback)
-extern void BannerOptions_set_showCallback_mA9D8C200D021B29B0B974636F94CE652FED761FD (void);
+extern void BannerOptions_set_showCallback_mE32BBAD1A431BD6DB60AFDEA2828BDA3BAD75045 (void);
 // 0x00000051 UnityEngine.Advertisements.BannerOptions/BannerCallback UnityEngine.Advertisements.BannerOptions::get_hideCallback()
-extern void BannerOptions_get_hideCallback_m84DCD124F4FA98C19E43073B0269A9E7C61DB956 (void);
+extern void BannerOptions_get_hideCallback_m8FA965F59B65278AF69BFEB39B2FEDB17A511FE9 (void);
 // 0x00000052 System.Void UnityEngine.Advertisements.BannerOptions::set_hideCallback(UnityEngine.Advertisements.BannerOptions/BannerCallback)
-extern void BannerOptions_set_hideCallback_mBD46ECBE1865B8B388C0E96B8CAD031A059CAEBB (void);
+extern void BannerOptions_set_hideCallback_m5F492B1009CDC83A26AC89B24A74CE6349B0E716 (void);
 // 0x00000053 UnityEngine.Advertisements.BannerOptions/BannerCallback UnityEngine.Advertisements.BannerOptions::get_clickCallback()
-extern void BannerOptions_get_clickCallback_m6B317492111A800F9260E1AE3460D8976B8FFFEA (void);
+extern void BannerOptions_get_clickCallback_mC79C625FB89086CF9C4DE112EF464D207B35D197 (void);
 // 0x00000054 System.Void UnityEngine.Advertisements.BannerOptions::set_clickCallback(UnityEngine.Advertisements.BannerOptions/BannerCallback)
-extern void BannerOptions_set_clickCallback_m2ECE4E61C720E9F065E86579B0F0D92122F319D2 (void);
+extern void BannerOptions_set_clickCallback_m4919E420A2CCFCF1321E8BC6D4141B7386999134 (void);
 // 0x00000055 System.Void UnityEngine.Advertisements.BannerOptions::.ctor()
-extern void BannerOptions__ctor_m7B5E6180AA634C069E053C7E13F1544C50B01131 (void);
+extern void BannerOptions__ctor_mA3423377C564DF63B24BD7217C157639E4013218 (void);
 // 0x00000056 System.Void UnityEngine.Advertisements.BannerOptions/BannerCallback::.ctor(System.Object,System.IntPtr)
-extern void BannerCallback__ctor_m0944126600B12308BCFD070EAF6CC81009B5C83F (void);
+extern void BannerCallback__ctor_m6A768B225071699C43901DFE357D7BE97098332A (void);
 // 0x00000057 System.Void UnityEngine.Advertisements.BannerOptions/BannerCallback::Invoke()
-extern void BannerCallback_Invoke_mC67383B48C2D4BBC88D1D3D283D8F7117F6AC984 (void);
+extern void BannerCallback_Invoke_mF722B8CEBFA15A581C3C6BA430274DDAEF99FDBB (void);
 // 0x00000058 System.IAsyncResult UnityEngine.Advertisements.BannerOptions/BannerCallback::BeginInvoke(System.AsyncCallback,System.Object)
-extern void BannerCallback_BeginInvoke_m56ED5ED5DDAF529F6969CEF1C43D423829F38D96 (void);
+extern void BannerCallback_BeginInvoke_m5112C5B0A18873B78449BD8006A164DBC2030F1A (void);
 // 0x00000059 System.Void UnityEngine.Advertisements.BannerOptions/BannerCallback::EndInvoke(System.IAsyncResult)
-extern void BannerCallback_EndInvoke_m501FDA627ADE21E44683064A94CCD8C5193A4EA5 (void);
+extern void BannerCallback_EndInvoke_m72CE39272B31D92EF21FB6C1FB4A74D3987D6490 (void);
 // 0x0000005A System.Boolean UnityEngine.Advertisements.Configuration::get_enabled()
-extern void Configuration_get_enabled_m03B11BE0F38C5260711D0465911DC29CFC2793CA (void);
+extern void Configuration_get_enabled_m7BE1C8F2EA4B6C3B9CD8E821C999BF6BA1F3E982 (void);
 // 0x0000005B System.String UnityEngine.Advertisements.Configuration::get_defaultPlacement()
-extern void Configuration_get_defaultPlacement_mE20D0F03E31BD1A9FD19BA5DFC7A8A87579F0B0F (void);
+extern void Configuration_get_defaultPlacement_mACD234B00B1A8445668BA25D92E91142F21B9B65 (void);
 // 0x0000005C System.Collections.Generic.Dictionary`2<System.String,System.Boolean> UnityEngine.Advertisements.Configuration::get_placements()
-extern void Configuration_get_placements_m1B6CEB298ABFC85E077B538BC1B277DFB0828EBE (void);
+extern void Configuration_get_placements_m6787C062082EEABCEE45A1B809819650C2090BF4 (void);
 // 0x0000005D System.Void UnityEngine.Advertisements.Configuration::.ctor(System.String)
-extern void Configuration__ctor_m09EE5351C61B65B64FA1B5AFC53BD2579BA6615C (void);
+extern void Configuration__ctor_mFE8855E479EC18DDF7612712DD5D2A6E83A5430E (void);
 // 0x0000005E UnityEngine.Advertisements.Utilities.IUnityLifecycleManager UnityEngine.Advertisements.IBanner::get_UnityLifecycleManager()
 // 0x0000005F System.Boolean UnityEngine.Advertisements.IBanner::get_IsLoaded()
 // 0x00000060 System.Boolean UnityEngine.Advertisements.IBanner::get_ShowAfterLoad()
@@ -230,41 +230,41 @@ extern void Configuration__ctor_m09EE5351C61B65B64FA1B5AFC53BD2579BA6615C (void)
 // 0x0000007B System.Void UnityEngine.Advertisements.IUnityAdsShowListener::OnUnityAdsShowClick(System.String)
 // 0x0000007C System.Void UnityEngine.Advertisements.IUnityAdsShowListener::OnUnityAdsShowComplete(System.String,UnityEngine.Advertisements.UnityAdsShowCompletionState)
 // 0x0000007D System.String UnityEngine.Advertisements.MetaData::get_category()
-extern void MetaData_get_category_mBEB012D8CC3DBD56EEC5E14C875C34C946EAC3BB (void);
+extern void MetaData_get_category_m88A7B16198B9F13FDE4BFA0D81B3476E245CEE82 (void);
 // 0x0000007E System.Void UnityEngine.Advertisements.MetaData::set_category(System.String)
-extern void MetaData_set_category_m1DF58928A9830B1E889C59E5B935FE4928C8C784 (void);
+extern void MetaData_set_category_mCF262A667D874F3A5B758420FC6CE01521AAA300 (void);
 // 0x0000007F System.Void UnityEngine.Advertisements.MetaData::.ctor(System.String)
-extern void MetaData__ctor_m6EF2DA52AAD0C124284ED96227F52ABCDE73C87C (void);
+extern void MetaData__ctor_mCC80A9A64EEEC5340746FEB1B2CF787F3891911B (void);
 // 0x00000080 System.Void UnityEngine.Advertisements.MetaData::Set(System.String,System.Object)
-extern void MetaData_Set_mF1B807C8D6D380084618F0C6FAA3A9C21F9DD16C (void);
+extern void MetaData_Set_m997F03F70DE2BF19AE97002EDE047619CBD52C5C (void);
 // 0x00000081 System.Object UnityEngine.Advertisements.MetaData::Get(System.String)
-extern void MetaData_Get_m83F3F32F0D2EF2E3AC76A08563BD215287588B1B (void);
+extern void MetaData_Get_m10178F85D09B26C16A9A086F8C947503368D7820 (void);
 // 0x00000082 System.Collections.Generic.IDictionary`2<System.String,System.Object> UnityEngine.Advertisements.MetaData::Values()
-extern void MetaData_Values_m23DFE4EA7EA2884125E84D9A73B1A5F55663C3BA (void);
+extern void MetaData_Values_mD6CC2222CE2B1A863DA664E9678694229CB5B108 (void);
 // 0x00000083 System.String UnityEngine.Advertisements.MetaData::ToJSON()
-extern void MetaData_ToJSON_m249EDA63A72895084104FBE66D86462FEE33F948 (void);
+extern void MetaData_ToJSON_mC4791A88E21E2F982DE6C98C10C7588E4C4B0CD4 (void);
 // 0x00000084 System.Void UnityEngine.Advertisements.AndroidInitializationListener::.ctor(UnityEngine.Advertisements.Platform.IPlatform,UnityEngine.Advertisements.IUnityAdsInitializationListener)
-extern void AndroidInitializationListener__ctor_mAE6F05EC1B9F314BB1DEFFDA210E9A69DD466038 (void);
+extern void AndroidInitializationListener__ctor_mC9528623EB1956439EA549F8979E10E524C422D9 (void);
 // 0x00000085 System.Void UnityEngine.Advertisements.AndroidInitializationListener::onInitializationComplete()
-extern void AndroidInitializationListener_onInitializationComplete_mCF14A6CFB4E6983434E25C2CA0AA49A6E645DC7C (void);
+extern void AndroidInitializationListener_onInitializationComplete_mB8E550641FAC0595B1CD802F9AA3C17291FA1343 (void);
 // 0x00000086 System.Void UnityEngine.Advertisements.AndroidInitializationListener::onInitializationFailed(UnityEngine.AndroidJavaObject,System.String)
-extern void AndroidInitializationListener_onInitializationFailed_mB27DFE58C465F18C0F0EDE001A63CD6FC9C5D779 (void);
+extern void AndroidInitializationListener_onInitializationFailed_m86A8A224EEA9892E268E20CAA1865D2004C6B8B4 (void);
 // 0x00000087 System.Void UnityEngine.Advertisements.AndroidLoadListener::.ctor(UnityEngine.Advertisements.Platform.IPlatform,UnityEngine.Advertisements.IUnityAdsLoadListener)
-extern void AndroidLoadListener__ctor_m329BA4CFC453CFBD1AAA2D8F919C977114B3F983 (void);
+extern void AndroidLoadListener__ctor_m95C4131257DD23B962143C5439DB5F0E27798F4A (void);
 // 0x00000088 System.Void UnityEngine.Advertisements.AndroidLoadListener::onUnityAdsAdLoaded(System.String)
-extern void AndroidLoadListener_onUnityAdsAdLoaded_m8AB01365523818E228F57CE987081EB3B1B9EACA (void);
+extern void AndroidLoadListener_onUnityAdsAdLoaded_m355BCCCFCE9A4FF7A4E022D8CE91B8CB8AA85325 (void);
 // 0x00000089 System.Void UnityEngine.Advertisements.AndroidLoadListener::onUnityAdsFailedToLoad(System.String,UnityEngine.AndroidJavaObject,System.String)
-extern void AndroidLoadListener_onUnityAdsFailedToLoad_m98E454C3615083F0DCDAEA653CE7472D7031B3D7 (void);
+extern void AndroidLoadListener_onUnityAdsFailedToLoad_m63DB5EBB1A54CBF0340F2B65B651EF40847CBA3D (void);
 // 0x0000008A System.Void UnityEngine.Advertisements.AndroidShowListener::.ctor(UnityEngine.Advertisements.Platform.IPlatform,UnityEngine.Advertisements.IUnityAdsShowListener)
-extern void AndroidShowListener__ctor_m78A228D8BBB182AA5BDDEE6A784D15BD5629ABBF (void);
+extern void AndroidShowListener__ctor_m255EBE9F98451576C0B56791B38F67D12E97671A (void);
 // 0x0000008B System.Void UnityEngine.Advertisements.AndroidShowListener::onUnityAdsShowFailure(System.String,UnityEngine.AndroidJavaObject,System.String)
-extern void AndroidShowListener_onUnityAdsShowFailure_m1ECA3172457D1839C43FD6D914A63480DF36C821 (void);
+extern void AndroidShowListener_onUnityAdsShowFailure_m9F6D9564DB55A7038BC5D7DF175F98EC93A3782C (void);
 // 0x0000008C System.Void UnityEngine.Advertisements.AndroidShowListener::onUnityAdsShowStart(System.String)
-extern void AndroidShowListener_onUnityAdsShowStart_mF79CE9BA0FEF9B29848FE0886AD90728EDA4A625 (void);
+extern void AndroidShowListener_onUnityAdsShowStart_m074670050BEB5F88E8E343C5DC3E54E5CD533E55 (void);
 // 0x0000008D System.Void UnityEngine.Advertisements.AndroidShowListener::onUnityAdsShowClick(System.String)
-extern void AndroidShowListener_onUnityAdsShowClick_mD89F26EF7574FF4659F4DD3783B25D0B14F6EE40 (void);
+extern void AndroidShowListener_onUnityAdsShowClick_m0EA7453D92BD3D04FB38306FAC490FC2BE4B1197 (void);
 // 0x0000008E System.Void UnityEngine.Advertisements.AndroidShowListener::onUnityAdsShowComplete(System.String,UnityEngine.AndroidJavaObject)
-extern void AndroidShowListener_onUnityAdsShowComplete_m1675B4E37B07777ED894121B299405E5A9F550FE (void);
+extern void AndroidShowListener_onUnityAdsShowComplete_m14096B1BB0D484F6DAA8070BB761B5A2C1D084CF (void);
 // 0x0000008F System.Void UnityEngine.Advertisements.INativePlatform::SetupPlatform(UnityEngine.Advertisements.Platform.IPlatform)
 // 0x00000090 System.Void UnityEngine.Advertisements.INativePlatform::Initialize(System.String,System.Boolean,System.Boolean,UnityEngine.Advertisements.IUnityAdsInitializationListener)
 // 0x00000091 System.Void UnityEngine.Advertisements.INativePlatform::Load(System.String,UnityEngine.Advertisements.IUnityAdsLoadListener)
@@ -277,93 +277,93 @@ extern void AndroidShowListener_onUnityAdsShowComplete_m1675B4E37B07777ED894121B
 // 0x00000098 System.Boolean UnityEngine.Advertisements.INativePlatform::IsReady(System.String)
 // 0x00000099 UnityEngine.Advertisements.PlacementState UnityEngine.Advertisements.INativePlatform::GetPlacementState(System.String)
 // 0x0000009A System.Action`1<UnityEngine.Advertisements.ShowResult> UnityEngine.Advertisements.ShowOptions::get_resultCallback()
-extern void ShowOptions_get_resultCallback_m3927DDD6E2EF6219A02421B4C56D6D5F5F059DB8 (void);
+extern void ShowOptions_get_resultCallback_m0BFEA29C0C9F5A32390477D00AEE67BA83D1B5AA (void);
 // 0x0000009B System.Void UnityEngine.Advertisements.ShowOptions::set_resultCallback(System.Action`1<UnityEngine.Advertisements.ShowResult>)
-extern void ShowOptions_set_resultCallback_mC6C40AE153D30E9F4BB9E904CC15E23D1735E6B3 (void);
+extern void ShowOptions_set_resultCallback_mA9255B0E4EBF3EEAD519A2080E7A2C93E6683BB1 (void);
 // 0x0000009C System.String UnityEngine.Advertisements.ShowOptions::get_gamerSid()
-extern void ShowOptions_get_gamerSid_m778D4145EEE07AA52F4F14062AE02CF8B5E78A40 (void);
+extern void ShowOptions_get_gamerSid_mD7509B7A64FDF3B1CC18C2FD1EA2048CDD7359FB (void);
 // 0x0000009D System.Void UnityEngine.Advertisements.ShowOptions::set_gamerSid(System.String)
-extern void ShowOptions_set_gamerSid_m22AFB748A6E131A3534825E583420AE42A303172 (void);
+extern void ShowOptions_set_gamerSid_m8415326E01EEB67A42FA2098352368F2FD0F688E (void);
 // 0x0000009E System.Void UnityEngine.Advertisements.ShowOptions::.ctor()
-extern void ShowOptions__ctor_mE9F7F751F6BE70F4A7B1F3949E9B9B54DE1EB6FE (void);
+extern void ShowOptions__ctor_m5287C43DB7AC8A5CAF97F7ED143785E69B033A64 (void);
 // 0x0000009F System.Void UnityEngine.Advertisements.Utilities.ApplicationQuit::add_OnApplicationQuitEventHandler(UnityEngine.Events.UnityAction)
-extern void ApplicationQuit_add_OnApplicationQuitEventHandler_m11D5EBA7CE43A2ECC034302EC29D640970C8739B (void);
+extern void ApplicationQuit_add_OnApplicationQuitEventHandler_m2EA2F130925E01EBBA3D203A05239766823BA126 (void);
 // 0x000000A0 System.Void UnityEngine.Advertisements.Utilities.ApplicationQuit::remove_OnApplicationQuitEventHandler(UnityEngine.Events.UnityAction)
-extern void ApplicationQuit_remove_OnApplicationQuitEventHandler_m1C5525879D2483EE251E682B44882A2814770D51 (void);
+extern void ApplicationQuit_remove_OnApplicationQuitEventHandler_m8E78BA3977B4F5EF27F73F078296EDEB2A82392C (void);
 // 0x000000A1 System.Void UnityEngine.Advertisements.Utilities.ApplicationQuit::OnApplicationQuit()
-extern void ApplicationQuit_OnApplicationQuit_mADE194EF6C6CB9C6D830A8715893E85E8294AF34 (void);
+extern void ApplicationQuit_OnApplicationQuit_m94BE0ECFE143EE6ADEF4449B8D40C57B8149815B (void);
 // 0x000000A2 System.Void UnityEngine.Advertisements.Utilities.ApplicationQuit::.ctor()
-extern void ApplicationQuit__ctor_m7FF706AC8A858505C029739ED28613AEE0D67363 (void);
+extern void ApplicationQuit__ctor_m48D6BA4AE7EEAFC80EA2CA17AE1368AC68091A7C (void);
 // 0x000000A3 System.Void UnityEngine.Advertisements.Utilities.CoroutineExecutor::Update()
-extern void CoroutineExecutor_Update_mBDE991E82D05D5A0BBB50918A558D90152508C2C (void);
+extern void CoroutineExecutor_Update_m87AFDF181CF5686DE1FADB0C5060A3707B2BB0F2 (void);
 // 0x000000A4 System.Void UnityEngine.Advertisements.Utilities.CoroutineExecutor::.ctor()
-extern void CoroutineExecutor__ctor_mAD7016CBCA79F3304EB1C5948255E87E44A7422A (void);
+extern void CoroutineExecutor__ctor_m10343728ADAF1FF7287FD55C3736A5B1D4121EA7 (void);
 // 0x000000A5 UnityEngine.Advertisements.ShowResult UnityEngine.Advertisements.Utilities.EnumUtilities::GetShowResultsFromCompletionState(UnityEngine.Advertisements.UnityAdsShowCompletionState)
-extern void EnumUtilities_GetShowResultsFromCompletionState_mDCF7522190C670BFCDD677A6AFA7B7C98B273D74 (void);
+extern void EnumUtilities_GetShowResultsFromCompletionState_m84B487DA01D22B415D70710AE17481DA13C48778 (void);
 // 0x000000A6 T UnityEngine.Advertisements.Utilities.EnumUtilities::GetEnumFromAndroidJavaObject(UnityEngine.AndroidJavaObject,T)
 // 0x000000A7 UnityEngine.Coroutine UnityEngine.Advertisements.Utilities.IUnityLifecycleManager::StartCoroutine(System.Collections.IEnumerator)
 // 0x000000A8 System.Void UnityEngine.Advertisements.Utilities.IUnityLifecycleManager::Post(System.Action)
 // 0x000000A9 System.Void UnityEngine.Advertisements.Utilities.IUnityLifecycleManager::SetOnApplicationQuitCallback(UnityEngine.Events.UnityAction)
 // 0x000000AA System.Object UnityEngine.Advertisements.Utilities.Json::Deserialize(System.String)
-extern void Json_Deserialize_m76115855BAC9BE9588C192A488D3DAC15CD8BF6C (void);
+extern void Json_Deserialize_mB7BD7F81801A9BF03C214624B2F627C505A0FD96 (void);
 // 0x000000AB System.String UnityEngine.Advertisements.Utilities.Json::Serialize(System.Object)
-extern void Json_Serialize_m1B1229A14A448280851ACD5195F0EA976F903EC6 (void);
+extern void Json_Serialize_m8D287DACFCBDAB5CF11AB3EBDDD4D109591D443D (void);
 // 0x000000AC System.Boolean UnityEngine.Advertisements.Utilities.Json/Parser::IsWordBreak(System.Char)
-extern void Parser_IsWordBreak_mEA531542CF6B0595B87B30359F4810D8C4AF3CCE (void);
+extern void Parser_IsWordBreak_mBC7F99163008E6C756C565EE26952DCB3DB975D3 (void);
 // 0x000000AD System.Void UnityEngine.Advertisements.Utilities.Json/Parser::.ctor(System.String)
-extern void Parser__ctor_m1A2111A83BDF4FAE0D99D96B9A6B73BD62308F13 (void);
+extern void Parser__ctor_mED91F5842DC9DAB1CED670C4945DF74A1AE14D43 (void);
 // 0x000000AE System.Object UnityEngine.Advertisements.Utilities.Json/Parser::Parse(System.String)
-extern void Parser_Parse_mC705E4F81C5A57EA58D18EEDAE2BDFF9F3986DCC (void);
+extern void Parser_Parse_m455BF22D71DAF9C70F824B709E776CE56CA26246 (void);
 // 0x000000AF System.Void UnityEngine.Advertisements.Utilities.Json/Parser::Dispose()
-extern void Parser_Dispose_m7820AD20ADF545D1312B2913EE76CB629AB36E50 (void);
+extern void Parser_Dispose_mBEA826262FA72601E50657D0F98669A83CD88E32 (void);
 // 0x000000B0 System.Collections.Generic.Dictionary`2<System.String,System.Object> UnityEngine.Advertisements.Utilities.Json/Parser::ParseObject()
-extern void Parser_ParseObject_m58B999F87989D85F18FB78A5C9BACC52396258B6 (void);
+extern void Parser_ParseObject_m69DF5865D4D6314D49108710E25F61ED845D69E6 (void);
 // 0x000000B1 System.Collections.Generic.List`1<System.Object> UnityEngine.Advertisements.Utilities.Json/Parser::ParseArray()
-extern void Parser_ParseArray_m87775DD7390CB08B60A5A7A5DD005BFFED58A22A (void);
+extern void Parser_ParseArray_m1B77320E7DF0FDF01F7ECCB60E2936D9C82BF3D1 (void);
 // 0x000000B2 System.Object UnityEngine.Advertisements.Utilities.Json/Parser::ParseValue()
-extern void Parser_ParseValue_m4D47F7AEDA32907EAE7299EC747DA6DEA0C43B42 (void);
+extern void Parser_ParseValue_m4EF4FAD14AB6DD2A17316C1B45D280C65BB3B5C6 (void);
 // 0x000000B3 System.Object UnityEngine.Advertisements.Utilities.Json/Parser::ParseByToken(UnityEngine.Advertisements.Utilities.Json/Parser/TOKEN)
-extern void Parser_ParseByToken_mDA0A4BB8C64060809DA9C419726C315F102F9C4C (void);
+extern void Parser_ParseByToken_mDD48A3EE9CEBD6286BDCE59B29AF627E37BC2FAB (void);
 // 0x000000B4 System.String UnityEngine.Advertisements.Utilities.Json/Parser::ParseString()
-extern void Parser_ParseString_m7CF0134829A15287809F252B5E7D708C4F737430 (void);
+extern void Parser_ParseString_m2E3583D23DE5857CA5C19C13922432B6EBF9FBAE (void);
 // 0x000000B5 System.Object UnityEngine.Advertisements.Utilities.Json/Parser::ParseNumber()
-extern void Parser_ParseNumber_mDE40D9D8524DD6AEF3D4DB3B9039C05B68656056 (void);
+extern void Parser_ParseNumber_mD2F2C6FE407817F2FD0CAA763CE6764B71A00CD1 (void);
 // 0x000000B6 System.Void UnityEngine.Advertisements.Utilities.Json/Parser::EatWhitespace()
-extern void Parser_EatWhitespace_mDD81C0893F358C5F2890CDCB99FFEB7D3612D0FB (void);
+extern void Parser_EatWhitespace_mA74B9E144EDD360BCFEBF913408E881D7A5FDEE7 (void);
 // 0x000000B7 System.Char UnityEngine.Advertisements.Utilities.Json/Parser::get_PeekChar()
-extern void Parser_get_PeekChar_m94BF1DEC531D3A6F09FE92A154B9C02148E79068 (void);
+extern void Parser_get_PeekChar_m333316E4051C051273C8ACE99D34A350A6FB06C1 (void);
 // 0x000000B8 System.Char UnityEngine.Advertisements.Utilities.Json/Parser::get_NextChar()
-extern void Parser_get_NextChar_m32AB048CC54E50139E92FD17D561580A6AC9ACB1 (void);
+extern void Parser_get_NextChar_mCD30E77C9F504EEAB1AA27AD916B27521F391E9C (void);
 // 0x000000B9 System.String UnityEngine.Advertisements.Utilities.Json/Parser::get_NextWord()
-extern void Parser_get_NextWord_mE66A01EBC62B417384B25B796FDB56CB7A022429 (void);
+extern void Parser_get_NextWord_m159583A5AB29CEC7C3D3AD8319223A987AFA857F (void);
 // 0x000000BA UnityEngine.Advertisements.Utilities.Json/Parser/TOKEN UnityEngine.Advertisements.Utilities.Json/Parser::get_NextToken()
-extern void Parser_get_NextToken_mF80ADF81AB1B385ACE09B4E216C3005E8F004E1A (void);
+extern void Parser_get_NextToken_m4542BE5F6909E7A9DAA59478392DE86EDB03EC2C (void);
 // 0x000000BB System.Void UnityEngine.Advertisements.Utilities.Json/Serializer::.ctor()
-extern void Serializer__ctor_m3203CD70FEF4DFC38424D9E29109A98604F6A8CA (void);
+extern void Serializer__ctor_m852569F7E1DD20662D69C211447716364DB9A84B (void);
 // 0x000000BC System.String UnityEngine.Advertisements.Utilities.Json/Serializer::Serialize(System.Object)
-extern void Serializer_Serialize_mB274C6B492226DB15C8552D3ABFF2F26F7C19BAD (void);
+extern void Serializer_Serialize_m2E1F879077D37E96F852FF0EA0086A27FDA97848 (void);
 // 0x000000BD System.Void UnityEngine.Advertisements.Utilities.Json/Serializer::SerializeValue(System.Object)
-extern void Serializer_SerializeValue_m05069E2615454E585C7D6E94CE5AD40D7883BC20 (void);
+extern void Serializer_SerializeValue_mEBF5DD1B16B0086AAF2D2C24604C60D843541CE3 (void);
 // 0x000000BE System.Void UnityEngine.Advertisements.Utilities.Json/Serializer::SerializeObject(System.Collections.IDictionary)
-extern void Serializer_SerializeObject_m244A448784F9792E207C3F5ABBD690F1DD367D97 (void);
+extern void Serializer_SerializeObject_m3FCC46BC471E448EF78619AA270F645DF692302D (void);
 // 0x000000BF System.Void UnityEngine.Advertisements.Utilities.Json/Serializer::SerializeArray(System.Collections.IList)
-extern void Serializer_SerializeArray_mEF16068F947E3CA46FDDE359E1871A15A6FEEA2C (void);
+extern void Serializer_SerializeArray_m547C55EB2B89139D92CF4498C303BF8B78BAAE98 (void);
 // 0x000000C0 System.Void UnityEngine.Advertisements.Utilities.Json/Serializer::SerializeString(System.String)
-extern void Serializer_SerializeString_m53F7333FF3673BC1EC02FB3EFEC439A11240175B (void);
+extern void Serializer_SerializeString_m7A5E2E16F76B57A6BA87D45A7349F24AEDCE5D10 (void);
 // 0x000000C1 System.Void UnityEngine.Advertisements.Utilities.Json/Serializer::SerializeOther(System.Object)
-extern void Serializer_SerializeOther_m69C647BED1C71CFA73CC89B52D8B4600E5D6330D (void);
+extern void Serializer_SerializeOther_mF9ED4B926475C5064B30BEE500041C3C0D3E0B26 (void);
 // 0x000000C2 System.Void UnityEngine.Advertisements.Utilities.UnityLifecycleManager::.ctor()
-extern void UnityLifecycleManager__ctor_mD95AC377DC9E3E99821DB9FC9BBA241579AEFEB2 (void);
+extern void UnityLifecycleManager__ctor_mEEAFC546E4A237D0793A7953AB562FA3FD96F8D7 (void);
 // 0x000000C3 System.Void UnityEngine.Advertisements.Utilities.UnityLifecycleManager::Initialize()
-extern void UnityLifecycleManager_Initialize_mD73B907AD8F2E0F0B2F7720FDA4C00B533182DC6 (void);
+extern void UnityLifecycleManager_Initialize_m4F6ABEC49E9B2FC0A46BCDEB08625D1111BAFC9C (void);
 // 0x000000C4 UnityEngine.Coroutine UnityEngine.Advertisements.Utilities.UnityLifecycleManager::StartCoroutine(System.Collections.IEnumerator)
-extern void UnityLifecycleManager_StartCoroutine_m3C0B3C37F7BABBB621FC5B3FE7176D8CE58E8CE9 (void);
+extern void UnityLifecycleManager_StartCoroutine_m5C59DD52F52791D9D34D07B8580DE7E5A5AF5D28 (void);
 // 0x000000C5 System.Void UnityEngine.Advertisements.Utilities.UnityLifecycleManager::Post(System.Action)
-extern void UnityLifecycleManager_Post_mD922A2AB5F40500B93E6732F27EDBB855A70D82D (void);
+extern void UnityLifecycleManager_Post_mD9178EAFE99F3F89EA840AF064CAF55FE0F771F0 (void);
 // 0x000000C6 System.Void UnityEngine.Advertisements.Utilities.UnityLifecycleManager::Dispose()
-extern void UnityLifecycleManager_Dispose_m2E15066A520646FED13DF2AAE6BCE8049BC9F746 (void);
+extern void UnityLifecycleManager_Dispose_mCF9E89CBAD0085E00760F95245FC903FCE846D45 (void);
 // 0x000000C7 System.Void UnityEngine.Advertisements.Utilities.UnityLifecycleManager::SetOnApplicationQuitCallback(UnityEngine.Events.UnityAction)
-extern void UnityLifecycleManager_SetOnApplicationQuitCallback_m3F4658AC36BED9AC5AA3AFBAAF01C3FFE4ABFB3F (void);
+extern void UnityLifecycleManager_SetOnApplicationQuitCallback_m7334EED46E388838750223ECB66F89C34E588719 (void);
 // 0x000000C8 System.Void UnityEngine.Advertisements.Purchasing.IPurchase::Initialize(UnityEngine.Advertisements.Purchasing.IPurchasingEventSender)
 // 0x000000C9 System.Void UnityEngine.Advertisements.Purchasing.IPurchase::SendEvent(System.String)
 // 0x000000CA System.Void UnityEngine.Advertisements.Purchasing.IPurchase::onPurchasingCommand(System.String)
@@ -372,31 +372,31 @@ extern void UnityLifecycleManager_SetOnApplicationQuitCallback_m3F4658AC36BED9AC
 // 0x000000CD System.Void UnityEngine.Advertisements.Purchasing.IPurchase::onInitializePurchasing()
 // 0x000000CE System.Void UnityEngine.Advertisements.Purchasing.IPurchasingEventSender::SendPurchasingEvent(System.String)
 // 0x000000CF System.Void UnityEngine.Advertisements.Purchasing.Purchase::onPurchasingCommand(System.String)
-extern void Purchase_onPurchasingCommand_mCCB94AFCA2E8C369F16E0D1C8E12C40BA6A08818 (void);
+extern void Purchase_onPurchasingCommand_mB9E644708ED8D8EFA8CD98F5D1958FA82C27977C (void);
 // 0x000000D0 System.Void UnityEngine.Advertisements.Purchasing.Purchase::onGetPurchasingVersion()
-extern void Purchase_onGetPurchasingVersion_m3069B940592B0841B13AB1873EA79D07F9284D98 (void);
+extern void Purchase_onGetPurchasingVersion_mD7C57FC1DBF00A587E7E7B05CF402073136DA811 (void);
 // 0x000000D1 System.Void UnityEngine.Advertisements.Purchasing.Purchase::onGetProductCatalog()
-extern void Purchase_onGetProductCatalog_m3B6B1FE855B05DBEA625BEFD93624F6B90F1E68D (void);
+extern void Purchase_onGetProductCatalog_m1CAFF4E3ECF242B4463599BAB6740EB944471F1E (void);
 // 0x000000D2 System.Void UnityEngine.Advertisements.Purchasing.Purchase::onInitializePurchasing()
-extern void Purchase_onInitializePurchasing_m1CA49D6B7098E0ABC34D9C5068C6B4FF40959525 (void);
+extern void Purchase_onInitializePurchasing_m3FB4CB1D7D6ADC2FB9EB1CD28F9BAD2291571B7F (void);
 // 0x000000D3 System.Void UnityEngine.Advertisements.Purchasing.Purchase::SendEvent(System.String)
-extern void Purchase_SendEvent_m3C79B682C8D2C031D44746202F61AB5BEA6C0F22 (void);
+extern void Purchase_SendEvent_m231E1E4E2C702B97DF3C50D40F1E58D112EE0D46 (void);
 // 0x000000D4 System.Void UnityEngine.Advertisements.Purchasing.Purchase::Initialize(UnityEngine.Advertisements.Purchasing.IPurchasingEventSender)
-extern void Purchase_Initialize_mAC442010AFA23D482F2CDF7144B2BDA793D5F92B (void);
+extern void Purchase_Initialize_m1DA9E4152F6B39CFD32FFF93F5AB01926A3614BB (void);
 // 0x000000D5 System.Void UnityEngine.Advertisements.Purchasing.Purchase::.ctor()
-extern void Purchase__ctor_mBD4CD713E8E9167FA4FD2024B651C9BBB3A9E7A7 (void);
+extern void Purchase__ctor_m3473E768807E79A5E05AC323F5F284FC53704F6D (void);
 // 0x000000D6 System.Boolean UnityEngine.Advertisements.Purchasing.Purchasing::Initialize(UnityEngine.Advertisements.Purchasing.IPurchasingEventSender)
-extern void Purchasing_Initialize_m14E011B5AE0C0D41490676A551DD364245EBF0EC (void);
+extern void Purchasing_Initialize_mEE57A82CF79030301EAB7E832429DBFACACAD82D (void);
 // 0x000000D7 System.Boolean UnityEngine.Advertisements.Purchasing.Purchasing::InitiatePurchasingCommand(System.String)
-extern void Purchasing_InitiatePurchasingCommand_m0B076A546123334CADFE0E805E7125BBE081D4B3 (void);
+extern void Purchasing_InitiatePurchasingCommand_m66FE9833C18F368298094F57ECC8A4677E2405E3 (void);
 // 0x000000D8 System.String UnityEngine.Advertisements.Purchasing.Purchasing::GetPurchasingCatalog()
-extern void Purchasing_GetPurchasingCatalog_mC2BEAD1D96CFB58D7778AEBB4A43A9A6D9DD0CD9 (void);
+extern void Purchasing_GetPurchasingCatalog_m4AE9FEEDCB3280E1EA93126B8483CC606347D437 (void);
 // 0x000000D9 System.String UnityEngine.Advertisements.Purchasing.Purchasing::GetPromoVersion()
-extern void Purchasing_GetPromoVersion_mDB84F17B70F76C5B00D7E2062B26BB92AF4304BA (void);
+extern void Purchasing_GetPromoVersion_m250CC4254BBB79FBBF560A6BB326026328FEE2A7 (void);
 // 0x000000DA System.Boolean UnityEngine.Advertisements.Purchasing.Purchasing::SendEvent(System.String)
-extern void Purchasing_SendEvent_m8274AD7B80C0853660EA40ADB6FBF2A0B12A7950 (void);
+extern void Purchasing_SendEvent_m9AD5D002983892D293F1139CF2687FF15086BB0C (void);
 // 0x000000DB System.Void UnityEngine.Advertisements.Purchasing.Purchasing::.cctor()
-extern void Purchasing__cctor_m616808EB3A5A2F1577EBF1F684D7080F82B17292 (void);
+extern void Purchasing__cctor_m38CF437C93B02C3A5012D76D6534F65A8B4EB4E3 (void);
 // 0x000000DC System.Void UnityEngine.Advertisements.Platform.IPlatform::add_OnStart(System.EventHandler`1<UnityEngine.Advertisements.Events.StartEventArgs>)
 // 0x000000DD System.Void UnityEngine.Advertisements.Platform.IPlatform::remove_OnStart(System.EventHandler`1<UnityEngine.Advertisements.Events.StartEventArgs>)
 // 0x000000DE System.Void UnityEngine.Advertisements.Platform.IPlatform::add_OnFinish(System.EventHandler`1<UnityEngine.Advertisements.Events.FinishEventArgs>)
@@ -423,338 +423,338 @@ extern void Purchasing__cctor_m616808EB3A5A2F1577EBF1F684D7080F82B17292 (void);
 // 0x000000F3 System.Void UnityEngine.Advertisements.Platform.IPlatform::UnityAdsDidStart(System.String)
 // 0x000000F4 System.Void UnityEngine.Advertisements.Platform.IPlatform::UnityAdsDidFinish(System.String,UnityEngine.Advertisements.ShowResult)
 // 0x000000F5 System.Void UnityEngine.Advertisements.Platform.Platform::add_OnStart(System.EventHandler`1<UnityEngine.Advertisements.Events.StartEventArgs>)
-extern void Platform_add_OnStart_mA5EE80229E95F2DF71502EAB1143E5D89EAD018D (void);
+extern void Platform_add_OnStart_m04511443723766BAFF495DAC298754E51EA5D584 (void);
 // 0x000000F6 System.Void UnityEngine.Advertisements.Platform.Platform::remove_OnStart(System.EventHandler`1<UnityEngine.Advertisements.Events.StartEventArgs>)
-extern void Platform_remove_OnStart_m44D267A6FFEEEE0BF6C7BFDDA355AC683A0641A8 (void);
+extern void Platform_remove_OnStart_m3E857ED12DB9D9C971082D7694F1E43D5046F61B (void);
 // 0x000000F7 System.Void UnityEngine.Advertisements.Platform.Platform::add_OnFinish(System.EventHandler`1<UnityEngine.Advertisements.Events.FinishEventArgs>)
-extern void Platform_add_OnFinish_mAAFDFF3ACA72652DEDC17B5651C2EF169A8D7F4F (void);
+extern void Platform_add_OnFinish_m4A7073AEC10FD6A2F1786DE8B52E4CF1CD132EA3 (void);
 // 0x000000F8 System.Void UnityEngine.Advertisements.Platform.Platform::remove_OnFinish(System.EventHandler`1<UnityEngine.Advertisements.Events.FinishEventArgs>)
-extern void Platform_remove_OnFinish_mBF555D3C995D7A9180CAA6B1761874640E0FD255 (void);
+extern void Platform_remove_OnFinish_m8EA12F234481EFF5A53A1C1D1BB57DEADA2CF037 (void);
 // 0x000000F9 UnityEngine.Advertisements.IBanner UnityEngine.Advertisements.Platform.Platform::get_Banner()
-extern void Platform_get_Banner_m17B6B2160CCB2F2368C06524104DA55639C4B9FA (void);
+extern void Platform_get_Banner_mBEE78892FFA8C866082541224CFB8A92E4101311 (void);
 // 0x000000FA UnityEngine.Advertisements.Utilities.IUnityLifecycleManager UnityEngine.Advertisements.Platform.Platform::get_UnityLifecycleManager()
-extern void Platform_get_UnityLifecycleManager_m6E8BDFA3313C3476DA8519F9E759A6C2599F61CC (void);
+extern void Platform_get_UnityLifecycleManager_mB9294779C0B76789EBA9F9D5A17ECA0BBAAB27C6 (void);
 // 0x000000FB UnityEngine.Advertisements.INativePlatform UnityEngine.Advertisements.Platform.Platform::get_NativePlatform()
-extern void Platform_get_NativePlatform_m055DE92A6397C9BFB2A729F9294AFA99B002F8C2 (void);
+extern void Platform_get_NativePlatform_m947A379FFBD64F5CEA65376985C7222235B65A97 (void);
 // 0x000000FC System.Boolean UnityEngine.Advertisements.Platform.Platform::get_IsInitialized()
-extern void Platform_get_IsInitialized_mD7116C3FCF92EED195075AE7499A67C728A201B7 (void);
+extern void Platform_get_IsInitialized_m19A3C638BFD4482F3AE83A2E56F25F1E35A9968B (void);
 // 0x000000FD System.Boolean UnityEngine.Advertisements.Platform.Platform::get_IsShowing()
-extern void Platform_get_IsShowing_mD7D4DB0DCE81A7100F990CF75DEB9597D5CDEC12 (void);
+extern void Platform_get_IsShowing_m514552FE27C701698D6355E09C8851DD4E5CE122 (void);
 // 0x000000FE System.Void UnityEngine.Advertisements.Platform.Platform::set_IsShowing(System.Boolean)
-extern void Platform_set_IsShowing_m1575EFA862EA969C6E44160AF66846DEF009A2BF (void);
+extern void Platform_set_IsShowing_mD31DBEAAEB77EE3516C8EC04FF31D9377DE1C2DD (void);
 // 0x000000FF System.String UnityEngine.Advertisements.Platform.Platform::get_Version()
-extern void Platform_get_Version_mC8539FE79E8D9DAFB8A56995873C6F760E4F4D7D (void);
+extern void Platform_get_Version_m36E3FCBE6B23DE5BB29C5314B840E2A324B0BDFC (void);
 // 0x00000100 System.Boolean UnityEngine.Advertisements.Platform.Platform::get_DebugMode()
-extern void Platform_get_DebugMode_m763567976C7FDE0681BC141DDCDF5ADD1315B057 (void);
+extern void Platform_get_DebugMode_m368948B55F5A11B39A30E390F9DC43D67E890AAA (void);
 // 0x00000101 System.Void UnityEngine.Advertisements.Platform.Platform::set_DebugMode(System.Boolean)
-extern void Platform_set_DebugMode_m7BA41C5CF5636C427D6373602E81618739E37D2C (void);
+extern void Platform_set_DebugMode_m365E6C59F32F9C56C3595DDB2966EAD00B349970 (void);
 // 0x00000102 System.Collections.Generic.HashSet`1<UnityEngine.Advertisements.IUnityAdsListener> UnityEngine.Advertisements.Platform.Platform::get_Listeners()
-extern void Platform_get_Listeners_m04B40907B7A972048637D4537674D7ACB6089F41 (void);
+extern void Platform_get_Listeners_m33769B37E8564946E3D9C317E1BB968894674C2F (void);
 // 0x00000103 System.Void UnityEngine.Advertisements.Platform.Platform::.ctor(UnityEngine.Advertisements.INativePlatform,UnityEngine.Advertisements.IBanner,UnityEngine.Advertisements.Utilities.IUnityLifecycleManager)
-extern void Platform__ctor_mAC2FF35E92BDB79828A05B296D7FB07CFF9C6F36 (void);
+extern void Platform__ctor_m05B42FE74A794E239AF260BD724BFDDFF8967E13 (void);
 // 0x00000104 System.Void UnityEngine.Advertisements.Platform.Platform::Initialize(System.String,System.Boolean,System.Boolean,UnityEngine.Advertisements.IUnityAdsInitializationListener)
-extern void Platform_Initialize_mE0D86443F52FBB8F9B43DBF399DE10C226B7E184 (void);
+extern void Platform_Initialize_m02E4C03E17A810D1C4077D8C22F626C1D9EE9C8C (void);
 // 0x00000105 System.Void UnityEngine.Advertisements.Platform.Platform::Load(System.String)
-extern void Platform_Load_m5F63716E5B2174B9C3B4AA71E0CB8D975CE34485 (void);
+extern void Platform_Load_m793712044AE700F7706568DCBEB96B696EDDB2D6 (void);
 // 0x00000106 System.Void UnityEngine.Advertisements.Platform.Platform::Load(System.String,UnityEngine.Advertisements.IUnityAdsLoadListener)
-extern void Platform_Load_m52FBC7EAA62CB8714E764E262C8143C5ECB0A0DA (void);
+extern void Platform_Load_m0390E439C77D3D1771A9494E13D9CA3B278506DA (void);
 // 0x00000107 System.Void UnityEngine.Advertisements.Platform.Platform::Show(System.String,UnityEngine.Advertisements.ShowOptions,UnityEngine.Advertisements.IUnityAdsShowListener)
-extern void Platform_Show_mD45AAE3C87D4D25C60C45B415A74C4AFBC9BFA1F (void);
+extern void Platform_Show_mC1908C3954266E79D4E4BD29B960DD383C646400 (void);
 // 0x00000108 System.Void UnityEngine.Advertisements.Platform.Platform::AddListener(UnityEngine.Advertisements.IUnityAdsListener)
-extern void Platform_AddListener_m0E5E496A62CBA5D60CACB226AAF364CDBFAE9BC9 (void);
+extern void Platform_AddListener_mF745F32B3601EF8C4A4EB521808112BFF7EE544F (void);
 // 0x00000109 System.Void UnityEngine.Advertisements.Platform.Platform::RemoveListener(UnityEngine.Advertisements.IUnityAdsListener)
-extern void Platform_RemoveListener_m66CB33820F4A0A5B9DEF3194EFECA0E26EA655AD (void);
+extern void Platform_RemoveListener_m7808950BCB103AB1464B1A27B2E18968C6635974 (void);
 // 0x0000010A System.Boolean UnityEngine.Advertisements.Platform.Platform::IsReady(System.String)
-extern void Platform_IsReady_mB094B73DE8225C33AE267B7088FF8A733F3861C8 (void);
+extern void Platform_IsReady_m1E8F6D115C7B01FDF6D7FBD098D34AC407EC471C (void);
 // 0x0000010B UnityEngine.Advertisements.PlacementState UnityEngine.Advertisements.Platform.Platform::GetPlacementState(System.String)
-extern void Platform_GetPlacementState_mA61C07F97BE90F7F48B6F6BBA0C192D71C16F3F8 (void);
+extern void Platform_GetPlacementState_mA0C6E36D9E7BA7880BDE681FE9C3171B28985CD2 (void);
 // 0x0000010C System.Void UnityEngine.Advertisements.Platform.Platform::SetMetaData(UnityEngine.Advertisements.MetaData)
-extern void Platform_SetMetaData_mE3B49CE0F3F4450ADCC90AC98B53E313192A39A7 (void);
+extern void Platform_SetMetaData_mEF57467DE4554E6E2E5A5DFBC00490CFBDE679A3 (void);
 // 0x0000010D System.Void UnityEngine.Advertisements.Platform.Platform::UnityAdsReady(System.String)
-extern void Platform_UnityAdsReady_m27010E4F25709F174EDEED43C5DD346839BC2B91 (void);
+extern void Platform_UnityAdsReady_m366535E3FE1BA8075169E85988A381CC8C1194DA (void);
 // 0x0000010E System.Void UnityEngine.Advertisements.Platform.Platform::UnityAdsDidError(System.String)
-extern void Platform_UnityAdsDidError_mF8EA8A52F16A9017774A30732F824ADD5F9EC19C (void);
+extern void Platform_UnityAdsDidError_m3AE8D1935F67D15EBC6400F7364104370908096E (void);
 // 0x0000010F System.Void UnityEngine.Advertisements.Platform.Platform::UnityAdsDidStart(System.String)
-extern void Platform_UnityAdsDidStart_m21E24FF84CED1830B1B0AFE1E6359564601D0EBC (void);
+extern void Platform_UnityAdsDidStart_m6EA3AFCE2F0EC636B96AE359D3C1FEBA4266E390 (void);
 // 0x00000110 System.Void UnityEngine.Advertisements.Platform.Platform::UnityAdsDidFinish(System.String,UnityEngine.Advertisements.ShowResult)
-extern void Platform_UnityAdsDidFinish_m4661B61B0BD4C0DCE9DCADA4B094C24CDABC35E8 (void);
+extern void Platform_UnityAdsDidFinish_mBF602D6B7CBDF7A3D8A4BAC7CB75E7FC4854AC07 (void);
 // 0x00000111 System.Collections.Generic.HashSet`1<UnityEngine.Advertisements.IUnityAdsListener> UnityEngine.Advertisements.Platform.Platform::GetClonedHashSet(System.Collections.Generic.HashSet`1<UnityEngine.Advertisements.IUnityAdsListener>)
-extern void Platform_GetClonedHashSet_m646ACA8E270FA8DCA83D924DE430CFF9C8E3D324 (void);
+extern void Platform_GetClonedHashSet_m1372A4D374629411CFBDD416832C3C2FF38F56C7 (void);
 // 0x00000112 System.Void UnityEngine.Advertisements.Platform.Platform::<Initialize>b__30_0(System.Object,UnityEngine.Advertisements.Events.StartEventArgs)
-extern void Platform_U3CInitializeU3Eb__30_0_m4F14311AF1F837C76F9598C0898151D55622CF7E (void);
+extern void Platform_U3CInitializeU3Eb__30_0_m7A2E7A473A4F1D97AAD3B9FEA06EA0452FCF91AF (void);
 // 0x00000113 System.Void UnityEngine.Advertisements.Platform.Platform::<Initialize>b__30_1(System.Object,UnityEngine.Advertisements.Events.FinishEventArgs)
-extern void Platform_U3CInitializeU3Eb__30_1_m2FEC023987B9CFA5A49272DD7E6B9E4844CACDCF (void);
+extern void Platform_U3CInitializeU3Eb__30_1_m825D6AFF0E1E398216A1EE6796370B170219008A (void);
 // 0x00000114 System.Void UnityEngine.Advertisements.Platform.Platform/<>c__DisplayClass33_0::.ctor()
-extern void U3CU3Ec__DisplayClass33_0__ctor_m455D237D767665AE14BE4B82352A2308A32B4BB8 (void);
+extern void U3CU3Ec__DisplayClass33_0__ctor_m5A43676152D4F57A59A0D52298A03ACFE4EF54EB (void);
 // 0x00000115 System.Void UnityEngine.Advertisements.Platform.Platform/<>c__DisplayClass33_0::<Show>b__0(System.Object,UnityEngine.Advertisements.Events.FinishEventArgs)
-extern void U3CU3Ec__DisplayClass33_0_U3CShowU3Eb__0_m050B2616328D1A64A058F83A83591F346CAA9E84 (void);
+extern void U3CU3Ec__DisplayClass33_0_U3CShowU3Eb__0_m9012914A2A16CD095D6B46177AFF3B5C3CB93145 (void);
 // 0x00000116 System.Void UnityEngine.Advertisements.Platform.Platform/<>c__DisplayClass39_0::.ctor()
-extern void U3CU3Ec__DisplayClass39_0__ctor_mAF019D1DE85234AE7450F5B06ADEB3B61A8015CA (void);
+extern void U3CU3Ec__DisplayClass39_0__ctor_m0FC8804305346AEB7A362ADECA1AC44A46D7CC89 (void);
 // 0x00000117 System.Void UnityEngine.Advertisements.Platform.Platform/<>c__DisplayClass39_0::<UnityAdsReady>b__0()
-extern void U3CU3Ec__DisplayClass39_0_U3CUnityAdsReadyU3Eb__0_mE10152E14DE66C4BA4C9CCF1000BA687AA8BFB5B (void);
+extern void U3CU3Ec__DisplayClass39_0_U3CUnityAdsReadyU3Eb__0_m28B8003670F5637B40F27E0B51F58D13B953F7C3 (void);
 // 0x00000118 System.Void UnityEngine.Advertisements.Platform.Platform/<>c__DisplayClass40_0::.ctor()
-extern void U3CU3Ec__DisplayClass40_0__ctor_m207B4303A22E409C0AC160FECDC048D8372FB705 (void);
+extern void U3CU3Ec__DisplayClass40_0__ctor_m0128F39B29139E36655B7E6266ED5DCDD7F76FC0 (void);
 // 0x00000119 System.Void UnityEngine.Advertisements.Platform.Platform/<>c__DisplayClass40_0::<UnityAdsDidError>b__0()
-extern void U3CU3Ec__DisplayClass40_0_U3CUnityAdsDidErrorU3Eb__0_m9FD88CE43B7C31FF2EEC4DB9D6A5E8C8FF66F5F1 (void);
+extern void U3CU3Ec__DisplayClass40_0_U3CUnityAdsDidErrorU3Eb__0_mABDE371586C21B6C5A4AB8A5F2C33C42A7301119 (void);
 // 0x0000011A System.Void UnityEngine.Advertisements.Platform.Platform/<>c__DisplayClass41_0::.ctor()
-extern void U3CU3Ec__DisplayClass41_0__ctor_m65CC8D05E090548EDAB02E3D300092A26FAEC982 (void);
+extern void U3CU3Ec__DisplayClass41_0__ctor_m49FE78F3CFE52FBFDE4DF77AC6C8342850D863F5 (void);
 // 0x0000011B System.Void UnityEngine.Advertisements.Platform.Platform/<>c__DisplayClass41_0::<UnityAdsDidStart>b__0()
-extern void U3CU3Ec__DisplayClass41_0_U3CUnityAdsDidStartU3Eb__0_m4540296447426B4EB390F86A71FB982C7B94E638 (void);
+extern void U3CU3Ec__DisplayClass41_0_U3CUnityAdsDidStartU3Eb__0_mF6E648E0E1C3D00F3D88E61F040BC0FE905B8B13 (void);
 // 0x0000011C System.Void UnityEngine.Advertisements.Platform.Platform/<>c__DisplayClass42_0::.ctor()
-extern void U3CU3Ec__DisplayClass42_0__ctor_mB375F170A2D2D542DAFCCB20440D1F7CF0DE67EA (void);
+extern void U3CU3Ec__DisplayClass42_0__ctor_m8FF1D1F8C068D89D0DBCA25E34BEDE8A2CEB7A1C (void);
 // 0x0000011D System.Void UnityEngine.Advertisements.Platform.Platform/<>c__DisplayClass42_0::<UnityAdsDidFinish>b__0()
-extern void U3CU3Ec__DisplayClass42_0_U3CUnityAdsDidFinishU3Eb__0_mB61C98F322502254470E0D4CDB36E6E02652A1C9 (void);
+extern void U3CU3Ec__DisplayClass42_0_U3CUnityAdsDidFinishU3Eb__0_m2307DD2AF08F36B79D29B4050B1B6F1B1E048852 (void);
 // 0x0000011E System.Boolean UnityEngine.Advertisements.Platform.Unsupported.UnsupportedBanner::get_IsLoaded()
-extern void UnsupportedBanner_get_IsLoaded_mD3A1CE2F7F0CEA24C7604E761666965EFBBEB442 (void);
+extern void UnsupportedBanner_get_IsLoaded_mAC20597B72255A43422A65B92B0D6DB321380383 (void);
 // 0x0000011F System.Void UnityEngine.Advertisements.Platform.Unsupported.UnsupportedBanner::SetupBanner(UnityEngine.Advertisements.IBanner)
-extern void UnsupportedBanner_SetupBanner_mAF0EBC53100492D01C56F63DC4FDE13A0710B774 (void);
+extern void UnsupportedBanner_SetupBanner_mC98C55C69EED503F1DA8B22B5307FFA17337C2B4 (void);
 // 0x00000120 System.Void UnityEngine.Advertisements.Platform.Unsupported.UnsupportedBanner::Load(System.String,UnityEngine.Advertisements.BannerLoadOptions)
-extern void UnsupportedBanner_Load_mDDBC9C23F8E43EFE02C3DBEA31E8503AFC4D6E8C (void);
+extern void UnsupportedBanner_Load_m2D4478E96AD0F9C94A38DC821A70E51C277D56C8 (void);
 // 0x00000121 System.Void UnityEngine.Advertisements.Platform.Unsupported.UnsupportedBanner::Show(System.String,UnityEngine.Advertisements.BannerOptions)
-extern void UnsupportedBanner_Show_mDB70F8A3986418BFE8F8C9085E23A1701871161C (void);
+extern void UnsupportedBanner_Show_m861743CBEDFC9A9688FE2525EECA30E831BA6942 (void);
 // 0x00000122 System.Void UnityEngine.Advertisements.Platform.Unsupported.UnsupportedBanner::Hide(System.Boolean)
-extern void UnsupportedBanner_Hide_m446314938DF6A0357E8D9F57ACDBB728725067F7 (void);
+extern void UnsupportedBanner_Hide_m8BDA1734AD214C9B1876D7831B1221F382869A8D (void);
 // 0x00000123 System.Void UnityEngine.Advertisements.Platform.Unsupported.UnsupportedBanner::SetPosition(UnityEngine.Advertisements.BannerPosition)
-extern void UnsupportedBanner_SetPosition_mF76D1BCE99527D849B20566BFB034C1CBA5B42FE (void);
+extern void UnsupportedBanner_SetPosition_m3F83D2F79AB7B55390BFD6709F7DD4B4B3271F68 (void);
 // 0x00000124 System.Void UnityEngine.Advertisements.Platform.Unsupported.UnsupportedBanner::.ctor()
-extern void UnsupportedBanner__ctor_m2305236218B2386B02DA678ED001FF4FAE2D2787 (void);
+extern void UnsupportedBanner__ctor_mC20B1B08B0CD39488831DBFE168A35A355F3DE34 (void);
 // 0x00000125 System.Void UnityEngine.Advertisements.Platform.Unsupported.UnsupportedPlatform::SetupPlatform(UnityEngine.Advertisements.Platform.IPlatform)
-extern void UnsupportedPlatform_SetupPlatform_m22984B9713B00083B85A33D3CF4A5B165E76D2F7 (void);
+extern void UnsupportedPlatform_SetupPlatform_mF077E22C1EDF0CC6CC6279DBC130C84FE7723817 (void);
 // 0x00000126 System.Void UnityEngine.Advertisements.Platform.Unsupported.UnsupportedPlatform::Initialize(System.String,System.Boolean,System.Boolean,UnityEngine.Advertisements.IUnityAdsInitializationListener)
-extern void UnsupportedPlatform_Initialize_mF9C00E63D068D1E5604BEC91620D1FEC74333413 (void);
+extern void UnsupportedPlatform_Initialize_m0AAD08F28892D94C7AF7D7A84BE604CFD7C000BD (void);
 // 0x00000127 System.Void UnityEngine.Advertisements.Platform.Unsupported.UnsupportedPlatform::Load(System.String,UnityEngine.Advertisements.IUnityAdsLoadListener)
-extern void UnsupportedPlatform_Load_mBD55F5399A17E003DCE5FC857412561513D7339D (void);
+extern void UnsupportedPlatform_Load_m5B2A9F19A25AF29E297AAE694DC68CA681854038 (void);
 // 0x00000128 System.Void UnityEngine.Advertisements.Platform.Unsupported.UnsupportedPlatform::Show(System.String,UnityEngine.Advertisements.IUnityAdsShowListener)
-extern void UnsupportedPlatform_Show_mCE2A60CDF44A03F7B18E1BEC4DD2E6BF8D8A669C (void);
+extern void UnsupportedPlatform_Show_mDC748A64CF758DB864B98A018FB880D88E2E9C5D (void);
 // 0x00000129 System.Void UnityEngine.Advertisements.Platform.Unsupported.UnsupportedPlatform::SetMetaData(UnityEngine.Advertisements.MetaData)
-extern void UnsupportedPlatform_SetMetaData_m80A5421CC456CCBCD6F05B243D9DD95B8A749D01 (void);
+extern void UnsupportedPlatform_SetMetaData_mA0CDAD6010FEF07BE5AC19264BBD89540FB0985D (void);
 // 0x0000012A System.Boolean UnityEngine.Advertisements.Platform.Unsupported.UnsupportedPlatform::GetDebugMode()
-extern void UnsupportedPlatform_GetDebugMode_m3908FE5E695799E32262440044A17232E6DB6E0B (void);
+extern void UnsupportedPlatform_GetDebugMode_m29965A5CBA58F05ED4D9703502EA369C90DD85EF (void);
 // 0x0000012B System.Void UnityEngine.Advertisements.Platform.Unsupported.UnsupportedPlatform::SetDebugMode(System.Boolean)
-extern void UnsupportedPlatform_SetDebugMode_m383A19A4EE64823129E7389A6F9C1B5E7F91EB48 (void);
+extern void UnsupportedPlatform_SetDebugMode_mC61BD5EFB1E14D4E701EF030C99EB689183EC381 (void);
 // 0x0000012C System.String UnityEngine.Advertisements.Platform.Unsupported.UnsupportedPlatform::GetVersion()
-extern void UnsupportedPlatform_GetVersion_mE54D4A6DF5D19DF303A2BA5F8B97DB2B80C7C40C (void);
+extern void UnsupportedPlatform_GetVersion_mABD397AE640F7AECA986A91916C2FC32B745D5A4 (void);
 // 0x0000012D System.Boolean UnityEngine.Advertisements.Platform.Unsupported.UnsupportedPlatform::IsInitialized()
-extern void UnsupportedPlatform_IsInitialized_mFB76F9E1BAFCE627B07E6667873CF1F4E696D13E (void);
+extern void UnsupportedPlatform_IsInitialized_m1378AA8DDC6FE7DDAF2EF06092BEE8DA42C0E8F4 (void);
 // 0x0000012E System.Boolean UnityEngine.Advertisements.Platform.Unsupported.UnsupportedPlatform::IsReady(System.String)
-extern void UnsupportedPlatform_IsReady_mEBA734BC05174630AF0270A448A76267FA347794 (void);
+extern void UnsupportedPlatform_IsReady_mC4BC7A8534BE6B6E82FCFB74697B44F255FF62A9 (void);
 // 0x0000012F UnityEngine.Advertisements.PlacementState UnityEngine.Advertisements.Platform.Unsupported.UnsupportedPlatform::GetPlacementState(System.String)
-extern void UnsupportedPlatform_GetPlacementState_m4F06A841BD83A043D03A6068270457D3B145ABFF (void);
+extern void UnsupportedPlatform_GetPlacementState_m0A347897C170FA834DCD24F0547451839F4E9979 (void);
 // 0x00000130 System.Void UnityEngine.Advertisements.Platform.Unsupported.UnsupportedPlatform::.ctor()
-extern void UnsupportedPlatform__ctor_m4DDFDBCFE5CCC6D97BD1E9101E88807FAD3390A6 (void);
+extern void UnsupportedPlatform__ctor_m7958280F42833563A46C31ADB774DBA9DB7DB7A5 (void);
 // 0x00000131 System.Void UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder::Awake()
-extern void BannerPlaceholder_Awake_m103F5F462A094619FBE7F10B8B8EFDBC2BE1C83B (void);
+extern void BannerPlaceholder_Awake_m392559752B7D79220B534EBC2F84D634034F4B11 (void);
 // 0x00000132 System.Void UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder::OnGUI()
-extern void BannerPlaceholder_OnGUI_m544F919AB3F2EE7835A609AC83742C6B7861E173 (void);
+extern void BannerPlaceholder_OnGUI_m17CB0B088C168FBC82051455D4BD10813E5F2675 (void);
 // 0x00000133 System.Void UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder::ShowBanner(UnityEngine.Advertisements.BannerPosition,UnityEngine.Advertisements.BannerOptions)
-extern void BannerPlaceholder_ShowBanner_m69226A7A2E420A019BE8FEA1C2F03B0393DA2C69 (void);
+extern void BannerPlaceholder_ShowBanner_m7DD53DDFBDFFD078AC2D50325E93CFB52F8AC088 (void);
 // 0x00000134 System.Void UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder::HideBanner()
-extern void BannerPlaceholder_HideBanner_mB1AC5F23AA8332647D0EFB3461FFA6E940CD19A4 (void);
+extern void BannerPlaceholder_HideBanner_m8516A412A3CD20FB4D5F66CFEF233ACA340BC135 (void);
 // 0x00000135 UnityEngine.Texture2D UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder::BackgroundTexture(System.Int32,System.Int32,UnityEngine.Color)
-extern void BannerPlaceholder_BackgroundTexture_m7FA16D1C2F769BC1BEB753C135362B08A9EC5606 (void);
+extern void BannerPlaceholder_BackgroundTexture_m3571682A4CA0E00BEA263954EE87DF8FADFB8516 (void);
 // 0x00000136 UnityEngine.Rect UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder::GetBannerRect(UnityEngine.Advertisements.BannerPosition)
-extern void BannerPlaceholder_GetBannerRect_m92EF5CC1CCE2E5A5781CE17F1C1C4B91D9EE021A (void);
+extern void BannerPlaceholder_GetBannerRect_m0F10D44EE32D80CB79954C98F8EF0A73BEF4601A (void);
 // 0x00000137 System.Void UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder::.ctor()
-extern void BannerPlaceholder__ctor_m7AFD4CCC06EF529C0467A5AD511D233B15726E90 (void);
+extern void BannerPlaceholder__ctor_m3ECE869D6AFA5D19B732F44D72F21850C9EB52D8 (void);
 // 0x00000138 System.Boolean UnityEngine.Advertisements.Platform.Android.AndroidBanner::get_IsLoaded()
-extern void AndroidBanner_get_IsLoaded_m1090D7F14C00A444B7F905BEB0ECFDAC9E3D2721 (void);
+extern void AndroidBanner_get_IsLoaded_m3A7700F8A5205BA7709EB4801853E601D0D797F0 (void);
 // 0x00000139 System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner::.ctor()
-extern void AndroidBanner__ctor_mEFC2C531C4E5A77327120C2509408E0240FC111B (void);
+extern void AndroidBanner__ctor_m734C09F272FE7BD60B1235513B9C071CF3D2FE0E (void);
 // 0x0000013A System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner::SetupBanner(UnityEngine.Advertisements.IBanner)
-extern void AndroidBanner_SetupBanner_m7A722CA69652B7A2F0908FB01E9B04DF2F033B9F (void);
+extern void AndroidBanner_SetupBanner_m8EAA0F0C3F1ED5FAAB6D0BCCD34887396EAB2516 (void);
 // 0x0000013B System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner::Load(System.String,UnityEngine.Advertisements.BannerLoadOptions)
-extern void AndroidBanner_Load_m3BA946237BC3E25BB91992BABF4FA06BD26FA06C (void);
+extern void AndroidBanner_Load_m62999B7510DEDE7A341DB8FD2810147C726AD561 (void);
 // 0x0000013C System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner::Show(System.String,UnityEngine.Advertisements.BannerOptions)
-extern void AndroidBanner_Show_mE7BBBD0DECF98645A727D7C42ACE31B931A23CE7 (void);
+extern void AndroidBanner_Show_m6E99841CFD49F93AFAD677BFD9FDC52303C94232 (void);
 // 0x0000013D System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner::Hide(System.Boolean)
-extern void AndroidBanner_Hide_m63A3B7CC005F053B60858B768E7C5E60E8259BD9 (void);
+extern void AndroidBanner_Hide_mB1E7741E9807F1AECAFD971C6F36A8F5555E8697 (void);
 // 0x0000013E System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner::SetPosition(UnityEngine.Advertisements.BannerPosition)
-extern void AndroidBanner_SetPosition_m69DFAAF571A7DFD9261876EAA116C2DF06932586 (void);
+extern void AndroidBanner_SetPosition_m16185AD21C3D7D5F1542E23401D9CA0633BF26F0 (void);
 // 0x0000013F System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner::onUnityBannerShow(System.String)
-extern void AndroidBanner_onUnityBannerShow_mE685C1F80E303BB80CD72395CB4912F2F416106C (void);
+extern void AndroidBanner_onUnityBannerShow_m8D172FC53B43DB542DB6F6A33871A90E7747F34E (void);
 // 0x00000140 System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner::onUnityBannerHide(System.String)
-extern void AndroidBanner_onUnityBannerHide_mB098E9359B8366A35E3B6C30A4389F43080AE016 (void);
+extern void AndroidBanner_onUnityBannerHide_m77A79A43FED9B7DB90F7962975F3ECA738CD2D71 (void);
 // 0x00000141 System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner::onUnityBannerLoaded(System.String,UnityEngine.AndroidJavaObject)
-extern void AndroidBanner_onUnityBannerLoaded_m096EAEC3FE07949B5D8D1A0BAA87F95F3C6D1A4C (void);
+extern void AndroidBanner_onUnityBannerLoaded_m6017EE911350AC3BE006342764C4D478DAF73914 (void);
 // 0x00000142 System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner::onUnityBannerUnloaded(System.String)
-extern void AndroidBanner_onUnityBannerUnloaded_m3B4D9FCD2C1FBDD3AB411616797093B2EE182DBE (void);
+extern void AndroidBanner_onUnityBannerUnloaded_m32662FDF703D4F351FEDC645EE1C3D80413E831B (void);
 // 0x00000143 System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner::onUnityBannerClick(System.String)
-extern void AndroidBanner_onUnityBannerClick_m37EAA4F3784D85FA358406F15F9BFA14515158E0 (void);
+extern void AndroidBanner_onUnityBannerClick_m01905C342D9102EE8B25640EC08A6B7E4396AAF1 (void);
 // 0x00000144 System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner::onUnityBannerError(System.String)
-extern void AndroidBanner_onUnityBannerError_m828266783A11EC1C42E92557DC60FD51F79817BF (void);
+extern void AndroidBanner_onUnityBannerError_m8E5DD5AACD964A0E69C0456C4CD95A424435D721 (void);
 // 0x00000145 System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner::<Hide>b__13_0()
-extern void AndroidBanner_U3CHideU3Eb__13_0_m757B84BBA3EAC22EA037984375E4D74BB8C0C392 (void);
+extern void AndroidBanner_U3CHideU3Eb__13_0_mAB882C8070DC10996541AA95791DDF35A7D3F9A8 (void);
 // 0x00000146 System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner::<Hide>b__13_1()
-extern void AndroidBanner_U3CHideU3Eb__13_1_mCCC885F5E3422A1B18721462501A1CE3D84F9A57 (void);
+extern void AndroidBanner_U3CHideU3Eb__13_1_mD15360DE3E36F405B8A47ABAFDB23D612167EF95 (void);
 // 0x00000147 System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner::<onUnityBannerLoaded>b__17_1()
-extern void AndroidBanner_U3ConUnityBannerLoadedU3Eb__17_1_m6826646D632CC76023CE29D6A2743D0B828712CD (void);
+extern void AndroidBanner_U3ConUnityBannerLoadedU3Eb__17_1_mCB7A72E7A65C77AF78D2DDD94DFA950AE9FC3AC9 (void);
 // 0x00000148 System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner::<onUnityBannerLoaded>b__17_0()
-extern void AndroidBanner_U3ConUnityBannerLoadedU3Eb__17_0_m2472E032DFC18A109FC71320B1DD1209B4B855D5 (void);
+extern void AndroidBanner_U3ConUnityBannerLoadedU3Eb__17_0_mB0AF2D12F816E40A5C11FD95EDE2C22E18A4AE5B (void);
 // 0x00000149 System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner::<onUnityBannerClick>b__19_0()
-extern void AndroidBanner_U3ConUnityBannerClickU3Eb__19_0_mDC301E5E41214CCFCDA947F919C62281570C0CBA (void);
+extern void AndroidBanner_U3ConUnityBannerClickU3Eb__19_0_m7B6FC4F679F7F4903BB7FDB468FD1C111C21E399 (void);
 // 0x0000014A System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner/<>c__DisplayClass11_0::.ctor()
-extern void U3CU3Ec__DisplayClass11_0__ctor_m762DE44D1512CB4805DC8A29EF9C6528796CF5CD (void);
+extern void U3CU3Ec__DisplayClass11_0__ctor_mC415D8C16ADFC539F325538D30E81965A946A793 (void);
 // 0x0000014B System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner/<>c__DisplayClass11_0::<Load>b__0()
-extern void U3CU3Ec__DisplayClass11_0_U3CLoadU3Eb__0_m9920C93CCA34B774014E199AAE65CC7C4B055757 (void);
+extern void U3CU3Ec__DisplayClass11_0_U3CLoadU3Eb__0_m949FFACE737D6CC4C752851E5F7406BF22B4998D (void);
 // 0x0000014C System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner/<>c__DisplayClass12_0::.ctor()
-extern void U3CU3Ec__DisplayClass12_0__ctor_m58EE4C928EF5FC73C913609507FDEA5AF3341F81 (void);
+extern void U3CU3Ec__DisplayClass12_0__ctor_m30C2A848A50D2A065D20149EC691368359C13B60 (void);
 // 0x0000014D System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner/<>c__DisplayClass12_0::<Show>b__0()
-extern void U3CU3Ec__DisplayClass12_0_U3CShowU3Eb__0_m271FCA57067860092B7BC2D4CE9475AF0F95C6C8 (void);
+extern void U3CU3Ec__DisplayClass12_0_U3CShowU3Eb__0_m0359D20E86119FDB7B89DD07E5CE3DF1F7F54BFA (void);
 // 0x0000014E System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner/<>c__DisplayClass12_0::<Show>b__1()
-extern void U3CU3Ec__DisplayClass12_0_U3CShowU3Eb__1_m5DDA628C1D9F00A543BAE39AFD48383B3BED59BD (void);
+extern void U3CU3Ec__DisplayClass12_0_U3CShowU3Eb__1_m28B3F96473008FF1719DBF80C47C1E9670AA0791 (void);
 // 0x0000014F System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner/<>c__DisplayClass20_0::.ctor()
-extern void U3CU3Ec__DisplayClass20_0__ctor_m51046C9EFFA4F39A1EA8BF75C71D92FB24CD0845 (void);
+extern void U3CU3Ec__DisplayClass20_0__ctor_m7003CA38A85CB5D71D566630B55C90C822F875E7 (void);
 // 0x00000150 System.Void UnityEngine.Advertisements.Platform.Android.AndroidBanner/<>c__DisplayClass20_0::<onUnityBannerError>b__0()
-extern void U3CU3Ec__DisplayClass20_0_U3ConUnityBannerErrorU3Eb__0_mBBCFAF34F5D9CC8ACC5C149156925A3FC6A05E06 (void);
+extern void U3CU3Ec__DisplayClass20_0_U3ConUnityBannerErrorU3Eb__0_mCA5AD7066A9870DF7FD69A8179B89C51970C6EF9 (void);
 // 0x00000151 System.Void UnityEngine.Advertisements.Platform.Android.AndroidPlatform::.ctor()
-extern void AndroidPlatform__ctor_mC0F30F0051F74F6EB82B75AEE221C4E8E276AFBB (void);
+extern void AndroidPlatform__ctor_m5D667B39B959DDFEB1C821705E4D8FD4D91811EC (void);
 // 0x00000152 System.Void UnityEngine.Advertisements.Platform.Android.AndroidPlatform::SetupPlatform(UnityEngine.Advertisements.Platform.IPlatform)
-extern void AndroidPlatform_SetupPlatform_m3E37CE5B5FB6F75D735D1C6B81D9C471A8DD8789 (void);
+extern void AndroidPlatform_SetupPlatform_m2A31F16DDE02C7AC58514BDDDA945B3184470508 (void);
 // 0x00000153 System.Void UnityEngine.Advertisements.Platform.Android.AndroidPlatform::Initialize(System.String,System.Boolean,System.Boolean,UnityEngine.Advertisements.IUnityAdsInitializationListener)
-extern void AndroidPlatform_Initialize_m3CEA4813A7341719103F9427211663C6FC9C8FB5 (void);
+extern void AndroidPlatform_Initialize_m65FF211170FBBB8E79EE8A507366C11E29144144 (void);
 // 0x00000154 System.Void UnityEngine.Advertisements.Platform.Android.AndroidPlatform::Load(System.String,UnityEngine.Advertisements.IUnityAdsLoadListener)
-extern void AndroidPlatform_Load_m08BC441FD44F432B834FAD50EFB18DAFC8CBCCD7 (void);
+extern void AndroidPlatform_Load_m2B4C3F4AF02470D8D5D5D759F4E937F2D4371EB7 (void);
 // 0x00000155 System.Void UnityEngine.Advertisements.Platform.Android.AndroidPlatform::Show(System.String,UnityEngine.Advertisements.IUnityAdsShowListener)
-extern void AndroidPlatform_Show_mAE3198D5C993293848A01F5AFCF1C2DA7AA8B3BD (void);
+extern void AndroidPlatform_Show_m787BCE53E812EB340388FF343F937E72B8F96A82 (void);
 // 0x00000156 System.Void UnityEngine.Advertisements.Platform.Android.AndroidPlatform::SetMetaData(UnityEngine.Advertisements.MetaData)
-extern void AndroidPlatform_SetMetaData_mE6528096B96E18E6F4088C2297440FE4D8241A95 (void);
+extern void AndroidPlatform_SetMetaData_m81C927FD8E29866B95DA104BF9F35C4138D174E3 (void);
 // 0x00000157 System.Boolean UnityEngine.Advertisements.Platform.Android.AndroidPlatform::GetDebugMode()
-extern void AndroidPlatform_GetDebugMode_m12C47DA56D6107866567D04955A6C066B5441421 (void);
+extern void AndroidPlatform_GetDebugMode_m1ED72CA58F3DF253C03216459C2AC7E7AD12C104 (void);
 // 0x00000158 System.Void UnityEngine.Advertisements.Platform.Android.AndroidPlatform::SetDebugMode(System.Boolean)
-extern void AndroidPlatform_SetDebugMode_mEA48D6DD4DF54DF91843D434F9E3D2D180798323 (void);
+extern void AndroidPlatform_SetDebugMode_m18A3E0EE2CE09E20C596491C4A0B235BA249E197 (void);
 // 0x00000159 System.String UnityEngine.Advertisements.Platform.Android.AndroidPlatform::GetVersion()
-extern void AndroidPlatform_GetVersion_mC4FBF42109EF450D2F04A5439DE715AB1E559977 (void);
+extern void AndroidPlatform_GetVersion_m591D9181C0E6AFA100BC79EF9BFC0F9925D28241 (void);
 // 0x0000015A System.Boolean UnityEngine.Advertisements.Platform.Android.AndroidPlatform::IsInitialized()
-extern void AndroidPlatform_IsInitialized_mFBC9096CB7EAEE5739F85695481B5C0FDF8037C2 (void);
+extern void AndroidPlatform_IsInitialized_mA501F1339E6E6E64C0A8BDB4C9461D295ED2EE7B (void);
 // 0x0000015B System.Boolean UnityEngine.Advertisements.Platform.Android.AndroidPlatform::IsReady(System.String)
-extern void AndroidPlatform_IsReady_m325868E1025DC4E7C6B94D50581645C668F5F7FF (void);
+extern void AndroidPlatform_IsReady_m6C93143C253793CEF1310B9E171FBD6374EDE0AE (void);
 // 0x0000015C System.Void UnityEngine.Advertisements.Platform.Android.AndroidPlatform::RemoveListener()
-extern void AndroidPlatform_RemoveListener_mF4FEFBC4D00DE55040239A2DDA95E4B8DA7C6BB3 (void);
+extern void AndroidPlatform_RemoveListener_m2A18237BD604377583E41BACED668F65209C5BFD (void);
 // 0x0000015D UnityEngine.Advertisements.PlacementState UnityEngine.Advertisements.Platform.Android.AndroidPlatform::GetPlacementState(System.String)
-extern void AndroidPlatform_GetPlacementState_m6EF901639291B3CC96B201CE2995868540393BC3 (void);
+extern void AndroidPlatform_GetPlacementState_m41C5D4E0CCC299FD83367835715900DF778227EA (void);
 // 0x0000015E UnityEngine.AndroidJavaObject UnityEngine.Advertisements.Platform.Android.AndroidPlatform::GetCurrentAndroidActivity()
-extern void AndroidPlatform_GetCurrentAndroidActivity_mA35240AE0C6D4CD2D53F97184FB5E7673E9FD6EC (void);
+extern void AndroidPlatform_GetCurrentAndroidActivity_m30A1BB0C7C5520B51B8F5E45F27F586A8C7BD68C (void);
 // 0x0000015F System.Void UnityEngine.Advertisements.Platform.Android.AndroidPlatform::UnityEngine.Advertisements.Purchasing.IPurchasingEventSender.SendPurchasingEvent(System.String)
-extern void AndroidPlatform_UnityEngine_Advertisements_Purchasing_IPurchasingEventSender_SendPurchasingEvent_m8FC35C2E29174CF548316F3E83AA75F6BF74B3B1 (void);
+extern void AndroidPlatform_UnityEngine_Advertisements_Purchasing_IPurchasingEventSender_SendPurchasingEvent_m6650EDE5A3299DE08FF0975CF43922566AFFB3DB (void);
 // 0x00000160 UnityEngine.AndroidJavaObject UnityEngine.Advertisements.Platform.Android.BannerBundle::get_bannerView()
-extern void BannerBundle_get_bannerView_m494FB7D5596B778F81D08E411FBAAEF1D44B35F5 (void);
+extern void BannerBundle_get_bannerView_mA6309659C791621AA4EC30ADCD94331041586BDD (void);
 // 0x00000161 System.String UnityEngine.Advertisements.Platform.Android.BannerBundle::get_bannerPlacementId()
-extern void BannerBundle_get_bannerPlacementId_m4E41B08F882B7E40EDA642DB23CE704A2604DE2D (void);
+extern void BannerBundle_get_bannerPlacementId_m789DB548258FCAE45F571D630961D7101EF1CE1C (void);
 // 0x00000162 System.Void UnityEngine.Advertisements.Platform.Android.BannerBundle::.ctor(System.String,UnityEngine.AndroidJavaObject)
-extern void BannerBundle__ctor_m1619218BCCA4FCD13708A3236FFA341712D871B8 (void);
+extern void BannerBundle__ctor_mDFCB4F3D083FDFFC6FC1A605D6B106D8E2D71E05 (void);
 // 0x00000163 System.String UnityEngine.Advertisements.Events.FinishEventArgs::get_placementId()
-extern void FinishEventArgs_get_placementId_mC6F1BC10E5AFAD091FFC195A6D54EF279406C1C7 (void);
+extern void FinishEventArgs_get_placementId_m14031742D9FC9A405AE2E4348E7F650464EB6500 (void);
 // 0x00000164 UnityEngine.Advertisements.ShowResult UnityEngine.Advertisements.Events.FinishEventArgs::get_showResult()
-extern void FinishEventArgs_get_showResult_m26C0D63F84FC858B04B3A788E633FA1F35AB93F7 (void);
+extern void FinishEventArgs_get_showResult_m933F173D07675D7C20C05D07623BE25398257C52 (void);
 // 0x00000165 System.Void UnityEngine.Advertisements.Events.FinishEventArgs::.ctor(System.String,UnityEngine.Advertisements.ShowResult)
-extern void FinishEventArgs__ctor_m22E9FC5FC756FA1F6893629C16C7B7B5C77F5219 (void);
+extern void FinishEventArgs__ctor_m496AD66C8D626BF0EFB33EEB2CEA2D2EDF42ADBB (void);
 // 0x00000166 System.String UnityEngine.Advertisements.Events.StartEventArgs::get_placementId()
-extern void StartEventArgs_get_placementId_m9469A02B1AF7DCFC3BF0FDC63C867163827F4519 (void);
+extern void StartEventArgs_get_placementId_mC0C9FF59F36D53397DBE16BABB94F3C11B8C3319 (void);
 // 0x00000167 System.Void UnityEngine.Advertisements.Events.StartEventArgs::.ctor(System.String)
-extern void StartEventArgs__ctor_mCB7FE6F57A53D5BBEB50ED07DBB158A8E112868C (void);
+extern void StartEventArgs__ctor_m28465529BB59ED9A94D78ECEEF36F1FA601B87B0 (void);
 static Il2CppMethodPointer s_methodPointers[359] = 
 {
-	Advertisement__cctor_mB44256768A89BD38E6BA522B4C178350A1983B74,
-	Advertisement_get_isInitialized_mB504A790B305C52734533C91982678CA45EA9A4F,
-	Advertisement_get_isSupported_m137C1841EE86BF502BD7EB1D9889078B2387CF8E,
-	Advertisement_get_debugMode_m6E32EAAA7633FA61F2312396E5DBA7367840080A,
-	Advertisement_set_debugMode_mA64998E948E522B05755757BDF7279866AD52067,
-	Advertisement_get_version_m6574BA0BE4B94AA51E1E92D207BE3294C8E48FF1,
-	Advertisement_get_isShowing_m004D5F97E151927DD0637A9967FAD7E704932123,
-	Advertisement_Initialize_m4B4A6CA19B11047279C327CDF240F1E7223C39F2,
-	Advertisement_Initialize_m50E5DCFAC318D93B37B03C454C0B6648428A109F,
-	Advertisement_Initialize_mDC6992FA08E4C26BEF880B14E644F71DE9C9804D,
-	Advertisement_Initialize_m8E5F0FE27AA821BC18C08CA9B0DFCD795EF0EB3E,
-	Advertisement_IsReady_m4F30149C74D2F243D9DE8F95F4864B241236D016,
-	Advertisement_IsReady_m7880E5F097F352E81CED7DFA42B48F150B0EC682,
-	Advertisement_Load_m0C9D79444FCD24319D033DCB6B305B8AF15FA2E5,
-	Advertisement_Load_m2A2737F1D9BDBF23912614A7B8BAA7EC837CF1A8,
-	Advertisement_Show_m1FC1AE09403CE9104EDBCC088773B531C44C0C85,
-	Advertisement_Show_m75759E89438020A5888F5083A67D4B00A428BAB5,
-	Advertisement_Show_m8B3BB4A04BD6822D5B0A8CE6E675E6CDEDFDCEED,
-	Advertisement_Show_m542E0BE5F1952599326798CFF080DE113AA93D8C,
-	Advertisement_Show_mC45B5B2EE78CAC1D790803BD9337FEF4472F8F33,
-	Advertisement_Show_m927377540F2FBAA7072449D8C011A7252A78FA3A,
-	Advertisement_SetMetaData_mA9AA97AF50809D3FC117D28E80E24A1A31031F28,
-	Advertisement_AddListener_m1548B00420180351DF863FBB372C0264AAE49C44,
-	Advertisement_RemoveListener_m408A2E9C2793DC9FDC6806514CA7619A62B9D792,
-	Advertisement_GetPlacementState_mB65B8E93250DE669EA3B46F54A39C0D2D0132648,
-	Advertisement_GetPlacementState_mE0B4AC310CDAFAF4D14A04992BB26220253EFF5B,
-	Advertisement_CreatePlatform_mC1CDD4759D65156D6F201E06DDD979696B05D4E3,
-	Advertisement_IsSupported_m251D8427493C493098367A60067F458251BD62DF,
-	Banner_Load_m06A48D7352F2E23A7AD41CF41409BB0946DD9A00,
-	Banner_Load_mB519531E433DB53EA86E74A2757DFF857B0E5CB6,
-	Banner_Load_mC922C4D831834C3649203DA96E78E5971CF40210,
-	Banner_Load_m000224EDA0BF2FF61EDE66E167148ACB8C294579,
-	Banner_Show_mF34A748E029451235C4EB3C2EC0B1E8E128AEE96,
-	Banner_Show_m40A12D094C9EAA6AF725784589EA3228F0EF2520,
-	Banner_Show_m3C42E55C8F73C12F90BF9AB9D5A293CA7368906E,
-	Banner_Show_m73BE208CABEE908A5F4DAC936686A31A715EBCDB,
-	Banner_Hide_mA828D623AAD961B197A2338FD1DF21D4D5D0C067,
-	Banner_SetPosition_mB03D6FE7CBC2DA088649E8EC1DD89D352E201043,
-	Banner_get_isLoaded_m35305E62DC54136201C80DD82F6614D579F46875,
-	U3CU3Ec__DisplayClass32_0__ctor_mFB01650D49D562E550A97CEF5AE47AD75A9B7DD7,
-	U3CU3Ec__DisplayClass32_0_U3CCreatePlatformU3Eb__0_mD0920F22572DB42E8D4918971E2DCA0BEA61C605,
-	Banner_get_UnityLifecycleManager_mF54F9B5DA7BC9F2937A66D5699D8DA858001F410,
-	Banner_get_IsLoaded_m5E13400241DEFF428441C8FA624F53180D7D2436,
-	Banner_get_ShowAfterLoad_m18167D1F22BB9C243CAB3F43630C407EBF73DF92,
-	Banner_set_ShowAfterLoad_m25D9F9574C9405A6E5C3B17943CECFE8D0E672D0,
-	Banner__ctor_mAAB66E5B48DA4D19C92F7010E26267D320753F28,
-	Banner_Load_m02EF12198664BAFA0C0F2D2EB10653C816A63E1E,
-	Banner_Show_mDF4B91C253C1B26884B07F008037A2E02544F99E,
-	Banner_Hide_m7C66B6BB7207D92974D1704E57BF087EA1E44601,
-	Banner_SetPosition_m8892F4A92814ADD9C870F75074C03C15880B6504,
-	Banner_UnityAdsBannerDidShow_mD8BE33941D2EFB7BABDA2A76E49DC8A076F67615,
-	Banner_UnityAdsBannerDidHide_mC653817DB4091D2E1D17C2C2DC8F925100E95A96,
-	Banner_UnityAdsBannerClick_m10D3293D7D833DB6015C29F618155C4D827DC82A,
-	Banner_UnityAdsBannerDidLoad_mD75000EB978B1FE76D8FB67F6774A670EFB353D8,
-	Banner_UnityAdsBannerDidError_m6D321E25A913EC317789D61630D67CFFD77787B9,
-	U3CU3Ec__DisplayClass15_0__ctor_m67A9A93608F4F936AA6F42CE50957BC4E2A9B7C4,
-	U3CU3Ec__DisplayClass15_0_U3CUnityAdsBannerDidShowU3Eb__0_m290D12AF0E2C5E24291DF62E5A32F4EDFFF55D59,
-	U3CU3Ec__DisplayClass16_0__ctor_m598B85B717722C83DA7A15A08816325E22B8D0AB,
-	U3CU3Ec__DisplayClass16_0_U3CUnityAdsBannerDidHideU3Eb__0_mD693250A23E026FC2968DB1093357A9EF75887F2,
-	U3CU3Ec__DisplayClass17_0__ctor_mD441B8465D66F3AB740A34B65BBC82DAE3CA0289,
-	U3CU3Ec__DisplayClass17_0_U3CUnityAdsBannerClickU3Eb__0_m71D54A12369066DDE53612B11C16A4DD5CBA633A,
-	U3CU3Ec__DisplayClass18_0__ctor_mCF0DFDB73C55CE62D99AB2F0C50D512B21A4DA73,
-	U3CU3Ec__DisplayClass18_0_U3CUnityAdsBannerDidLoadU3Eb__0_m757FA977A4DB6BC2C878A072214A0261E64114DD,
-	U3CU3Ec__DisplayClass19_0__ctor_m2E5BCC22AE13F767CC10CEEF8A6C9378EFD141B6,
-	U3CU3Ec__DisplayClass19_0_U3CUnityAdsBannerDidErrorU3Eb__0_m858AD48AEDD9C616E3385F73D8072347190CDA44,
-	BannerLoadOptions_get_loadCallback_mF742FFBF21191B852CCA2DDB31C8E0D850C7A2E2,
-	BannerLoadOptions_set_loadCallback_m9D3C4E78D67CEC16AE816BF69B65A6423A6969B2,
-	BannerLoadOptions_get_errorCallback_m7710B7894CAA75F3A117F2A766F24588AF1A6EFD,
-	BannerLoadOptions_set_errorCallback_m5069D00E410DF3BEDFF097BF40F3B3476EF88B95,
-	BannerLoadOptions__ctor_m4D5D26302DC12B8F2BA55508FDFDE6A152051DAD,
-	LoadCallback__ctor_m149C4CA2674F63DC85F26C60CF4BE852C5974D60,
-	LoadCallback_Invoke_m5CCDF2F93BF4603344CE9A164AC93709559F99D9,
-	LoadCallback_BeginInvoke_m26CBBDD499B77472B762CCEBEAD5A80F539B3DAC,
-	LoadCallback_EndInvoke_m82BE135E79EB3C0026A2B37FE3DD0ADF94A75845,
-	ErrorCallback__ctor_m8C594084F860F0AC9D416B339E78D69649DFA7F1,
-	ErrorCallback_Invoke_mC151F8EE2510FBE8A39EEBAED2A4737AC53155F7,
-	ErrorCallback_BeginInvoke_mAA70F10967DC875DF3B654EE625BB7FB9F01D6B4,
-	ErrorCallback_EndInvoke_m5FF48332DD1390B74C606AD6867C78AE54BE6E81,
-	BannerOptions_get_showCallback_mDC81918C6D7C62040F55455F6E4A824E17FF8F2D,
-	BannerOptions_set_showCallback_mA9D8C200D021B29B0B974636F94CE652FED761FD,
-	BannerOptions_get_hideCallback_m84DCD124F4FA98C19E43073B0269A9E7C61DB956,
-	BannerOptions_set_hideCallback_mBD46ECBE1865B8B388C0E96B8CAD031A059CAEBB,
-	BannerOptions_get_clickCallback_m6B317492111A800F9260E1AE3460D8976B8FFFEA,
-	BannerOptions_set_clickCallback_m2ECE4E61C720E9F065E86579B0F0D92122F319D2,
-	BannerOptions__ctor_m7B5E6180AA634C069E053C7E13F1544C50B01131,
-	BannerCallback__ctor_m0944126600B12308BCFD070EAF6CC81009B5C83F,
-	BannerCallback_Invoke_mC67383B48C2D4BBC88D1D3D283D8F7117F6AC984,
-	BannerCallback_BeginInvoke_m56ED5ED5DDAF529F6969CEF1C43D423829F38D96,
-	BannerCallback_EndInvoke_m501FDA627ADE21E44683064A94CCD8C5193A4EA5,
-	Configuration_get_enabled_m03B11BE0F38C5260711D0465911DC29CFC2793CA,
-	Configuration_get_defaultPlacement_mE20D0F03E31BD1A9FD19BA5DFC7A8A87579F0B0F,
-	Configuration_get_placements_m1B6CEB298ABFC85E077B538BC1B277DFB0828EBE,
-	Configuration__ctor_m09EE5351C61B65B64FA1B5AFC53BD2579BA6615C,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
+	Advertisement__cctor_mEB30FD458B55E90811E113F894F17BADF3ED8658,
+	Advertisement_get_isInitialized_mBC2B086E4633C893C4EED6FBDC1AB0615CD1B33A,
+	Advertisement_get_isSupported_m4ECFA817DC2CBFBF90A66AE629C38396E75B925E,
+	Advertisement_get_debugMode_m316718060F88EC9B2B64EA9E853D7E87A965881B,
+	Advertisement_set_debugMode_mE8C7E59B822ABF1F8DC7ECA7244F61A2A77558E6,
+	Advertisement_get_version_m0988FB62997EB8938B580B5EE3D37CDDFAEBAFA7,
+	Advertisement_get_isShowing_m37CBCF24417233A4B6BD625A523CD849878F854F,
+	Advertisement_Initialize_m082D5F19215B919660A314D4E72A7ED61AF8F704,
+	Advertisement_Initialize_mD4FCDAE8D46A87C062B95FDA009085530825A66E,
+	Advertisement_Initialize_mBF05AEF7A6C7E63B9111EB57E266A26E314F9C15,
+	Advertisement_Initialize_m0FD976ECEA4D74BE3D60C60E6CCAB3027959C1AA,
+	Advertisement_IsReady_mFDE54C7D1C9D98D205C7DC5BF16E36E7041401C3,
+	Advertisement_IsReady_m7C3F32AA27ECF25EBED4FA413C77BFEF7B3DD858,
+	Advertisement_Load_m2E6903F8D053377A617C356FB804FE8F8BB71756,
+	Advertisement_Load_mA1912CED23684003576EC04DD6E14E06E1E47387,
+	Advertisement_Show_m138EDDD0BF8B3C822671234133F31C237E2F0988,
+	Advertisement_Show_m4809AB1F96CC586C69AE6C6C94E036DEE956D670,
+	Advertisement_Show_m72C78A977F924A61DAF5B5D92D88200DE9F9C98B,
+	Advertisement_Show_m5ACBA6D0BF333D43B7EC3B7C36F8E55A10741C1D,
+	Advertisement_Show_m59789CD39DAC86DA1171BD01ABC0821AE1164D3D,
+	Advertisement_Show_m51879852E416A638DC3789BBF67E36B33E2305D7,
+	Advertisement_SetMetaData_mEDD78DDB6A5FB827E6060F446E485B67562BF7E1,
+	Advertisement_AddListener_mF100E2DDC96B1395807E4B43F7FE1159F7FAE76C,
+	Advertisement_RemoveListener_mCBBCDA53A28FF8BD03BB168F6AEF5703D70BD3CC,
+	Advertisement_GetPlacementState_mA1A327D28199EBA054FD361E22FF6AF2FBE7CDBE,
+	Advertisement_GetPlacementState_m0EBA0959072DBF04306C5C75BDE4A7C2E44E3C05,
+	Advertisement_CreatePlatform_m7E8486F406293DCD2AA0A3690A6B2FD481BB5C63,
+	Advertisement_IsSupported_mE13C31757D843704A28EBD64C1878F9E359C6FD0,
+	Banner_Load_m2B7A9D57BE812ACE56BD6FBB556C64275A5108D8,
+	Banner_Load_m51016602F237F1C5FFFB4A9F8CC78027ABFBD465,
+	Banner_Load_m4B1707F275B6824F09AC6CA0400BAB31B84447D7,
+	Banner_Load_m0B16B2F910D9AEA6F3C484E0A840B325BA604533,
+	Banner_Show_m0867EEFB56F00AD7CB56DDE26D113DE8841E92E0,
+	Banner_Show_m58ADAC207C46D38FB1D0F6C382760FAB7B03020A,
+	Banner_Show_mA9C697F2D14854F4D63B73CE200C302BC001B95C,
+	Banner_Show_m39F52F443284A243479F2C4C8CEB65D311BE577E,
+	Banner_Hide_m34F6689FFF8EADF49DA305D28D8DB5EA546D47C8,
+	Banner_SetPosition_m22764F6738A68978315AE1F3E24C62504431C195,
+	Banner_get_isLoaded_mC869D39CF2B67DFC4C62E89997597FB66D346F31,
+	U3CU3Ec__DisplayClass32_0__ctor_m1C91BFEF8EE8A0ECD9425543B019D89270DEE796,
+	U3CU3Ec__DisplayClass32_0_U3CCreatePlatformU3Eb__0_mC86B1175C401A8C939E6DB8B2443A8674DBB8068,
+	Banner_get_UnityLifecycleManager_m8D1890BD72B78FB9DFF2E5351A146882DC4EE675,
+	Banner_get_IsLoaded_m9381D3F941EBA8E7071C46ED56A3057CFAFFC0A2,
+	Banner_get_ShowAfterLoad_m0149C039231E658B625C6DBA0AE981B1111C9F09,
+	Banner_set_ShowAfterLoad_m645CDCDB38358BFCE6030CD3064140CA287F4794,
+	Banner__ctor_m5FA80FC5D6F4028AFDBBBAA5DD18517A53A3CD81,
+	Banner_Load_m7FB027911B94845C9AB4E5EEFEB2D98C3CC18544,
+	Banner_Show_m92C480622ECB96A9EEC110B9C6D9B69618C01913,
+	Banner_Hide_m46D677B526C45AADF7C18E7311EA7988271DBF34,
+	Banner_SetPosition_m796058CCB4891D57CD4B1668A60566E11E296B0D,
+	Banner_UnityAdsBannerDidShow_m8A09CD159A21B06FFD8D8734F13E2DE04929D2CB,
+	Banner_UnityAdsBannerDidHide_m64A40CE58299FEB1EC2AF5B8E8DD5587701A0CBF,
+	Banner_UnityAdsBannerClick_m589DEF392D6EA31211B7D152F200DC82EBECB951,
+	Banner_UnityAdsBannerDidLoad_m67E46A4082BDB8E38BF6BB671DDB62FE506BBC6D,
+	Banner_UnityAdsBannerDidError_mBAEDDC9BEEE536C436B8F2870883D011E09EFFD7,
+	U3CU3Ec__DisplayClass15_0__ctor_m0DB0934942645FDEE57D700579847E250B8B9D6D,
+	U3CU3Ec__DisplayClass15_0_U3CUnityAdsBannerDidShowU3Eb__0_mD13EA19B4F6F57C9D9F7B7C217D1F8C98FC5A910,
+	U3CU3Ec__DisplayClass16_0__ctor_m20C0C90217B1373752842BB8599CC2476FBC2621,
+	U3CU3Ec__DisplayClass16_0_U3CUnityAdsBannerDidHideU3Eb__0_mF4E325C0BBA19A39DCA32D8785F5143E1857E314,
+	U3CU3Ec__DisplayClass17_0__ctor_mFF6DE5D6673EFE25526201D8D9534F65B44B8D97,
+	U3CU3Ec__DisplayClass17_0_U3CUnityAdsBannerClickU3Eb__0_m4BF21D2B15528306906D50AABACF2EC97D833442,
+	U3CU3Ec__DisplayClass18_0__ctor_m5650F32CAFB0E8540ECB8C817DA50BB5C541E5FE,
+	U3CU3Ec__DisplayClass18_0_U3CUnityAdsBannerDidLoadU3Eb__0_m5E289A637853D4A68E819535A95EE58A0DECDA46,
+	U3CU3Ec__DisplayClass19_0__ctor_mDFAA32A1AF754C5D4E96D6B080F395220A3783DB,
+	U3CU3Ec__DisplayClass19_0_U3CUnityAdsBannerDidErrorU3Eb__0_m8DB8BD5CC86C48514D5F4DC0796AA6161135CC80,
+	BannerLoadOptions_get_loadCallback_mAB4AE91F6982F5C4E06F2168C9F3D26BD6906578,
+	BannerLoadOptions_set_loadCallback_mF981A9D9527258C8F1524F4AAE178C0786B6518E,
+	BannerLoadOptions_get_errorCallback_m53924413EB917C85AABAD9B66FDEC9C84F08A4EB,
+	BannerLoadOptions_set_errorCallback_mD8598AF5C0A7BE058286EEB566E5912B6AC7D6B1,
+	BannerLoadOptions__ctor_m46ACB4C63B65D85BCB79D0B5FDA716E3A6957B04,
+	LoadCallback__ctor_m88910C05F7F71C398B7C12E68959C19D805BA703,
+	LoadCallback_Invoke_m2E4DAA16907300D497321EB545722747501062A0,
+	LoadCallback_BeginInvoke_mED3103EDAAD26402C9C6CD01387AE13114220A6F,
+	LoadCallback_EndInvoke_mAD24BE381D4801F52672FF1A2AC29E7B32A66EB9,
+	ErrorCallback__ctor_m1AE24068DF33FED857A07398BD89201E51EC94F6,
+	ErrorCallback_Invoke_m41AE86ABF14CA916455DF97513DDAF5402E264CB,
+	ErrorCallback_BeginInvoke_m80BA836285ABFDC1B4EDBC9A8EBEE541078BC129,
+	ErrorCallback_EndInvoke_m2FDF0B737F2C234072C8E8591F0D97EA07ED659C,
+	BannerOptions_get_showCallback_m3EC0B33B8E5D4E959BE9572B3F57A549E8331C2F,
+	BannerOptions_set_showCallback_mE32BBAD1A431BD6DB60AFDEA2828BDA3BAD75045,
+	BannerOptions_get_hideCallback_m8FA965F59B65278AF69BFEB39B2FEDB17A511FE9,
+	BannerOptions_set_hideCallback_m5F492B1009CDC83A26AC89B24A74CE6349B0E716,
+	BannerOptions_get_clickCallback_mC79C625FB89086CF9C4DE112EF464D207B35D197,
+	BannerOptions_set_clickCallback_m4919E420A2CCFCF1321E8BC6D4141B7386999134,
+	BannerOptions__ctor_mA3423377C564DF63B24BD7217C157639E4013218,
+	BannerCallback__ctor_m6A768B225071699C43901DFE357D7BE97098332A,
+	BannerCallback_Invoke_mF722B8CEBFA15A581C3C6BA430274DDAEF99FDBB,
+	BannerCallback_BeginInvoke_m5112C5B0A18873B78449BD8006A164DBC2030F1A,
+	BannerCallback_EndInvoke_m72CE39272B31D92EF21FB6C1FB4A74D3987D6490,
+	Configuration_get_enabled_m7BE1C8F2EA4B6C3B9CD8E821C999BF6BA1F3E982,
+	Configuration_get_defaultPlacement_mACD234B00B1A8445668BA25D92E91142F21B9B65,
+	Configuration_get_placements_m6787C062082EEABCEE45A1B809819650C2090BF4,
+	Configuration__ctor_mFE8855E479EC18DDF7612712DD5D2A6E83A5430E,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
 	NULL,
 	NULL,
 	NULL,
@@ -778,24 +778,24 @@ static Il2CppMethodPointer s_methodPointers[359] =
 	NULL,
 	NULL,
 	NULL,
-	MetaData_get_category_mBEB012D8CC3DBD56EEC5E14C875C34C946EAC3BB,
-	MetaData_set_category_m1DF58928A9830B1E889C59E5B935FE4928C8C784,
-	MetaData__ctor_m6EF2DA52AAD0C124284ED96227F52ABCDE73C87C,
-	MetaData_Set_mF1B807C8D6D380084618F0C6FAA3A9C21F9DD16C,
-	MetaData_Get_m83F3F32F0D2EF2E3AC76A08563BD215287588B1B,
-	MetaData_Values_m23DFE4EA7EA2884125E84D9A73B1A5F55663C3BA,
-	MetaData_ToJSON_m249EDA63A72895084104FBE66D86462FEE33F948,
-	AndroidInitializationListener__ctor_mAE6F05EC1B9F314BB1DEFFDA210E9A69DD466038,
-	AndroidInitializationListener_onInitializationComplete_mCF14A6CFB4E6983434E25C2CA0AA49A6E645DC7C,
-	AndroidInitializationListener_onInitializationFailed_mB27DFE58C465F18C0F0EDE001A63CD6FC9C5D779,
-	AndroidLoadListener__ctor_m329BA4CFC453CFBD1AAA2D8F919C977114B3F983,
-	AndroidLoadListener_onUnityAdsAdLoaded_m8AB01365523818E228F57CE987081EB3B1B9EACA,
-	AndroidLoadListener_onUnityAdsFailedToLoad_m98E454C3615083F0DCDAEA653CE7472D7031B3D7,
-	AndroidShowListener__ctor_m78A228D8BBB182AA5BDDEE6A784D15BD5629ABBF,
-	AndroidShowListener_onUnityAdsShowFailure_m1ECA3172457D1839C43FD6D914A63480DF36C821,
-	AndroidShowListener_onUnityAdsShowStart_mF79CE9BA0FEF9B29848FE0886AD90728EDA4A625,
-	AndroidShowListener_onUnityAdsShowClick_mD89F26EF7574FF4659F4DD3783B25D0B14F6EE40,
-	AndroidShowListener_onUnityAdsShowComplete_m1675B4E37B07777ED894121B299405E5A9F550FE,
+	MetaData_get_category_m88A7B16198B9F13FDE4BFA0D81B3476E245CEE82,
+	MetaData_set_category_mCF262A667D874F3A5B758420FC6CE01521AAA300,
+	MetaData__ctor_mCC80A9A64EEEC5340746FEB1B2CF787F3891911B,
+	MetaData_Set_m997F03F70DE2BF19AE97002EDE047619CBD52C5C,
+	MetaData_Get_m10178F85D09B26C16A9A086F8C947503368D7820,
+	MetaData_Values_mD6CC2222CE2B1A863DA664E9678694229CB5B108,
+	MetaData_ToJSON_mC4791A88E21E2F982DE6C98C10C7588E4C4B0CD4,
+	AndroidInitializationListener__ctor_mC9528623EB1956439EA549F8979E10E524C422D9,
+	AndroidInitializationListener_onInitializationComplete_mB8E550641FAC0595B1CD802F9AA3C17291FA1343,
+	AndroidInitializationListener_onInitializationFailed_m86A8A224EEA9892E268E20CAA1865D2004C6B8B4,
+	AndroidLoadListener__ctor_m95C4131257DD23B962143C5439DB5F0E27798F4A,
+	AndroidLoadListener_onUnityAdsAdLoaded_m355BCCCFCE9A4FF7A4E022D8CE91B8CB8AA85325,
+	AndroidLoadListener_onUnityAdsFailedToLoad_m63DB5EBB1A54CBF0340F2B65B651EF40847CBA3D,
+	AndroidShowListener__ctor_m255EBE9F98451576C0B56791B38F67D12E97671A,
+	AndroidShowListener_onUnityAdsShowFailure_m9F6D9564DB55A7038BC5D7DF175F98EC93A3782C,
+	AndroidShowListener_onUnityAdsShowStart_m074670050BEB5F88E8E343C5DC3E54E5CD533E55,
+	AndroidShowListener_onUnityAdsShowClick_m0EA7453D92BD3D04FB38306FAC490FC2BE4B1197,
+	AndroidShowListener_onUnityAdsShowComplete_m14096B1BB0D484F6DAA8070BB761B5A2C1D084CF,
 	NULL,
 	NULL,
 	NULL,
@@ -807,52 +807,52 @@ static Il2CppMethodPointer s_methodPointers[359] =
 	NULL,
 	NULL,
 	NULL,
-	ShowOptions_get_resultCallback_m3927DDD6E2EF6219A02421B4C56D6D5F5F059DB8,
-	ShowOptions_set_resultCallback_mC6C40AE153D30E9F4BB9E904CC15E23D1735E6B3,
-	ShowOptions_get_gamerSid_m778D4145EEE07AA52F4F14062AE02CF8B5E78A40,
-	ShowOptions_set_gamerSid_m22AFB748A6E131A3534825E583420AE42A303172,
-	ShowOptions__ctor_mE9F7F751F6BE70F4A7B1F3949E9B9B54DE1EB6FE,
-	ApplicationQuit_add_OnApplicationQuitEventHandler_m11D5EBA7CE43A2ECC034302EC29D640970C8739B,
-	ApplicationQuit_remove_OnApplicationQuitEventHandler_m1C5525879D2483EE251E682B44882A2814770D51,
-	ApplicationQuit_OnApplicationQuit_mADE194EF6C6CB9C6D830A8715893E85E8294AF34,
-	ApplicationQuit__ctor_m7FF706AC8A858505C029739ED28613AEE0D67363,
-	CoroutineExecutor_Update_mBDE991E82D05D5A0BBB50918A558D90152508C2C,
-	CoroutineExecutor__ctor_mAD7016CBCA79F3304EB1C5948255E87E44A7422A,
-	EnumUtilities_GetShowResultsFromCompletionState_mDCF7522190C670BFCDD677A6AFA7B7C98B273D74,
+	ShowOptions_get_resultCallback_m0BFEA29C0C9F5A32390477D00AEE67BA83D1B5AA,
+	ShowOptions_set_resultCallback_mA9255B0E4EBF3EEAD519A2080E7A2C93E6683BB1,
+	ShowOptions_get_gamerSid_mD7509B7A64FDF3B1CC18C2FD1EA2048CDD7359FB,
+	ShowOptions_set_gamerSid_m8415326E01EEB67A42FA2098352368F2FD0F688E,
+	ShowOptions__ctor_m5287C43DB7AC8A5CAF97F7ED143785E69B033A64,
+	ApplicationQuit_add_OnApplicationQuitEventHandler_m2EA2F130925E01EBBA3D203A05239766823BA126,
+	ApplicationQuit_remove_OnApplicationQuitEventHandler_m8E78BA3977B4F5EF27F73F078296EDEB2A82392C,
+	ApplicationQuit_OnApplicationQuit_m94BE0ECFE143EE6ADEF4449B8D40C57B8149815B,
+	ApplicationQuit__ctor_m48D6BA4AE7EEAFC80EA2CA17AE1368AC68091A7C,
+	CoroutineExecutor_Update_m87AFDF181CF5686DE1FADB0C5060A3707B2BB0F2,
+	CoroutineExecutor__ctor_m10343728ADAF1FF7287FD55C3736A5B1D4121EA7,
+	EnumUtilities_GetShowResultsFromCompletionState_m84B487DA01D22B415D70710AE17481DA13C48778,
 	NULL,
 	NULL,
 	NULL,
 	NULL,
-	Json_Deserialize_m76115855BAC9BE9588C192A488D3DAC15CD8BF6C,
-	Json_Serialize_m1B1229A14A448280851ACD5195F0EA976F903EC6,
-	Parser_IsWordBreak_mEA531542CF6B0595B87B30359F4810D8C4AF3CCE,
-	Parser__ctor_m1A2111A83BDF4FAE0D99D96B9A6B73BD62308F13,
-	Parser_Parse_mC705E4F81C5A57EA58D18EEDAE2BDFF9F3986DCC,
-	Parser_Dispose_m7820AD20ADF545D1312B2913EE76CB629AB36E50,
-	Parser_ParseObject_m58B999F87989D85F18FB78A5C9BACC52396258B6,
-	Parser_ParseArray_m87775DD7390CB08B60A5A7A5DD005BFFED58A22A,
-	Parser_ParseValue_m4D47F7AEDA32907EAE7299EC747DA6DEA0C43B42,
-	Parser_ParseByToken_mDA0A4BB8C64060809DA9C419726C315F102F9C4C,
-	Parser_ParseString_m7CF0134829A15287809F252B5E7D708C4F737430,
-	Parser_ParseNumber_mDE40D9D8524DD6AEF3D4DB3B9039C05B68656056,
-	Parser_EatWhitespace_mDD81C0893F358C5F2890CDCB99FFEB7D3612D0FB,
-	Parser_get_PeekChar_m94BF1DEC531D3A6F09FE92A154B9C02148E79068,
-	Parser_get_NextChar_m32AB048CC54E50139E92FD17D561580A6AC9ACB1,
-	Parser_get_NextWord_mE66A01EBC62B417384B25B796FDB56CB7A022429,
-	Parser_get_NextToken_mF80ADF81AB1B385ACE09B4E216C3005E8F004E1A,
-	Serializer__ctor_m3203CD70FEF4DFC38424D9E29109A98604F6A8CA,
-	Serializer_Serialize_mB274C6B492226DB15C8552D3ABFF2F26F7C19BAD,
-	Serializer_SerializeValue_m05069E2615454E585C7D6E94CE5AD40D7883BC20,
-	Serializer_SerializeObject_m244A448784F9792E207C3F5ABBD690F1DD367D97,
-	Serializer_SerializeArray_mEF16068F947E3CA46FDDE359E1871A15A6FEEA2C,
-	Serializer_SerializeString_m53F7333FF3673BC1EC02FB3EFEC439A11240175B,
-	Serializer_SerializeOther_m69C647BED1C71CFA73CC89B52D8B4600E5D6330D,
-	UnityLifecycleManager__ctor_mD95AC377DC9E3E99821DB9FC9BBA241579AEFEB2,
-	UnityLifecycleManager_Initialize_mD73B907AD8F2E0F0B2F7720FDA4C00B533182DC6,
-	UnityLifecycleManager_StartCoroutine_m3C0B3C37F7BABBB621FC5B3FE7176D8CE58E8CE9,
-	UnityLifecycleManager_Post_mD922A2AB5F40500B93E6732F27EDBB855A70D82D,
-	UnityLifecycleManager_Dispose_m2E15066A520646FED13DF2AAE6BCE8049BC9F746,
-	UnityLifecycleManager_SetOnApplicationQuitCallback_m3F4658AC36BED9AC5AA3AFBAAF01C3FFE4ABFB3F,
+	Json_Deserialize_mB7BD7F81801A9BF03C214624B2F627C505A0FD96,
+	Json_Serialize_m8D287DACFCBDAB5CF11AB3EBDDD4D109591D443D,
+	Parser_IsWordBreak_mBC7F99163008E6C756C565EE26952DCB3DB975D3,
+	Parser__ctor_mED91F5842DC9DAB1CED670C4945DF74A1AE14D43,
+	Parser_Parse_m455BF22D71DAF9C70F824B709E776CE56CA26246,
+	Parser_Dispose_mBEA826262FA72601E50657D0F98669A83CD88E32,
+	Parser_ParseObject_m69DF5865D4D6314D49108710E25F61ED845D69E6,
+	Parser_ParseArray_m1B77320E7DF0FDF01F7ECCB60E2936D9C82BF3D1,
+	Parser_ParseValue_m4EF4FAD14AB6DD2A17316C1B45D280C65BB3B5C6,
+	Parser_ParseByToken_mDD48A3EE9CEBD6286BDCE59B29AF627E37BC2FAB,
+	Parser_ParseString_m2E3583D23DE5857CA5C19C13922432B6EBF9FBAE,
+	Parser_ParseNumber_mD2F2C6FE407817F2FD0CAA763CE6764B71A00CD1,
+	Parser_EatWhitespace_mA74B9E144EDD360BCFEBF913408E881D7A5FDEE7,
+	Parser_get_PeekChar_m333316E4051C051273C8ACE99D34A350A6FB06C1,
+	Parser_get_NextChar_mCD30E77C9F504EEAB1AA27AD916B27521F391E9C,
+	Parser_get_NextWord_m159583A5AB29CEC7C3D3AD8319223A987AFA857F,
+	Parser_get_NextToken_m4542BE5F6909E7A9DAA59478392DE86EDB03EC2C,
+	Serializer__ctor_m852569F7E1DD20662D69C211447716364DB9A84B,
+	Serializer_Serialize_m2E1F879077D37E96F852FF0EA0086A27FDA97848,
+	Serializer_SerializeValue_mEBF5DD1B16B0086AAF2D2C24604C60D843541CE3,
+	Serializer_SerializeObject_m3FCC46BC471E448EF78619AA270F645DF692302D,
+	Serializer_SerializeArray_m547C55EB2B89139D92CF4498C303BF8B78BAAE98,
+	Serializer_SerializeString_m7A5E2E16F76B57A6BA87D45A7349F24AEDCE5D10,
+	Serializer_SerializeOther_mF9ED4B926475C5064B30BEE500041C3C0D3E0B26,
+	UnityLifecycleManager__ctor_mEEAFC546E4A237D0793A7953AB562FA3FD96F8D7,
+	UnityLifecycleManager_Initialize_m4F6ABEC49E9B2FC0A46BCDEB08625D1111BAFC9C,
+	UnityLifecycleManager_StartCoroutine_m5C59DD52F52791D9D34D07B8580DE7E5A5AF5D28,
+	UnityLifecycleManager_Post_mD9178EAFE99F3F89EA840AF064CAF55FE0F771F0,
+	UnityLifecycleManager_Dispose_mCF9E89CBAD0085E00760F95245FC903FCE846D45,
+	UnityLifecycleManager_SetOnApplicationQuitCallback_m7334EED46E388838750223ECB66F89C34E588719,
 	NULL,
 	NULL,
 	NULL,
@@ -860,19 +860,19 @@ static Il2CppMethodPointer s_methodPointers[359] =
 	NULL,
 	NULL,
 	NULL,
-	Purchase_onPurchasingCommand_mCCB94AFCA2E8C369F16E0D1C8E12C40BA6A08818,
-	Purchase_onGetPurchasingVersion_m3069B940592B0841B13AB1873EA79D07F9284D98,
-	Purchase_onGetProductCatalog_m3B6B1FE855B05DBEA625BEFD93624F6B90F1E68D,
-	Purchase_onInitializePurchasing_m1CA49D6B7098E0ABC34D9C5068C6B4FF40959525,
-	Purchase_SendEvent_m3C79B682C8D2C031D44746202F61AB5BEA6C0F22,
-	Purchase_Initialize_mAC442010AFA23D482F2CDF7144B2BDA793D5F92B,
-	Purchase__ctor_mBD4CD713E8E9167FA4FD2024B651C9BBB3A9E7A7,
-	Purchasing_Initialize_m14E011B5AE0C0D41490676A551DD364245EBF0EC,
-	Purchasing_InitiatePurchasingCommand_m0B076A546123334CADFE0E805E7125BBE081D4B3,
-	Purchasing_GetPurchasingCatalog_mC2BEAD1D96CFB58D7778AEBB4A43A9A6D9DD0CD9,
-	Purchasing_GetPromoVersion_mDB84F17B70F76C5B00D7E2062B26BB92AF4304BA,
-	Purchasing_SendEvent_m8274AD7B80C0853660EA40ADB6FBF2A0B12A7950,
-	Purchasing__cctor_m616808EB3A5A2F1577EBF1F684D7080F82B17292,
+	Purchase_onPurchasingCommand_mB9E644708ED8D8EFA8CD98F5D1958FA82C27977C,
+	Purchase_onGetPurchasingVersion_mD7C57FC1DBF00A587E7E7B05CF402073136DA811,
+	Purchase_onGetProductCatalog_m1CAFF4E3ECF242B4463599BAB6740EB944471F1E,
+	Purchase_onInitializePurchasing_m3FB4CB1D7D6ADC2FB9EB1CD28F9BAD2291571B7F,
+	Purchase_SendEvent_m231E1E4E2C702B97DF3C50D40F1E58D112EE0D46,
+	Purchase_Initialize_m1DA9E4152F6B39CFD32FFF93F5AB01926A3614BB,
+	Purchase__ctor_m3473E768807E79A5E05AC323F5F284FC53704F6D,
+	Purchasing_Initialize_mEE57A82CF79030301EAB7E832429DBFACACAD82D,
+	Purchasing_InitiatePurchasingCommand_m66FE9833C18F368298094F57ECC8A4677E2405E3,
+	Purchasing_GetPurchasingCatalog_m4AE9FEEDCB3280E1EA93126B8483CC606347D437,
+	Purchasing_GetPromoVersion_m250CC4254BBB79FBBF560A6BB326026328FEE2A7,
+	Purchasing_SendEvent_m9AD5D002983892D293F1139CF2687FF15086BB0C,
+	Purchasing__cctor_m38CF437C93B02C3A5012D76D6534F65A8B4EB4E3,
 	NULL,
 	NULL,
 	NULL,
@@ -898,163 +898,163 @@ static Il2CppMethodPointer s_methodPointers[359] =
 	NULL,
 	NULL,
 	NULL,
-	Platform_add_OnStart_mA5EE80229E95F2DF71502EAB1143E5D89EAD018D,
-	Platform_remove_OnStart_m44D267A6FFEEEE0BF6C7BFDDA355AC683A0641A8,
-	Platform_add_OnFinish_mAAFDFF3ACA72652DEDC17B5651C2EF169A8D7F4F,
-	Platform_remove_OnFinish_mBF555D3C995D7A9180CAA6B1761874640E0FD255,
-	Platform_get_Banner_m17B6B2160CCB2F2368C06524104DA55639C4B9FA,
-	Platform_get_UnityLifecycleManager_m6E8BDFA3313C3476DA8519F9E759A6C2599F61CC,
-	Platform_get_NativePlatform_m055DE92A6397C9BFB2A729F9294AFA99B002F8C2,
-	Platform_get_IsInitialized_mD7116C3FCF92EED195075AE7499A67C728A201B7,
-	Platform_get_IsShowing_mD7D4DB0DCE81A7100F990CF75DEB9597D5CDEC12,
-	Platform_set_IsShowing_m1575EFA862EA969C6E44160AF66846DEF009A2BF,
-	Platform_get_Version_mC8539FE79E8D9DAFB8A56995873C6F760E4F4D7D,
-	Platform_get_DebugMode_m763567976C7FDE0681BC141DDCDF5ADD1315B057,
-	Platform_set_DebugMode_m7BA41C5CF5636C427D6373602E81618739E37D2C,
-	Platform_get_Listeners_m04B40907B7A972048637D4537674D7ACB6089F41,
-	Platform__ctor_mAC2FF35E92BDB79828A05B296D7FB07CFF9C6F36,
-	Platform_Initialize_mE0D86443F52FBB8F9B43DBF399DE10C226B7E184,
-	Platform_Load_m5F63716E5B2174B9C3B4AA71E0CB8D975CE34485,
-	Platform_Load_m52FBC7EAA62CB8714E764E262C8143C5ECB0A0DA,
-	Platform_Show_mD45AAE3C87D4D25C60C45B415A74C4AFBC9BFA1F,
-	Platform_AddListener_m0E5E496A62CBA5D60CACB226AAF364CDBFAE9BC9,
-	Platform_RemoveListener_m66CB33820F4A0A5B9DEF3194EFECA0E26EA655AD,
-	Platform_IsReady_mB094B73DE8225C33AE267B7088FF8A733F3861C8,
-	Platform_GetPlacementState_mA61C07F97BE90F7F48B6F6BBA0C192D71C16F3F8,
-	Platform_SetMetaData_mE3B49CE0F3F4450ADCC90AC98B53E313192A39A7,
-	Platform_UnityAdsReady_m27010E4F25709F174EDEED43C5DD346839BC2B91,
-	Platform_UnityAdsDidError_mF8EA8A52F16A9017774A30732F824ADD5F9EC19C,
-	Platform_UnityAdsDidStart_m21E24FF84CED1830B1B0AFE1E6359564601D0EBC,
-	Platform_UnityAdsDidFinish_m4661B61B0BD4C0DCE9DCADA4B094C24CDABC35E8,
-	Platform_GetClonedHashSet_m646ACA8E270FA8DCA83D924DE430CFF9C8E3D324,
-	Platform_U3CInitializeU3Eb__30_0_m4F14311AF1F837C76F9598C0898151D55622CF7E,
-	Platform_U3CInitializeU3Eb__30_1_m2FEC023987B9CFA5A49272DD7E6B9E4844CACDCF,
-	U3CU3Ec__DisplayClass33_0__ctor_m455D237D767665AE14BE4B82352A2308A32B4BB8,
-	U3CU3Ec__DisplayClass33_0_U3CShowU3Eb__0_m050B2616328D1A64A058F83A83591F346CAA9E84,
-	U3CU3Ec__DisplayClass39_0__ctor_mAF019D1DE85234AE7450F5B06ADEB3B61A8015CA,
-	U3CU3Ec__DisplayClass39_0_U3CUnityAdsReadyU3Eb__0_mE10152E14DE66C4BA4C9CCF1000BA687AA8BFB5B,
-	U3CU3Ec__DisplayClass40_0__ctor_m207B4303A22E409C0AC160FECDC048D8372FB705,
-	U3CU3Ec__DisplayClass40_0_U3CUnityAdsDidErrorU3Eb__0_m9FD88CE43B7C31FF2EEC4DB9D6A5E8C8FF66F5F1,
-	U3CU3Ec__DisplayClass41_0__ctor_m65CC8D05E090548EDAB02E3D300092A26FAEC982,
-	U3CU3Ec__DisplayClass41_0_U3CUnityAdsDidStartU3Eb__0_m4540296447426B4EB390F86A71FB982C7B94E638,
-	U3CU3Ec__DisplayClass42_0__ctor_mB375F170A2D2D542DAFCCB20440D1F7CF0DE67EA,
-	U3CU3Ec__DisplayClass42_0_U3CUnityAdsDidFinishU3Eb__0_mB61C98F322502254470E0D4CDB36E6E02652A1C9,
-	UnsupportedBanner_get_IsLoaded_mD3A1CE2F7F0CEA24C7604E761666965EFBBEB442,
-	UnsupportedBanner_SetupBanner_mAF0EBC53100492D01C56F63DC4FDE13A0710B774,
-	UnsupportedBanner_Load_mDDBC9C23F8E43EFE02C3DBEA31E8503AFC4D6E8C,
-	UnsupportedBanner_Show_mDB70F8A3986418BFE8F8C9085E23A1701871161C,
-	UnsupportedBanner_Hide_m446314938DF6A0357E8D9F57ACDBB728725067F7,
-	UnsupportedBanner_SetPosition_mF76D1BCE99527D849B20566BFB034C1CBA5B42FE,
-	UnsupportedBanner__ctor_m2305236218B2386B02DA678ED001FF4FAE2D2787,
-	UnsupportedPlatform_SetupPlatform_m22984B9713B00083B85A33D3CF4A5B165E76D2F7,
-	UnsupportedPlatform_Initialize_mF9C00E63D068D1E5604BEC91620D1FEC74333413,
-	UnsupportedPlatform_Load_mBD55F5399A17E003DCE5FC857412561513D7339D,
-	UnsupportedPlatform_Show_mCE2A60CDF44A03F7B18E1BEC4DD2E6BF8D8A669C,
-	UnsupportedPlatform_SetMetaData_m80A5421CC456CCBCD6F05B243D9DD95B8A749D01,
-	UnsupportedPlatform_GetDebugMode_m3908FE5E695799E32262440044A17232E6DB6E0B,
-	UnsupportedPlatform_SetDebugMode_m383A19A4EE64823129E7389A6F9C1B5E7F91EB48,
-	UnsupportedPlatform_GetVersion_mE54D4A6DF5D19DF303A2BA5F8B97DB2B80C7C40C,
-	UnsupportedPlatform_IsInitialized_mFB76F9E1BAFCE627B07E6667873CF1F4E696D13E,
-	UnsupportedPlatform_IsReady_mEBA734BC05174630AF0270A448A76267FA347794,
-	UnsupportedPlatform_GetPlacementState_m4F06A841BD83A043D03A6068270457D3B145ABFF,
-	UnsupportedPlatform__ctor_m4DDFDBCFE5CCC6D97BD1E9101E88807FAD3390A6,
-	BannerPlaceholder_Awake_m103F5F462A094619FBE7F10B8B8EFDBC2BE1C83B,
-	BannerPlaceholder_OnGUI_m544F919AB3F2EE7835A609AC83742C6B7861E173,
-	BannerPlaceholder_ShowBanner_m69226A7A2E420A019BE8FEA1C2F03B0393DA2C69,
-	BannerPlaceholder_HideBanner_mB1AC5F23AA8332647D0EFB3461FFA6E940CD19A4,
-	BannerPlaceholder_BackgroundTexture_m7FA16D1C2F769BC1BEB753C135362B08A9EC5606,
-	BannerPlaceholder_GetBannerRect_m92EF5CC1CCE2E5A5781CE17F1C1C4B91D9EE021A,
-	BannerPlaceholder__ctor_m7AFD4CCC06EF529C0467A5AD511D233B15726E90,
-	AndroidBanner_get_IsLoaded_m1090D7F14C00A444B7F905BEB0ECFDAC9E3D2721,
-	AndroidBanner__ctor_mEFC2C531C4E5A77327120C2509408E0240FC111B,
-	AndroidBanner_SetupBanner_m7A722CA69652B7A2F0908FB01E9B04DF2F033B9F,
-	AndroidBanner_Load_m3BA946237BC3E25BB91992BABF4FA06BD26FA06C,
-	AndroidBanner_Show_mE7BBBD0DECF98645A727D7C42ACE31B931A23CE7,
-	AndroidBanner_Hide_m63A3B7CC005F053B60858B768E7C5E60E8259BD9,
-	AndroidBanner_SetPosition_m69DFAAF571A7DFD9261876EAA116C2DF06932586,
-	AndroidBanner_onUnityBannerShow_mE685C1F80E303BB80CD72395CB4912F2F416106C,
-	AndroidBanner_onUnityBannerHide_mB098E9359B8366A35E3B6C30A4389F43080AE016,
-	AndroidBanner_onUnityBannerLoaded_m096EAEC3FE07949B5D8D1A0BAA87F95F3C6D1A4C,
-	AndroidBanner_onUnityBannerUnloaded_m3B4D9FCD2C1FBDD3AB411616797093B2EE182DBE,
-	AndroidBanner_onUnityBannerClick_m37EAA4F3784D85FA358406F15F9BFA14515158E0,
-	AndroidBanner_onUnityBannerError_m828266783A11EC1C42E92557DC60FD51F79817BF,
-	AndroidBanner_U3CHideU3Eb__13_0_m757B84BBA3EAC22EA037984375E4D74BB8C0C392,
-	AndroidBanner_U3CHideU3Eb__13_1_mCCC885F5E3422A1B18721462501A1CE3D84F9A57,
-	AndroidBanner_U3ConUnityBannerLoadedU3Eb__17_1_m6826646D632CC76023CE29D6A2743D0B828712CD,
-	AndroidBanner_U3ConUnityBannerLoadedU3Eb__17_0_m2472E032DFC18A109FC71320B1DD1209B4B855D5,
-	AndroidBanner_U3ConUnityBannerClickU3Eb__19_0_mDC301E5E41214CCFCDA947F919C62281570C0CBA,
-	U3CU3Ec__DisplayClass11_0__ctor_m762DE44D1512CB4805DC8A29EF9C6528796CF5CD,
-	U3CU3Ec__DisplayClass11_0_U3CLoadU3Eb__0_m9920C93CCA34B774014E199AAE65CC7C4B055757,
-	U3CU3Ec__DisplayClass12_0__ctor_m58EE4C928EF5FC73C913609507FDEA5AF3341F81,
-	U3CU3Ec__DisplayClass12_0_U3CShowU3Eb__0_m271FCA57067860092B7BC2D4CE9475AF0F95C6C8,
-	U3CU3Ec__DisplayClass12_0_U3CShowU3Eb__1_m5DDA628C1D9F00A543BAE39AFD48383B3BED59BD,
-	U3CU3Ec__DisplayClass20_0__ctor_m51046C9EFFA4F39A1EA8BF75C71D92FB24CD0845,
-	U3CU3Ec__DisplayClass20_0_U3ConUnityBannerErrorU3Eb__0_mBBCFAF34F5D9CC8ACC5C149156925A3FC6A05E06,
-	AndroidPlatform__ctor_mC0F30F0051F74F6EB82B75AEE221C4E8E276AFBB,
-	AndroidPlatform_SetupPlatform_m3E37CE5B5FB6F75D735D1C6B81D9C471A8DD8789,
-	AndroidPlatform_Initialize_m3CEA4813A7341719103F9427211663C6FC9C8FB5,
-	AndroidPlatform_Load_m08BC441FD44F432B834FAD50EFB18DAFC8CBCCD7,
-	AndroidPlatform_Show_mAE3198D5C993293848A01F5AFCF1C2DA7AA8B3BD,
-	AndroidPlatform_SetMetaData_mE6528096B96E18E6F4088C2297440FE4D8241A95,
-	AndroidPlatform_GetDebugMode_m12C47DA56D6107866567D04955A6C066B5441421,
-	AndroidPlatform_SetDebugMode_mEA48D6DD4DF54DF91843D434F9E3D2D180798323,
-	AndroidPlatform_GetVersion_mC4FBF42109EF450D2F04A5439DE715AB1E559977,
-	AndroidPlatform_IsInitialized_mFBC9096CB7EAEE5739F85695481B5C0FDF8037C2,
-	AndroidPlatform_IsReady_m325868E1025DC4E7C6B94D50581645C668F5F7FF,
-	AndroidPlatform_RemoveListener_mF4FEFBC4D00DE55040239A2DDA95E4B8DA7C6BB3,
-	AndroidPlatform_GetPlacementState_m6EF901639291B3CC96B201CE2995868540393BC3,
-	AndroidPlatform_GetCurrentAndroidActivity_mA35240AE0C6D4CD2D53F97184FB5E7673E9FD6EC,
-	AndroidPlatform_UnityEngine_Advertisements_Purchasing_IPurchasingEventSender_SendPurchasingEvent_m8FC35C2E29174CF548316F3E83AA75F6BF74B3B1,
-	BannerBundle_get_bannerView_m494FB7D5596B778F81D08E411FBAAEF1D44B35F5,
-	BannerBundle_get_bannerPlacementId_m4E41B08F882B7E40EDA642DB23CE704A2604DE2D,
-	BannerBundle__ctor_m1619218BCCA4FCD13708A3236FFA341712D871B8,
-	FinishEventArgs_get_placementId_mC6F1BC10E5AFAD091FFC195A6D54EF279406C1C7,
-	FinishEventArgs_get_showResult_m26C0D63F84FC858B04B3A788E633FA1F35AB93F7,
-	FinishEventArgs__ctor_m22E9FC5FC756FA1F6893629C16C7B7B5C77F5219,
-	StartEventArgs_get_placementId_m9469A02B1AF7DCFC3BF0FDC63C867163827F4519,
-	StartEventArgs__ctor_mCB7FE6F57A53D5BBEB50ED07DBB158A8E112868C,
+	Platform_add_OnStart_m04511443723766BAFF495DAC298754E51EA5D584,
+	Platform_remove_OnStart_m3E857ED12DB9D9C971082D7694F1E43D5046F61B,
+	Platform_add_OnFinish_m4A7073AEC10FD6A2F1786DE8B52E4CF1CD132EA3,
+	Platform_remove_OnFinish_m8EA12F234481EFF5A53A1C1D1BB57DEADA2CF037,
+	Platform_get_Banner_mBEE78892FFA8C866082541224CFB8A92E4101311,
+	Platform_get_UnityLifecycleManager_mB9294779C0B76789EBA9F9D5A17ECA0BBAAB27C6,
+	Platform_get_NativePlatform_m947A379FFBD64F5CEA65376985C7222235B65A97,
+	Platform_get_IsInitialized_m19A3C638BFD4482F3AE83A2E56F25F1E35A9968B,
+	Platform_get_IsShowing_m514552FE27C701698D6355E09C8851DD4E5CE122,
+	Platform_set_IsShowing_mD31DBEAAEB77EE3516C8EC04FF31D9377DE1C2DD,
+	Platform_get_Version_m36E3FCBE6B23DE5BB29C5314B840E2A324B0BDFC,
+	Platform_get_DebugMode_m368948B55F5A11B39A30E390F9DC43D67E890AAA,
+	Platform_set_DebugMode_m365E6C59F32F9C56C3595DDB2966EAD00B349970,
+	Platform_get_Listeners_m33769B37E8564946E3D9C317E1BB968894674C2F,
+	Platform__ctor_m05B42FE74A794E239AF260BD724BFDDFF8967E13,
+	Platform_Initialize_m02E4C03E17A810D1C4077D8C22F626C1D9EE9C8C,
+	Platform_Load_m793712044AE700F7706568DCBEB96B696EDDB2D6,
+	Platform_Load_m0390E439C77D3D1771A9494E13D9CA3B278506DA,
+	Platform_Show_mC1908C3954266E79D4E4BD29B960DD383C646400,
+	Platform_AddListener_mF745F32B3601EF8C4A4EB521808112BFF7EE544F,
+	Platform_RemoveListener_m7808950BCB103AB1464B1A27B2E18968C6635974,
+	Platform_IsReady_m1E8F6D115C7B01FDF6D7FBD098D34AC407EC471C,
+	Platform_GetPlacementState_mA0C6E36D9E7BA7880BDE681FE9C3171B28985CD2,
+	Platform_SetMetaData_mEF57467DE4554E6E2E5A5DFBC00490CFBDE679A3,
+	Platform_UnityAdsReady_m366535E3FE1BA8075169E85988A381CC8C1194DA,
+	Platform_UnityAdsDidError_m3AE8D1935F67D15EBC6400F7364104370908096E,
+	Platform_UnityAdsDidStart_m6EA3AFCE2F0EC636B96AE359D3C1FEBA4266E390,
+	Platform_UnityAdsDidFinish_mBF602D6B7CBDF7A3D8A4BAC7CB75E7FC4854AC07,
+	Platform_GetClonedHashSet_m1372A4D374629411CFBDD416832C3C2FF38F56C7,
+	Platform_U3CInitializeU3Eb__30_0_m7A2E7A473A4F1D97AAD3B9FEA06EA0452FCF91AF,
+	Platform_U3CInitializeU3Eb__30_1_m825D6AFF0E1E398216A1EE6796370B170219008A,
+	U3CU3Ec__DisplayClass33_0__ctor_m5A43676152D4F57A59A0D52298A03ACFE4EF54EB,
+	U3CU3Ec__DisplayClass33_0_U3CShowU3Eb__0_m9012914A2A16CD095D6B46177AFF3B5C3CB93145,
+	U3CU3Ec__DisplayClass39_0__ctor_m0FC8804305346AEB7A362ADECA1AC44A46D7CC89,
+	U3CU3Ec__DisplayClass39_0_U3CUnityAdsReadyU3Eb__0_m28B8003670F5637B40F27E0B51F58D13B953F7C3,
+	U3CU3Ec__DisplayClass40_0__ctor_m0128F39B29139E36655B7E6266ED5DCDD7F76FC0,
+	U3CU3Ec__DisplayClass40_0_U3CUnityAdsDidErrorU3Eb__0_mABDE371586C21B6C5A4AB8A5F2C33C42A7301119,
+	U3CU3Ec__DisplayClass41_0__ctor_m49FE78F3CFE52FBFDE4DF77AC6C8342850D863F5,
+	U3CU3Ec__DisplayClass41_0_U3CUnityAdsDidStartU3Eb__0_mF6E648E0E1C3D00F3D88E61F040BC0FE905B8B13,
+	U3CU3Ec__DisplayClass42_0__ctor_m8FF1D1F8C068D89D0DBCA25E34BEDE8A2CEB7A1C,
+	U3CU3Ec__DisplayClass42_0_U3CUnityAdsDidFinishU3Eb__0_m2307DD2AF08F36B79D29B4050B1B6F1B1E048852,
+	UnsupportedBanner_get_IsLoaded_mAC20597B72255A43422A65B92B0D6DB321380383,
+	UnsupportedBanner_SetupBanner_mC98C55C69EED503F1DA8B22B5307FFA17337C2B4,
+	UnsupportedBanner_Load_m2D4478E96AD0F9C94A38DC821A70E51C277D56C8,
+	UnsupportedBanner_Show_m861743CBEDFC9A9688FE2525EECA30E831BA6942,
+	UnsupportedBanner_Hide_m8BDA1734AD214C9B1876D7831B1221F382869A8D,
+	UnsupportedBanner_SetPosition_m3F83D2F79AB7B55390BFD6709F7DD4B4B3271F68,
+	UnsupportedBanner__ctor_mC20B1B08B0CD39488831DBFE168A35A355F3DE34,
+	UnsupportedPlatform_SetupPlatform_mF077E22C1EDF0CC6CC6279DBC130C84FE7723817,
+	UnsupportedPlatform_Initialize_m0AAD08F28892D94C7AF7D7A84BE604CFD7C000BD,
+	UnsupportedPlatform_Load_m5B2A9F19A25AF29E297AAE694DC68CA681854038,
+	UnsupportedPlatform_Show_mDC748A64CF758DB864B98A018FB880D88E2E9C5D,
+	UnsupportedPlatform_SetMetaData_mA0CDAD6010FEF07BE5AC19264BBD89540FB0985D,
+	UnsupportedPlatform_GetDebugMode_m29965A5CBA58F05ED4D9703502EA369C90DD85EF,
+	UnsupportedPlatform_SetDebugMode_mC61BD5EFB1E14D4E701EF030C99EB689183EC381,
+	UnsupportedPlatform_GetVersion_mABD397AE640F7AECA986A91916C2FC32B745D5A4,
+	UnsupportedPlatform_IsInitialized_m1378AA8DDC6FE7DDAF2EF06092BEE8DA42C0E8F4,
+	UnsupportedPlatform_IsReady_mC4BC7A8534BE6B6E82FCFB74697B44F255FF62A9,
+	UnsupportedPlatform_GetPlacementState_m0A347897C170FA834DCD24F0547451839F4E9979,
+	UnsupportedPlatform__ctor_m7958280F42833563A46C31ADB774DBA9DB7DB7A5,
+	BannerPlaceholder_Awake_m392559752B7D79220B534EBC2F84D634034F4B11,
+	BannerPlaceholder_OnGUI_m17CB0B088C168FBC82051455D4BD10813E5F2675,
+	BannerPlaceholder_ShowBanner_m7DD53DDFBDFFD078AC2D50325E93CFB52F8AC088,
+	BannerPlaceholder_HideBanner_m8516A412A3CD20FB4D5F66CFEF233ACA340BC135,
+	BannerPlaceholder_BackgroundTexture_m3571682A4CA0E00BEA263954EE87DF8FADFB8516,
+	BannerPlaceholder_GetBannerRect_m0F10D44EE32D80CB79954C98F8EF0A73BEF4601A,
+	BannerPlaceholder__ctor_m3ECE869D6AFA5D19B732F44D72F21850C9EB52D8,
+	AndroidBanner_get_IsLoaded_m3A7700F8A5205BA7709EB4801853E601D0D797F0,
+	AndroidBanner__ctor_m734C09F272FE7BD60B1235513B9C071CF3D2FE0E,
+	AndroidBanner_SetupBanner_m8EAA0F0C3F1ED5FAAB6D0BCCD34887396EAB2516,
+	AndroidBanner_Load_m62999B7510DEDE7A341DB8FD2810147C726AD561,
+	AndroidBanner_Show_m6E99841CFD49F93AFAD677BFD9FDC52303C94232,
+	AndroidBanner_Hide_mB1E7741E9807F1AECAFD971C6F36A8F5555E8697,
+	AndroidBanner_SetPosition_m16185AD21C3D7D5F1542E23401D9CA0633BF26F0,
+	AndroidBanner_onUnityBannerShow_m8D172FC53B43DB542DB6F6A33871A90E7747F34E,
+	AndroidBanner_onUnityBannerHide_m77A79A43FED9B7DB90F7962975F3ECA738CD2D71,
+	AndroidBanner_onUnityBannerLoaded_m6017EE911350AC3BE006342764C4D478DAF73914,
+	AndroidBanner_onUnityBannerUnloaded_m32662FDF703D4F351FEDC645EE1C3D80413E831B,
+	AndroidBanner_onUnityBannerClick_m01905C342D9102EE8B25640EC08A6B7E4396AAF1,
+	AndroidBanner_onUnityBannerError_m8E5DD5AACD964A0E69C0456C4CD95A424435D721,
+	AndroidBanner_U3CHideU3Eb__13_0_mAB882C8070DC10996541AA95791DDF35A7D3F9A8,
+	AndroidBanner_U3CHideU3Eb__13_1_mD15360DE3E36F405B8A47ABAFDB23D612167EF95,
+	AndroidBanner_U3ConUnityBannerLoadedU3Eb__17_1_mCB7A72E7A65C77AF78D2DDD94DFA950AE9FC3AC9,
+	AndroidBanner_U3ConUnityBannerLoadedU3Eb__17_0_mB0AF2D12F816E40A5C11FD95EDE2C22E18A4AE5B,
+	AndroidBanner_U3ConUnityBannerClickU3Eb__19_0_m7B6FC4F679F7F4903BB7FDB468FD1C111C21E399,
+	U3CU3Ec__DisplayClass11_0__ctor_mC415D8C16ADFC539F325538D30E81965A946A793,
+	U3CU3Ec__DisplayClass11_0_U3CLoadU3Eb__0_m949FFACE737D6CC4C752851E5F7406BF22B4998D,
+	U3CU3Ec__DisplayClass12_0__ctor_m30C2A848A50D2A065D20149EC691368359C13B60,
+	U3CU3Ec__DisplayClass12_0_U3CShowU3Eb__0_m0359D20E86119FDB7B89DD07E5CE3DF1F7F54BFA,
+	U3CU3Ec__DisplayClass12_0_U3CShowU3Eb__1_m28B3F96473008FF1719DBF80C47C1E9670AA0791,
+	U3CU3Ec__DisplayClass20_0__ctor_m7003CA38A85CB5D71D566630B55C90C822F875E7,
+	U3CU3Ec__DisplayClass20_0_U3ConUnityBannerErrorU3Eb__0_mCA5AD7066A9870DF7FD69A8179B89C51970C6EF9,
+	AndroidPlatform__ctor_m5D667B39B959DDFEB1C821705E4D8FD4D91811EC,
+	AndroidPlatform_SetupPlatform_m2A31F16DDE02C7AC58514BDDDA945B3184470508,
+	AndroidPlatform_Initialize_m65FF211170FBBB8E79EE8A507366C11E29144144,
+	AndroidPlatform_Load_m2B4C3F4AF02470D8D5D5D759F4E937F2D4371EB7,
+	AndroidPlatform_Show_m787BCE53E812EB340388FF343F937E72B8F96A82,
+	AndroidPlatform_SetMetaData_m81C927FD8E29866B95DA104BF9F35C4138D174E3,
+	AndroidPlatform_GetDebugMode_m1ED72CA58F3DF253C03216459C2AC7E7AD12C104,
+	AndroidPlatform_SetDebugMode_m18A3E0EE2CE09E20C596491C4A0B235BA249E197,
+	AndroidPlatform_GetVersion_m591D9181C0E6AFA100BC79EF9BFC0F9925D28241,
+	AndroidPlatform_IsInitialized_mA501F1339E6E6E64C0A8BDB4C9461D295ED2EE7B,
+	AndroidPlatform_IsReady_m6C93143C253793CEF1310B9E171FBD6374EDE0AE,
+	AndroidPlatform_RemoveListener_m2A18237BD604377583E41BACED668F65209C5BFD,
+	AndroidPlatform_GetPlacementState_m41C5D4E0CCC299FD83367835715900DF778227EA,
+	AndroidPlatform_GetCurrentAndroidActivity_m30A1BB0C7C5520B51B8F5E45F27F586A8C7BD68C,
+	AndroidPlatform_UnityEngine_Advertisements_Purchasing_IPurchasingEventSender_SendPurchasingEvent_m6650EDE5A3299DE08FF0975CF43922566AFFB3DB,
+	BannerBundle_get_bannerView_mA6309659C791621AA4EC30ADCD94331041586BDD,
+	BannerBundle_get_bannerPlacementId_m789DB548258FCAE45F571D630961D7101EF1CE1C,
+	BannerBundle__ctor_mDFCB4F3D083FDFFC6FC1A605D6B106D8E2D71E05,
+	FinishEventArgs_get_placementId_m14031742D9FC9A405AE2E4348E7F650464EB6500,
+	FinishEventArgs_get_showResult_m933F173D07675D7C20C05D07623BE25398257C52,
+	FinishEventArgs__ctor_m496AD66C8D626BF0EFB33EEB2CEA2D2EDF42ADBB,
+	StartEventArgs_get_placementId_mC0C9FF59F36D53397DBE16BABB94F3C11B8C3319,
+	StartEventArgs__ctor_m28465529BB59ED9A94D78ECEEF36F1FA601B87B0,
 };
 static const int32_t s_InvokerIndices[359] = 
 {
-	2181,
-	2174,
-	2174,
-	2174,
-	2145,
-	2166,
-	2174,
-	2143,
-	1988,
-	1783,
-	1606,
-	2174,
-	2107,
-	2143,
-	1986,
-	2181,
-	2143,
-	2143,
-	1986,
-	1986,
-	1780,
-	2143,
-	2143,
-	2143,
+	2176,
+	2169,
+	2169,
+	2169,
+	2140,
 	2161,
-	2047,
-	2166,
-	2174,
-	2181,
-	2143,
-	2143,
-	1986,
-	2181,
-	2143,
-	2143,
-	1986,
-	2145,
-	2141,
-	2174,
+	2169,
+	2138,
+	1982,
+	1777,
+	1601,
+	2169,
+	2102,
+	2138,
+	1980,
+	2176,
+	2138,
+	2138,
+	1980,
+	1980,
+	1774,
+	2138,
+	2138,
+	2138,
+	2156,
+	2042,
+	2161,
+	2169,
+	2176,
+	2138,
+	2138,
+	1980,
+	2176,
+	2138,
+	2138,
+	1980,
+	2140,
+	2136,
+	2169,
 	1264,
 	1264,
 	1232,
@@ -1180,16 +1180,16 @@ static const int32_t s_InvokerIndices[359] =
 	1264,
 	1264,
 	1264,
-	2043,
+	2038,
 	-1,
 	856,
 	1069,
 	1069,
-	2084,
-	2084,
-	2103,
+	2079,
+	2079,
+	2098,
 	1069,
-	2084,
+	2079,
 	1264,
 	1232,
 	1232,
@@ -1203,7 +1203,7 @@ static const int32_t s_InvokerIndices[359] =
 	1232,
 	1221,
 	1264,
-	2084,
+	2079,
 	1069,
 	1069,
 	1069,
@@ -1229,12 +1229,12 @@ static const int32_t s_InvokerIndices[359] =
 	1069,
 	1069,
 	1264,
-	2107,
-	2107,
-	2166,
-	2166,
-	2107,
-	2181,
+	2102,
+	2102,
+	2161,
+	2161,
+	2102,
+	2176,
 	1069,
 	1069,
 	1069,
@@ -1288,7 +1288,7 @@ static const int32_t s_InvokerIndices[359] =
 	1069,
 	1069,
 	686,
-	2084,
+	2079,
 	689,
 	689,
 	1264,
@@ -1324,8 +1324,8 @@ static const int32_t s_InvokerIndices[359] =
 	1264,
 	639,
 	1264,
-	1668,
-	2097,
+	1663,
+	2092,
 	1264,
 	1251,
 	1264,
@@ -1365,7 +1365,7 @@ static const int32_t s_InvokerIndices[359] =
 	939,
 	1264,
 	799,
-	2166,
+	2161,
 	1069,
 	1232,
 	1232,

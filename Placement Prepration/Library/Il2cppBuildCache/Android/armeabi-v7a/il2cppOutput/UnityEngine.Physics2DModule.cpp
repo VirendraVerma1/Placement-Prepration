@@ -61,7 +61,7 @@ IL2CPP_EXTERN_C_END
 #endif
 
 // <Module>
-struct  U3CModuleU3E_tB9AD1E70EEC6CD05D7E857DE3C07E77B470C8679 
+struct U3CModuleU3E_tB9AD1E70EEC6CD05D7E857DE3C07E77B470C8679 
 {
 public:
 
@@ -73,7 +73,7 @@ public:
 
 
 // System.Collections.Generic.List`1<UnityEngine.RaycastHit2D>
-struct  List_1_t3926283FA9AE49778D95220056CEBFB01D034379  : public RuntimeObject
+struct List_1_t3926283FA9AE49778D95220056CEBFB01D034379  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -140,7 +140,7 @@ public:
 
 
 // System.Collections.Generic.List`1<UnityEngine.Rigidbody2D>
-struct  List_1_t61A36FEC0532A7CC39DB1770BFA5C1967348FAC1  : public RuntimeObject
+struct List_1_t61A36FEC0532A7CC39DB1770BFA5C1967348FAC1  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -211,7 +211,7 @@ struct Il2CppArrayBounds;
 
 
 // UnityEngine.Physics2D
-struct  Physics2D_t1C1ECE6BA2F958C5C1440DDB9E9A5DAAA8F86D92  : public RuntimeObject
+struct Physics2D_t1C1ECE6BA2F958C5C1440DDB9E9A5DAAA8F86D92  : public RuntimeObject
 {
 public:
 
@@ -237,7 +237,7 @@ public:
 
 
 // System.String
-struct  String_t  : public RuntimeObject
+struct String_t  : public RuntimeObject
 {
 public:
 	// System.Int32 System.String::m_stringLength
@@ -282,7 +282,7 @@ public:
 
 
 // System.ValueType
-struct  ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
 {
 public:
 
@@ -299,7 +299,7 @@ struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_com
 };
 
 // System.Boolean
-struct  Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
+struct Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
 {
 public:
 	// System.Boolean System.Boolean::m_value
@@ -345,7 +345,7 @@ public:
 
 
 // System.Int32
-struct  Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046 
+struct Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046 
 {
 public:
 	// System.Int32 System.Int32::m_value
@@ -363,7 +363,7 @@ public:
 
 
 // System.IntPtr
-struct  IntPtr_t 
+struct IntPtr_t 
 {
 public:
 	// System.Void* System.IntPtr::m_value
@@ -397,7 +397,7 @@ public:
 
 
 // UnityEngine.LayerMask
-struct  LayerMask_t5FA647D8C300EA0621360CA4424717C3C73190A8 
+struct LayerMask_t5FA647D8C300EA0621360CA4424717C3C73190A8 
 {
 public:
 	// System.Int32 UnityEngine.LayerMask::m_Mask
@@ -415,7 +415,7 @@ public:
 
 
 // UnityEngine.PhysicsScene2D
-struct  PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 
+struct PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 
 {
 public:
 	// System.Int32 UnityEngine.PhysicsScene2D::m_Handle
@@ -433,7 +433,7 @@ public:
 
 
 // System.Single
-struct  Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E 
+struct Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E 
 {
 public:
 	// System.Single System.Single::m_value
@@ -451,7 +451,7 @@ public:
 
 
 // UnityEngine.Vector2
-struct  Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 
+struct Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 
 {
 public:
 	// System.Single UnityEngine.Vector2::x
@@ -565,7 +565,7 @@ public:
 
 
 // UnityEngine.Vector3
-struct  Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E 
+struct Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E 
 {
 public:
 	// System.Single UnityEngine.Vector3::x
@@ -709,7 +709,7 @@ public:
 
 
 // System.Void
-struct  Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
+struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
 {
 public:
 	union
@@ -725,7 +725,7 @@ public:
 
 
 // UnityEngine.Bounds
-struct  Bounds_t0F1F36D4F7AF49524B3C2A2259594412A3D3AE37 
+struct Bounds_t0F1F36D4F7AF49524B3C2A2259594412A3D3AE37 
 {
 public:
 	// UnityEngine.Vector3 UnityEngine.Bounds::m_Center
@@ -753,7 +753,7 @@ public:
 
 
 // UnityEngine.Collision2D
-struct  Collision2D_t95B5FD331CE95276D3658140844190B485D26564  : public RuntimeObject
+struct Collision2D_t95B5FD331CE95276D3658140844190B485D26564  : public RuntimeObject
 {
 public:
 	// System.Int32 UnityEngine.Collision2D::m_Collider
@@ -879,7 +879,7 @@ struct Collision2D_t95B5FD331CE95276D3658140844190B485D26564_marshaled_com
 };
 
 // UnityEngine.ContactFilter2D
-struct  ContactFilter2D_t82BBB159A7E392A24921803A0E79669F4E34DFCB 
+struct ContactFilter2D_t82BBB159A7E392A24921803A0E79669F4E34DFCB 
 {
 public:
 	// System.Boolean UnityEngine.ContactFilter2D::useTriggers
@@ -1027,7 +1027,7 @@ struct ContactFilter2D_t82BBB159A7E392A24921803A0E79669F4E34DFCB_marshaled_com
 };
 
 // UnityEngine.ContactPoint2D
-struct  ContactPoint2D_t5A4C242ABAE740C565BF01A35CEE279058E66A62 
+struct ContactPoint2D_t5A4C242ABAE740C565BF01A35CEE279058E66A62 
 {
 public:
 	// UnityEngine.Vector2 UnityEngine.ContactPoint2D::m_Point
@@ -1145,7 +1145,7 @@ public:
 
 
 // UnityEngine.Object
-struct  Object_tF2F3778131EFF286AF62B7B013A170F95A91571A  : public RuntimeObject
+struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A  : public RuntimeObject
 {
 public:
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
@@ -1189,7 +1189,7 @@ struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_marshaled_com
 };
 
 // UnityEngine.Ray
-struct  Ray_t2E9E67CC8B03EE6ED2BBF3D2C9C96DDF70E1D5E6 
+struct Ray_t2E9E67CC8B03EE6ED2BBF3D2C9C96DDF70E1D5E6 
 {
 public:
 	// UnityEngine.Vector3 UnityEngine.Ray::m_Origin
@@ -1217,7 +1217,7 @@ public:
 
 
 // UnityEngine.RaycastHit2D
-struct  RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 
+struct RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 
 {
 public:
 	// UnityEngine.Vector2 UnityEngine.RaycastHit2D::m_Centroid
@@ -1285,7 +1285,7 @@ public:
 
 
 // UnityEngine.Component
-struct  Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
+struct Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
 {
 public:
 
@@ -1294,7 +1294,7 @@ public:
 
 
 // UnityEngine.Behaviour
-struct  Behaviour_t1A3DDDCF73B4627928FBFE02ED52B7251777DBD9  : public Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684
+struct Behaviour_t1A3DDDCF73B4627928FBFE02ED52B7251777DBD9  : public Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684
 {
 public:
 
@@ -1303,7 +1303,7 @@ public:
 
 
 // UnityEngine.Rigidbody2D
-struct  Rigidbody2D_tD23204FEE9CB4A36737043B97FD409DE05D5DCE5  : public Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684
+struct Rigidbody2D_tD23204FEE9CB4A36737043B97FD409DE05D5DCE5  : public Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684
 {
 public:
 
@@ -1312,7 +1312,7 @@ public:
 
 
 // UnityEngine.Collider2D
-struct  Collider2D_tDDBF081328B83D21D0BA3B5036D77B32528BA722  : public Behaviour_t1A3DDDCF73B4627928FBFE02ED52B7251777DBD9
+struct Collider2D_tDDBF081328B83D21D0BA3B5036D77B32528BA722  : public Behaviour_t1A3DDDCF73B4627928FBFE02ED52B7251777DBD9
 {
 public:
 

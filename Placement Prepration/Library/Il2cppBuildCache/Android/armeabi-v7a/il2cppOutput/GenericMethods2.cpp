@@ -372,11 +372,11 @@ struct UInt64U5BU5D_t7C6E32D10F47677C1CEF3C30F4E4CE95B3A633E2;
 struct Vector3U5BU5D_t5FB88EAA33E46838BDC2ABDAEA3E8727491CB9E4;
 // UnityEngine.Vector4[]
 struct Vector4U5BU5D_tCE72D928AA6FF1852BAC5E4396F6F0131ED11871;
-// <Module>/‎‏​‫‫‪⁪‫⁮‪⁯‪‎⁫⁮‬⁭⁫‏​‪‏⁭⁮⁬⁭‭⁪‎⁫‭‌⁮‮‌⁪​‏‮⁫‮[]
+// <Module>/?????????????????????????????????????????[]
 struct U200EU200FU200BU202BU202BU202AU206AU202BU206EU202AU206FU202AU200EU206BU206EU202CU206DU206BU200FU200BU202AU200FU206DU206EU206CU206DU202DU206AU200EU206BU202DU200CU206EU202EU200CU206AU200BU200FU202EU206BU202EU5BU5D_tECC423982A8AB33F5F00958D1D5B41B69D174C6B;
-// <Module>/⁭‎‭⁫‌⁬‫‬⁫⁬‌⁯‫‌⁮‬⁮⁮‏‎⁮⁪⁪‎‪⁫‪‍​‏⁯​‏‏​⁬‫‎‬‬‮[]
+// <Module>/?????????????????????????????????????????[]
 struct U206DU200EU202DU206BU200CU206CU202BU202CU206BU206CU200CU206FU202BU200CU206EU202CU206EU206EU200FU200EU206EU206AU206AU200EU202AU206BU202AU200DU200BU200FU206FU200BU200FU200FU200BU206CU202BU200EU202CU202CU202EU5BU5D_tBC353EEE98F773D1A70093BD5A2F80C7D36017A1;
-// <Module>/‫‌⁫⁬⁭‏‭⁪⁪‮⁬‍‌⁯‭⁯‌‏‪​‫‌‮⁮⁯​‎⁪‍‎‫‍⁪⁬⁮‍‌‍‏⁮‮[]
+// <Module>/?????????????????????????????????????????[]
 struct U202BU200CU206BU206CU206DU200FU202DU206AU206AU202EU206CU200DU200CU206FU202DU206FU200CU200FU202AU200BU202BU200CU202EU206EU206FU200BU200EU206AU200DU200EU202BU200DU206AU206CU206EU200DU200CU200DU200FU206EU202EU5BU5D_tB7A9B60BF4E3A8C1DE3B37E0A5C6BE85F4A7F375;
 // UnityEngine.BeforeRenderHelper/OrderBlock[]
 struct OrderBlockU5BU5D_tA6CA8293A67A97712BD2A0D7ABBA77E770053817;
@@ -1062,7 +1062,7 @@ IL2CPP_EXTERN_C_END
 
 
 // System.Linq.Enumerable/<>c__DisplayClass6_0`1<System.Object>
-struct  U3CU3Ec__DisplayClass6_0_1_t436699F540264FEBBA7773CE118E9F03FDDC5C3F  : public RuntimeObject
+struct U3CU3Ec__DisplayClass6_0_1_t436699F540264FEBBA7773CE118E9F03FDDC5C3F  : public RuntimeObject
 {
 public:
 	// System.Func`2<TSource,System.Boolean> System.Linq.Enumerable/<>c__DisplayClass6_0`1::predicate1
@@ -1092,7 +1092,7 @@ public:
 
 
 // System.Collections.Generic.ArraySortHelper`2<System.Object,System.Object>
-struct  ArraySortHelper_2_tEFE2A82208F624A230AED04CB8F60F821A77F663  : public RuntimeObject
+struct ArraySortHelper_2_tEFE2A82208F624A230AED04CB8F60F821A77F663  : public RuntimeObject
 {
 public:
 
@@ -1118,7 +1118,7 @@ public:
 
 
 // System.Collections.Generic.ArraySortHelper`2<System.UInt64,System.Object>
-struct  ArraySortHelper_2_tABECE6AFEB68CD8F23CEF0EAE12EB58140B3583C  : public RuntimeObject
+struct ArraySortHelper_2_tABECE6AFEB68CD8F23CEF0EAE12EB58140B3583C  : public RuntimeObject
 {
 public:
 
@@ -1144,7 +1144,7 @@ public:
 
 
 // System.EmptyArray`1<System.Object>
-struct  EmptyArray_1_tBF73225DFA890366D579424FE8F40073BF9FBAD4  : public RuntimeObject
+struct EmptyArray_1_tBF73225DFA890366D579424FE8F40073BF9FBAD4  : public RuntimeObject
 {
 public:
 
@@ -1170,7 +1170,7 @@ public:
 
 
 // System.Collections.Generic.EqualityComparer`1<System.Boolean>
-struct  EqualityComparer_1_tA00ECA27EEC6CA6AADD7F115EB7E6A654C8E96E7  : public RuntimeObject
+struct EqualityComparer_1_tA00ECA27EEC6CA6AADD7F115EB7E6A654C8E96E7  : public RuntimeObject
 {
 public:
 
@@ -1196,7 +1196,7 @@ public:
 
 
 // System.Collections.Generic.EqualityComparer`1<System.Char>
-struct  EqualityComparer_1_t5A410E1AF4F49A297AB2DC20A45E858B099B3D30  : public RuntimeObject
+struct EqualityComparer_1_t5A410E1AF4F49A297AB2DC20A45E858B099B3D30  : public RuntimeObject
 {
 public:
 
@@ -1222,7 +1222,7 @@ public:
 
 
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.ColorBlock>
-struct  EqualityComparer_1_tC05F233506704F39DCBB67A7941137171132CD40  : public RuntimeObject
+struct EqualityComparer_1_tC05F233506704F39DCBB67A7941137171132CD40  : public RuntimeObject
 {
 public:
 
@@ -1248,7 +1248,7 @@ public:
 
 
 // System.Collections.Generic.EqualityComparer`1<System.Int32>
-struct  EqualityComparer_1_t20B8E5927E151143D1CBD8554CAF17F0EAC1CF62  : public RuntimeObject
+struct EqualityComparer_1_t20B8E5927E151143D1CBD8554CAF17F0EAC1CF62  : public RuntimeObject
 {
 public:
 
@@ -1274,7 +1274,7 @@ public:
 
 
 // System.Collections.Generic.EqualityComparer`1<System.Int32Enum>
-struct  EqualityComparer_1_t399C4B066E24442E62E52C1FD1CCF501E96C846F  : public RuntimeObject
+struct EqualityComparer_1_t399C4B066E24442E62E52C1FD1CCF501E96C846F  : public RuntimeObject
 {
 public:
 
@@ -1300,7 +1300,7 @@ public:
 
 
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>
-struct  EqualityComparer_1_tB3688C71063583EF32963F86697F4216C40489BC  : public RuntimeObject
+struct EqualityComparer_1_tB3688C71063583EF32963F86697F4216C40489BC  : public RuntimeObject
 {
 public:
 
@@ -1326,7 +1326,7 @@ public:
 
 
 // System.Collections.Generic.EqualityComparer`1<System.Object>
-struct  EqualityComparer_1_t469B0BBE7B6765C576211BEF8F2803A5AD411A20  : public RuntimeObject
+struct EqualityComparer_1_t469B0BBE7B6765C576211BEF8F2803A5AD411A20  : public RuntimeObject
 {
 public:
 
@@ -1352,7 +1352,7 @@ public:
 
 
 // System.Collections.Generic.EqualityComparer`1<System.Single>
-struct  EqualityComparer_1_t6C59536EBB4DD1217C6DBCECEC22F9F4202F710F  : public RuntimeObject
+struct EqualityComparer_1_t6C59536EBB4DD1217C6DBCECEC22F9F4202F710F  : public RuntimeObject
 {
 public:
 
@@ -1378,7 +1378,7 @@ public:
 
 
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>
-struct  EqualityComparer_1_tE2AE720166A82757E1ECCBD4453EF08913187030  : public RuntimeObject
+struct EqualityComparer_1_tE2AE720166A82757E1ECCBD4453EF08913187030  : public RuntimeObject
 {
 public:
 
@@ -1404,7 +1404,7 @@ public:
 
 
 // System.Linq.Enumerable/Iterator`1<System.Object>
-struct  Iterator_1_t674ABE41CF4096D4BE4D51E21FEBDADBF74CC279  : public RuntimeObject
+struct Iterator_1_t674ABE41CF4096D4BE4D51E21FEBDADBF74CC279  : public RuntimeObject
 {
 public:
 	// System.Int32 System.Linq.Enumerable/Iterator`1::threadId
@@ -1443,7 +1443,7 @@ public:
 
 
 // System.Collections.Generic.List`1<UnityEngine.Color32>
-struct  List_1_tE21C42BE31D35DD3ECF3322C6CA057E27A81B4D5  : public RuntimeObject
+struct List_1_tE21C42BE31D35DD3ECF3322C6CA057E27A81B4D5  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -1510,7 +1510,7 @@ public:
 
 
 // System.Collections.Generic.List`1<UnityEngine.Component>
-struct  List_1_tA3929E98F6AC5A6E95EF799D2E3294F214358C0F  : public RuntimeObject
+struct List_1_tA3929E98F6AC5A6E95EF799D2E3294F214358C0F  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -1577,7 +1577,7 @@ public:
 
 
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>
-struct  List_1_t9F9214BCC9E2E91710F684F76185A72C087B90F5  : public RuntimeObject
+struct List_1_t9F9214BCC9E2E91710F684F76185A72C087B90F5  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -1644,7 +1644,7 @@ public:
 
 
 // System.Collections.Generic.List`1<System.Int32>
-struct  List_1_t260B41F956D673396C33A4CF94E8D6C4389EACB7  : public RuntimeObject
+struct List_1_t260B41F956D673396C33A4CF94E8D6C4389EACB7  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -1711,7 +1711,7 @@ public:
 
 
 // System.Collections.Generic.List`1<System.Object>
-struct  List_1_t3F94120C77410A62EAE48421CF166B83AB95A2F5  : public RuntimeObject
+struct List_1_t3F94120C77410A62EAE48421CF166B83AB95A2F5  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -1778,7 +1778,7 @@ public:
 
 
 // System.Collections.Generic.List`1<UnityEngine.Transform>
-struct  List_1_t27D7842CA3FD659C9BE64845F118C2590EE2D2C0  : public RuntimeObject
+struct List_1_t27D7842CA3FD659C9BE64845F118C2590EE2D2C0  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -1845,7 +1845,7 @@ public:
 
 
 // System.Collections.Generic.List`1<UnityEngine.Vector3>
-struct  List_1_t577D28CFF6DFE3F6A8D4409F7A21CBF513C04181  : public RuntimeObject
+struct List_1_t577D28CFF6DFE3F6A8D4409F7A21CBF513C04181  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -1912,7 +1912,7 @@ public:
 
 
 // System.Collections.Generic.List`1<UnityEngine.Vector4>
-struct  List_1_t14D5F8426BD7087A7AEB49D4DE3DEF404C8BE65A  : public RuntimeObject
+struct List_1_t14D5F8426BD7087A7AEB49D4DE3DEF404C8BE65A  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
@@ -1979,7 +1979,7 @@ public:
 
 
 // UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>>
-struct  ObjectPool_1_t7DE371FC4173D0882831B9DD0945CA448A3BAB31  : public RuntimeObject
+struct ObjectPool_1_t7DE371FC4173D0882831B9DD0945CA448A3BAB31  : public RuntimeObject
 {
 public:
 	// System.Collections.Generic.Stack`1<T> UnityEngine.UI.ObjectPool`1::m_Stack
@@ -2030,7 +2030,7 @@ public:
 
 
 // System.Tuple`2<System.Object,System.Object>
-struct  Tuple_2_t6E1BB48DA437DE519C0560A93AF96D1E1F3E3EA1  : public RuntimeObject
+struct Tuple_2_t6E1BB48DA437DE519C0560A93AF96D1E1F3E3EA1  : public RuntimeObject
 {
 public:
 	// T1 System.Tuple`2::m_Item1
@@ -2060,7 +2060,7 @@ public:
 
 
 // UnityEngine.EventSystems.AbstractEventData
-struct  AbstractEventData_tA0B5065DE3430C0031ADE061668E1C7073D718DF  : public RuntimeObject
+struct AbstractEventData_tA0B5065DE3430C0031ADE061668E1C7073D718DF  : public RuntimeObject
 {
 public:
 	// System.Boolean UnityEngine.EventSystems.AbstractEventData::m_Used
@@ -2078,7 +2078,7 @@ public:
 
 
 // GoogleMobileAds.Placement.AdGameObjectPool
-struct  AdGameObjectPool_tAB721145459C1843B36343B2A73085F6D5521D3E  : public RuntimeObject
+struct AdGameObjectPool_tAB721145459C1843B36343B2A73085F6D5521D3E  : public RuntimeObject
 {
 public:
 	// System.Collections.Generic.Dictionary`2<System.String,GoogleMobileAds.Placement.PoolEntry> GoogleMobileAds.Placement.AdGameObjectPool::objects
@@ -2114,7 +2114,7 @@ public:
 
 
 // UnityEngine.AndroidJavaObject
-struct  AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E  : public RuntimeObject
+struct AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E  : public RuntimeObject
 {
 public:
 	// UnityEngine.GlobalJavaObjectRef UnityEngine.AndroidJavaObject::m_jobject
@@ -2164,7 +2164,7 @@ struct Il2CppArrayBounds;
 
 
 // System.Runtime.CompilerServices.AsyncTaskCache
-struct  AsyncTaskCache_t3CED9C4FF39C22FFD601A0D5AC9B64190AF4BC45  : public RuntimeObject
+struct AsyncTaskCache_t3CED9C4FF39C22FFD601A0D5AC9B64190AF4BC45  : public RuntimeObject
 {
 public:
 
@@ -2212,7 +2212,7 @@ public:
 
 
 // System.Attribute
-struct  Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71  : public RuntimeObject
+struct Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71  : public RuntimeObject
 {
 public:
 
@@ -2221,7 +2221,7 @@ public:
 
 
 // UnityEngine.AttributeHelperEngine
-struct  AttributeHelperEngine_t2B532C22878D0F5685ADEAF5470DF15F7B8953BE  : public RuntimeObject
+struct AttributeHelperEngine_t2B532C22878D0F5685ADEAF5470DF15F7B8953BE  : public RuntimeObject
 {
 public:
 
@@ -2269,7 +2269,7 @@ public:
 
 
 // UnityEngine.Events.BaseInvokableCall
-struct  BaseInvokableCall_tEE2D6A7BA0C533CE83516B9CB652FB0982400784  : public RuntimeObject
+struct BaseInvokableCall_tEE2D6A7BA0C533CE83516B9CB652FB0982400784  : public RuntimeObject
 {
 public:
 
@@ -2278,7 +2278,7 @@ public:
 
 
 // System.Collections.Generic.CollectionExtensions
-struct  CollectionExtensions_t47FA6529A1BC12FBAFB36A7B40AD7CACCC7F37F2  : public RuntimeObject
+struct CollectionExtensions_t47FA6529A1BC12FBAFB36A7B40AD7CACCC7F37F2  : public RuntimeObject
 {
 public:
 
@@ -2287,7 +2287,7 @@ public:
 
 
 // System.Diagnostics.Contracts.Contract
-struct  Contract_tF27C83DC3B0BD78708EC82FB49ACD0C7D97E2466  : public RuntimeObject
+struct Contract_tF27C83DC3B0BD78708EC82FB49ACD0C7D97E2466  : public RuntimeObject
 {
 public:
 
@@ -2296,7 +2296,7 @@ public:
 
 
 // System.Reflection.CustomAttributeData
-struct  CustomAttributeData_t4F8D66DDB6D3F7E8C39AF85752A0CC9679A4CE85  : public RuntimeObject
+struct CustomAttributeData_t4F8D66DDB6D3F7E8C39AF85752A0CC9679A4CE85  : public RuntimeObject
 {
 public:
 	// System.Reflection.ConstructorInfo System.Reflection.CustomAttributeData::ctorInfo
@@ -2348,7 +2348,7 @@ public:
 
 
 // System.Reflection.CustomAttributeExtensions
-struct  CustomAttributeExtensions_t7EEBBA00B9C5B3009BA492F7EF9F8A758E3A2E40  : public RuntimeObject
+struct CustomAttributeExtensions_t7EEBBA00B9C5B3009BA492F7EF9F8A758E3A2E40  : public RuntimeObject
 {
 public:
 
@@ -2357,7 +2357,7 @@ public:
 
 
 // UnityEngine.Advertisements.Utilities.EnumUtilities
-struct  EnumUtilities_t874F4B6D01F7F2DADF37E8D02C6109BF84B66B43  : public RuntimeObject
+struct EnumUtilities_tB81160EE0D9691D283A8CD1F753844AF765E1241  : public RuntimeObject
 {
 public:
 
@@ -2366,7 +2366,7 @@ public:
 
 
 // System.Linq.Enumerable
-struct  Enumerable_t928C505614FDD67F6D61FB58BED73235DF569B0E  : public RuntimeObject
+struct Enumerable_t928C505614FDD67F6D61FB58BED73235DF569B0E  : public RuntimeObject
 {
 public:
 
@@ -2375,7 +2375,7 @@ public:
 
 
 // UnityEngine.EventSystems.ExecuteEvents
-struct  ExecuteEvents_tEA324150A01AFB802974FA8B7DB1C19F83FECA68  : public RuntimeObject
+struct ExecuteEvents_tEA324150A01AFB802974FA8B7DB1C19F83FECA68  : public RuntimeObject
 {
 public:
 
@@ -2599,7 +2599,7 @@ public:
 
 
 // System.Threading.Interlocked
-struct  Interlocked_t84BB23BED1AFE2EBBCBDD070F241EA497C68FB64  : public RuntimeObject
+struct Interlocked_t84BB23BED1AFE2EBBCBDD070F241EA497C68FB64  : public RuntimeObject
 {
 public:
 
@@ -2608,7 +2608,16 @@ public:
 
 
 // System.Runtime.CompilerServices.JitHelpers
-struct  JitHelpers_t6DC124FF04E77C7EDE891400F7F01460DB8807E9  : public RuntimeObject
+struct JitHelpers_t6DC124FF04E77C7EDE891400F7F01460DB8807E9  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+
+// UnityEngine.JsonUtility
+struct JsonUtility_tEC8D90B8D7161F0966D0B8E7303206C18AAB0BD0  : public RuntimeObject
 {
 public:
 
@@ -2617,7 +2626,7 @@ public:
 
 
 // System.Threading.LazyInitializer
-struct  LazyInitializer_t68D740FE95C1E311CA598F6427FAFBF1F6EA9A3E  : public RuntimeObject
+struct LazyInitializer_t68D740FE95C1E311CA598F6427FAFBF1F6EA9A3E  : public RuntimeObject
 {
 public:
 
@@ -2626,7 +2635,7 @@ public:
 
 
 // System.Runtime.InteropServices.Marshal
-struct  Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058  : public RuntimeObject
+struct Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058  : public RuntimeObject
 {
 public:
 
@@ -2661,7 +2670,7 @@ public:
 
 
 // System.Reflection.MemberInfo
-struct  MemberInfo_t  : public RuntimeObject
+struct MemberInfo_t  : public RuntimeObject
 {
 public:
 
@@ -2670,7 +2679,7 @@ public:
 
 
 // GoogleMobileAds.Api.MobileAds
-struct  MobileAds_t0BC0844A698A1225CDED22B7DF618683849B4DB1  : public RuntimeObject
+struct MobileAds_t0BC0844A698A1225CDED22B7DF618683849B4DB1  : public RuntimeObject
 {
 public:
 	// GoogleMobileAds.Common.IMobileAdsClient GoogleMobileAds.Api.MobileAds::_PdbQgPRNu3avbiwZinBxFNm0PTg
@@ -2717,7 +2726,7 @@ public:
 
 
 // GoogleMobileAds.Api.MobileAdsExtensions
-struct  MobileAdsExtensions_tDBBA3979D0A9563012227DB36662956A763E76C5  : public RuntimeObject
+struct MobileAdsExtensions_tDBBA3979D0A9563012227DB36662956A763E76C5  : public RuntimeObject
 {
 public:
 
@@ -2726,7 +2735,7 @@ public:
 
 
 // Unity.Collections.LowLevel.Unsafe.NativeArrayUnsafeUtility
-struct  NativeArrayUnsafeUtility_tABFEC25CB8DB147F19348E853EE24669F9682C83  : public RuntimeObject
+struct NativeArrayUnsafeUtility_tABFEC25CB8DB147F19348E853EE24669F9682C83  : public RuntimeObject
 {
 public:
 
@@ -2735,7 +2744,7 @@ public:
 
 
 // UnityEngine.NoAllocHelpers
-struct  NoAllocHelpers_tDF63D8493CAD8DE137A5560CDAF336DA0A99D0D1  : public RuntimeObject
+struct NoAllocHelpers_tDF63D8493CAD8DE137A5560CDAF336DA0A99D0D1  : public RuntimeObject
 {
 public:
 
@@ -2744,7 +2753,7 @@ public:
 
 
 // UnityEngine.Resources
-struct  Resources_t90EC380141241F7E4B284EC353EF4F0386218419  : public RuntimeObject
+struct Resources_t90EC380141241F7E4B284EC353EF4F0386218419  : public RuntimeObject
 {
 public:
 
@@ -2753,7 +2762,7 @@ public:
 
 
 // System.Runtime.CompilerServices.RuntimeHelpers
-struct  RuntimeHelpers_tC052103DB62650080244B150AC8C2DDC5C0CD8AB  : public RuntimeObject
+struct RuntimeHelpers_tC052103DB62650080244B150AC8C2DDC5C0CD8AB  : public RuntimeObject
 {
 public:
 
@@ -2762,7 +2771,7 @@ public:
 
 
 // UnityEngine.UI.SetPropertyUtility
-struct  SetPropertyUtility_tA0FD167699990D8AFDA1284FCCFEA03357AD73BB  : public RuntimeObject
+struct SetPropertyUtility_tA0FD167699990D8AFDA1284FCCFEA03357AD73BB  : public RuntimeObject
 {
 public:
 
@@ -2771,7 +2780,7 @@ public:
 
 
 // System.String
-struct  String_t  : public RuntimeObject
+struct String_t  : public RuntimeObject
 {
 public:
 	// System.Int32 System.String::m_stringLength
@@ -2816,7 +2825,7 @@ public:
 
 
 // System.ThrowHelper
-struct  ThrowHelper_t396052A7B504E698E9DF1B91F7A52F4D2EA47246  : public RuntimeObject
+struct ThrowHelper_t396052A7B504E698E9DF1B91F7A52F4D2EA47246  : public RuntimeObject
 {
 public:
 
@@ -2825,7 +2834,7 @@ public:
 
 
 // System.Tuple
-struct  Tuple_t04ED51FC9876E74A8E2D69E20EC4D89DAF554A9F  : public RuntimeObject
+struct Tuple_t04ED51FC9876E74A8E2D69E20EC4D89DAF554A9F  : public RuntimeObject
 {
 public:
 
@@ -2834,7 +2843,7 @@ public:
 
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility
-struct  UnsafeUtility_tAA965823E05BE8ADD69F58C82BF0DF723476E551  : public RuntimeObject
+struct UnsafeUtility_tAA965823E05BE8ADD69F58C82BF0DF723476E551  : public RuntimeObject
 {
 public:
 
@@ -2843,7 +2852,7 @@ public:
 
 
 // System.ValueType
-struct  ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
 {
 public:
 
@@ -2860,7 +2869,7 @@ struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_com
 };
 
 // System.Threading.Volatile
-struct  Volatile_t7A8B2983396C4500A8FC226CDB66FE9067DA4AE6  : public RuntimeObject
+struct Volatile_t7A8B2983396C4500A8FC226CDB66FE9067DA4AE6  : public RuntimeObject
 {
 public:
 
@@ -2869,7 +2878,7 @@ public:
 
 
 // UnityEngine._AndroidJNIHelper
-struct  _AndroidJNIHelper_t664F535B46589884A627F66F98A451D1CD48F76B  : public RuntimeObject
+struct _AndroidJNIHelper_t664F535B46589884A627F66F98A451D1CD48F76B  : public RuntimeObject
 {
 public:
 
@@ -2878,7 +2887,7 @@ public:
 
 
 // System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Object>
-struct  Entry_tD3C172E348082DAA38034A7BFC5251A40A96D632 
+struct Entry_tD3C172E348082DAA38034A7BFC5251A40A96D632 
 {
 public:
 	// System.Int32 System.Collections.Generic.Dictionary`2/Entry::hashCode
@@ -2927,7 +2936,7 @@ public:
 
 
 // System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Boolean>
-struct  Entry_tE032650534234E8BCC41BF224A68F799EB231216 
+struct Entry_tE032650534234E8BCC41BF224A68F799EB231216 
 {
 public:
 	// System.Int32 System.Collections.Generic.Dictionary`2/Entry::hashCode
@@ -2976,7 +2985,7 @@ public:
 
 
 // System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Int32>
-struct  Entry_t19C714E802975CC32D4BD74AE5A32816E1352D0A 
+struct Entry_t19C714E802975CC32D4BD74AE5A32816E1352D0A 
 {
 public:
 	// System.Int32 System.Collections.Generic.Dictionary`2/Entry::hashCode
@@ -3025,7 +3034,7 @@ public:
 
 
 // System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Object>
-struct  Entry_t83C37D8208C6D1FBF2FAE2AACE83E9AA3EDBB4DE 
+struct Entry_t83C37D8208C6D1FBF2FAE2AACE83E9AA3EDBB4DE 
 {
 public:
 	// System.Int32 System.Collections.Generic.Dictionary`2/Entry::hashCode
@@ -3075,7 +3084,7 @@ public:
 
 
 // System.Collections.Generic.List`1/Enumerator<System.Object>
-struct  Enumerator_tB6009981BD4E3881E3EC83627255A24198F902D6 
+struct Enumerator_tB6009981BD4E3881E3EC83627255A24198F902D6 
 {
 public:
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::list
@@ -3125,7 +3134,7 @@ public:
 
 
 // System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>
-struct  KeyValuePair_2_t56E20A5489EE435FD8BBE3EFACF6219A626E04C0 
+struct KeyValuePair_2_t56E20A5489EE435FD8BBE3EFACF6219A626E04C0 
 {
 public:
 	// TKey System.Collections.Generic.KeyValuePair`2::key
@@ -3154,7 +3163,7 @@ public:
 
 
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Boolean>
-struct  KeyValuePair_2_tF48C056DF83BF9AF3BAE277B149EC5E4E436BD1A 
+struct KeyValuePair_2_tF48C056DF83BF9AF3BAE277B149EC5E4E436BD1A 
 {
 public:
 	// TKey System.Collections.Generic.KeyValuePair`2::key
@@ -3183,7 +3192,7 @@ public:
 
 
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Int32>
-struct  KeyValuePair_2_t95507C2A8401F2191EE3D308B1B00E3729AE41B5 
+struct KeyValuePair_2_t95507C2A8401F2191EE3D308B1B00E3729AE41B5 
 {
 public:
 	// TKey System.Collections.Generic.KeyValuePair`2::key
@@ -3212,7 +3221,7 @@ public:
 
 
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
-struct  KeyValuePair_2_tFB6A066C69E28C6ACA5FC5E24D969BFADC5FA625 
+struct KeyValuePair_2_tFB6A066C69E28C6ACA5FC5E24D969BFADC5FA625 
 {
 public:
 	// TKey System.Collections.Generic.KeyValuePair`2::key
@@ -3242,7 +3251,7 @@ public:
 
 
 // System.Collections.Generic.HashSet`1/Slot<System.Object>
-struct  Slot_t1100E8CA172ECADD9BE877E11205FB2D911CD319 
+struct Slot_t1100E8CA172ECADD9BE877E11205FB2D911CD319 
 {
 public:
 	// System.Int32 System.Collections.Generic.HashSet`1/Slot::hashCode
@@ -3281,7 +3290,7 @@ public:
 
 
 // System.Threading.SparselyPopulatedArrayAddInfo`1<System.Threading.CancellationCallbackInfo>
-struct  SparselyPopulatedArrayAddInfo_1_t6EE25E0D720E03DE7A660791DB554CADCD247FC0 
+struct SparselyPopulatedArrayAddInfo_1_t6EE25E0D720E03DE7A660791DB554CADCD247FC0 
 {
 public:
 	// System.Threading.SparselyPopulatedArrayFragment`1<T> System.Threading.SparselyPopulatedArrayAddInfo`1::m_source
@@ -3310,7 +3319,7 @@ public:
 
 
 // System.Linq.Enumerable/WhereArrayIterator`1<System.Object>
-struct  WhereArrayIterator_1_t7D84D638EB94F5CC3BE1B29D8FC781CA8CD15A86  : public Iterator_1_t674ABE41CF4096D4BE4D51E21FEBDADBF74CC279
+struct WhereArrayIterator_1_t7D84D638EB94F5CC3BE1B29D8FC781CA8CD15A86  : public Iterator_1_t674ABE41CF4096D4BE4D51E21FEBDADBF74CC279
 {
 public:
 	// TSource[] System.Linq.Enumerable/WhereArrayIterator`1::source
@@ -3350,7 +3359,7 @@ public:
 
 
 // System.Linq.Enumerable/WhereEnumerableIterator`1<System.Object>
-struct  WhereEnumerableIterator_1_t1E9FDCFD8F8136C6A5A5740C1E093EF03F0B5CE0  : public Iterator_1_t674ABE41CF4096D4BE4D51E21FEBDADBF74CC279
+struct WhereEnumerableIterator_1_t1E9FDCFD8F8136C6A5A5740C1E093EF03F0B5CE0  : public Iterator_1_t674ABE41CF4096D4BE4D51E21FEBDADBF74CC279
 {
 public:
 	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/WhereEnumerableIterator`1::source
@@ -3391,7 +3400,7 @@ public:
 
 
 // UnityEngine.EventSystems.BaseEventData
-struct  BaseEventData_t722C48843CF21B50E06CC0E2E679415E38A7444E  : public AbstractEventData_tA0B5065DE3430C0031ADE061668E1C7073D718DF
+struct BaseEventData_t722C48843CF21B50E06CC0E2E679415E38A7444E  : public AbstractEventData_tA0B5065DE3430C0031ADE061668E1C7073D718DF
 {
 public:
 	// UnityEngine.EventSystems.EventSystem UnityEngine.EventSystems.BaseEventData::m_EventSystem
@@ -3410,7 +3419,7 @@ public:
 
 
 // UnityEngine.Rendering.BatchVisibility
-struct  BatchVisibility_tFA63D052426424FBD58F78E973AAAC52A67B5AFE 
+struct BatchVisibility_tFA63D052426424FBD58F78E973AAAC52A67B5AFE 
 {
 public:
 	// System.Int32 UnityEngine.Rendering.BatchVisibility::offset
@@ -3448,7 +3457,7 @@ public:
 
 
 // System.Boolean
-struct  Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
+struct Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
 {
 public:
 	// System.Boolean System.Boolean::m_value
@@ -3494,7 +3503,7 @@ public:
 
 
 // System.Byte
-struct  Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056 
+struct Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056 
 {
 public:
 	// System.Byte System.Byte::m_value
@@ -3512,7 +3521,7 @@ public:
 
 
 // System.Threading.CancellationToken
-struct  CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD 
+struct CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD 
 {
 public:
 	// System.Threading.CancellationTokenSource System.Threading.CancellationToken::m_source
@@ -3558,7 +3567,7 @@ struct CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD_marshaled_com
 };
 
 // System.Char
-struct  Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14 
+struct Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14 
 {
 public:
 	// System.Char System.Char::m_value
@@ -3593,7 +3602,7 @@ public:
 
 
 // UnityEngine.Color
-struct  Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659 
+struct Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659 
 {
 public:
 	// System.Single UnityEngine.Color::r
@@ -3641,7 +3650,7 @@ public:
 
 
 // UnityEngine.Color32
-struct  Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D 
+struct Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D 
 {
 public:
 	union
@@ -3753,7 +3762,7 @@ public:
 
 
 // System.Reflection.CustomAttributeTypedArgument
-struct  CustomAttributeTypedArgument_tE7152E8FACDD29A8E0040E151C86F436FA8E6910 
+struct CustomAttributeTypedArgument_tE7152E8FACDD29A8E0040E151C86F436FA8E6910 
 {
 public:
 	// System.Type System.Reflection.CustomAttributeTypedArgument::argumentType
@@ -3795,7 +3804,7 @@ struct CustomAttributeTypedArgument_tE7152E8FACDD29A8E0040E151C86F436FA8E6910_ma
 };
 
 // System.DateTime
-struct  DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 
+struct DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 
 {
 public:
 	// System.UInt64 System.DateTime::dateData
@@ -3861,7 +3870,7 @@ public:
 
 
 // System.Decimal
-struct  Decimal_t2978B229CA86D3B7BA66A0AEEE014E0DE4F940D7 
+struct Decimal_t2978B229CA86D3B7BA66A0AEEE014E0DE4F940D7 
 {
 public:
 	// System.Int32 System.Decimal::flags
@@ -3996,7 +4005,7 @@ public:
 
 
 // System.Collections.DictionaryEntry
-struct  DictionaryEntry_tF60471FAB430320A9C7D4382BF966EAAC06D7A90 
+struct DictionaryEntry_tF60471FAB430320A9C7D4382BF966EAAC06D7A90 
 {
 public:
 	// System.Object System.Collections.DictionaryEntry::_key
@@ -4038,7 +4047,7 @@ struct DictionaryEntry_tF60471FAB430320A9C7D4382BF966EAAC06D7A90_marshaled_com
 };
 
 // System.Double
-struct  Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181 
+struct Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181 
 {
 public:
 	// System.Double System.Double::m_value
@@ -4072,7 +4081,7 @@ public:
 
 
 // UnityEngine.DrivenRectTransformTracker
-struct  DrivenRectTransformTracker_t7DAF937E47C63B899C7BA0E9B0F206AAB4D85AC2 
+struct DrivenRectTransformTracker_t7DAF937E47C63B899C7BA0E9B0F206AAB4D85AC2 
 {
 public:
 	union
@@ -4088,7 +4097,7 @@ public:
 
 
 // System.Enum
-struct  Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
+struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
 {
 public:
 
@@ -4122,7 +4131,7 @@ struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_marshaled_com
 };
 
 // System.Runtime.CompilerServices.Ephemeron
-struct  Ephemeron_t76EEAA1BDD5BE64FEAF9E3CD185451837EAA6208 
+struct Ephemeron_t76EEAA1BDD5BE64FEAF9E3CD185451837EAA6208 
 {
 public:
 	// System.Object System.Runtime.CompilerServices.Ephemeron::key
@@ -4164,7 +4173,7 @@ struct Ephemeron_t76EEAA1BDD5BE64FEAF9E3CD185451837EAA6208_marshaled_com
 };
 
 // System.Int16
-struct  Int16_tD0F031114106263BB459DA1F099FF9F42691295A 
+struct Int16_tD0F031114106263BB459DA1F099FF9F42691295A 
 {
 public:
 	// System.Int16 System.Int16::m_value
@@ -4182,7 +4191,7 @@ public:
 
 
 // System.Int32
-struct  Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046 
+struct Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046 
 {
 public:
 	// System.Int32 System.Int32::m_value
@@ -4200,7 +4209,7 @@ public:
 
 
 // System.Int64
-struct  Int64_t378EE0D608BD3107E77238E85F30D2BBD46981F3 
+struct Int64_t378EE0D608BD3107E77238E85F30D2BBD46981F3 
 {
 public:
 	// System.Int64 System.Int64::m_value
@@ -4218,7 +4227,7 @@ public:
 
 
 // System.IntPtr
-struct  IntPtr_t 
+struct IntPtr_t 
 {
 public:
 	// System.Void* System.IntPtr::m_value
@@ -4252,7 +4261,7 @@ public:
 
 
 // System.Globalization.InternalCodePageDataItem
-struct  InternalCodePageDataItem_t885932F372A8EEC39396B0D57CC93AC72E2A3DA7 
+struct InternalCodePageDataItem_t885932F372A8EEC39396B0D57CC93AC72E2A3DA7 
 {
 public:
 	// System.UInt16 System.Globalization.InternalCodePageDataItem::codePage
@@ -4317,7 +4326,7 @@ struct InternalCodePageDataItem_t885932F372A8EEC39396B0D57CC93AC72E2A3DA7_marsha
 };
 
 // System.Globalization.InternalEncodingDataItem
-struct  InternalEncodingDataItem_t2854F84125B1F420ABB3AA251C75E288EC87568C 
+struct InternalEncodingDataItem_t2854F84125B1F420ABB3AA251C75E288EC87568C 
 {
 public:
 	// System.String System.Globalization.InternalEncodingDataItem::webName
@@ -4358,7 +4367,7 @@ struct InternalEncodingDataItem_t2854F84125B1F420ABB3AA251C75E288EC87568C_marsha
 };
 
 // UnityEngine.Keyframe
-struct  Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F 
+struct Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F 
 {
 public:
 	// System.Single UnityEngine.Keyframe::m_Time
@@ -4436,7 +4445,7 @@ public:
 
 
 // UnityEngine.Experimental.GlobalIllumination.LinearColor
-struct  LinearColor_tB134EA090C61E6624DE36F52980CA7E2C893D5F2 
+struct LinearColor_tB134EA090C61E6624DE36F52980CA7E2C893D5F2 
 {
 public:
 	// System.Single UnityEngine.Experimental.GlobalIllumination.LinearColor::m_red
@@ -4484,7 +4493,7 @@ public:
 
 
 // System.Reflection.ParameterModifier
-struct  ParameterModifier_tC1C793BD8B003B24010657487AFD17A4BA3DF6EA 
+struct ParameterModifier_tC1C793BD8B003B24010657487AFD17A4BA3DF6EA 
 {
 public:
 	// System.Boolean[] System.Reflection.ParameterModifier::_byRef
@@ -4513,7 +4522,7 @@ struct ParameterModifier_tC1C793BD8B003B24010657487AFD17A4BA3DF6EA_marshaled_com
 };
 
 // System.Reflection.PropertyInfo
-struct  PropertyInfo_t  : public MemberInfo_t
+struct PropertyInfo_t  : public MemberInfo_t
 {
 public:
 
@@ -4522,7 +4531,7 @@ public:
 
 
 // UnityEngine.Quaternion
-struct  Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 
+struct Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 
 {
 public:
 	// System.Single UnityEngine.Quaternion::x
@@ -4586,7 +4595,7 @@ public:
 
 
 // System.Resources.ResourceLocator
-struct  ResourceLocator_t3D496606F94367D5D6B24DA9DC0A3B46E6B53B11 
+struct ResourceLocator_t3D496606F94367D5D6B24DA9DC0A3B46E6B53B11 
 {
 public:
 	// System.Object System.Resources.ResourceLocator::_value
@@ -4627,7 +4636,7 @@ struct ResourceLocator_t3D496606F94367D5D6B24DA9DC0A3B46E6B53B11_marshaled_com
 };
 
 // System.SByte
-struct  SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B 
+struct SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B 
 {
 public:
 	// System.SByte System.SByte::m_value
@@ -4645,7 +4654,7 @@ public:
 
 
 // System.Single
-struct  Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E 
+struct Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E 
 {
 public:
 	// System.Single System.Single::m_value
@@ -4663,7 +4672,7 @@ public:
 
 
 // UnityEngine.UI.SpriteState
-struct  SpriteState_t9024961148433175CE2F3D9E8E9239A8B1CAB15E 
+struct SpriteState_t9024961148433175CE2F3D9E8E9239A8B1CAB15E 
 {
 public:
 	// UnityEngine.Sprite UnityEngine.UI.SpriteState::m_HighlightedSprite
@@ -4731,7 +4740,7 @@ struct SpriteState_t9024961148433175CE2F3D9E8E9239A8B1CAB15E_marshaled_com
 };
 
 // UnityEngine.UILineInfo
-struct  UILineInfo_tD082FF4894030AD4EBF57ACF6A997135E4B8B67C 
+struct UILineInfo_tD082FF4894030AD4EBF57ACF6A997135E4B8B67C 
 {
 public:
 	// System.Int32 UnityEngine.UILineInfo::startCharIdx
@@ -4779,7 +4788,7 @@ public:
 
 
 // System.UInt16
-struct  UInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD 
+struct UInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD 
 {
 public:
 	// System.UInt16 System.UInt16::m_value
@@ -4797,7 +4806,7 @@ public:
 
 
 // System.UInt32
-struct  UInt32_tE60352A06233E4E69DD198BCC67142159F686B15 
+struct UInt32_tE60352A06233E4E69DD198BCC67142159F686B15 
 {
 public:
 	// System.UInt32 System.UInt32::m_value
@@ -4815,7 +4824,7 @@ public:
 
 
 // System.UInt64
-struct  UInt64_tEC57511B3E3CA2DBA1BEBD434C6983E31C943281 
+struct UInt64_tEC57511B3E3CA2DBA1BEBD434C6983E31C943281 
 {
 public:
 	// System.UInt64 System.UInt64::m_value
@@ -4833,7 +4842,7 @@ public:
 
 
 // UnityEngine.Vector2
-struct  Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 
+struct Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 
 {
 public:
 	// System.Single UnityEngine.Vector2::x
@@ -4947,7 +4956,7 @@ public:
 
 
 // UnityEngine.Vector3
-struct  Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E 
+struct Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E 
 {
 public:
 	// System.Single UnityEngine.Vector3::x
@@ -5091,7 +5100,7 @@ public:
 
 
 // UnityEngine.Vector4
-struct  Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7 
+struct Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7 
 {
 public:
 	// System.Single UnityEngine.Vector4::x
@@ -5185,7 +5194,7 @@ public:
 
 
 // System.Void
-struct  Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
+struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
 {
 public:
 	union
@@ -5201,7 +5210,7 @@ public:
 
 
 // <Module>/?????????????????????????????????????????
-struct  U200EU200FU200BU202BU202BU202AU206AU202BU206EU202AU206FU202AU200EU206BU206EU202CU206DU206BU200FU200BU202AU200FU206DU206EU206CU206DU202DU206AU200EU206BU202DU200CU206EU202EU200CU206AU200BU200FU202EU206BU202E_t559832E39CA084E4349A867B7B5B90798990616D 
+struct U200EU200FU200BU202BU202BU202AU206AU202BU206EU202AU206FU202AU200EU206BU206EU202CU206DU206BU200FU200BU202AU200FU206DU206EU206CU206DU202DU206AU200EU206BU202DU200CU206EU202EU200CU206AU200BU200FU202EU206BU202E_t559832E39CA084E4349A867B7B5B90798990616D 
 {
 public:
 	// System.UInt32 <Module>/?????????????????????????????????????????::?????????????????????????????????????????
@@ -5219,7 +5228,7 @@ public:
 
 
 // <Module>/?????????????????????????????????????????
-struct  U202EU206AU206AU202CU202CU206AU206BU200EU202EU202CU206BU206EU202CU200EU200CU202EU200BU206CU206FU202DU200FU206DU206BU200BU206BU202DU200DU202AU206AU200EU202BU206EU200EU206EU206AU206DU202DU202EU202CU206BU202E_tB588B39EB05F08B255768E22932EA5D9C75BB896 
+struct U202EU206AU206AU202CU202CU206AU206BU200EU202EU202CU206BU206EU202CU200EU200CU202EU200BU206CU206FU202DU200FU206DU206BU200BU206BU202DU200DU202AU206AU200EU202BU206EU200EU206EU206AU206DU202DU202EU202CU206BU202E_tB588B39EB05F08B255768E22932EA5D9C75BB896 
 {
 public:
 	// <Module>/?????????????????????????????????????????[] <Module>/?????????????????????????????????????????::?????????????????????????????????????????
@@ -5260,7 +5269,7 @@ struct U202EU206AU206AU202CU202CU206AU206BU200EU202EU202CU206BU206EU202CU200EU20
 };
 
 // <Module>/?????????????????????????????????????????
-struct  U206DU200EU202DU206BU200CU206CU202BU202CU206BU206CU200CU206FU202BU200CU206EU202CU206EU206EU200FU200EU206EU206AU206AU200EU202AU206BU202AU200DU200BU200FU206FU200BU200FU200FU200BU206CU202BU200EU202CU202CU202E_tB6BB7E39EAE9732824C5D5D2CF1DB17B592E62B9 
+struct U206DU200EU202DU206BU200CU206CU202BU202CU206BU206CU200CU206FU202BU200CU206EU202CU206EU206EU200FU200EU206EU206AU206AU200EU202AU206BU202AU200DU200BU200FU206FU200BU200FU200FU200BU206CU202BU200EU202CU202CU202E_tB6BB7E39EAE9732824C5D5D2CF1DB17B592E62B9 
 {
 public:
 	// System.UInt32 <Module>/?????????????????????????????????????????::????????????????????????????????????????
@@ -5278,7 +5287,7 @@ public:
 
 
 // <Module>/?????????????????????????????????????????
-struct  U206FU200EU200FU200FU206FU206DU202AU206AU200CU206EU206BU206AU200CU202EU202BU202AU202AU200CU202BU206AU200CU200DU206CU200DU206FU200FU206CU206AU202CU202EU206DU200FU206CU200FU206CU202BU206AU202DU202EU206BU202E_tD0ACBBF436C29D0441EC851C270477CAA2E54B0B 
+struct U206FU200EU200FU200FU206FU206DU202AU206AU200CU206EU206BU206AU200CU202EU202BU202AU202AU200CU202BU206AU200CU200DU206CU200DU206FU200FU206CU206AU202CU202EU206DU200FU206CU200FU206CU202BU206AU202DU202EU206BU202E_tD0ACBBF436C29D0441EC851C270477CAA2E54B0B 
 {
 public:
 	// <Module>/?????????????????????????????????????????[] <Module>/?????????????????????????????????????????::?????????????????????????????????????????
@@ -5319,7 +5328,7 @@ struct U206FU200EU200FU200FU206FU206DU202AU206AU200CU206EU206BU206AU200CU202EU20
 };
 
 // <Module>/?????????????????????????????????????????
-struct  U200EU206EU206BU206CU206BU206AU202AU206BU202DU206CU206AU202BU206BU200BU200BU206CU206CU206CU202AU206DU200FU200EU206CU206CU206FU202EU200FU200CU206DU200DU202CU200FU206AU206BU206BU206EU200BU206EU202AU206BU202E_tEA3B9624C4B04546BCF6F9FCB87665459E69B56B 
+struct U200EU206EU206BU206CU206BU206AU202AU206BU202DU206CU206AU202BU206BU200BU200BU206CU206CU206CU202AU206DU200FU200EU206CU206CU206FU202EU200FU200CU206DU200DU202CU200FU206AU206BU206BU206EU200BU206EU202AU206BU202E_tEA3B9624C4B04546BCF6F9FCB87665459E69B56B 
 {
 public:
 	// <Module>/?????????????????????????????????????????[] <Module>/?????????????????????????????????????????::?????????????????????????????????????????
@@ -5360,7 +5369,7 @@ struct U200EU206EU206BU206CU206BU206AU202AU206BU202DU206CU206AU202BU206BU200BU20
 };
 
 // <Module>/?????????????????????????????????????????
-struct  U202BU200CU206BU206CU206DU200FU202DU206AU206AU202EU206CU200DU200CU206FU202DU206FU200CU200FU202AU200BU202BU200CU202EU206EU206FU200BU200EU206AU200DU200EU202BU200DU206AU206CU206EU200DU200CU200DU200FU206EU202E_t47868962093B062207291CF8DEF0F2144E3CA921 
+struct U202BU200CU206BU206CU206DU200FU202DU206AU206AU202EU206CU200DU200CU206FU202DU206FU200CU200FU202AU200BU202BU200CU202EU206EU206FU200BU200EU206AU200DU200EU202BU200DU206AU206CU206EU200DU200CU200DU200FU206EU202E_t47868962093B062207291CF8DEF0F2144E3CA921 
 {
 public:
 	// System.UInt32 <Module>/?????????????????????????????????????????::?????????????????????????????????????????
@@ -5378,7 +5387,7 @@ public:
 
 
 // UnityEngine.BeforeRenderHelper/OrderBlock
-struct  OrderBlock_t0B106828F588BC2F0B9895425E6FD39EDA45C1E2 
+struct OrderBlock_t0B106828F588BC2F0B9895425E6FD39EDA45C1E2 
 {
 public:
 	// System.Int32 UnityEngine.BeforeRenderHelper/OrderBlock::order
@@ -5419,7 +5428,7 @@ struct OrderBlock_t0B106828F588BC2F0B9895425E6FD39EDA45C1E2_marshaled_com
 };
 
 // Mono.Globalization.Unicode.CodePointIndexer/TableRange
-struct  TableRange_t0D96EE3F7B1008C60DD683B3A6985C602854E6F1 
+struct TableRange_t0D96EE3F7B1008C60DD683B3A6985C602854E6F1 
 {
 public:
 	// System.Int32 Mono.Globalization.Unicode.CodePointIndexer/TableRange::Start
@@ -5477,7 +5486,7 @@ public:
 
 
 // System.Collections.Hashtable/bucket
-struct  bucket_t56D642DDC4ABBCED9DB7F620CC35AEEC0778869D 
+struct bucket_t56D642DDC4ABBCED9DB7F620CC35AEEC0778869D 
 {
 public:
 	// System.Object System.Collections.Hashtable/bucket::key
@@ -5531,7 +5540,7 @@ struct bucket_t56D642DDC4ABBCED9DB7F620CC35AEEC0778869D_marshaled_com
 };
 
 // System.ParameterizedStrings/FormatParam
-struct  FormatParam_tA765680E7894569CC4BDEB5DF722F646311E23EE 
+struct FormatParam_tA765680E7894569CC4BDEB5DF722F646311E23EE 
 {
 public:
 	// System.Int32 System.ParameterizedStrings/FormatParam::_int32
@@ -5572,7 +5581,7 @@ struct FormatParam_tA765680E7894569CC4BDEB5DF722F646311E23EE_marshaled_com
 };
 
 // System.Text.RegularExpressions.RegexCharClass/LowerCaseMapping
-struct  LowerCaseMapping_t54FB537AEA4CA2EBAB5BDCC79881428C202241DE 
+struct LowerCaseMapping_t54FB537AEA4CA2EBAB5BDCC79881428C202241DE 
 {
 public:
 	// System.Char System.Text.RegularExpressions.RegexCharClass/LowerCaseMapping::_chMin
@@ -5636,7 +5645,7 @@ struct LowerCaseMapping_t54FB537AEA4CA2EBAB5BDCC79881428C202241DE_marshaled_com
 };
 
 // UnityEngine.SendMouseEvents/HitInfo
-struct  HitInfo_t74B96DDC302EB605CCC557B737A5C88EB67B57D6 
+struct HitInfo_t74B96DDC302EB605CCC557B737A5C88EB67B57D6 
 {
 public:
 	// UnityEngine.GameObject UnityEngine.SendMouseEvents/HitInfo::target
@@ -5678,7 +5687,7 @@ struct HitInfo_t74B96DDC302EB605CCC557B737A5C88EB67B57D6_marshaled_com
 };
 
 // UnityEngine.UnitySynchronizationContext/WorkRequest
-struct  WorkRequest_tA19FD4D1269D8EE2EA886AAF036C4F7F09154393 
+struct WorkRequest_tA19FD4D1269D8EE2EA886AAF036C4F7F09154393 
 {
 public:
 	// System.Threading.SendOrPostCallback UnityEngine.UnitySynchronizationContext/WorkRequest::m_DelagateCallback
@@ -5733,7 +5742,7 @@ struct WorkRequest_tA19FD4D1269D8EE2EA886AAF036C4F7F09154393_marshaled_com
 };
 
 // <Module>/?????????????????????????????????????????/?????????????????????????????????????????/?????????????????????????????????????????
-struct  U206FU202EU202DU206FU206BU206EU206AU202BU206BU202AU202CU206DU200EU206BU202DU206BU202BU200CU200BU202AU206BU202EU200DU206BU206CU200DU200DU202EU206EU206BU200DU200DU200EU200CU202BU200BU206CU200EU202BU206DU202E_t901F8666C8B30BC48AB1E37A9F37CE1CE1B5FDEE 
+struct U206FU202EU202DU206FU206BU206EU206AU202BU206BU202AU202CU206DU200EU206BU202DU206BU202BU200CU200BU202AU206BU202EU200DU206BU206CU200DU200DU202EU206EU206BU200DU200DU200EU200CU202BU200BU206CU200EU202BU206DU202E_t901F8666C8B30BC48AB1E37A9F37CE1CE1B5FDEE 
 {
 public:
 	// <Module>/?????????????????????????????????????????[] <Module>/?????????????????????????????????????????/?????????????????????????????????????????/?????????????????????????????????????????::?????????????????????????????????????????
@@ -5762,7 +5771,7 @@ struct U206FU202EU202DU206FU206BU206EU206AU202BU206BU202AU202CU206DU200EU206BU20
 };
 
 // <Module>/?????????????????????????????????????????/?????????????????????????????????????????/?????????????????????????????????????????
-struct  U202EU200FU202AU206CU202DU200FU202DU202EU200CU206BU202AU202BU202EU206AU200BU202BU206AU206AU202BU202CU200CU206BU206EU200DU206BU206AU206CU202CU206CU206FU202BU200DU202BU206BU206DU206DU202AU200BU202AU202CU202E_t34B20D015C30DC1A157F5893C80FFDDBEE5AEB0A 
+struct U202EU200FU202AU206CU202DU200FU202DU202EU200CU206BU202AU202BU202EU206AU200BU202BU206AU206AU202BU202CU200CU206BU206EU200DU206BU206AU206CU202CU206CU206FU202BU200DU202BU206BU206DU206DU202AU200BU202AU202CU202E_t34B20D015C30DC1A157F5893C80FFDDBEE5AEB0A 
 {
 public:
 	// <Module>/?????????????????????????????????????????[] <Module>/?????????????????????????????????????????/?????????????????????????????????????????/?????????????????????????????????????????::?????????????????????????????????????????
@@ -5791,7 +5800,7 @@ struct U202EU200FU202AU206CU202DU200FU202DU202EU200CU206BU202AU202BU202EU206AU20
 };
 
 // <Module>/?????????????????????????????????????????/?????????????????????????????????????????/?????????????????????????????????????????
-struct  U202BU200BU206EU202DU202AU200FU202DU206BU200EU200CU200FU202EU206AU206BU206FU202AU206CU202CU206AU200EU206FU202AU200BU200CU200DU200DU202EU200DU202BU202AU206DU200DU202BU202AU206BU202EU206FU202CU200EU202AU202E_t52BE7E33AD434722D6A90011745009A73B99CFF4 
+struct U202BU200BU206EU202DU202AU200FU202DU206BU200EU200CU200FU202EU206AU206BU206FU202AU206CU202CU206AU200EU206FU202AU200BU200CU200DU200DU202EU200DU202BU202AU206DU200DU202BU202AU206BU202EU206FU202CU200EU202AU202E_t52BE7E33AD434722D6A90011745009A73B99CFF4 
 {
 public:
 	// <Module>/?????????????????????????????????????????[] <Module>/?????????????????????????????????????????/?????????????????????????????????????????/?????????????????????????????????????????::?????????????????????????????????????????
@@ -5820,7 +5829,7 @@ struct U202BU200BU206EU202DU202AU200FU202DU206BU200EU200CU200FU202EU206AU206BU20
 };
 
 // UnityEngine.CastHelper`1<System.Object>
-struct  CastHelper_1_t400AF56AA9238C56F8214A792C1EEE068C22774C 
+struct CastHelper_1_t400AF56AA9238C56F8214A792C1EEE068C22774C 
 {
 public:
 	// T UnityEngine.CastHelper`1::t
@@ -5849,7 +5858,7 @@ public:
 
 
 // System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Resources.ResourceLocator>
-struct  Entry_tD8A93CAFA635C3623A9F8C1541CA22C83D04EA26 
+struct Entry_tD8A93CAFA635C3623A9F8C1541CA22C83D04EA26 
 {
 public:
 	// System.Int32 System.Collections.Generic.Dictionary`2/Entry::hashCode
@@ -5899,7 +5908,7 @@ public:
 
 
 // System.Collections.Generic.KeyValuePair`2<System.DateTime,System.Object>
-struct  KeyValuePair_2_tB6ECB423D6D4B3D2F916E061DDF9A7C3F0958D57 
+struct KeyValuePair_2_tB6ECB423D6D4B3D2F916E061DDF9A7C3F0958D57 
 {
 public:
 	// TKey System.Collections.Generic.KeyValuePair`2::key
@@ -5928,7 +5937,7 @@ public:
 
 
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Resources.ResourceLocator>
-struct  KeyValuePair_2_t6A417393575389EF0D895B62580FBC33E95066EF 
+struct KeyValuePair_2_t6A417393575389EF0D895B62580FBC33E95066EF 
 {
 public:
 	// TKey System.Collections.Generic.KeyValuePair`2::key
@@ -5958,7 +5967,7 @@ public:
 
 
 // System.Linq.Enumerable/WhereListIterator`1<System.Object>
-struct  WhereListIterator_1_t42618389DB998070E03A982D15FA39BCA1DB56BD  : public Iterator_1_t674ABE41CF4096D4BE4D51E21FEBDADBF74CC279
+struct WhereListIterator_1_t42618389DB998070E03A982D15FA39BCA1DB56BD  : public Iterator_1_t674ABE41CF4096D4BE4D51E21FEBDADBF74CC279
 {
 public:
 	// System.Collections.Generic.List`1<TSource> System.Linq.Enumerable/WhereListIterator`1::source
@@ -6002,7 +6011,7 @@ public:
 
 
 // Unity.Collections.Allocator
-struct  Allocator_t9888223DEF4F46F3419ECFCCD0753599BEE52A05 
+struct Allocator_t9888223DEF4F46F3419ECFCCD0753599BEE52A05 
 {
 public:
 	// System.Int32 Unity.Collections.Allocator::value__
@@ -6020,7 +6029,7 @@ public:
 
 
 // System.Reflection.Assembly
-struct  Assembly_t  : public RuntimeObject
+struct Assembly_t  : public RuntimeObject
 {
 public:
 	// System.IntPtr System.Reflection.Assembly::_mono_assembly
@@ -6164,7 +6173,7 @@ struct Assembly_t_marshaled_com
 };
 
 // System.Reflection.BindingFlags
-struct  BindingFlags_tAAAB07D9AC588F0D55D844E51D7035E96DF94733 
+struct BindingFlags_tAAAB07D9AC588F0D55D844E51D7035E96DF94733 
 {
 public:
 	// System.Int32 System.Reflection.BindingFlags::value__
@@ -6182,7 +6191,7 @@ public:
 
 
 // System.Threading.CancellationTokenRegistration
-struct  CancellationTokenRegistration_t407059AA0E00ABE74F43C533E7D035C4BA451F6A 
+struct CancellationTokenRegistration_t407059AA0E00ABE74F43C533E7D035C4BA451F6A 
 {
 public:
 	// System.Threading.CancellationCallbackInfo System.Threading.CancellationTokenRegistration::m_callbackInfo
@@ -6224,7 +6233,7 @@ struct CancellationTokenRegistration_t407059AA0E00ABE74F43C533E7D035C4BA451F6A_m
 };
 
 // UnityEngine.UI.ColorBlock
-struct  ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 
+struct ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 
 {
 public:
 	// UnityEngine.Color UnityEngine.UI.ColorBlock::m_NormalColor
@@ -6318,7 +6327,7 @@ public:
 
 
 // UnityEngine.ContactPoint
-struct  ContactPoint_tC179732A8E0014F5EFF5977ED1ADF12CF14A9017 
+struct ContactPoint_tC179732A8E0014F5EFF5977ED1ADF12CF14A9017 
 {
 public:
 	// UnityEngine.Vector3 UnityEngine.ContactPoint::m_Point
@@ -6376,7 +6385,7 @@ public:
 
 
 // UnityEngine.ContactPoint2D
-struct  ContactPoint2D_t5A4C242ABAE740C565BF01A35CEE279058E66A62 
+struct ContactPoint2D_t5A4C242ABAE740C565BF01A35CEE279058E66A62 
 {
 public:
 	// UnityEngine.Vector2 UnityEngine.ContactPoint2D::m_Point
@@ -6494,7 +6503,7 @@ public:
 
 
 // System.Reflection.CustomAttributeNamedArgument
-struct  CustomAttributeNamedArgument_t618778691CF7F5B44F7177210A817A29D3DAEDDA 
+struct CustomAttributeNamedArgument_t618778691CF7F5B44F7177210A817A29D3DAEDDA 
 {
 public:
 	// System.Reflection.CustomAttributeTypedArgument System.Reflection.CustomAttributeNamedArgument::typedArgument
@@ -6539,7 +6548,7 @@ struct CustomAttributeNamedArgument_t618778691CF7F5B44F7177210A817A29D3DAEDDA_ma
 };
 
 // System.Delegate
-struct  Delegate_t  : public RuntimeObject
+struct Delegate_t  : public RuntimeObject
 {
 public:
 	// System.IntPtr System.Delegate::method_ptr
@@ -6691,7 +6700,7 @@ struct Delegate_t_marshaled_com
 };
 
 // System.Exception
-struct  Exception_t  : public RuntimeObject
+struct Exception_t  : public RuntimeObject
 {
 public:
 	// System.String System.Exception::_className
@@ -6917,7 +6926,7 @@ struct Exception_t_marshaled_com
 };
 
 // System.ExceptionArgument
-struct  ExceptionArgument_t750CCD4C657BCB2C185560CC68330BC0313B8737 
+struct ExceptionArgument_t750CCD4C657BCB2C185560CC68330BC0313B8737 
 {
 public:
 	// System.Int32 System.ExceptionArgument::value__
@@ -6935,7 +6944,7 @@ public:
 
 
 // UnityEngine.Experimental.GlobalIllumination.FalloffType
-struct  FalloffType_t983DA2C11C909629E51BD1D4CF088C689C9863CB 
+struct FalloffType_t983DA2C11C909629E51BD1D4CF088C689C9863CB 
 {
 public:
 	// System.Byte UnityEngine.Experimental.GlobalIllumination.FalloffType::value__
@@ -6953,7 +6962,7 @@ public:
 
 
 // System.Int32Enum
-struct  Int32Enum_t9B63F771913F2B6D586F1173B44A41FBE26F6B5C 
+struct Int32Enum_t9B63F771913F2B6D586F1173B44A41FBE26F6B5C 
 {
 public:
 	// System.Int32 System.Int32Enum::value__
@@ -6971,7 +6980,7 @@ public:
 
 
 // UnityEngine.Experimental.GlobalIllumination.LightMode
-struct  LightMode_t9D89979F39C1DBB9CD1E275BDD77C7EA1B506491 
+struct LightMode_t9D89979F39C1DBB9CD1E275BDD77C7EA1B506491 
 {
 public:
 	// System.Byte UnityEngine.Experimental.GlobalIllumination.LightMode::value__
@@ -6989,7 +6998,7 @@ public:
 
 
 // UnityEngine.Experimental.GlobalIllumination.LightType
-struct  LightType_t4205DE4BEF130CE507C87172DAB60E5B1EB05552 
+struct LightType_t4205DE4BEF130CE507C87172DAB60E5B1EB05552 
 {
 public:
 	// System.Byte UnityEngine.Experimental.GlobalIllumination.LightType::value__
@@ -7007,7 +7016,7 @@ public:
 
 
 // UnityEngine.Rendering.MeshUpdateFlags
-struct  MeshUpdateFlags_t6CC8A3E19F8A286528978810AB6FFAEEB6A125B5 
+struct MeshUpdateFlags_t6CC8A3E19F8A286528978810AB6FFAEEB6A125B5 
 {
 public:
 	// System.Int32 UnityEngine.Rendering.MeshUpdateFlags::value__
@@ -7025,7 +7034,7 @@ public:
 
 
 // UnityEngine.Object
-struct  Object_tF2F3778131EFF286AF62B7B013A170F95A91571A  : public RuntimeObject
+struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A  : public RuntimeObject
 {
 public:
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
@@ -7069,7 +7078,7 @@ struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_marshaled_com
 };
 
 // System.Reflection.PInfo
-struct  PInfo_tA2A7DDE9FEBB5094D5B84BD73638EDAFC2689635 
+struct PInfo_tA2A7DDE9FEBB5094D5B84BD73638EDAFC2689635 
 {
 public:
 	// System.Int32 System.Reflection.PInfo::value__
@@ -7087,7 +7096,7 @@ public:
 
 
 // UnityEngine.Plane
-struct  Plane_t80844BF2332EAFC1DDEDD616A950242031A115C7 
+struct Plane_t80844BF2332EAFC1DDEDD616A950242031A115C7 
 {
 public:
 	// UnityEngine.Vector3 UnityEngine.Plane::m_Normal
@@ -7115,7 +7124,7 @@ public:
 
 
 // UnityEngine.Playables.PlayableHandle
-struct  PlayableHandle_t50DCD240B0400DDAD0822C13E5DBC7AD64DC027A 
+struct PlayableHandle_t50DCD240B0400DDAD0822C13E5DBC7AD64DC027A 
 {
 public:
 	// System.IntPtr UnityEngine.Playables.PlayableHandle::m_Handle
@@ -7159,7 +7168,7 @@ public:
 
 
 // UnityEngine.LowLevel.PlayerLoopSystem
-struct  PlayerLoopSystem_t3C4FAE5D2149A8DBB8BED0C2AE9B957B7830E54C 
+struct PlayerLoopSystem_t3C4FAE5D2149A8DBB8BED0C2AE9B957B7830E54C 
 {
 public:
 	// System.Type UnityEngine.LowLevel.PlayerLoopSystem::type
@@ -7238,7 +7247,7 @@ struct PlayerLoopSystem_t3C4FAE5D2149A8DBB8BED0C2AE9B957B7830E54C_marshaled_com
 };
 
 // System.Reflection.PropertyAttributes
-struct  PropertyAttributes_tD4697434E7DA092DDE18E7D5863B2BC2EA5CD3C1 
+struct PropertyAttributes_tD4697434E7DA092DDE18E7D5863B2BC2EA5CD3C1 
 {
 public:
 	// System.Int32 System.Reflection.PropertyAttributes::value__
@@ -7256,7 +7265,7 @@ public:
 
 
 // UnityEngine.RaycastHit
-struct  RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89 
+struct RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89 
 {
 public:
 	// UnityEngine.Vector3 UnityEngine.RaycastHit::m_Point
@@ -7324,7 +7333,7 @@ public:
 
 
 // UnityEngine.RaycastHit2D
-struct  RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 
+struct RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 
 {
 public:
 	// UnityEngine.Vector2 UnityEngine.RaycastHit2D::m_Centroid
@@ -7392,7 +7401,7 @@ public:
 
 
 // UnityEngine.EventSystems.RaycastResult
-struct  RaycastResult_t9EFDE24B29650BD6DC8A49D954A3769E17146BCE 
+struct RaycastResult_t9EFDE24B29650BD6DC8A49D954A3769E17146BCE 
 {
 public:
 	// UnityEngine.GameObject UnityEngine.EventSystems.RaycastResult::m_GameObject
@@ -7542,7 +7551,7 @@ struct RaycastResult_t9EFDE24B29650BD6DC8A49D954A3769E17146BCE_marshaled_com
 };
 
 // System.Reflection.RuntimePropertyInfo
-struct  RuntimePropertyInfo_tBFADAB74EBBB380C7FF1B5004FDD5A39447574B5  : public PropertyInfo_t
+struct RuntimePropertyInfo_tBFADAB74EBBB380C7FF1B5004FDD5A39447574B5  : public PropertyInfo_t
 {
 public:
 
@@ -7551,7 +7560,7 @@ public:
 
 
 // System.RuntimeTypeHandle
-struct  RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9 
+struct RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9 
 {
 public:
 	// System.IntPtr System.RuntimeTypeHandle::value
@@ -7569,7 +7578,7 @@ public:
 
 
 // System.Threading.Tasks.Task
-struct  Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60  : public RuntimeObject
+struct Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60  : public RuntimeObject
 {
 public:
 	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_taskId
@@ -7827,7 +7836,7 @@ public:
 
 
 // System.Threading.Tasks.TaskCreationOptions
-struct  TaskCreationOptions_t469019F1B0F93FA60337952E265311E8048D2112 
+struct TaskCreationOptions_t469019F1B0F93FA60337952E265311E8048D2112 
 {
 public:
 	// System.Int32 System.Threading.Tasks.TaskCreationOptions::value__
@@ -7845,7 +7854,7 @@ public:
 
 
 // UnityEngine.TextAnchor
-struct  TextAnchor_tA4C88E77C2D7312F43412275B01E1341A7CB2232 
+struct TextAnchor_tA4C88E77C2D7312F43412275B01E1341A7CB2232 
 {
 public:
 	// System.Int32 UnityEngine.TextAnchor::value__
@@ -7863,7 +7872,7 @@ public:
 
 
 // System.TimeSpan
-struct  TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 
+struct TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 
 {
 public:
 	// System.Int64 System.TimeSpan::_ticks
@@ -7937,7 +7946,7 @@ public:
 
 
 // UnityEngine.UICharInfo
-struct  UICharInfo_tDEA65B831FAD06D1E9B10A6088E05C6D615B089A 
+struct UICharInfo_tDEA65B831FAD06D1E9B10A6088E05C6D615B089A 
 {
 public:
 	// UnityEngine.Vector2 UnityEngine.UICharInfo::cursorPos
@@ -7965,7 +7974,7 @@ public:
 
 
 // UnityEngine.UIVertex
-struct  UIVertex_tD94AAC5F0B42DBC441AAA8ADBFCFF9E5C320C03A 
+struct UIVertex_tD94AAC5F0B42DBC441AAA8ADBFCFF9E5C320C03A 
 {
 public:
 	// UnityEngine.Vector3 UnityEngine.UIVertex::position
@@ -8089,7 +8098,7 @@ public:
 
 
 // UnityEngine.Rendering.VertexAttribute
-struct  VertexAttribute_t9B763063E3B1705070D4DB8BC32F21F0FB30867C 
+struct VertexAttribute_t9B763063E3B1705070D4DB8BC32F21F0FB30867C 
 {
 public:
 	// System.Int32 UnityEngine.Rendering.VertexAttribute::value__
@@ -8107,7 +8116,7 @@ public:
 
 
 // UnityEngine.Rendering.VertexAttributeFormat
-struct  VertexAttributeFormat_tE5FC93A96237AAF63142B0E521925CAE4F283485 
+struct VertexAttributeFormat_tE5FC93A96237AAF63142B0E521925CAE4F283485 
 {
 public:
 	// System.Int32 UnityEngine.Rendering.VertexAttributeFormat::value__
@@ -8125,7 +8134,7 @@ public:
 
 
 // UnityEngine.jvalue
-struct  jvalue_t220BECEE73180D6A4DE0F66CB6BA852EC6A5B587 
+struct jvalue_t220BECEE73180D6A4DE0F66CB6BA852EC6A5B587 
 {
 public:
 	union
@@ -8501,7 +8510,7 @@ struct jvalue_t220BECEE73180D6A4DE0F66CB6BA852EC6A5B587_marshaled_com
 };
 
 // UnityEngine.Camera/RenderRequestMode
-struct  RenderRequestMode_tCB120B82DED523ADBA2D6093A1A8ABF17D94A313 
+struct RenderRequestMode_tCB120B82DED523ADBA2D6093A1A8ABF17D94A313 
 {
 public:
 	// System.Int32 UnityEngine.Camera/RenderRequestMode::value__
@@ -8519,7 +8528,7 @@ public:
 
 
 // UnityEngine.Camera/RenderRequestOutputSpace
-struct  RenderRequestOutputSpace_t8EB93E4720B2D1BAB624A04ADB473C37C7F3D6A5 
+struct RenderRequestOutputSpace_t8EB93E4720B2D1BAB624A04ADB473C37C7F3D6A5 
 {
 public:
 	// System.Int32 UnityEngine.Camera/RenderRequestOutputSpace::value__
@@ -8537,7 +8546,7 @@ public:
 
 
 // UnityEngine.UI.Navigation/Mode
-struct  Mode_t3113FDF05158BBA1DFC78D7F69E4C1D25135CB0F 
+struct Mode_t3113FDF05158BBA1DFC78D7F69E4C1D25135CB0F 
 {
 public:
 	// System.Int32 UnityEngine.UI.Navigation/Mode::value__
@@ -8555,7 +8564,7 @@ public:
 
 
 // UnityEngine.UI.Selectable/Transition
-struct  Transition_t1FC449676815A798E758D32E8BE6DC0A2511DF14 
+struct Transition_t1FC449676815A798E758D32E8BE6DC0A2511DF14 
 {
 public:
 	// System.Int32 UnityEngine.UI.Selectable/Transition::value__
@@ -8573,7 +8582,7 @@ public:
 
 
 // Unity.Collections.NativeArray`1<UnityEngine.Rendering.BatchVisibility>
-struct  NativeArray_1_t18D233A2E30E28048C1252473AFD0799557294DA 
+struct NativeArray_1_t18D233A2E30E28048C1252473AFD0799557294DA 
 {
 public:
 	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
@@ -8611,7 +8620,7 @@ public:
 
 
 // Unity.Collections.NativeArray`1<System.Byte>
-struct  NativeArray_1_t3C2855C5B238E8C6739D4C17833F244B95C0F785 
+struct NativeArray_1_t3C2855C5B238E8C6739D4C17833F244B95C0F785 
 {
 public:
 	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
@@ -8649,7 +8658,7 @@ public:
 
 
 // Unity.Collections.NativeArray`1<System.Int32>
-struct  NativeArray_1_tD60079F06B473C85CF6C2BB4F2D203F38191AE99 
+struct NativeArray_1_tD60079F06B473C85CF6C2BB4F2D203F38191AE99 
 {
 public:
 	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
@@ -8687,7 +8696,7 @@ public:
 
 
 // Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI>
-struct  NativeArray_1_tF6A10DD2511425342F2B1B19CF0EA313D4F300D2 
+struct NativeArray_1_tF6A10DD2511425342F2B1B19CF0EA313D4F300D2 
 {
 public:
 	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
@@ -8725,7 +8734,7 @@ public:
 
 
 // Unity.Collections.NativeArray`1<UnityEngine.Plane>
-struct  NativeArray_1_t527C586787ACD1AD75E3C78BFB024FFA9925662E 
+struct NativeArray_1_t527C586787ACD1AD75E3C78BFB024FFA9925662E 
 {
 public:
 	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
@@ -8763,7 +8772,7 @@ public:
 
 
 // System.Collections.Generic.HashSet`1/Slot<System.Int32Enum>
-struct  Slot_tC31C6E818814F95B7C786172916C5FAF09A00B2F 
+struct Slot_tC31C6E818814F95B7C786172916C5FAF09A00B2F 
 {
 public:
 	// System.Int32 System.Collections.Generic.HashSet`1/Slot::hashCode
@@ -8801,7 +8810,7 @@ public:
 
 
 // System.Threading.Tasks.Task`1<System.Boolean>
-struct  Task_1_t9C1FE9F18F52F3409B9E970FA38801A443AE7849  : public Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60
+struct Task_1_t9C1FE9F18F52F3409B9E970FA38801A443AE7849  : public Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60
 {
 public:
 	// TResult System.Threading.Tasks.Task`1::m_result
@@ -8847,7 +8856,7 @@ public:
 
 
 // System.Threading.Tasks.Task`1<System.Int32>
-struct  Task_1_tEF253D967DB628A9F8A389A9F2E4516871FD3725  : public Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60
+struct Task_1_tEF253D967DB628A9F8A389A9F2E4516871FD3725  : public Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60
 {
 public:
 	// TResult System.Threading.Tasks.Task`1::m_result
@@ -8893,7 +8902,7 @@ public:
 
 
 // System.Threading.Tasks.Task`1<System.Object>
-struct  Task_1_tC1805497876E88B78A2B0CB81C6409E0B381AC17  : public Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60
+struct Task_1_tC1805497876E88B78A2B0CB81C6409E0B381AC17  : public Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60
 {
 public:
 	// TResult System.Threading.Tasks.Task`1::m_result
@@ -8940,7 +8949,7 @@ public:
 
 
 // UnityEngine.Component
-struct  Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
+struct Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
 {
 public:
 
@@ -8949,7 +8958,7 @@ public:
 
 
 // UnityEngine.GameObject
-struct  GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
+struct GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
 {
 public:
 
@@ -8958,7 +8967,7 @@ public:
 
 
 // UnityEngine.Experimental.GlobalIllumination.LightDataGI
-struct  LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 
+struct LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 
 {
 public:
 	// System.Int32 UnityEngine.Experimental.GlobalIllumination.LightDataGI::instanceID
@@ -9126,7 +9135,7 @@ public:
 
 
 // UnityEngine.Mesh
-struct  Mesh_t2F5992DBA650D5862B43D3823ACD997132A57DA6  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
+struct Mesh_t2F5992DBA650D5862B43D3823ACD997132A57DA6  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
 {
 public:
 
@@ -9135,7 +9144,7 @@ public:
 
 
 // System.Reflection.MonoPropertyInfo
-struct  MonoPropertyInfo_tA5A058F3C4CD862912818E54A4B6152F21433B82 
+struct MonoPropertyInfo_tA5A058F3C4CD862912818E54A4B6152F21433B82 
 {
 public:
 	// System.Type System.Reflection.MonoPropertyInfo::parent
@@ -9228,7 +9237,7 @@ struct MonoPropertyInfo_tA5A058F3C4CD862912818E54A4B6152F21433B82_marshaled_com
 };
 
 // System.MulticastDelegate
-struct  MulticastDelegate_t  : public Delegate_t
+struct MulticastDelegate_t  : public Delegate_t
 {
 public:
 	// System.Delegate[] System.MulticastDelegate::delegates
@@ -9257,7 +9266,7 @@ struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 };
 
 // UnityEngine.UI.Navigation
-struct  Navigation_t1CF0FFB22C0357CD64714FB7A40A275F899D363A 
+struct Navigation_t1CF0FFB22C0357CD64714FB7A40A275F899D363A 
 {
 public:
 	// UnityEngine.UI.Navigation/Mode UnityEngine.UI.Navigation::m_Mode
@@ -9349,7 +9358,7 @@ struct Navigation_t1CF0FFB22C0357CD64714FB7A40A275F899D363A_marshaled_com
 };
 
 // UnityEngine.Playables.PlayableBinding
-struct  PlayableBinding_t265202500C703254AD9777368C05D1986C8AC7A2 
+struct PlayableBinding_t265202500C703254AD9777368C05D1986C8AC7A2 
 {
 public:
 	// System.String UnityEngine.Playables.PlayableBinding::m_StreamName
@@ -9444,7 +9453,7 @@ struct PlayableBinding_t265202500C703254AD9777368C05D1986C8AC7A2_marshaled_com
 };
 
 // UnityEngine.ScriptableObject
-struct  ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
+struct ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
 {
 public:
 
@@ -9461,7 +9470,7 @@ struct ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A_marshaled_com 
 };
 
 // System.SystemException
-struct  SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62  : public Exception_t
+struct SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62  : public Exception_t
 {
 public:
 
@@ -9470,7 +9479,7 @@ public:
 
 
 // System.Type
-struct  Type_t  : public MemberInfo_t
+struct Type_t  : public MemberInfo_t
 {
 public:
 	// System.RuntimeTypeHandle System.Type::_impl
@@ -9570,7 +9579,7 @@ public:
 
 
 // UnityEngine.UnityException
-struct  UnityException_t5BD9575D9E8FC894770E16640BBC9C2A3DF40101  : public Exception_t
+struct UnityException_t5BD9575D9E8FC894770E16640BBC9C2A3DF40101  : public Exception_t
 {
 public:
 
@@ -9579,7 +9588,7 @@ public:
 
 
 // UnityEngine.Camera/RenderRequest
-struct  RenderRequest_t7DEDFA6AAA1C8D381280183054C328F26BBCCE94 
+struct RenderRequest_t7DEDFA6AAA1C8D381280183054C328F26BBCCE94 
 {
 public:
 	// UnityEngine.Camera/RenderRequestMode UnityEngine.Camera/RenderRequest::m_CameraRenderMode
@@ -9632,7 +9641,7 @@ struct RenderRequest_t7DEDFA6AAA1C8D381280183054C328F26BBCCE94_marshaled_com
 };
 
 // System.Comparison`1<System.Object>
-struct  Comparison_1_tB56E8E7C2BF431D44E8EBD15EA3E6F41AAFF03D2  : public MulticastDelegate_t
+struct Comparison_1_tB56E8E7C2BF431D44E8EBD15EA3E6F41AAFF03D2  : public MulticastDelegate_t
 {
 public:
 
@@ -9641,7 +9650,7 @@ public:
 
 
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<System.Object>
-struct  EventFunction_1_t10AC44967751F27B2BFC1CDA880B1466D87483F1  : public MulticastDelegate_t
+struct EventFunction_1_t10AC44967751F27B2BFC1CDA880B1466D87483F1  : public MulticastDelegate_t
 {
 public:
 
@@ -9650,7 +9659,7 @@ public:
 
 
 // System.Func`1<System.Object>
-struct  Func_1_t807CEE610086E24A0167BAA97A64062016E09D49  : public MulticastDelegate_t
+struct Func_1_t807CEE610086E24A0167BAA97A64062016E09D49  : public MulticastDelegate_t
 {
 public:
 
@@ -9659,7 +9668,7 @@ public:
 
 
 // System.Func`2<System.Object,System.Boolean>
-struct  Func_2_t99409DECFF50F0FA9B427C863AC6C99C66E6F9F8  : public MulticastDelegate_t
+struct Func_2_t99409DECFF50F0FA9B427C863AC6C99C66E6F9F8  : public MulticastDelegate_t
 {
 public:
 
@@ -9668,7 +9677,7 @@ public:
 
 
 // System.Reflection.MonoProperty/Getter`2<System.Object,System.Object>
-struct  Getter_2_t81181C5D3C83EE61FFA30B3479BF4F9FC6ECBBDB  : public MulticastDelegate_t
+struct Getter_2_t81181C5D3C83EE61FFA30B3479BF4F9FC6ECBBDB  : public MulticastDelegate_t
 {
 public:
 
@@ -9677,7 +9686,7 @@ public:
 
 
 // System.Predicate`1<System.Object>
-struct  Predicate_1_t5C96B81B31A697B11C4C3767E3298773AF25DFEB  : public MulticastDelegate_t
+struct Predicate_1_t5C96B81B31A697B11C4C3767E3298773AF25DFEB  : public MulticastDelegate_t
 {
 public:
 
@@ -9686,7 +9695,7 @@ public:
 
 
 // System.Reflection.MonoProperty/StaticGetter`1<System.Object>
-struct  StaticGetter_1_t34703320355FB45822699F7FF6C0BC577E0DDA01  : public MulticastDelegate_t
+struct StaticGetter_1_t34703320355FB45822699F7FF6C0BC577E0DDA01  : public MulticastDelegate_t
 {
 public:
 
@@ -9695,7 +9704,7 @@ public:
 
 
 // System.ArgumentException
-struct  ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+struct ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
 {
 public:
 	// System.String System.ArgumentException::m_paramName
@@ -9714,7 +9723,7 @@ public:
 
 
 // UnityEngine.Behaviour
-struct  Behaviour_t1A3DDDCF73B4627928FBFE02ED52B7251777DBD9  : public Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684
+struct Behaviour_t1A3DDDCF73B4627928FBFE02ED52B7251777DBD9  : public Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684
 {
 public:
 
@@ -9723,7 +9732,7 @@ public:
 
 
 // System.IndexOutOfRangeException
-struct  IndexOutOfRangeException_tDC9EF7A0346CE39E54DA1083F07BE6DFC3CE2EDD  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+struct IndexOutOfRangeException_tDC9EF7A0346CE39E54DA1083F07BE6DFC3CE2EDD  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
 {
 public:
 
@@ -9732,7 +9741,7 @@ public:
 
 
 // System.InvalidOperationException
-struct  InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+struct InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
 {
 public:
 
@@ -9741,7 +9750,7 @@ public:
 
 
 // System.Reflection.MonoProperty
-struct  MonoProperty_t  : public RuntimePropertyInfo_tBFADAB74EBBB380C7FF1B5004FDD5A39447574B5
+struct MonoProperty_t  : public RuntimePropertyInfo_tBFADAB74EBBB380C7FF1B5004FDD5A39447574B5
 {
 public:
 	// System.IntPtr System.Reflection.MonoProperty::klass
@@ -9813,7 +9822,7 @@ public:
 
 
 // System.NotSupportedException
-struct  NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+struct NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
 {
 public:
 
@@ -9822,7 +9831,7 @@ public:
 
 
 // System.RankException
-struct  RankException_t160F1035CA1CA35C8BCB8884481DE21E20F13E4C  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+struct RankException_t160F1035CA1CA35C8BCB8884481DE21E20F13E4C  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
 {
 public:
 
@@ -9831,7 +9840,7 @@ public:
 
 
 // UnityEngine.Transform
-struct  Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1  : public Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684
+struct Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1  : public Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684
 {
 public:
 
@@ -9840,7 +9849,7 @@ public:
 
 
 // System.Reflection.TypeInfo
-struct  TypeInfo_tFFBAC0D7187BFD2D25CC801679BC9645020EC04F  : public Type_t
+struct TypeInfo_tFFBAC0D7187BFD2D25CC801679BC9645020EC04F  : public Type_t
 {
 public:
 
@@ -9849,7 +9858,7 @@ public:
 
 
 // System.ArgumentNullException
-struct  ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB  : public ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00
+struct ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB  : public ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00
 {
 public:
 
@@ -9858,7 +9867,7 @@ public:
 
 
 // System.ArgumentOutOfRangeException
-struct  ArgumentOutOfRangeException_tFAF23713820951D4A09ABBFE5CC091E445A6F3D8  : public ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00
+struct ArgumentOutOfRangeException_tFAF23713820951D4A09ABBFE5CC091E445A6F3D8  : public ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00
 {
 public:
 	// System.Object System.ArgumentOutOfRangeException::m_actualValue
@@ -9894,7 +9903,7 @@ public:
 
 
 // UnityEngine.MonoBehaviour
-struct  MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A  : public Behaviour_t1A3DDDCF73B4627928FBFE02ED52B7251777DBD9
+struct MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A  : public Behaviour_t1A3DDDCF73B4627928FBFE02ED52B7251777DBD9
 {
 public:
 
@@ -9903,7 +9912,7 @@ public:
 
 
 // System.RuntimeType
-struct  RuntimeType_t4F49C0B3B2871AECF65AF5FA3E42BAB5B0C1FD07  : public TypeInfo_tFFBAC0D7187BFD2D25CC801679BC9645020EC04F
+struct RuntimeType_t4F49C0B3B2871AECF65AF5FA3E42BAB5B0C1FD07  : public TypeInfo_tFFBAC0D7187BFD2D25CC801679BC9645020EC04F
 {
 public:
 	// System.MonoTypeInfo System.RuntimeType::type_info
@@ -10027,7 +10036,7 @@ public:
 
 
 // UnityEngine.EventSystems.UIBehaviour
-struct  UIBehaviour_tD1C6E2D542222546D68510ECE74036EFBC3C3B0E  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+struct UIBehaviour_tD1C6E2D542222546D68510ECE74036EFBC3C3B0E  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
 
@@ -10036,7 +10045,7 @@ public:
 
 
 // UnityEngine.UI.LayoutGroup
-struct  LayoutGroup_t63C978964192B57EFC660D5FDA03DEE89DDC1AE2  : public UIBehaviour_tD1C6E2D542222546D68510ECE74036EFBC3C3B0E
+struct LayoutGroup_t63C978964192B57EFC660D5FDA03DEE89DDC1AE2  : public UIBehaviour_tD1C6E2D542222546D68510ECE74036EFBC3C3B0E
 {
 public:
 	// UnityEngine.RectOffset UnityEngine.UI.LayoutGroup::m_Padding
@@ -10127,7 +10136,7 @@ public:
 
 
 // UnityEngine.UI.Selectable
-struct  Selectable_t34088A3677CC9D344F81B0D91999D8C5963D7DBD  : public UIBehaviour_tD1C6E2D542222546D68510ECE74036EFBC3C3B0E
+struct Selectable_t34088A3677CC9D344F81B0D91999D8C5963D7DBD  : public UIBehaviour_tD1C6E2D542222546D68510ECE74036EFBC3C3B0E
 {
 public:
 	// System.Boolean UnityEngine.UI.Selectable::m_EnableCalled
@@ -10325,7 +10334,7 @@ public:
 
 
 // UnityEngine.UI.Dropdown
-struct  Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96  : public Selectable_t34088A3677CC9D344F81B0D91999D8C5963D7DBD
+struct Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96  : public Selectable_t34088A3677CC9D344F81B0D91999D8C5963D7DBD
 {
 public:
 	// UnityEngine.RectTransform UnityEngine.UI.Dropdown::m_Template
@@ -11848,6 +11857,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Component_t62FBC8D2420DA4BE9037AFE430740F6B3E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 * GameObject_GetComponentInParent_m5C1C3266DE9C2EE078C905787DDCD666AB157C2B (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, Type_t * ___type0, bool ___includeInactive1, const RuntimeMethod* method);
 // System.Array UnityEngine.GameObject::GetComponentsInternal(System.Type,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeArray * GameObject_GetComponentsInternal_mF491A337A167109189E2AB839584697EB2672E7D (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, Type_t * ___type0, bool ___useSearchTypeAsArrayReturnType1, bool ___recursive2, bool ___includeInactive3, bool ___reverse4, RuntimeObject * ___resultList5, const RuntimeMethod* method);
+// System.Object UnityEngine.JsonUtility::FromJson(System.String,System.Type)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * JsonUtility_FromJson_m81FC2A7DCB9231E8E201EAD8E160F921B1D2E25C (String_t* ___json0, Type_t * ___type1, const RuntimeMethod* method);
 // System.Void UnityEngine.UI.LayoutGroup::SetDirty()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_SetDirty_mCD44774BE69A93938EE1622CC13FFC2C16DDB021 (LayoutGroup_t63C978964192B57EFC660D5FDA03DEE89DDC1AE2 * __this, const RuntimeMethod* method);
 // System.String System.Environment::GetResourceString(System.String)
@@ -12236,7 +12247,7 @@ IL_0024:
 IL_0047:
 	{
 		CancellationTokenRegistration_t407059AA0E00ABE74F43C533E7D035C4BA451F6A  L_9 = ___item0;
-		CancellationTokenRegistration_t407059AA0E00ABE74F43C533E7D035C4BA451F6A  L_10 = L_9;
+		CancellationTokenRegistration_t407059AA0E00ABE74F43C533E7D035C4BA451F6A  L_10 = (CancellationTokenRegistration_t407059AA0E00ABE74F43C533E7D035C4BA451F6A )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		bool L_12;
 		L_12 = CancellationTokenRegistration_Equals_m596856287836431D530AE23A73053BD2A089E126((CancellationTokenRegistration_t407059AA0E00ABE74F43C533E7D035C4BA451F6A *)(CancellationTokenRegistration_t407059AA0E00ABE74F43C533E7D035C4BA451F6A *)(&V_2), (RuntimeObject *)L_11, /*hidden argument*/NULL);
@@ -12423,7 +12434,7 @@ IL_0024:
 IL_0047:
 	{
 		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_9 = ___item0;
-		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_10 = L_9;
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_10 = (Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		bool L_12;
 		L_12 = Color_Equals_m90F8A5EF85416D809F5E3C0ACCADDD4F299AD8FC((Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659 *)(Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659 *)(&V_2), (RuntimeObject *)L_11, /*hidden argument*/NULL);
@@ -12517,7 +12528,7 @@ IL_0024:
 IL_0047:
 	{
 		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_9 = ___item0;
-		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_10 = L_9;
+		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_10 = (Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -12614,7 +12625,7 @@ IL_0024:
 IL_0047:
 	{
 		ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955  L_9 = ___item0;
-		ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955  L_10 = L_9;
+		ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955  L_10 = (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		bool L_12;
 		L_12 = ColorBlock_Equals_m4A08484E3305C07A0CBE38C0205E21CDF05C88D7((ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 *)(ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 *)(&V_2), (RuntimeObject *)L_11, /*hidden argument*/NULL);
@@ -12708,7 +12719,7 @@ IL_0024:
 IL_0047:
 	{
 		ContactPoint_tC179732A8E0014F5EFF5977ED1ADF12CF14A9017  L_9 = ___item0;
-		ContactPoint_tC179732A8E0014F5EFF5977ED1ADF12CF14A9017  L_10 = L_9;
+		ContactPoint_tC179732A8E0014F5EFF5977ED1ADF12CF14A9017  L_10 = (ContactPoint_tC179732A8E0014F5EFF5977ED1ADF12CF14A9017 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -12805,7 +12816,7 @@ IL_0024:
 IL_0047:
 	{
 		ContactPoint2D_t5A4C242ABAE740C565BF01A35CEE279058E66A62  L_9 = ___item0;
-		ContactPoint2D_t5A4C242ABAE740C565BF01A35CEE279058E66A62  L_10 = L_9;
+		ContactPoint2D_t5A4C242ABAE740C565BF01A35CEE279058E66A62  L_10 = (ContactPoint2D_t5A4C242ABAE740C565BF01A35CEE279058E66A62 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -12902,7 +12913,7 @@ IL_0024:
 IL_0047:
 	{
 		CustomAttributeNamedArgument_t618778691CF7F5B44F7177210A817A29D3DAEDDA  L_9 = ___item0;
-		CustomAttributeNamedArgument_t618778691CF7F5B44F7177210A817A29D3DAEDDA  L_10 = L_9;
+		CustomAttributeNamedArgument_t618778691CF7F5B44F7177210A817A29D3DAEDDA  L_10 = (CustomAttributeNamedArgument_t618778691CF7F5B44F7177210A817A29D3DAEDDA )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		bool L_12;
 		L_12 = CustomAttributeNamedArgument_Equals_m7CF3C5BC64EA55C6C18F25B901E53863B13C3939((CustomAttributeNamedArgument_t618778691CF7F5B44F7177210A817A29D3DAEDDA *)(CustomAttributeNamedArgument_t618778691CF7F5B44F7177210A817A29D3DAEDDA *)(&V_2), (RuntimeObject *)L_11, /*hidden argument*/NULL);
@@ -12996,7 +13007,7 @@ IL_0024:
 IL_0047:
 	{
 		CustomAttributeTypedArgument_tE7152E8FACDD29A8E0040E151C86F436FA8E6910  L_9 = ___item0;
-		CustomAttributeTypedArgument_tE7152E8FACDD29A8E0040E151C86F436FA8E6910  L_10 = L_9;
+		CustomAttributeTypedArgument_tE7152E8FACDD29A8E0040E151C86F436FA8E6910  L_10 = (CustomAttributeTypedArgument_tE7152E8FACDD29A8E0040E151C86F436FA8E6910 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		bool L_12;
 		L_12 = CustomAttributeTypedArgument_Equals_mB4D713A88D97B9967E9126D373649D92B84A1E77((CustomAttributeTypedArgument_tE7152E8FACDD29A8E0040E151C86F436FA8E6910 *)(CustomAttributeTypedArgument_tE7152E8FACDD29A8E0040E151C86F436FA8E6910 *)(&V_2), (RuntimeObject *)L_11, /*hidden argument*/NULL);
@@ -13090,7 +13101,7 @@ IL_0024:
 IL_0047:
 	{
 		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_9 = ___item0;
-		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_10 = L_9;
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_10 = (DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		bool L_12;
 		L_12 = DateTime_Equals_m786244BB8C40880929C564F8CC9A4421755FB359((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)(&V_2), (RuntimeObject *)L_11, /*hidden argument*/NULL);
@@ -13184,7 +13195,7 @@ IL_0024:
 IL_0047:
 	{
 		Decimal_t2978B229CA86D3B7BA66A0AEEE014E0DE4F940D7  L_9 = ___item0;
-		Decimal_t2978B229CA86D3B7BA66A0AEEE014E0DE4F940D7  L_10 = L_9;
+		Decimal_t2978B229CA86D3B7BA66A0AEEE014E0DE4F940D7  L_10 = (Decimal_t2978B229CA86D3B7BA66A0AEEE014E0DE4F940D7 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		bool L_12;
 		L_12 = Decimal_Equals_m4F7B36D899680ADBA4DBB1F5B932981A60E7A4E4((Decimal_t2978B229CA86D3B7BA66A0AEEE014E0DE4F940D7 *)(Decimal_t2978B229CA86D3B7BA66A0AEEE014E0DE4F940D7 *)(&V_2), (RuntimeObject *)L_11, /*hidden argument*/NULL);
@@ -13278,7 +13289,7 @@ IL_0024:
 IL_0047:
 	{
 		DictionaryEntry_tF60471FAB430320A9C7D4382BF966EAAC06D7A90  L_9 = ___item0;
-		DictionaryEntry_tF60471FAB430320A9C7D4382BF966EAAC06D7A90  L_10 = L_9;
+		DictionaryEntry_tF60471FAB430320A9C7D4382BF966EAAC06D7A90  L_10 = (DictionaryEntry_tF60471FAB430320A9C7D4382BF966EAAC06D7A90 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -13468,7 +13479,7 @@ IL_0024:
 IL_0047:
 	{
 		Ephemeron_t76EEAA1BDD5BE64FEAF9E3CD185451837EAA6208  L_9 = ___item0;
-		Ephemeron_t76EEAA1BDD5BE64FEAF9E3CD185451837EAA6208  L_10 = L_9;
+		Ephemeron_t76EEAA1BDD5BE64FEAF9E3CD185451837EAA6208  L_10 = (Ephemeron_t76EEAA1BDD5BE64FEAF9E3CD185451837EAA6208 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -13750,7 +13761,7 @@ IL_0024:
 IL_0047:
 	{
 		int32_t L_9 = ___item0;
-		int32_t L_10 = L_9;
+		int32_t L_10 = (int32_t)L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		Il2CppFakeBox<int32_t> L_12(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		bool L_13;
@@ -14032,7 +14043,7 @@ IL_0024:
 IL_0047:
 	{
 		InternalCodePageDataItem_t885932F372A8EEC39396B0D57CC93AC72E2A3DA7  L_9 = ___item0;
-		InternalCodePageDataItem_t885932F372A8EEC39396B0D57CC93AC72E2A3DA7  L_10 = L_9;
+		InternalCodePageDataItem_t885932F372A8EEC39396B0D57CC93AC72E2A3DA7  L_10 = (InternalCodePageDataItem_t885932F372A8EEC39396B0D57CC93AC72E2A3DA7 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -14129,7 +14140,7 @@ IL_0024:
 IL_0047:
 	{
 		InternalEncodingDataItem_t2854F84125B1F420ABB3AA251C75E288EC87568C  L_9 = ___item0;
-		InternalEncodingDataItem_t2854F84125B1F420ABB3AA251C75E288EC87568C  L_10 = L_9;
+		InternalEncodingDataItem_t2854F84125B1F420ABB3AA251C75E288EC87568C  L_10 = (InternalEncodingDataItem_t2854F84125B1F420ABB3AA251C75E288EC87568C )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -14226,7 +14237,7 @@ IL_0024:
 IL_0047:
 	{
 		Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F  L_9 = ___item0;
-		Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F  L_10 = L_9;
+		Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F  L_10 = (Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -14323,7 +14334,7 @@ IL_0024:
 IL_0047:
 	{
 		LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2  L_9 = ___item0;
-		LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2  L_10 = L_9;
+		LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2  L_10 = (LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -14420,7 +14431,7 @@ IL_0024:
 IL_0047:
 	{
 		Navigation_t1CF0FFB22C0357CD64714FB7A40A275F899D363A  L_9 = ___item0;
-		Navigation_t1CF0FFB22C0357CD64714FB7A40A275F899D363A  L_10 = L_9;
+		Navigation_t1CF0FFB22C0357CD64714FB7A40A275F899D363A  L_10 = (Navigation_t1CF0FFB22C0357CD64714FB7A40A275F899D363A )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -14617,7 +14628,7 @@ IL_0024:
 IL_0047:
 	{
 		ParameterModifier_tC1C793BD8B003B24010657487AFD17A4BA3DF6EA  L_9 = ___item0;
-		ParameterModifier_tC1C793BD8B003B24010657487AFD17A4BA3DF6EA  L_10 = L_9;
+		ParameterModifier_tC1C793BD8B003B24010657487AFD17A4BA3DF6EA  L_10 = (ParameterModifier_tC1C793BD8B003B24010657487AFD17A4BA3DF6EA )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -14714,7 +14725,7 @@ IL_0024:
 IL_0047:
 	{
 		Plane_t80844BF2332EAFC1DDEDD616A950242031A115C7  L_9 = ___item0;
-		Plane_t80844BF2332EAFC1DDEDD616A950242031A115C7  L_10 = L_9;
+		Plane_t80844BF2332EAFC1DDEDD616A950242031A115C7  L_10 = (Plane_t80844BF2332EAFC1DDEDD616A950242031A115C7 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -14811,7 +14822,7 @@ IL_0024:
 IL_0047:
 	{
 		PlayableBinding_t265202500C703254AD9777368C05D1986C8AC7A2  L_9 = ___item0;
-		PlayableBinding_t265202500C703254AD9777368C05D1986C8AC7A2  L_10 = L_9;
+		PlayableBinding_t265202500C703254AD9777368C05D1986C8AC7A2  L_10 = (PlayableBinding_t265202500C703254AD9777368C05D1986C8AC7A2 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -14908,7 +14919,7 @@ IL_0024:
 IL_0047:
 	{
 		PlayerLoopSystem_t3C4FAE5D2149A8DBB8BED0C2AE9B957B7830E54C  L_9 = ___item0;
-		PlayerLoopSystem_t3C4FAE5D2149A8DBB8BED0C2AE9B957B7830E54C  L_10 = L_9;
+		PlayerLoopSystem_t3C4FAE5D2149A8DBB8BED0C2AE9B957B7830E54C  L_10 = (PlayerLoopSystem_t3C4FAE5D2149A8DBB8BED0C2AE9B957B7830E54C )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -15005,7 +15016,7 @@ IL_0024:
 IL_0047:
 	{
 		RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89  L_9 = ___item0;
-		RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89  L_10 = L_9;
+		RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89  L_10 = (RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -15102,7 +15113,7 @@ IL_0024:
 IL_0047:
 	{
 		RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4  L_9 = ___item0;
-		RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4  L_10 = L_9;
+		RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4  L_10 = (RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -15199,7 +15210,7 @@ IL_0024:
 IL_0047:
 	{
 		RaycastResult_t9EFDE24B29650BD6DC8A49D954A3769E17146BCE  L_9 = ___item0;
-		RaycastResult_t9EFDE24B29650BD6DC8A49D954A3769E17146BCE  L_10 = L_9;
+		RaycastResult_t9EFDE24B29650BD6DC8A49D954A3769E17146BCE  L_10 = (RaycastResult_t9EFDE24B29650BD6DC8A49D954A3769E17146BCE )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -15296,7 +15307,7 @@ IL_0024:
 IL_0047:
 	{
 		ResourceLocator_t3D496606F94367D5D6B24DA9DC0A3B46E6B53B11  L_9 = ___item0;
-		ResourceLocator_t3D496606F94367D5D6B24DA9DC0A3B46E6B53B11  L_10 = L_9;
+		ResourceLocator_t3D496606F94367D5D6B24DA9DC0A3B46E6B53B11  L_10 = (ResourceLocator_t3D496606F94367D5D6B24DA9DC0A3B46E6B53B11 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -15579,7 +15590,7 @@ IL_0024:
 IL_0047:
 	{
 		SpriteState_t9024961148433175CE2F3D9E8E9239A8B1CAB15E  L_9 = ___item0;
-		SpriteState_t9024961148433175CE2F3D9E8E9239A8B1CAB15E  L_10 = L_9;
+		SpriteState_t9024961148433175CE2F3D9E8E9239A8B1CAB15E  L_10 = (SpriteState_t9024961148433175CE2F3D9E8E9239A8B1CAB15E )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -15676,7 +15687,7 @@ IL_0024:
 IL_0047:
 	{
 		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_9 = ___item0;
-		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_10 = L_9;
+		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_10 = (TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		bool L_12;
 		L_12 = TimeSpan_Equals_mA6C1142BA5CE288C611C23FFB3AEAD90A2E3E7A4((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&V_2), (RuntimeObject *)L_11, /*hidden argument*/NULL);
@@ -15770,7 +15781,7 @@ IL_0024:
 IL_0047:
 	{
 		UICharInfo_tDEA65B831FAD06D1E9B10A6088E05C6D615B089A  L_9 = ___item0;
-		UICharInfo_tDEA65B831FAD06D1E9B10A6088E05C6D615B089A  L_10 = L_9;
+		UICharInfo_tDEA65B831FAD06D1E9B10A6088E05C6D615B089A  L_10 = (UICharInfo_tDEA65B831FAD06D1E9B10A6088E05C6D615B089A )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -15867,7 +15878,7 @@ IL_0024:
 IL_0047:
 	{
 		UILineInfo_tD082FF4894030AD4EBF57ACF6A997135E4B8B67C  L_9 = ___item0;
-		UILineInfo_tD082FF4894030AD4EBF57ACF6A997135E4B8B67C  L_10 = L_9;
+		UILineInfo_tD082FF4894030AD4EBF57ACF6A997135E4B8B67C  L_10 = (UILineInfo_tD082FF4894030AD4EBF57ACF6A997135E4B8B67C )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -15964,7 +15975,7 @@ IL_0024:
 IL_0047:
 	{
 		UIVertex_tD94AAC5F0B42DBC441AAA8ADBFCFF9E5C320C03A  L_9 = ___item0;
-		UIVertex_tD94AAC5F0B42DBC441AAA8ADBFCFF9E5C320C03A  L_10 = L_9;
+		UIVertex_tD94AAC5F0B42DBC441AAA8ADBFCFF9E5C320C03A  L_10 = (UIVertex_tD94AAC5F0B42DBC441AAA8ADBFCFF9E5C320C03A )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -16340,7 +16351,7 @@ IL_0024:
 IL_0047:
 	{
 		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  L_9 = ___item0;
-		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  L_10 = L_9;
+		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  L_10 = (Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		bool L_12;
 		L_12 = Vector2_Equals_m67A842D914AA5A4DCC076E9EA20019925E6A85A0((Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 *)(Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 *)(&V_2), (RuntimeObject *)L_11, /*hidden argument*/NULL);
@@ -16434,7 +16445,7 @@ IL_0024:
 IL_0047:
 	{
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_9 = ___item0;
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_10 = L_9;
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_10 = (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		bool L_12;
 		L_12 = Vector3_Equals_m210CB160B594355581D44D4B87CF3D3994ABFED0((Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *)(Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *)(&V_2), (RuntimeObject *)L_11, /*hidden argument*/NULL);
@@ -16528,7 +16539,7 @@ IL_0024:
 IL_0047:
 	{
 		Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7  L_9 = ___item0;
-		Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7  L_10 = L_9;
+		Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7  L_10 = (Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		bool L_12;
 		L_12 = Vector4_Equals_m71D14F39651C3FBEDE17214455DFA727921F07AA((Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7 *)(Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7 *)(&V_2), (RuntimeObject *)L_11, /*hidden argument*/NULL);
@@ -16622,7 +16633,7 @@ IL_0024:
 IL_0047:
 	{
 		jvalue_t220BECEE73180D6A4DE0F66CB6BA852EC6A5B587  L_9 = ___item0;
-		jvalue_t220BECEE73180D6A4DE0F66CB6BA852EC6A5B587  L_10 = L_9;
+		jvalue_t220BECEE73180D6A4DE0F66CB6BA852EC6A5B587  L_10 = (jvalue_t220BECEE73180D6A4DE0F66CB6BA852EC6A5B587 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -16719,7 +16730,7 @@ IL_0024:
 IL_0047:
 	{
 		U200EU200FU200BU202BU202BU202AU206AU202BU206EU202AU206FU202AU200EU206BU206EU202CU206DU206BU200FU200BU202AU200FU206DU206EU206CU206DU202DU206AU200EU206BU202DU200CU206EU202EU200CU206AU200BU200FU202EU206BU202E_t559832E39CA084E4349A867B7B5B90798990616D  L_9 = ___item0;
-		U200EU200FU200BU202BU202BU202AU206AU202BU206EU202AU206FU202AU200EU206BU206EU202CU206DU206BU200FU200BU202AU200FU206DU206EU206CU206DU202DU206AU200EU206BU202DU200CU206EU202EU200CU206AU200BU200FU202EU206BU202E_t559832E39CA084E4349A867B7B5B90798990616D  L_10 = L_9;
+		U200EU200FU200BU202BU202BU202AU206AU202BU206EU202AU206FU202AU200EU206BU206EU202CU206DU206BU200FU200BU202AU200FU206DU206EU206CU206DU202DU206AU200EU206BU202DU200CU206EU202EU200CU206AU200BU200FU202EU206BU202E_t559832E39CA084E4349A867B7B5B90798990616D  L_10 = (U200EU200FU200BU202BU202BU202AU206AU202BU206EU202AU206FU202AU200EU206BU206EU202CU206DU206BU200FU200BU202AU200FU206DU206EU206CU206DU202DU206AU200EU206BU202DU200CU206EU202EU200CU206AU200BU200FU202EU206BU202E_t559832E39CA084E4349A867B7B5B90798990616D )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -16816,7 +16827,7 @@ IL_0024:
 IL_0047:
 	{
 		U202EU206AU206AU202CU202CU206AU206BU200EU202EU202CU206BU206EU202CU200EU200CU202EU200BU206CU206FU202DU200FU206DU206BU200BU206BU202DU200DU202AU206AU200EU202BU206EU200EU206EU206AU206DU202DU202EU202CU206BU202E_tB588B39EB05F08B255768E22932EA5D9C75BB896  L_9 = ___item0;
-		U202EU206AU206AU202CU202CU206AU206BU200EU202EU202CU206BU206EU202CU200EU200CU202EU200BU206CU206FU202DU200FU206DU206BU200BU206BU202DU200DU202AU206AU200EU202BU206EU200EU206EU206AU206DU202DU202EU202CU206BU202E_tB588B39EB05F08B255768E22932EA5D9C75BB896  L_10 = L_9;
+		U202EU206AU206AU202CU202CU206AU206BU200EU202EU202CU206BU206EU202CU200EU200CU202EU200BU206CU206FU202DU200FU206DU206BU200BU206BU202DU200DU202AU206AU200EU202BU206EU200EU206EU206AU206DU202DU202EU202CU206BU202E_tB588B39EB05F08B255768E22932EA5D9C75BB896  L_10 = (U202EU206AU206AU202CU202CU206AU206BU200EU202EU202CU206BU206EU202CU200EU200CU202EU200BU206CU206FU202DU200FU206DU206BU200BU206BU202DU200DU202AU206AU200EU202BU206EU200EU206EU206AU206DU202DU202EU202CU206BU202E_tB588B39EB05F08B255768E22932EA5D9C75BB896 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -16913,7 +16924,7 @@ IL_0024:
 IL_0047:
 	{
 		U206DU200EU202DU206BU200CU206CU202BU202CU206BU206CU200CU206FU202BU200CU206EU202CU206EU206EU200FU200EU206EU206AU206AU200EU202AU206BU202AU200DU200BU200FU206FU200BU200FU200FU200BU206CU202BU200EU202CU202CU202E_tB6BB7E39EAE9732824C5D5D2CF1DB17B592E62B9  L_9 = ___item0;
-		U206DU200EU202DU206BU200CU206CU202BU202CU206BU206CU200CU206FU202BU200CU206EU202CU206EU206EU200FU200EU206EU206AU206AU200EU202AU206BU202AU200DU200BU200FU206FU200BU200FU200FU200BU206CU202BU200EU202CU202CU202E_tB6BB7E39EAE9732824C5D5D2CF1DB17B592E62B9  L_10 = L_9;
+		U206DU200EU202DU206BU200CU206CU202BU202CU206BU206CU200CU206FU202BU200CU206EU202CU206EU206EU200FU200EU206EU206AU206AU200EU202AU206BU202AU200DU200BU200FU206FU200BU200FU200FU200BU206CU202BU200EU202CU202CU202E_tB6BB7E39EAE9732824C5D5D2CF1DB17B592E62B9  L_10 = (U206DU200EU202DU206BU200CU206CU202BU202CU206BU206CU200CU206FU202BU200CU206EU202CU206EU206EU200FU200EU206EU206AU206AU200EU202AU206BU202AU200DU200BU200FU206FU200BU200FU200FU200BU206CU202BU200EU202CU202CU202E_tB6BB7E39EAE9732824C5D5D2CF1DB17B592E62B9 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -17010,7 +17021,7 @@ IL_0024:
 IL_0047:
 	{
 		U206FU200EU200FU200FU206FU206DU202AU206AU200CU206EU206BU206AU200CU202EU202BU202AU202AU200CU202BU206AU200CU200DU206CU200DU206FU200FU206CU206AU202CU202EU206DU200FU206CU200FU206CU202BU206AU202DU202EU206BU202E_tD0ACBBF436C29D0441EC851C270477CAA2E54B0B  L_9 = ___item0;
-		U206FU200EU200FU200FU206FU206DU202AU206AU200CU206EU206BU206AU200CU202EU202BU202AU202AU200CU202BU206AU200CU200DU206CU200DU206FU200FU206CU206AU202CU202EU206DU200FU206CU200FU206CU202BU206AU202DU202EU206BU202E_tD0ACBBF436C29D0441EC851C270477CAA2E54B0B  L_10 = L_9;
+		U206FU200EU200FU200FU206FU206DU202AU206AU200CU206EU206BU206AU200CU202EU202BU202AU202AU200CU202BU206AU200CU200DU206CU200DU206FU200FU206CU206AU202CU202EU206DU200FU206CU200FU206CU202BU206AU202DU202EU206BU202E_tD0ACBBF436C29D0441EC851C270477CAA2E54B0B  L_10 = (U206FU200EU200FU200FU206FU206DU202AU206AU200CU206EU206BU206AU200CU202EU202BU202AU202AU200CU202BU206AU200CU200DU206CU200DU206FU200FU206CU206AU202CU202EU206DU200FU206CU200FU206CU202BU206AU202DU202EU206BU202E_tD0ACBBF436C29D0441EC851C270477CAA2E54B0B )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -17107,7 +17118,7 @@ IL_0024:
 IL_0047:
 	{
 		U200EU206EU206BU206CU206BU206AU202AU206BU202DU206CU206AU202BU206BU200BU200BU206CU206CU206CU202AU206DU200FU200EU206CU206CU206FU202EU200FU200CU206DU200DU202CU200FU206AU206BU206BU206EU200BU206EU202AU206BU202E_tEA3B9624C4B04546BCF6F9FCB87665459E69B56B  L_9 = ___item0;
-		U200EU206EU206BU206CU206BU206AU202AU206BU202DU206CU206AU202BU206BU200BU200BU206CU206CU206CU202AU206DU200FU200EU206CU206CU206FU202EU200FU200CU206DU200DU202CU200FU206AU206BU206BU206EU200BU206EU202AU206BU202E_tEA3B9624C4B04546BCF6F9FCB87665459E69B56B  L_10 = L_9;
+		U200EU206EU206BU206CU206BU206AU202AU206BU202DU206CU206AU202BU206BU200BU200BU206CU206CU206CU202AU206DU200FU200EU206CU206CU206FU202EU200FU200CU206DU200DU202CU200FU206AU206BU206BU206EU200BU206EU202AU206BU202E_tEA3B9624C4B04546BCF6F9FCB87665459E69B56B  L_10 = (U200EU206EU206BU206CU206BU206AU202AU206BU202DU206CU206AU202BU206BU200BU200BU206CU206CU206CU202AU206DU200FU200EU206CU206CU206FU202EU200FU200CU206DU200DU202CU200FU206AU206BU206BU206EU200BU206EU202AU206BU202E_tEA3B9624C4B04546BCF6F9FCB87665459E69B56B )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -17204,7 +17215,7 @@ IL_0024:
 IL_0047:
 	{
 		U202BU200CU206BU206CU206DU200FU202DU206AU206AU202EU206CU200DU200CU206FU202DU206FU200CU200FU202AU200BU202BU200CU202EU206EU206FU200BU200EU206AU200DU200EU202BU200DU206AU206CU206EU200DU200CU200DU200FU206EU202E_t47868962093B062207291CF8DEF0F2144E3CA921  L_9 = ___item0;
-		U202BU200CU206BU206CU206DU200FU202DU206AU206AU202EU206CU200DU200CU206FU202DU206FU200CU200FU202AU200BU202BU200CU202EU206EU206FU200BU200EU206AU200DU200EU202BU200DU206AU206CU206EU200DU200CU200DU200FU206EU202E_t47868962093B062207291CF8DEF0F2144E3CA921  L_10 = L_9;
+		U202BU200CU206BU206CU206DU200FU202DU206AU206AU202EU206CU200DU200CU206FU202DU206FU200CU200FU202AU200BU202BU200CU202EU206EU206FU200BU200EU206AU200DU200EU202BU200DU206AU206CU206EU200DU200CU200DU200FU206EU202E_t47868962093B062207291CF8DEF0F2144E3CA921  L_10 = (U202BU200CU206BU206CU206DU200FU202DU206AU206AU202EU206CU200DU200CU206FU202DU206FU200CU200FU202AU200BU202BU200CU202EU206EU206FU200BU200EU206AU200DU200EU202BU200DU206AU206CU206EU200DU200CU200DU200FU206EU202E_t47868962093B062207291CF8DEF0F2144E3CA921 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -17301,7 +17312,7 @@ IL_0024:
 IL_0047:
 	{
 		OrderBlock_t0B106828F588BC2F0B9895425E6FD39EDA45C1E2  L_9 = ___item0;
-		OrderBlock_t0B106828F588BC2F0B9895425E6FD39EDA45C1E2  L_10 = L_9;
+		OrderBlock_t0B106828F588BC2F0B9895425E6FD39EDA45C1E2  L_10 = (OrderBlock_t0B106828F588BC2F0B9895425E6FD39EDA45C1E2 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -17398,7 +17409,7 @@ IL_0024:
 IL_0047:
 	{
 		RenderRequest_t7DEDFA6AAA1C8D381280183054C328F26BBCCE94  L_9 = ___item0;
-		RenderRequest_t7DEDFA6AAA1C8D381280183054C328F26BBCCE94  L_10 = L_9;
+		RenderRequest_t7DEDFA6AAA1C8D381280183054C328F26BBCCE94  L_10 = (RenderRequest_t7DEDFA6AAA1C8D381280183054C328F26BBCCE94 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -17495,7 +17506,7 @@ IL_0024:
 IL_0047:
 	{
 		TableRange_t0D96EE3F7B1008C60DD683B3A6985C602854E6F1  L_9 = ___item0;
-		TableRange_t0D96EE3F7B1008C60DD683B3A6985C602854E6F1  L_10 = L_9;
+		TableRange_t0D96EE3F7B1008C60DD683B3A6985C602854E6F1  L_10 = (TableRange_t0D96EE3F7B1008C60DD683B3A6985C602854E6F1 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -17592,7 +17603,7 @@ IL_0024:
 IL_0047:
 	{
 		bucket_t56D642DDC4ABBCED9DB7F620CC35AEEC0778869D  L_9 = ___item0;
-		bucket_t56D642DDC4ABBCED9DB7F620CC35AEEC0778869D  L_10 = L_9;
+		bucket_t56D642DDC4ABBCED9DB7F620CC35AEEC0778869D  L_10 = (bucket_t56D642DDC4ABBCED9DB7F620CC35AEEC0778869D )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -17689,7 +17700,7 @@ IL_0024:
 IL_0047:
 	{
 		FormatParam_tA765680E7894569CC4BDEB5DF722F646311E23EE  L_9 = ___item0;
-		FormatParam_tA765680E7894569CC4BDEB5DF722F646311E23EE  L_10 = L_9;
+		FormatParam_tA765680E7894569CC4BDEB5DF722F646311E23EE  L_10 = (FormatParam_tA765680E7894569CC4BDEB5DF722F646311E23EE )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -17786,7 +17797,7 @@ IL_0024:
 IL_0047:
 	{
 		LowerCaseMapping_t54FB537AEA4CA2EBAB5BDCC79881428C202241DE  L_9 = ___item0;
-		LowerCaseMapping_t54FB537AEA4CA2EBAB5BDCC79881428C202241DE  L_10 = L_9;
+		LowerCaseMapping_t54FB537AEA4CA2EBAB5BDCC79881428C202241DE  L_10 = (LowerCaseMapping_t54FB537AEA4CA2EBAB5BDCC79881428C202241DE )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -17883,7 +17894,7 @@ IL_0024:
 IL_0047:
 	{
 		HitInfo_t74B96DDC302EB605CCC557B737A5C88EB67B57D6  L_9 = ___item0;
-		HitInfo_t74B96DDC302EB605CCC557B737A5C88EB67B57D6  L_10 = L_9;
+		HitInfo_t74B96DDC302EB605CCC557B737A5C88EB67B57D6  L_10 = (HitInfo_t74B96DDC302EB605CCC557B737A5C88EB67B57D6 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -17980,7 +17991,7 @@ IL_0024:
 IL_0047:
 	{
 		WorkRequest_tA19FD4D1269D8EE2EA886AAF036C4F7F09154393  L_9 = ___item0;
-		WorkRequest_tA19FD4D1269D8EE2EA886AAF036C4F7F09154393  L_10 = L_9;
+		WorkRequest_tA19FD4D1269D8EE2EA886AAF036C4F7F09154393  L_10 = (WorkRequest_tA19FD4D1269D8EE2EA886AAF036C4F7F09154393 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -18077,7 +18088,7 @@ IL_0024:
 IL_0047:
 	{
 		U206FU202EU202DU206FU206BU206EU206AU202BU206BU202AU202CU206DU200EU206BU202DU206BU202BU200CU200BU202AU206BU202EU200DU206BU206CU200DU200DU202EU206EU206BU200DU200DU200EU200CU202BU200BU206CU200EU202BU206DU202E_t901F8666C8B30BC48AB1E37A9F37CE1CE1B5FDEE  L_9 = ___item0;
-		U206FU202EU202DU206FU206BU206EU206AU202BU206BU202AU202CU206DU200EU206BU202DU206BU202BU200CU200BU202AU206BU202EU200DU206BU206CU200DU200DU202EU206EU206BU200DU200DU200EU200CU202BU200BU206CU200EU202BU206DU202E_t901F8666C8B30BC48AB1E37A9F37CE1CE1B5FDEE  L_10 = L_9;
+		U206FU202EU202DU206FU206BU206EU206AU202BU206BU202AU202CU206DU200EU206BU202DU206BU202BU200CU200BU202AU206BU202EU200DU206BU206CU200DU200DU202EU206EU206BU200DU200DU200EU200CU202BU200BU206CU200EU202BU206DU202E_t901F8666C8B30BC48AB1E37A9F37CE1CE1B5FDEE  L_10 = (U206FU202EU202DU206FU206BU206EU206AU202BU206BU202AU202CU206DU200EU206BU202DU206BU202BU200CU200BU202AU206BU202EU200DU206BU206CU200DU200DU202EU206EU206BU200DU200DU200EU200CU202BU200BU206CU200EU202BU206DU202E_t901F8666C8B30BC48AB1E37A9F37CE1CE1B5FDEE )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -18174,7 +18185,7 @@ IL_0024:
 IL_0047:
 	{
 		U202EU200FU202AU206CU202DU200FU202DU202EU200CU206BU202AU202BU202EU206AU200BU202BU206AU206AU202BU202CU200CU206BU206EU200DU206BU206AU206CU202CU206CU206FU202BU200DU202BU206BU206DU206DU202AU200BU202AU202CU202E_t34B20D015C30DC1A157F5893C80FFDDBEE5AEB0A  L_9 = ___item0;
-		U202EU200FU202AU206CU202DU200FU202DU202EU200CU206BU202AU202BU202EU206AU200BU202BU206AU206AU202BU202CU200CU206BU206EU200DU206BU206AU206CU202CU206CU206FU202BU200DU202BU206BU206DU206DU202AU200BU202AU202CU202E_t34B20D015C30DC1A157F5893C80FFDDBEE5AEB0A  L_10 = L_9;
+		U202EU200FU202AU206CU202DU200FU202DU202EU200CU206BU202AU202BU202EU206AU200BU202BU206AU206AU202BU202CU200CU206BU206EU200DU206BU206AU206CU202CU206CU206FU202BU200DU202BU206BU206DU206DU202AU200BU202AU202CU202E_t34B20D015C30DC1A157F5893C80FFDDBEE5AEB0A  L_10 = (U202EU200FU202AU206CU202DU200FU202DU202EU200CU206BU202AU202BU202EU206AU200BU202BU206AU206AU202BU202CU200CU206BU206EU200DU206BU206AU206CU202CU206CU206FU202BU200DU202BU206BU206DU206DU202AU200BU202AU202CU202E_t34B20D015C30DC1A157F5893C80FFDDBEE5AEB0A )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -18271,7 +18282,7 @@ IL_0024:
 IL_0047:
 	{
 		U202BU200BU206EU202DU202AU200FU202DU206BU200EU200CU200FU202EU206AU206BU206FU202AU206CU202CU206AU200EU206FU202AU200BU200CU200DU200DU202EU200DU202BU202AU206DU200DU202BU202AU206BU202EU206FU202CU200EU202AU202E_t52BE7E33AD434722D6A90011745009A73B99CFF4  L_9 = ___item0;
-		U202BU200BU206EU202DU202AU200FU202DU206BU200EU200CU200FU202EU206AU206BU206FU202AU206CU202CU206AU200EU206FU202AU200BU200CU200DU200DU202EU200DU202BU202AU206DU200DU202BU202AU206BU202EU206FU202CU200EU202AU202E_t52BE7E33AD434722D6A90011745009A73B99CFF4  L_10 = L_9;
+		U202BU200BU206EU202DU202AU200FU202DU206BU200EU200CU200FU202EU206AU206BU206FU202AU206CU202CU206AU200EU206FU202AU200BU200CU200DU200DU202EU200DU202BU202AU206DU200DU202BU202AU206BU202EU206FU202CU200EU202AU202E_t52BE7E33AD434722D6A90011745009A73B99CFF4  L_10 = (U202BU200BU206EU202DU202AU200FU202DU206BU200EU200CU200FU202EU206AU206BU206FU202AU206CU202CU206AU200EU206FU202AU200BU200CU200DU200DU202EU200DU202BU202AU206DU200DU202BU202AU206BU202EU206FU202CU200EU202AU202E_t52BE7E33AD434722D6A90011745009A73B99CFF4 )L_9;
 		RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 		RuntimeObject * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2));
 		NullCheck((RuntimeObject *)L_12);
@@ -21458,7 +21469,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		Entry_tD3C172E348082DAA38034A7BFC5251A40A96D632  L_6 = ___item1;
-		Entry_tD3C172E348082DAA38034A7BFC5251A40A96D632  L_7 = L_6;
+		Entry_tD3C172E348082DAA38034A7BFC5251A40A96D632  L_7 = (Entry_tD3C172E348082DAA38034A7BFC5251A40A96D632 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -21513,7 +21524,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		Entry_tE032650534234E8BCC41BF224A68F799EB231216  L_6 = ___item1;
-		Entry_tE032650534234E8BCC41BF224A68F799EB231216  L_7 = L_6;
+		Entry_tE032650534234E8BCC41BF224A68F799EB231216  L_7 = (Entry_tE032650534234E8BCC41BF224A68F799EB231216 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -21568,7 +21579,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		Entry_t19C714E802975CC32D4BD74AE5A32816E1352D0A  L_6 = ___item1;
-		Entry_t19C714E802975CC32D4BD74AE5A32816E1352D0A  L_7 = L_6;
+		Entry_t19C714E802975CC32D4BD74AE5A32816E1352D0A  L_7 = (Entry_t19C714E802975CC32D4BD74AE5A32816E1352D0A )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -21623,7 +21634,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		Entry_t83C37D8208C6D1FBF2FAE2AACE83E9AA3EDBB4DE  L_6 = ___item1;
-		Entry_t83C37D8208C6D1FBF2FAE2AACE83E9AA3EDBB4DE  L_7 = L_6;
+		Entry_t83C37D8208C6D1FBF2FAE2AACE83E9AA3EDBB4DE  L_7 = (Entry_t83C37D8208C6D1FBF2FAE2AACE83E9AA3EDBB4DE )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -21678,7 +21689,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		Entry_tD8A93CAFA635C3623A9F8C1541CA22C83D04EA26  L_6 = ___item1;
-		Entry_tD8A93CAFA635C3623A9F8C1541CA22C83D04EA26  L_7 = L_6;
+		Entry_tD8A93CAFA635C3623A9F8C1541CA22C83D04EA26  L_7 = (Entry_tD8A93CAFA635C3623A9F8C1541CA22C83D04EA26 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -21733,7 +21744,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		KeyValuePair_2_tB6ECB423D6D4B3D2F916E061DDF9A7C3F0958D57  L_6 = ___item1;
-		KeyValuePair_2_tB6ECB423D6D4B3D2F916E061DDF9A7C3F0958D57  L_7 = L_6;
+		KeyValuePair_2_tB6ECB423D6D4B3D2F916E061DDF9A7C3F0958D57  L_7 = (KeyValuePair_2_tB6ECB423D6D4B3D2F916E061DDF9A7C3F0958D57 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -21788,7 +21799,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		KeyValuePair_2_t56E20A5489EE435FD8BBE3EFACF6219A626E04C0  L_6 = ___item1;
-		KeyValuePair_2_t56E20A5489EE435FD8BBE3EFACF6219A626E04C0  L_7 = L_6;
+		KeyValuePair_2_t56E20A5489EE435FD8BBE3EFACF6219A626E04C0  L_7 = (KeyValuePair_2_t56E20A5489EE435FD8BBE3EFACF6219A626E04C0 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -21843,7 +21854,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		KeyValuePair_2_tF48C056DF83BF9AF3BAE277B149EC5E4E436BD1A  L_6 = ___item1;
-		KeyValuePair_2_tF48C056DF83BF9AF3BAE277B149EC5E4E436BD1A  L_7 = L_6;
+		KeyValuePair_2_tF48C056DF83BF9AF3BAE277B149EC5E4E436BD1A  L_7 = (KeyValuePair_2_tF48C056DF83BF9AF3BAE277B149EC5E4E436BD1A )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -21898,7 +21909,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		KeyValuePair_2_t95507C2A8401F2191EE3D308B1B00E3729AE41B5  L_6 = ___item1;
-		KeyValuePair_2_t95507C2A8401F2191EE3D308B1B00E3729AE41B5  L_7 = L_6;
+		KeyValuePair_2_t95507C2A8401F2191EE3D308B1B00E3729AE41B5  L_7 = (KeyValuePair_2_t95507C2A8401F2191EE3D308B1B00E3729AE41B5 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -21953,7 +21964,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		KeyValuePair_2_tFB6A066C69E28C6ACA5FC5E24D969BFADC5FA625  L_6 = ___item1;
-		KeyValuePair_2_tFB6A066C69E28C6ACA5FC5E24D969BFADC5FA625  L_7 = L_6;
+		KeyValuePair_2_tFB6A066C69E28C6ACA5FC5E24D969BFADC5FA625  L_7 = (KeyValuePair_2_tFB6A066C69E28C6ACA5FC5E24D969BFADC5FA625 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -22008,7 +22019,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		KeyValuePair_2_t6A417393575389EF0D895B62580FBC33E95066EF  L_6 = ___item1;
-		KeyValuePair_2_t6A417393575389EF0D895B62580FBC33E95066EF  L_7 = L_6;
+		KeyValuePair_2_t6A417393575389EF0D895B62580FBC33E95066EF  L_7 = (KeyValuePair_2_t6A417393575389EF0D895B62580FBC33E95066EF )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -22063,7 +22074,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		Slot_tC31C6E818814F95B7C786172916C5FAF09A00B2F  L_6 = ___item1;
-		Slot_tC31C6E818814F95B7C786172916C5FAF09A00B2F  L_7 = L_6;
+		Slot_tC31C6E818814F95B7C786172916C5FAF09A00B2F  L_7 = (Slot_tC31C6E818814F95B7C786172916C5FAF09A00B2F )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -22118,7 +22129,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		Slot_t1100E8CA172ECADD9BE877E11205FB2D911CD319  L_6 = ___item1;
-		Slot_t1100E8CA172ECADD9BE877E11205FB2D911CD319  L_7 = L_6;
+		Slot_t1100E8CA172ECADD9BE877E11205FB2D911CD319  L_7 = (Slot_t1100E8CA172ECADD9BE877E11205FB2D911CD319 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -22173,7 +22184,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		BatchVisibility_tFA63D052426424FBD58F78E973AAAC52A67B5AFE  L_6 = ___item1;
-		BatchVisibility_tFA63D052426424FBD58F78E973AAAC52A67B5AFE  L_7 = L_6;
+		BatchVisibility_tFA63D052426424FBD58F78E973AAAC52A67B5AFE  L_7 = (BatchVisibility_tFA63D052426424FBD58F78E973AAAC52A67B5AFE )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -22338,7 +22349,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		CancellationTokenRegistration_t407059AA0E00ABE74F43C533E7D035C4BA451F6A  L_6 = ___item1;
-		CancellationTokenRegistration_t407059AA0E00ABE74F43C533E7D035C4BA451F6A  L_7 = L_6;
+		CancellationTokenRegistration_t407059AA0E00ABE74F43C533E7D035C4BA451F6A  L_7 = (CancellationTokenRegistration_t407059AA0E00ABE74F43C533E7D035C4BA451F6A )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -22448,7 +22459,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_6 = ___item1;
-		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_7 = L_6;
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_7 = (Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -22503,7 +22514,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_6 = ___item1;
-		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_7 = L_6;
+		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_7 = (Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -22558,7 +22569,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955  L_6 = ___item1;
-		ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955  L_7 = L_6;
+		ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955  L_7 = (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -22613,7 +22624,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		ContactPoint_tC179732A8E0014F5EFF5977ED1ADF12CF14A9017  L_6 = ___item1;
-		ContactPoint_tC179732A8E0014F5EFF5977ED1ADF12CF14A9017  L_7 = L_6;
+		ContactPoint_tC179732A8E0014F5EFF5977ED1ADF12CF14A9017  L_7 = (ContactPoint_tC179732A8E0014F5EFF5977ED1ADF12CF14A9017 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -22668,7 +22679,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		ContactPoint2D_t5A4C242ABAE740C565BF01A35CEE279058E66A62  L_6 = ___item1;
-		ContactPoint2D_t5A4C242ABAE740C565BF01A35CEE279058E66A62  L_7 = L_6;
+		ContactPoint2D_t5A4C242ABAE740C565BF01A35CEE279058E66A62  L_7 = (ContactPoint2D_t5A4C242ABAE740C565BF01A35CEE279058E66A62 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -22723,7 +22734,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		CustomAttributeNamedArgument_t618778691CF7F5B44F7177210A817A29D3DAEDDA  L_6 = ___item1;
-		CustomAttributeNamedArgument_t618778691CF7F5B44F7177210A817A29D3DAEDDA  L_7 = L_6;
+		CustomAttributeNamedArgument_t618778691CF7F5B44F7177210A817A29D3DAEDDA  L_7 = (CustomAttributeNamedArgument_t618778691CF7F5B44F7177210A817A29D3DAEDDA )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -22778,7 +22789,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		CustomAttributeTypedArgument_tE7152E8FACDD29A8E0040E151C86F436FA8E6910  L_6 = ___item1;
-		CustomAttributeTypedArgument_tE7152E8FACDD29A8E0040E151C86F436FA8E6910  L_7 = L_6;
+		CustomAttributeTypedArgument_tE7152E8FACDD29A8E0040E151C86F436FA8E6910  L_7 = (CustomAttributeTypedArgument_tE7152E8FACDD29A8E0040E151C86F436FA8E6910 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -22833,7 +22844,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_6 = ___item1;
-		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_7 = L_6;
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_7 = (DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -22888,7 +22899,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		Decimal_t2978B229CA86D3B7BA66A0AEEE014E0DE4F940D7  L_6 = ___item1;
-		Decimal_t2978B229CA86D3B7BA66A0AEEE014E0DE4F940D7  L_7 = L_6;
+		Decimal_t2978B229CA86D3B7BA66A0AEEE014E0DE4F940D7  L_7 = (Decimal_t2978B229CA86D3B7BA66A0AEEE014E0DE4F940D7 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -22943,7 +22954,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		DictionaryEntry_tF60471FAB430320A9C7D4382BF966EAAC06D7A90  L_6 = ___item1;
-		DictionaryEntry_tF60471FAB430320A9C7D4382BF966EAAC06D7A90  L_7 = L_6;
+		DictionaryEntry_tF60471FAB430320A9C7D4382BF966EAAC06D7A90  L_7 = (DictionaryEntry_tF60471FAB430320A9C7D4382BF966EAAC06D7A90 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -23053,7 +23064,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		Ephemeron_t76EEAA1BDD5BE64FEAF9E3CD185451837EAA6208  L_6 = ___item1;
-		Ephemeron_t76EEAA1BDD5BE64FEAF9E3CD185451837EAA6208  L_7 = L_6;
+		Ephemeron_t76EEAA1BDD5BE64FEAF9E3CD185451837EAA6208  L_7 = (Ephemeron_t76EEAA1BDD5BE64FEAF9E3CD185451837EAA6208 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -23218,7 +23229,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		int32_t L_6 = ___item1;
-		int32_t L_7 = L_6;
+		int32_t L_7 = (int32_t)L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -23383,7 +23394,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		InternalCodePageDataItem_t885932F372A8EEC39396B0D57CC93AC72E2A3DA7  L_6 = ___item1;
-		InternalCodePageDataItem_t885932F372A8EEC39396B0D57CC93AC72E2A3DA7  L_7 = L_6;
+		InternalCodePageDataItem_t885932F372A8EEC39396B0D57CC93AC72E2A3DA7  L_7 = (InternalCodePageDataItem_t885932F372A8EEC39396B0D57CC93AC72E2A3DA7 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -23438,7 +23449,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		InternalEncodingDataItem_t2854F84125B1F420ABB3AA251C75E288EC87568C  L_6 = ___item1;
-		InternalEncodingDataItem_t2854F84125B1F420ABB3AA251C75E288EC87568C  L_7 = L_6;
+		InternalEncodingDataItem_t2854F84125B1F420ABB3AA251C75E288EC87568C  L_7 = (InternalEncodingDataItem_t2854F84125B1F420ABB3AA251C75E288EC87568C )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -23493,7 +23504,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F  L_6 = ___item1;
-		Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F  L_7 = L_6;
+		Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F  L_7 = (Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -23548,7 +23559,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2  L_6 = ___item1;
-		LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2  L_7 = L_6;
+		LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2  L_7 = (LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -23603,7 +23614,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		Navigation_t1CF0FFB22C0357CD64714FB7A40A275F899D363A  L_6 = ___item1;
-		Navigation_t1CF0FFB22C0357CD64714FB7A40A275F899D363A  L_7 = L_6;
+		Navigation_t1CF0FFB22C0357CD64714FB7A40A275F899D363A  L_7 = (Navigation_t1CF0FFB22C0357CD64714FB7A40A275F899D363A )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -23711,7 +23722,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		ParameterModifier_tC1C793BD8B003B24010657487AFD17A4BA3DF6EA  L_6 = ___item1;
-		ParameterModifier_tC1C793BD8B003B24010657487AFD17A4BA3DF6EA  L_7 = L_6;
+		ParameterModifier_tC1C793BD8B003B24010657487AFD17A4BA3DF6EA  L_7 = (ParameterModifier_tC1C793BD8B003B24010657487AFD17A4BA3DF6EA )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -23766,7 +23777,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		Plane_t80844BF2332EAFC1DDEDD616A950242031A115C7  L_6 = ___item1;
-		Plane_t80844BF2332EAFC1DDEDD616A950242031A115C7  L_7 = L_6;
+		Plane_t80844BF2332EAFC1DDEDD616A950242031A115C7  L_7 = (Plane_t80844BF2332EAFC1DDEDD616A950242031A115C7 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -23821,7 +23832,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		PlayableBinding_t265202500C703254AD9777368C05D1986C8AC7A2  L_6 = ___item1;
-		PlayableBinding_t265202500C703254AD9777368C05D1986C8AC7A2  L_7 = L_6;
+		PlayableBinding_t265202500C703254AD9777368C05D1986C8AC7A2  L_7 = (PlayableBinding_t265202500C703254AD9777368C05D1986C8AC7A2 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -23876,7 +23887,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		PlayerLoopSystem_t3C4FAE5D2149A8DBB8BED0C2AE9B957B7830E54C  L_6 = ___item1;
-		PlayerLoopSystem_t3C4FAE5D2149A8DBB8BED0C2AE9B957B7830E54C  L_7 = L_6;
+		PlayerLoopSystem_t3C4FAE5D2149A8DBB8BED0C2AE9B957B7830E54C  L_7 = (PlayerLoopSystem_t3C4FAE5D2149A8DBB8BED0C2AE9B957B7830E54C )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -23931,7 +23942,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89  L_6 = ___item1;
-		RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89  L_7 = L_6;
+		RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89  L_7 = (RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -23986,7 +23997,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4  L_6 = ___item1;
-		RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4  L_7 = L_6;
+		RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4  L_7 = (RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -24041,7 +24052,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		RaycastResult_t9EFDE24B29650BD6DC8A49D954A3769E17146BCE  L_6 = ___item1;
-		RaycastResult_t9EFDE24B29650BD6DC8A49D954A3769E17146BCE  L_7 = L_6;
+		RaycastResult_t9EFDE24B29650BD6DC8A49D954A3769E17146BCE  L_7 = (RaycastResult_t9EFDE24B29650BD6DC8A49D954A3769E17146BCE )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -24096,7 +24107,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		ResourceLocator_t3D496606F94367D5D6B24DA9DC0A3B46E6B53B11  L_6 = ___item1;
-		ResourceLocator_t3D496606F94367D5D6B24DA9DC0A3B46E6B53B11  L_7 = L_6;
+		ResourceLocator_t3D496606F94367D5D6B24DA9DC0A3B46E6B53B11  L_7 = (ResourceLocator_t3D496606F94367D5D6B24DA9DC0A3B46E6B53B11 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -24261,7 +24272,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		SpriteState_t9024961148433175CE2F3D9E8E9239A8B1CAB15E  L_6 = ___item1;
-		SpriteState_t9024961148433175CE2F3D9E8E9239A8B1CAB15E  L_7 = L_6;
+		SpriteState_t9024961148433175CE2F3D9E8E9239A8B1CAB15E  L_7 = (SpriteState_t9024961148433175CE2F3D9E8E9239A8B1CAB15E )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -24316,7 +24327,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_6 = ___item1;
-		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_7 = L_6;
+		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_7 = (TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -24371,7 +24382,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		UICharInfo_tDEA65B831FAD06D1E9B10A6088E05C6D615B089A  L_6 = ___item1;
-		UICharInfo_tDEA65B831FAD06D1E9B10A6088E05C6D615B089A  L_7 = L_6;
+		UICharInfo_tDEA65B831FAD06D1E9B10A6088E05C6D615B089A  L_7 = (UICharInfo_tDEA65B831FAD06D1E9B10A6088E05C6D615B089A )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -24426,7 +24437,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		UILineInfo_tD082FF4894030AD4EBF57ACF6A997135E4B8B67C  L_6 = ___item1;
-		UILineInfo_tD082FF4894030AD4EBF57ACF6A997135E4B8B67C  L_7 = L_6;
+		UILineInfo_tD082FF4894030AD4EBF57ACF6A997135E4B8B67C  L_7 = (UILineInfo_tD082FF4894030AD4EBF57ACF6A997135E4B8B67C )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -24481,7 +24492,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		UIVertex_tD94AAC5F0B42DBC441AAA8ADBFCFF9E5C320C03A  L_6 = ___item1;
-		UIVertex_tD94AAC5F0B42DBC441AAA8ADBFCFF9E5C320C03A  L_7 = L_6;
+		UIVertex_tD94AAC5F0B42DBC441AAA8ADBFCFF9E5C320C03A  L_7 = (UIVertex_tD94AAC5F0B42DBC441AAA8ADBFCFF9E5C320C03A )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -24701,7 +24712,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  L_6 = ___item1;
-		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  L_7 = L_6;
+		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  L_7 = (Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -24756,7 +24767,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_6 = ___item1;
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_7 = L_6;
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_7 = (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -24811,7 +24822,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7  L_6 = ___item1;
-		Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7  L_7 = L_6;
+		Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7  L_7 = (Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -24866,7 +24877,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		jvalue_t220BECEE73180D6A4DE0F66CB6BA852EC6A5B587  L_6 = ___item1;
-		jvalue_t220BECEE73180D6A4DE0F66CB6BA852EC6A5B587  L_7 = L_6;
+		jvalue_t220BECEE73180D6A4DE0F66CB6BA852EC6A5B587  L_7 = (jvalue_t220BECEE73180D6A4DE0F66CB6BA852EC6A5B587 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -24921,7 +24932,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		U200EU200FU200BU202BU202BU202AU206AU202BU206EU202AU206FU202AU200EU206BU206EU202CU206DU206BU200FU200BU202AU200FU206DU206EU206CU206DU202DU206AU200EU206BU202DU200CU206EU202EU200CU206AU200BU200FU202EU206BU202E_t559832E39CA084E4349A867B7B5B90798990616D  L_6 = ___item1;
-		U200EU200FU200BU202BU202BU202AU206AU202BU206EU202AU206FU202AU200EU206BU206EU202CU206DU206BU200FU200BU202AU200FU206DU206EU206CU206DU202DU206AU200EU206BU202DU200CU206EU202EU200CU206AU200BU200FU202EU206BU202E_t559832E39CA084E4349A867B7B5B90798990616D  L_7 = L_6;
+		U200EU200FU200BU202BU202BU202AU206AU202BU206EU202AU206FU202AU200EU206BU206EU202CU206DU206BU200FU200BU202AU200FU206DU206EU206CU206DU202DU206AU200EU206BU202DU200CU206EU202EU200CU206AU200BU200FU202EU206BU202E_t559832E39CA084E4349A867B7B5B90798990616D  L_7 = (U200EU200FU200BU202BU202BU202AU206AU202BU206EU202AU206FU202AU200EU206BU206EU202CU206DU206BU200FU200BU202AU200FU206DU206EU206CU206DU202DU206AU200EU206BU202DU200CU206EU202EU200CU206AU200BU200FU202EU206BU202E_t559832E39CA084E4349A867B7B5B90798990616D )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -24976,7 +24987,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		U202EU206AU206AU202CU202CU206AU206BU200EU202EU202CU206BU206EU202CU200EU200CU202EU200BU206CU206FU202DU200FU206DU206BU200BU206BU202DU200DU202AU206AU200EU202BU206EU200EU206EU206AU206DU202DU202EU202CU206BU202E_tB588B39EB05F08B255768E22932EA5D9C75BB896  L_6 = ___item1;
-		U202EU206AU206AU202CU202CU206AU206BU200EU202EU202CU206BU206EU202CU200EU200CU202EU200BU206CU206FU202DU200FU206DU206BU200BU206BU202DU200DU202AU206AU200EU202BU206EU200EU206EU206AU206DU202DU202EU202CU206BU202E_tB588B39EB05F08B255768E22932EA5D9C75BB896  L_7 = L_6;
+		U202EU206AU206AU202CU202CU206AU206BU200EU202EU202CU206BU206EU202CU200EU200CU202EU200BU206CU206FU202DU200FU206DU206BU200BU206BU202DU200DU202AU206AU200EU202BU206EU200EU206EU206AU206DU202DU202EU202CU206BU202E_tB588B39EB05F08B255768E22932EA5D9C75BB896  L_7 = (U202EU206AU206AU202CU202CU206AU206BU200EU202EU202CU206BU206EU202CU200EU200CU202EU200BU206CU206FU202DU200FU206DU206BU200BU206BU202DU200DU202AU206AU200EU202BU206EU200EU206EU206AU206DU202DU202EU202CU206BU202E_tB588B39EB05F08B255768E22932EA5D9C75BB896 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -25031,7 +25042,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		U206DU200EU202DU206BU200CU206CU202BU202CU206BU206CU200CU206FU202BU200CU206EU202CU206EU206EU200FU200EU206EU206AU206AU200EU202AU206BU202AU200DU200BU200FU206FU200BU200FU200FU200BU206CU202BU200EU202CU202CU202E_tB6BB7E39EAE9732824C5D5D2CF1DB17B592E62B9  L_6 = ___item1;
-		U206DU200EU202DU206BU200CU206CU202BU202CU206BU206CU200CU206FU202BU200CU206EU202CU206EU206EU200FU200EU206EU206AU206AU200EU202AU206BU202AU200DU200BU200FU206FU200BU200FU200FU200BU206CU202BU200EU202CU202CU202E_tB6BB7E39EAE9732824C5D5D2CF1DB17B592E62B9  L_7 = L_6;
+		U206DU200EU202DU206BU200CU206CU202BU202CU206BU206CU200CU206FU202BU200CU206EU202CU206EU206EU200FU200EU206EU206AU206AU200EU202AU206BU202AU200DU200BU200FU206FU200BU200FU200FU200BU206CU202BU200EU202CU202CU202E_tB6BB7E39EAE9732824C5D5D2CF1DB17B592E62B9  L_7 = (U206DU200EU202DU206BU200CU206CU202BU202CU206BU206CU200CU206FU202BU200CU206EU202CU206EU206EU200FU200EU206EU206AU206AU200EU202AU206BU202AU200DU200BU200FU206FU200BU200FU200FU200BU206CU202BU200EU202CU202CU202E_tB6BB7E39EAE9732824C5D5D2CF1DB17B592E62B9 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -25086,7 +25097,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		U206FU200EU200FU200FU206FU206DU202AU206AU200CU206EU206BU206AU200CU202EU202BU202AU202AU200CU202BU206AU200CU200DU206CU200DU206FU200FU206CU206AU202CU202EU206DU200FU206CU200FU206CU202BU206AU202DU202EU206BU202E_tD0ACBBF436C29D0441EC851C270477CAA2E54B0B  L_6 = ___item1;
-		U206FU200EU200FU200FU206FU206DU202AU206AU200CU206EU206BU206AU200CU202EU202BU202AU202AU200CU202BU206AU200CU200DU206CU200DU206FU200FU206CU206AU202CU202EU206DU200FU206CU200FU206CU202BU206AU202DU202EU206BU202E_tD0ACBBF436C29D0441EC851C270477CAA2E54B0B  L_7 = L_6;
+		U206FU200EU200FU200FU206FU206DU202AU206AU200CU206EU206BU206AU200CU202EU202BU202AU202AU200CU202BU206AU200CU200DU206CU200DU206FU200FU206CU206AU202CU202EU206DU200FU206CU200FU206CU202BU206AU202DU202EU206BU202E_tD0ACBBF436C29D0441EC851C270477CAA2E54B0B  L_7 = (U206FU200EU200FU200FU206FU206DU202AU206AU200CU206EU206BU206AU200CU202EU202BU202AU202AU200CU202BU206AU200CU200DU206CU200DU206FU200FU206CU206AU202CU202EU206DU200FU206CU200FU206CU202BU206AU202DU202EU206BU202E_tD0ACBBF436C29D0441EC851C270477CAA2E54B0B )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -25141,7 +25152,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		U200EU206EU206BU206CU206BU206AU202AU206BU202DU206CU206AU202BU206BU200BU200BU206CU206CU206CU202AU206DU200FU200EU206CU206CU206FU202EU200FU200CU206DU200DU202CU200FU206AU206BU206BU206EU200BU206EU202AU206BU202E_tEA3B9624C4B04546BCF6F9FCB87665459E69B56B  L_6 = ___item1;
-		U200EU206EU206BU206CU206BU206AU202AU206BU202DU206CU206AU202BU206BU200BU200BU206CU206CU206CU202AU206DU200FU200EU206CU206CU206FU202EU200FU200CU206DU200DU202CU200FU206AU206BU206BU206EU200BU206EU202AU206BU202E_tEA3B9624C4B04546BCF6F9FCB87665459E69B56B  L_7 = L_6;
+		U200EU206EU206BU206CU206BU206AU202AU206BU202DU206CU206AU202BU206BU200BU200BU206CU206CU206CU202AU206DU200FU200EU206CU206CU206FU202EU200FU200CU206DU200DU202CU200FU206AU206BU206BU206EU200BU206EU202AU206BU202E_tEA3B9624C4B04546BCF6F9FCB87665459E69B56B  L_7 = (U200EU206EU206BU206CU206BU206AU202AU206BU202DU206CU206AU202BU206BU200BU200BU206CU206CU206CU202AU206DU200FU200EU206CU206CU206FU202EU200FU200CU206DU200DU202CU200FU206AU206BU206BU206EU200BU206EU202AU206BU202E_tEA3B9624C4B04546BCF6F9FCB87665459E69B56B )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -25196,7 +25207,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		U202BU200CU206BU206CU206DU200FU202DU206AU206AU202EU206CU200DU200CU206FU202DU206FU200CU200FU202AU200BU202BU200CU202EU206EU206FU200BU200EU206AU200DU200EU202BU200DU206AU206CU206EU200DU200CU200DU200FU206EU202E_t47868962093B062207291CF8DEF0F2144E3CA921  L_6 = ___item1;
-		U202BU200CU206BU206CU206DU200FU202DU206AU206AU202EU206CU200DU200CU206FU202DU206FU200CU200FU202AU200BU202BU200CU202EU206EU206FU200BU200EU206AU200DU200EU202BU200DU206AU206CU206EU200DU200CU200DU200FU206EU202E_t47868962093B062207291CF8DEF0F2144E3CA921  L_7 = L_6;
+		U202BU200CU206BU206CU206DU200FU202DU206AU206AU202EU206CU200DU200CU206FU202DU206FU200CU200FU202AU200BU202BU200CU202EU206EU206FU200BU200EU206AU200DU200EU202BU200DU206AU206CU206EU200DU200CU200DU200FU206EU202E_t47868962093B062207291CF8DEF0F2144E3CA921  L_7 = (U202BU200CU206BU206CU206DU200FU202DU206AU206AU202EU206CU200DU200CU206FU202DU206FU200CU200FU202AU200BU202BU200CU202EU206EU206FU200BU200EU206AU200DU200EU202BU200DU206AU206CU206EU200DU200CU200DU200FU206EU202E_t47868962093B062207291CF8DEF0F2144E3CA921 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -25251,7 +25262,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		OrderBlock_t0B106828F588BC2F0B9895425E6FD39EDA45C1E2  L_6 = ___item1;
-		OrderBlock_t0B106828F588BC2F0B9895425E6FD39EDA45C1E2  L_7 = L_6;
+		OrderBlock_t0B106828F588BC2F0B9895425E6FD39EDA45C1E2  L_7 = (OrderBlock_t0B106828F588BC2F0B9895425E6FD39EDA45C1E2 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -25306,7 +25317,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		RenderRequest_t7DEDFA6AAA1C8D381280183054C328F26BBCCE94  L_6 = ___item1;
-		RenderRequest_t7DEDFA6AAA1C8D381280183054C328F26BBCCE94  L_7 = L_6;
+		RenderRequest_t7DEDFA6AAA1C8D381280183054C328F26BBCCE94  L_7 = (RenderRequest_t7DEDFA6AAA1C8D381280183054C328F26BBCCE94 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -25361,7 +25372,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		TableRange_t0D96EE3F7B1008C60DD683B3A6985C602854E6F1  L_6 = ___item1;
-		TableRange_t0D96EE3F7B1008C60DD683B3A6985C602854E6F1  L_7 = L_6;
+		TableRange_t0D96EE3F7B1008C60DD683B3A6985C602854E6F1  L_7 = (TableRange_t0D96EE3F7B1008C60DD683B3A6985C602854E6F1 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -25416,7 +25427,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		bucket_t56D642DDC4ABBCED9DB7F620CC35AEEC0778869D  L_6 = ___item1;
-		bucket_t56D642DDC4ABBCED9DB7F620CC35AEEC0778869D  L_7 = L_6;
+		bucket_t56D642DDC4ABBCED9DB7F620CC35AEEC0778869D  L_7 = (bucket_t56D642DDC4ABBCED9DB7F620CC35AEEC0778869D )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -25471,7 +25482,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		FormatParam_tA765680E7894569CC4BDEB5DF722F646311E23EE  L_6 = ___item1;
-		FormatParam_tA765680E7894569CC4BDEB5DF722F646311E23EE  L_7 = L_6;
+		FormatParam_tA765680E7894569CC4BDEB5DF722F646311E23EE  L_7 = (FormatParam_tA765680E7894569CC4BDEB5DF722F646311E23EE )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -25526,7 +25537,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		LowerCaseMapping_t54FB537AEA4CA2EBAB5BDCC79881428C202241DE  L_6 = ___item1;
-		LowerCaseMapping_t54FB537AEA4CA2EBAB5BDCC79881428C202241DE  L_7 = L_6;
+		LowerCaseMapping_t54FB537AEA4CA2EBAB5BDCC79881428C202241DE  L_7 = (LowerCaseMapping_t54FB537AEA4CA2EBAB5BDCC79881428C202241DE )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -25581,7 +25592,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		HitInfo_t74B96DDC302EB605CCC557B737A5C88EB67B57D6  L_6 = ___item1;
-		HitInfo_t74B96DDC302EB605CCC557B737A5C88EB67B57D6  L_7 = L_6;
+		HitInfo_t74B96DDC302EB605CCC557B737A5C88EB67B57D6  L_7 = (HitInfo_t74B96DDC302EB605CCC557B737A5C88EB67B57D6 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -25636,7 +25647,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		WorkRequest_tA19FD4D1269D8EE2EA886AAF036C4F7F09154393  L_6 = ___item1;
-		WorkRequest_tA19FD4D1269D8EE2EA886AAF036C4F7F09154393  L_7 = L_6;
+		WorkRequest_tA19FD4D1269D8EE2EA886AAF036C4F7F09154393  L_7 = (WorkRequest_tA19FD4D1269D8EE2EA886AAF036C4F7F09154393 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -25691,7 +25702,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		U206FU202EU202DU206FU206BU206EU206AU202BU206BU202AU202CU206DU200EU206BU202DU206BU202BU200CU200BU202AU206BU202EU200DU206BU206CU200DU200DU202EU206EU206BU200DU200DU200EU200CU202BU200BU206CU200EU202BU206DU202E_t901F8666C8B30BC48AB1E37A9F37CE1CE1B5FDEE  L_6 = ___item1;
-		U206FU202EU202DU206FU206BU206EU206AU202BU206BU202AU202CU206DU200EU206BU202DU206BU202BU200CU200BU202AU206BU202EU200DU206BU206CU200DU200DU202EU206EU206BU200DU200DU200EU200CU202BU200BU206CU200EU202BU206DU202E_t901F8666C8B30BC48AB1E37A9F37CE1CE1B5FDEE  L_7 = L_6;
+		U206FU202EU202DU206FU206BU206EU206AU202BU206BU202AU202CU206DU200EU206BU202DU206BU202BU200CU200BU202AU206BU202EU200DU206BU206CU200DU200DU202EU206EU206BU200DU200DU200EU200CU202BU200BU206CU200EU202BU206DU202E_t901F8666C8B30BC48AB1E37A9F37CE1CE1B5FDEE  L_7 = (U206FU202EU202DU206FU206BU206EU206AU202BU206BU202AU202CU206DU200EU206BU202DU206BU202BU200CU200BU202AU206BU202EU200DU206BU206CU200DU200DU202EU206EU206BU200DU200DU200EU200CU202BU200BU206CU200EU202BU206DU202E_t901F8666C8B30BC48AB1E37A9F37CE1CE1B5FDEE )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -25746,7 +25757,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		U202EU200FU202AU206CU202DU200FU202DU202EU200CU206BU202AU202BU202EU206AU200BU202BU206AU206AU202BU202CU200CU206BU206EU200DU206BU206AU206CU202CU206CU206FU202BU200DU202BU206BU206DU206DU202AU200BU202AU202CU202E_t34B20D015C30DC1A157F5893C80FFDDBEE5AEB0A  L_6 = ___item1;
-		U202EU200FU202AU206CU202DU200FU202DU202EU200CU206BU202AU202BU202EU206AU200BU202BU206AU206AU202BU202CU200CU206BU206EU200DU206BU206AU206CU202CU206CU206FU202BU200DU202BU206BU206DU206DU202AU200BU202AU202CU202E_t34B20D015C30DC1A157F5893C80FFDDBEE5AEB0A  L_7 = L_6;
+		U202EU200FU202AU206CU202DU200FU202DU202EU200CU206BU202AU202BU202EU206AU200BU202BU206AU206AU202BU202CU200CU206BU206EU200DU206BU206AU206CU202CU206CU206FU202BU200DU202BU206BU206DU206DU202AU200BU202AU202CU202E_t34B20D015C30DC1A157F5893C80FFDDBEE5AEB0A  L_7 = (U202EU200FU202AU206CU202DU200FU202DU202EU200CU206BU202AU202BU202EU206AU200BU202BU206AU206AU202BU202CU200CU206BU206EU200DU206BU206AU206CU202CU206CU206FU202BU200DU202BU206BU206DU206DU202AU200BU202AU202CU202E_t34B20D015C30DC1A157F5893C80FFDDBEE5AEB0A )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -25801,7 +25812,7 @@ IL_0014:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4 = V_0;
 		int32_t L_5 = ___index0;
 		U202BU200BU206EU202DU202AU200FU202DU206BU200EU200CU200FU202EU206AU206BU206FU202AU206CU202CU206AU200EU206FU202AU200BU200CU200DU200DU202EU200DU202BU202AU206DU200DU202BU202AU206BU202EU206FU202CU200EU202AU202E_t52BE7E33AD434722D6A90011745009A73B99CFF4  L_6 = ___item1;
-		U202BU200BU206EU202DU202AU200FU202DU206BU200EU200CU200FU202EU206AU206BU206FU202AU206CU202CU206AU200EU206FU202AU200BU200CU200DU200DU202EU200DU202BU202AU206DU200DU202BU202AU206BU202EU206FU202CU200EU202AU202E_t52BE7E33AD434722D6A90011745009A73B99CFF4  L_7 = L_6;
+		U202BU200BU206EU202DU202AU200FU202DU206BU200EU200CU200FU202EU206AU206BU206FU202AU206CU202CU206AU200EU206FU202AU200BU200CU200DU200DU202EU200DU202BU202AU206DU200DU202BU202AU206BU202EU206FU202CU200EU202AU202E_t52BE7E33AD434722D6A90011745009A73B99CFF4  L_7 = (U202BU200BU206EU202DU202AU200FU202DU206BU200EU200CU200FU202EU206AU206BU206FU202AU206CU202CU206AU200EU206FU202AU200BU200CU200DU200DU202EU200DU202BU202AU206DU200DU202BU202AU206BU202EU206FU202CU200EU202AU202E_t52BE7E33AD434722D6A90011745009A73B99CFF4 )L_6;
 		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_8);
@@ -31956,7 +31967,7 @@ IL_001b:
 	}
 }
 // T UnityEngine.Advertisements.Utilities.EnumUtilities::GetEnumFromAndroidJavaObject<System.Int32Enum>(UnityEngine.AndroidJavaObject,T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EnumUtilities_GetEnumFromAndroidJavaObject_TisInt32Enum_t9B63F771913F2B6D586F1173B44A41FBE26F6B5C_mED8FEB3CFA57FF952B2B0F6C64FEB0DB8AFAD8AF_gshared (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___androidJavaObject0, int32_t ___defaultValue1, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EnumUtilities_GetEnumFromAndroidJavaObject_TisInt32Enum_t9B63F771913F2B6D586F1173B44A41FBE26F6B5C_mD7494E0BEEDE34113A4B48474DD08E65141A957B_gshared (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___androidJavaObject0, int32_t ___defaultValue1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -32028,7 +32039,7 @@ IL_0037:
 	}
 }
 // T UnityEngine.Advertisements.Utilities.EnumUtilities::GetEnumFromAndroidJavaObject<System.Object>(UnityEngine.AndroidJavaObject,T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * EnumUtilities_GetEnumFromAndroidJavaObject_TisRuntimeObject_m04C9DE8D463546E1547D143114E2E9C645938A13_gshared (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___androidJavaObject0, RuntimeObject * ___defaultValue1, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * EnumUtilities_GetEnumFromAndroidJavaObject_TisRuntimeObject_mCD09480EC98DE91FC087E0C892FFAFB1DF45BB0F_gshared (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___androidJavaObject0, RuntimeObject * ___defaultValue1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -33907,6 +33918,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JitHelpers_UnsafeEnumCast_TisInt32Enu
 		return (int32_t)L_1;
 	}
 }
+// T UnityEngine.JsonUtility::FromJson<System.Object>(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * JsonUtility_FromJson_TisRuntimeObject_m7398DCFD1F6BF2A10AB1274ABED512F322F8F4B4_gshared (String_t* ___json0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject * V_0 = NULL;
+	{
+		String_t* L_0 = ___json0;
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_1 = { reinterpret_cast<intptr_t> (IL2CPP_RGCTX_TYPE(method->rgctx_data, 0)) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_2;
+		L_2 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E((RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9 )L_1, /*hidden argument*/NULL);
+		RuntimeObject * L_3;
+		L_3 = JsonUtility_FromJson_m81FC2A7DCB9231E8E201EAD8E160F921B1D2E25C((String_t*)L_0, (Type_t *)L_2, /*hidden argument*/NULL);
+		V_0 = (RuntimeObject *)((RuntimeObject *)Castclass((RuntimeObject*)L_3, IL2CPP_RGCTX_DATA(method->rgctx_data, 1)));
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		RuntimeObject * L_4 = V_0;
+		return (RuntimeObject *)L_4;
+	}
+}
 // System.Void UnityEngine.UI.LayoutGroup::SetProperty<System.Boolean>(T&,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_SetProperty_TisBoolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_m88395C29A6EA8BFE2560A63BBDCF040F948A5C90_gshared (LayoutGroup_t63C978964192B57EFC660D5FDA03DEE89DDC1AE2 * __this, bool* ___currentValue0, bool ___newValue1, const RuntimeMethod* method)
 {
@@ -34013,7 +34052,7 @@ IL_0015:
 	{
 		int32_t* L_3 = ___currentValue0;
 		int32_t L_4 = ___newValue1;
-		int32_t L_5 = L_4;
+		int32_t L_5 = (int32_t)L_4;
 		RuntimeObject * L_6 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_5);
 		Il2CppFakeBox<int32_t> L_7(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), L_3);
 		bool L_8;
@@ -34165,7 +34204,7 @@ IL_0015:
 	{
 		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 * L_3 = ___currentValue0;
 		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  L_4 = ___newValue1;
-		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  L_5 = L_4;
+		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  L_5 = (Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 )L_4;
 		RuntimeObject * L_6 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_5);
 		bool L_7;
 		L_7 = Vector2_Equals_m67A842D914AA5A4DCC076E9EA20019925E6A85A0((Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 *)(Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 *)L_3, (RuntimeObject *)L_6, /*hidden argument*/NULL);

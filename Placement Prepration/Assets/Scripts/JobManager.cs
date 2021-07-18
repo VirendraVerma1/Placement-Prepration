@@ -16,9 +16,11 @@ public class JobManager : MonoBehaviour
     private void Start()
     {
         isJobListPageOn = false;
-        madedskills = "hello";
-        filteredexperience = "hello";
+        madedskills = "";
+        filteredexperience = "";
+        madedlocation = "";
         refreshFrequency = 1f;
+        RecommendedFilterPannel.SetActive(false);
     }
 
 
@@ -93,14 +95,45 @@ public class JobManager : MonoBehaviour
             gameObject.GetComponent<JobManager>().enabled = false;
     }
 
+    #region Pannel Selector all jobs, recommended jobs
+
+    [Header("Pannel Selector")]
+    public Image AllJobsImage;
+    public Image RecommendedJobsImage;
+    public Color ButtonPressedColor;
+
+    string state = "";//it should be all,recommended
+    bool isalreadyRecommended = false;
+    public void OnAllJobsButtonPressed()
+    {
+        state = "all";
+        AllJobsImage.color = ButtonPressedColor;
+        RecommendedJobsImage.color = Color.white;
+        madedskills = "";
+        filteredexperience = "";
+        OnJobListButtonPressed();
+    }
+
+    public void OnRecommendedButtonPressed()
+    {
+        state = "recommended";
+        AllJobsImage.color = Color.white;
+        RecommendedJobsImage.color = ButtonPressedColor;
+
+        InitializeinRecommendedFilter();
+    }
+
+    #endregion
+
     #region new get all the jobs
 
     IEnumerator GetNewAllTheJobs()
     {
-        print(filteredexperience+"|"+madedskills);
+        print("Skills:"+madedskills);
         WWWForm form1 = new WWWForm();
         form1.AddField("experience", filteredexperience);
         form1.AddField("keyskills", madedskills);
+        form1.AddField("madedlocation", madedlocation);
         WWW www = new WWW(saveload.LaravelServerLink + saveload.JobDetails, form1);
         
         yield return www;
@@ -122,7 +155,7 @@ public class JobManager : MonoBehaviour
             Destroy(g);
         }
         jobData.Clear();
-        refreshFrequency = 30f;
+        refreshFrequency = 60f;
         foreach (jobsData item in jsonData.jobs)
         {
             string CompanyPhoto = item.CompanyPhoto;
@@ -163,7 +196,7 @@ public class JobManager : MonoBehaviour
             , Ago));
         }
         CreteJobList();
-
+        print("completed");
     }
 
     #endregion
@@ -228,6 +261,8 @@ public class JobManager : MonoBehaviour
 
     }
 
+    #endregion
+
     #region List All Jobs
 
     [Header("Job List Things")]
@@ -251,11 +286,11 @@ public class JobManager : MonoBehaviour
             go.transform.localScale = Vector3.one;
             StartCoroutine(PlaceImageToObject(go.transform.Find("CompanyLogo").transform.GetComponent<Image>(), g.CompanyPhoto));
             go.transform.Find("CompanyName").transform.GetComponent<Text>().text = g.CompanyName;
-            go.transform.Find("Post").transform.GetComponent<Text>().text = "<b>Post: </b>"+g.Post;
+            go.transform.Find("Post").transform.GetComponent<Text>().text = "<b>Post: </b>" + g.Post;
             go.transform.Find("Package").transform.GetComponent<Text>().text = "<b>Package: </b>" + g.Package;
             go.transform.Find("Experince").transform.GetComponent<Text>().text = "<b>Experience: </b>" + g.Experience;
             go.transform.Find("Location").transform.GetComponent<Text>().text = "<b>Location: </b>" + g.Location;
-            go.transform.Find("Ago").transform.GetComponent<Text>().text =  g.Ago;
+            go.transform.Find("Ago").transform.GetComponent<Text>().text = g.Ago;
             if (g.LastApplyDate == "0000-00-00")
                 go.transform.Find("LastDate").transform.GetComponent<Text>().text = "";
             else
@@ -281,11 +316,11 @@ public class JobManager : MonoBehaviour
     {
         isJobListOpen = 1;
         JobDetailPannel.SetActive(true);
-        JobDataBean g =jobData[index];
+        JobDataBean g = jobData[index];
         GameObject go = JobDetailThings;
         GameObject ggo = OtherContent;
         StartCoroutine(PlaceImageToObject(go.transform.Find("CompanyLogo").transform.GetComponent<Image>(), g.CompanyPhoto));
-        CompanyNameHead.text= g.CompanyName;
+        CompanyNameHead.text = g.CompanyName;
         go.transform.Find("CompanyName").transform.GetComponent<Text>().text = g.CompanyName;
         go.transform.Find("Post").transform.GetComponent<Text>().text = "<b>Post:</b> " + g.Post;
         go.transform.Find("Package").transform.GetComponent<Text>().text = "<b>Package:</b> " + g.Package;
@@ -444,11 +479,11 @@ public class JobManager : MonoBehaviour
         {
             ggo.transform.Find("Description").transform.GetComponent<Text>().text = "";
         }
-        
+
         string Link = g.ApplyLink;
         ggo.transform.Find("ApplyLink").transform.Find("Button").GetComponent<Button>().onClick.AddListener(() => ApplyJob(Link));
-        
-        
+
+
     }
 
     void ApplyJob(string URL)
@@ -458,7 +493,11 @@ public class JobManager : MonoBehaviour
 
     }
 
-    #endregion
+    public void OnJobDetailsCloseButtonPressed()
+    {
+        JobDetailPannel.SetActive(false);
+        isJobListOpen = 0;
+    }
 
     #endregion
 
@@ -514,19 +553,8 @@ public class JobManager : MonoBehaviour
         
     }
 
-    
-
     void LoadFilterSkills()//call it from the filter button
     {
-        //getting old saved skills
-        if(saveload.allSkills!=null)
-        {
-            string[] olssavedSkills = saveload.allSkills.Split(',');
-            foreach (string s in olssavedSkills)
-            {
-                savedSkills.Add(s);
-            }
-        }
         
 
         //deleting previous skills for refreshing new one
@@ -604,30 +632,198 @@ public class JobManager : MonoBehaviour
     public Dropdown ExperienceDropDown;
     string madedskills="";
     string filteredexperience = "";
+    string madedlocation = "";
     public void OnSearchByFilterButtonPressed()
     {
         filteredexperience = ExperienceDropDown.options[ExperienceDropDown.value].text;
         madedskills = "";
         foreach (string s in savedSkills)
         {
-            madedskills += s + ",";
+            if(s!=""||s!=null)
+                madedskills += s + ",";
         }
-
-        saveload.selectedexperience = filteredexperience;
-        saveload.allSkills = madedskills;
-        saveload.Save();
         FilterPannel.SetActive(false);
         OnJobListButtonPressed();
     }
 
     #endregion
 
+    #region Recommended Jobs
 
-    public void OnJobDetailsCloseButtonPressed()
+    [Header("Recommended Filter")]
+    public GameObject RecommendedFilterPannel;
+    
+    List<string> recommendedSkillsList = new List<string>();
+    List<string> recommendedLocationsList = new List<string>();
+
+    int indexskill = 0;
+    int indedxlocation = 0;
+
+    void InitializeinRecommendedFilter()
     {
-        JobDetailPannel.SetActive(false);
-        isJobListOpen = 0;
+        RecommendedFilterPannel.SetActive(true);
+
+        indexskill = 0;
+        indedxlocation = 0;
+
+        //clear all the data
+        GameObject[] recommendedSkills = GameObject.FindGameObjectsWithTag("RecommendedSkills");
+        GameObject[] recommendedLocations = GameObject.FindGameObjectsWithTag("RecommendedLocations");
+
+        foreach(GameObject g in recommendedSkills)
+        {
+            Destroy(g);
+        }
+        foreach (GameObject g in recommendedLocations)
+        {
+            Destroy(g);
+        }
+
+        //load all the data if have
+       
+            if(saveload.allSkills!=""||saveload.allSkills!=null)
+            {
+                recommendedSkillsList.Clear();
+                string[] tempSkills = saveload.allSkills.Split(',');
+                foreach(string s in tempSkills)
+                {
+                    if(s!="")
+                    {
+                        InitializeSkill(s);
+                    }
+                }
+            }
+
+            if (saveload.selectedLocations != "" || saveload.selectedLocations != null)
+            {
+                recommendedLocationsList.Clear();
+                string[] tempLocations = saveload.selectedLocations.Split(',');
+                foreach (string s in tempLocations)
+                {
+                    if (s != "")
+                    {
+                    InitializeLocation(s);
+                }
+                }
+            } 
     }
+
+    #region for skills
+    public InputField newRecommendedSkillInputField;
+    public GameObject RecommendedSkillBoxPrefab;
+    public Transform RecommendedSkillBoxContainer;
+  
+    public void AddNewRecommendedSkill()
+    {
+        string temp=newRecommendedSkillInputField.text;
+        if(temp!="" && temp!=" ")
+        {
+            //add that skill
+            InitializeSkill(temp);
+            newRecommendedSkillInputField.text = "";
+            savewrittenskill();
+        }
+    }
+
+    void InitializeSkill(string temp)
+    {
+        GameObject go = GameObject.Instantiate(RecommendedSkillBoxPrefab);
+        go.transform.SetParent(RecommendedSkillBoxContainer.transform);
+        go.transform.localScale = Vector3.one;
+        go.GetComponent<Text>().text = temp;
+        recommendedSkillsList.Add(temp);
+        int n = indexskill;
+        go.GetComponent<Button>().onClick.AddListener(() => OnDeleteRecommendedSkill(n));
+        indexskill++;
+    }
+
+    void savewrittenskill()
+    {
+        string temp_skills = "";
+        foreach (string s in recommendedSkillsList)
+        {
+            temp_skills += s + ",";
+        }
+        saveload.allSkills = temp_skills;
+    }
+
+    void OnDeleteRecommendedSkill(int index)
+    {
+        print(recommendedSkillsList[index]);
+        recommendedSkillsList.RemoveAt(index);
+        savewrittenskill();
+        InitializeinRecommendedFilter();
+    }
+    #endregion
+
+    #region for locations
+
+    public InputField newRecommendedLocationInputField;
+    public GameObject RecommendedLocationBoxPrefab;
+    public Transform RecommendedLocationlBoxContainer;
+
+    public void AddNewRecommendedLocation()
+    {
+        string temp = newRecommendedLocationInputField.text;
+        if (temp != "" && temp != " ")
+        {
+            //add that skill
+            InitializeLocation(temp);
+            newRecommendedLocationInputField.text = "";
+            savewrittenLocation();
+        }
+    }
+
+    void InitializeLocation(string temp)
+    {
+        GameObject go = GameObject.Instantiate(RecommendedLocationBoxPrefab);
+        go.transform.SetParent(RecommendedLocationlBoxContainer.transform);
+        go.transform.localScale = Vector3.one;
+        go.GetComponent<Text>().text = temp;
+        recommendedLocationsList.Add(temp);
+        int n = indedxlocation;
+        go.GetComponent<Button>().onClick.AddListener(() => OnDeleteRecommendedLocation(n));
+        indedxlocation++;
+    }
+
+    void savewrittenLocation()
+    {
+        string temp_Location = "";
+        foreach (string s in recommendedLocationsList)
+        {
+            temp_Location += s + ",";
+        }
+        saveload.selectedLocations = temp_Location;
+    }
+
+    void OnDeleteRecommendedLocation(int index)
+    {
+        print(recommendedLocationsList[index]);
+        recommendedLocationsList.RemoveAt(index);
+        savewrittenLocation();
+        InitializeinRecommendedFilter();
+    }
+
+    #endregion
+
+    public void OnRecommendedSearchButtonPressed()
+    {
+        madedlocation = saveload.selectedLocations;
+        madedskills = saveload.allSkills;
+
+        OnJobListButtonPressed();
+        RecommendedFilterPannel.SetActive(false);
+    }
+
+    public void OnRecommendedCloseButtonPressed()
+    {
+        RecommendedFilterPannel.SetActive(false);
+    }
+
+    #endregion
+
+    #region common functions
+
 
     string GetDataValue(string data, string index)
     {
@@ -646,5 +842,7 @@ public class JobManager : MonoBehaviour
         //go.sprite = Sprite.Create(www.texture, new Rect(0, 0, www.texture.width, www.texture.height), new Vector2(0, 0));
 
     }
-    
+
+    #endregion
+
 }

@@ -379,7 +379,7 @@ static const int32_t s_InvokerIndices[117] =
 	1251,
 	1264,
 	1264,
-	2166,
+	2161,
 	444,
 	444,
 	-1,
@@ -394,7 +394,7 @@ static const int32_t s_InvokerIndices[117] =
 	1264,
 	1232,
 	1232,
-	2043,
+	2038,
 	1264,
 	1232,
 	1264,
@@ -410,7 +410,7 @@ static const int32_t s_InvokerIndices[117] =
 	689,
 	689,
 	1264,
-	2166,
+	2161,
 	1264,
 	1232,
 	1264,
@@ -488,11 +488,11 @@ static const Il2CppTokenRangePair s_rgctxIndices[3] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[6] = 
 {
-	{ (Il2CppRGCTXDataType)3, 5482 },
+	{ (Il2CppRGCTXDataType)3, 5492 },
 	{ (Il2CppRGCTXDataType)1, 16 },
-	{ (Il2CppRGCTXDataType)3, 5490 },
-	{ (Il2CppRGCTXDataType)3, 5488 },
-	{ (Il2CppRGCTXDataType)3, 6713 },
+	{ (Il2CppRGCTXDataType)3, 5500 },
+	{ (Il2CppRGCTXDataType)3, 5498 },
+	{ (Il2CppRGCTXDataType)3, 6723 },
 	{ (Il2CppRGCTXDataType)2, 17 },
 };
 extern const CustomAttributesCacheGenerator g_GoogleMobileAds_Placement_AttributeGenerators[];

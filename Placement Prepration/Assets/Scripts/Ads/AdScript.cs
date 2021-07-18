@@ -20,12 +20,12 @@ public class AdScript : MonoBehaviour, IUnityAdsListener
     string gameId = "4222485";
     string mySurfacingId = "rewardedVideo";
     public string surfacingId = "banner";
-    bool testMode = false;
+    bool testMode = true;
 
     //----google admob variable
     string AppId = "ca-app-pub-4773340848320054~8618294187";
     string RewardAdd = "ca-app-pub-3940256099942544/5224354917";//"ca-app-pub-3940256099942544/5224354917";
-    string interstitialAdd = "ca-app-pub-4773340848320054/5992130841";//"ca-app-pub-4773340848320054/5992130841";
+    string interstitialAdd = "ca-app-pub-3940256099942544/5224354917";//"ca-app-pub-4773340848320054/5992130841";
 
     public static AdScript Instance { get; private set; } // static singleton
 
@@ -484,7 +484,7 @@ public class AdScript : MonoBehaviour, IUnityAdsListener
     {
 
         #if UNITY_ANDROID
-                string adUnitId = "ca-app-pub-4773340848320054/1533226603";
+                string adUnitId = "";
         #elif UNITY_IPHONE
                     string adUnitId = "ca-app-pub-3940256099942544/2934735716";
         #else

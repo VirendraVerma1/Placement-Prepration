@@ -690,9 +690,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral9033284E5495AED409845465B2B1C2CC9B341536
 IL2CPP_EXTERN_C String_t* _stringLiteral90DF7078E3D93E8E6F0CB88954D180EF21C4F4D1;
 IL2CPP_EXTERN_C String_t* _stringLiteral90E375223494BB0B20A73DB031E5FC501530C4C3;
 IL2CPP_EXTERN_C String_t* _stringLiteral911AF9541126A842E768DC536E6C3514A6DA3E3A;
-IL2CPP_EXTERN_C String_t* _stringLiteral91CF3D054175C4004A37B59B9505C8BEB76FCFCC;
 IL2CPP_EXTERN_C String_t* _stringLiteral924675148D5AE560E246AD9D7B8916A3DE3F6B30;
-IL2CPP_EXTERN_C String_t* _stringLiteral92C19FEA7E9FDD36622EB6FB6E4C0519DD013B3A;
 IL2CPP_EXTERN_C String_t* _stringLiteral93539A8EBD1908EADA08441582E088C4F40E4DDE;
 IL2CPP_EXTERN_C String_t* _stringLiteral951CCB49640C8F9E81FB4E0D82730321F4E15BB3;
 IL2CPP_EXTERN_C String_t* _stringLiteral95EDAA0E0E7E735C8AAC91DBD728C6D66D4E5090;
@@ -16082,14 +16080,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdScript_RequestBanner_mC36F96682CF5D5B1
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_1__ctor_mAB702EC6A295AEC36C6197217872AAFE98BE3FDF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_1_tA707D618BF8F29DB61DFD553B055AE4E516C1722_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventHandler_1_tC26C79D74BE181ED179BBB5BA1D1EA5FE217B3A4_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral91CF3D054175C4004A37B59B9505C8BEB76FCFCC);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
 	String_t* V_0 = NULL;
 	AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88 * V_1 = NULL;
 	{
-		// string adUnitId = "ca-app-pub-4773340848320054/1533226603";
-		V_0 = _stringLiteral91CF3D054175C4004A37B59B9505C8BEB76FCFCC;
+		// string adUnitId = "";
+		V_0 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		// this.bannerView = new BannerView(adUnitId, AdSize.Banner, AdPosition.Bottom);
 		String_t* L_0 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D_il2cpp_TypeInfo_var);
@@ -16153,7 +16151,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdScript__ctor_mE153B6848EC14428C7CF82CD
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5F588C104897E665872741477E486E76A14D37FC);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral64B56570F4FE3FE45A614B62D66279D934F4AAC1);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6D1AB8D3A64ADA92EBF2818D2E5EEF0EC836857A);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral92C19FEA7E9FDD36622EB6FB6E4C0519DD013B3A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEEC7F986C7A7A979DA0887CABFB7DF21BA016E4C);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF608EA91E59D48E4F094374F02A0EA5BD5C97708);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024);
@@ -16174,12 +16171,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdScript__ctor_mE153B6848EC14428C7CF82CD
 		__this->set_mySurfacingId_9(_stringLiteralF608EA91E59D48E4F094374F02A0EA5BD5C97708);
 		// public string surfacingId = "banner";
 		__this->set_surfacingId_10(_stringLiteralEEC7F986C7A7A979DA0887CABFB7DF21BA016E4C);
+		// bool testMode = true;
+		__this->set_testMode_11((bool)1);
 		// string AppId = "ca-app-pub-4773340848320054~8618294187";
 		__this->set_AppId_12(_stringLiteral5F588C104897E665872741477E486E76A14D37FC);
 		// string RewardAdd = "ca-app-pub-3940256099942544/5224354917";//"ca-app-pub-3940256099942544/5224354917";
 		__this->set_RewardAdd_13(_stringLiteral64B56570F4FE3FE45A614B62D66279D934F4AAC1);
-		// string interstitialAdd = "ca-app-pub-4773340848320054/5992130841";//"ca-app-pub-4773340848320054/5992130841";
-		__this->set_interstitialAdd_14(_stringLiteral92C19FEA7E9FDD36622EB6FB6E4C0519DD013B3A);
+		// string interstitialAdd = "ca-app-pub-3940256099942544/5224354917";//"ca-app-pub-4773340848320054/5992130841";
+		__this->set_interstitialAdd_14(_stringLiteral64B56570F4FE3FE45A614B62D66279D934F4AAC1);
 		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
 		return;
 	}

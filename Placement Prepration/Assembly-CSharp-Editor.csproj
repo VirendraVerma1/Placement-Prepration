@@ -60,6 +60,10 @@
     <Compile Include="Assets\GoogleMobileAds\Editor\PListProcessor.cs" />
     <Compile Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsSettingsEditor.cs" />
     <Compile Include="Assets\GoogleMobileAds\Editor\ManifestProcessor.cs" />
+    <Compile Include="Assets\ProceduralUIImage\Editor\FreeModifierEditor.cs" />
+    <Compile Include="Assets\ProceduralUIImage\Editor\ProceduralImageEditor.cs" />
+    <Compile Include="Assets\ProceduralUIImage\Editor\ProceduralImageEditorUtility.cs" />
+    <Compile Include="Assets\ProceduralUIImage\Editor\ModifierUtility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ExternalDependencyManager\Editor\Google.IOSResolver_v1.2.161.dll" />

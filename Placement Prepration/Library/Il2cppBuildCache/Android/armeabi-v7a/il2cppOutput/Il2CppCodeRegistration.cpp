@@ -25,6 +25,8 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_GoogleMobileAds_Core_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_GoogleMobileAds_Placement_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_GoogleMobileAds_Platforms_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Google_MiniJson_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_LeTai_TrueShadow_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_LeTai_TrueShadow_Demo_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Mono_Security_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Configuration_CodeGenModule;
@@ -55,7 +57,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityWebRequestModule_Co
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityWebRequestWWWModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[36] = 
+const Il2CppCodeGenModule* g_CodeGenModules[38] = 
 {
 	(&g_AssemblyU2DCSharp_CodeGenModule),
 	(&g_GoogleMobileAds_CodeGenModule),
@@ -64,6 +66,8 @@ const Il2CppCodeGenModule* g_CodeGenModules[36] =
 	(&g_GoogleMobileAds_Placement_CodeGenModule),
 	(&g_GoogleMobileAds_Platforms_CodeGenModule),
 	(&g_Google_MiniJson_CodeGenModule),
+	(&g_LeTai_TrueShadow_CodeGenModule),
+	(&g_LeTai_TrueShadow_Demo_CodeGenModule),
 	(&g_Mono_Security_CodeGenModule),
 	(&g_System_CodeGenModule),
 	(&g_System_Configuration_CodeGenModule),
@@ -99,18 +103,18 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	1,
 	g_ReversePInvokeWrapperPointers,
-	5410,
+	6324,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	2177,
+	2362,
 	g_Il2CppInvokerPointers,
-	284,
+	309,
 	g_UnresolvedVirtualMethodPointers,
-	184,
+	188,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	36,
+	38,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;

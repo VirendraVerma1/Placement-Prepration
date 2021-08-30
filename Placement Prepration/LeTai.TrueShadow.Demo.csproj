@@ -56,22 +56,22 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Swipe\Scripts\HotDogCard.cs" />
-    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Swipe\Scripts\FpsCounter.cs" />
-    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Swipe\Scripts\HotDogSwipeView.cs" />
-    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Swipe\SwipeView\Swipable.cs" />
+    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Swipe\Scripts\GradientSlider.cs" />
     <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Symbols\SymbolsManager.cs" />
-    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Neumorphism\Scripts\AdsrBarGraphSource.cs" />
-    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Inspiration\Scripts\ToggleSwitchAnimation.cs" />
+    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Swipe\Scripts\HotDogSwipeView.cs" />
+    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Symbols\OpenUrl.cs" />
+    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Swipe\Scripts\HotDogCard.cs" />
     <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Swipe\SwipeView\SwipeView.cs" />
-    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Inspiration\Scripts\DirectionalKnob.cs" />
+    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Swipe\Scripts\FpsCounter.cs" />
+    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Neumorphism\Scripts\AdsrEnvelop.cs" />
     <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Swipe\SwipeView\LeftRightSwipeView.cs" />
     <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Neumorphism\Scripts\BarGraphBar.cs" />
     <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Neumorphism\Scripts\BarGraph.cs" />
-    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Neumorphism\Scripts\AdsrEnvelop.cs" />
-    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Swipe\Scripts\GradientSlider.cs" />
+    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Swipe\SwipeView\Swipable.cs" />
+    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Inspiration\Scripts\ToggleSwitchAnimation.cs" />
+    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Neumorphism\Scripts\AdsrBarGraphSource.cs" />
+    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Inspiration\Scripts\DirectionalKnob.cs" />
     <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Swipe\Scripts\HotDogSprite.cs" />
-    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\Symbols\OpenUrl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Le Tai&apos;s Asset\TrueShadow\Demo\LeTai.TrueShadow.Demo.asmdef" />

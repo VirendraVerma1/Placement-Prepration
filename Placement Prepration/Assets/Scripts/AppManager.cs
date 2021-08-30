@@ -108,16 +108,18 @@ public class AppManager : MonoBehaviour
             foreach (string s in items)
             {
                 flag = false;
-                foreach (string ss in subjectValues)
-                {
-                    if (ss == s)
-                    {
-                        flag = true;
-                    }
-                }
+                //foreach (string ss in subjectValues)
+                //{
+                //    if (ss == s)
+                //    {
+                //        flag = true;
+                //    }
+                //}
                 if (flag == false)
                     subjectValues.Add(s);
             }
+
+           
         }
         StartCoroutine(PutCompanyValuesToListFromServer());
         //InitializeSubject();
@@ -174,10 +176,14 @@ public class AppManager : MonoBehaviour
     public GameObject QuesGO;
     public Transform LocationToSpawn;
 
+    List<GameObject> SubjectsButtonsGO=new List<GameObject>();
+
     void InstantiateLeftPannelThings()
     {
         int d = 0;
-        
+        SubjectsButtonsGO.Clear();
+
+
         for (int i = 0; i < courseValues.Count; i++)
         {
             d++;
@@ -187,11 +193,13 @@ public class AppManager : MonoBehaviour
                 go.transform.SetParent(LocationToSpawn.transform);
                 go.transform.localScale = Vector3.one;
                 go.transform.Find("Text").transform.GetComponent<Text>().text = courseValues[i];
-                go.name = i.ToString();
+                int mum = i;
+                go.GetComponent<Button>().onClick.AddListener(() => OnCourseButtonPressed(mum));
+                go.name = "Course_"+i.ToString();
                 print(d);
                 for (int j = d; j < subjectValues.Count; j++)
                 {
-                    
+                    //print(subjectValues[j]);
                     if (subjectValues[j] != "NextQ")
                     {
                         go = GameObject.Instantiate(SubjectGO);
@@ -199,12 +207,14 @@ public class AppManager : MonoBehaviour
                         go.transform.localScale = Vector3.one;
                         go.transform.Find("Text").transform.GetComponent<Text>().text = subjectValues[j];
                         int num = j;
-                        go.GetComponent<Button>().onClick.AddListener(() => OnSubjectButtonPressed(num));
-                        go.name = num.ToString();
-
+                        GameObject test=go;
+                        go.GetComponent<Button>().onClick.AddListener(() => OnSubjectButtonPressed(test));
+                        go.name = "Subject_"+i.ToString()+"_"+d.ToString();
+                        SubjectsButtonsGO.Add(go);
                     }
                     else
                     {
+                        print("break number=" + j);
                         break;
                     }
                     d++;
@@ -212,22 +222,62 @@ public class AppManager : MonoBehaviour
             }
             
         }
+
+        OnCourseButtonPressed(1);
     }
 
     #endregion
 
     #region Getting Question on Left Pannel And Loading Ques on Center
 
-    int currentSubjectIndex = 0;
-    void OnSubjectButtonPressed(int id)
+    void OnCourseButtonPressed(int index)
     {
-        currentSubjectIndex = id;
-        string subject = subjectValues[id];
+        foreach(GameObject go in SubjectsButtonsGO)
+        {
+            //get the name
+            //split the name
+            //compare the seccond part
+            //if matched then unhide
+            //else hide
+            string buttonname = go.name;
+            string[] secondpart = buttonname.Split('_');
+            if(secondpart[1]==index.ToString())
+            {
+                go.SetActive(true);
+                //Image image = g.transform.Find("Marker").GetComponent<Image>();
+                //var tempColor = image.color;
+                //tempColor.a = 1f;
+                //image.color = tempColor;
+
+                //image.rectTransform.rotation = Quaternion.Euler(0, 0, -90);
+            }
+            else
+            {
+                go.SetActive(false);
+                //Image image = g.transform.Find("Marker").GetComponent<Image>();
+                //var tempColor = image.color;
+                //tempColor.a = 1f;
+                //image.color = tempColor;
+
+                //image.rectTransform.rotation = Quaternion.Euler(0, 0, 0);
+            }
+        }
+    }
+
+    int currentSubjectIndex = 0;
+    void OnSubjectButtonPressed(GameObject id)
+    {
+        //currentSubjectIndex = id;
+        string buttonname = id.name;
+        string[] secondpart = buttonname.Split('_');
+        int idnum = int.Parse(secondpart[2]);
+        string subject = subjectValues[idnum];
+        print("current subject=" + subject);
 
         GameObject[] go = GameObject.FindGameObjectsWithTag("Subject");
         foreach (GameObject g in go)
         {
-            if (g.name == id.ToString())
+            if (g == id)
             {
                 Image image = g.transform.Find("Marker").GetComponent<Image>();
                 var tempColor = image.color;
@@ -457,6 +507,7 @@ public class AppManager : MonoBehaviour
     #region Center Options
 
     [Header("Common Parts")]
+    public GameObject OptionsText;
     public GameObject CenterLogoPage;
     public GameObject BackButtonCenter;
     public GameObject ForwardButtonCenter;
@@ -532,8 +583,36 @@ public class AppManager : MonoBehaviour
         WrongAnswerText.gameObject.SetActive(false);
         SubmitButton.SetActive(true);
         ExplanationText.SetActive(false);
+
+        if (correctAns == 0)
+            DisableCheckboxes();
+        else
+            EnableCheckboxes();
         InitializeCheckBox(0);
     }
+
+    void DisableCheckboxes()
+    {
+        CheckBox1.SetActive(false);
+        CheckBox2.SetActive(false);
+        CheckBox3.SetActive(false);
+        CheckBox4.SetActive(false);
+        OptionsText.SetActive(false);
+        ShowExplanationButton.SetActive(true);
+        SubmitButton.SetActive(false);
+    }
+
+    void EnableCheckboxes()
+    {
+        CheckBox1.SetActive(true);
+        CheckBox2.SetActive(true);
+        CheckBox3.SetActive(true);
+        OptionsText.SetActive(true);
+        CheckBox4.SetActive(true);
+        SubmitButton.SetActive(true);
+        ShowExplanationButton.SetActive(false);
+    }
+
 
     public void InitializeCheckBox(int code)
     {
@@ -619,6 +698,14 @@ public class AppManager : MonoBehaviour
     }
 
     public GameObject SubmitButton;
+    public GameObject ShowExplanationButton;
+
+    public void OnExplanationButton()
+    {
+        ShowExplanation();
+    }
+
+
     public void OnSubmitButton()
     {
         if (currentCheckBox != 0)
@@ -646,6 +733,7 @@ public class AppManager : MonoBehaviour
         ExplanationTextCenter.gameObject.SetActive(true);
         SubmitButton.SetActive(false);
         ExplanationText.SetActive(true);
+        ShowExplanationButton.SetActive(false);
     }
 
     #endregion

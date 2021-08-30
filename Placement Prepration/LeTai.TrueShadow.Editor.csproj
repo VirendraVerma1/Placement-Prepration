@@ -56,14 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Scripts\Editor\TrueShadowEditor.cs" />
-    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Scripts\Editor\InlineToolbar.cs" />
-    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Scripts\Editor\EditorProperty.cs" />
-    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Scripts\Editor\AutoCustomScriptingDefine.cs" />
     <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Scripts\Editor\ScenceGizmoAutoDisable.cs" />
-    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Scripts\Editor\PrefabEventHandler.cs" />
     <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Scripts\Editor\KnobPropertyDrawer.cs" />
+    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Scripts\Editor\AutoCustomScriptingDefine.cs" />
+    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Scripts\Editor\EditorProperty.cs" />
     <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Scripts\Editor\Utility.cs" />
+    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Scripts\Editor\InlineToolbar.cs" />
+    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Scripts\Editor\PrefabEventHandler.cs" />
+    <Compile Include="Assets\Le Tai&apos;s Asset\TrueShadow\Scripts\Editor\TrueShadowEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Le Tai&apos;s Asset\TrueShadow\Scripts\Editor\LeTai.TrueShadow.Editor.asmdef" />

@@ -1945,6 +1945,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_set_materialCount_m00FE61
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetMaterial_m1D7A8BD75D5DEFC5F0A27FFBA2A2A84755EE421F (CanvasRenderer_tCF8ABE659F7C3A6ED0D99A988D0BDFB651310F0E * __this, Material_t8927C00353A72755313F046D0CE85178AE8218EE * ___material0, int32_t ___index1, const RuntimeMethod* method);
 // System.Void UnityEngine.CanvasRenderer::SetTexture(UnityEngine.Texture)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetTexture_m390FCD8FBC6E992F4AAC9967EBFA3F32A2BD93C1 (CanvasRenderer_tCF8ABE659F7C3A6ED0D99A988D0BDFB651310F0E * __this, Texture_t9FE0218A1EEDF266E8C85879FE123265CACC95AE * ___texture0, const RuntimeMethod* method);
+// UnityEngine.Material UnityEngine.CanvasRenderer::GetMaterial(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t8927C00353A72755313F046D0CE85178AE8218EE * CanvasRenderer_GetMaterial_mA674C9DC47C63CCFCDED7382D923A7796C8BE308 (CanvasRenderer_tCF8ABE659F7C3A6ED0D99A988D0BDFB651310F0E * __this, int32_t ___index0, const RuntimeMethod* method);
 // System.Void UnityEngine.CanvasRenderer::SplitUIVertexStreamsInternal(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SplitUIVertexStreamsInternal_m58B7D2C67B2C9350C9D2B593A47BB028542B2862 (RuntimeObject * ___verts0, RuntimeObject * ___positions1, RuntimeObject * ___colors2, RuntimeObject * ___uv0S3, RuntimeObject * ___uv1S4, RuntimeObject * ___uv2S5, RuntimeObject * ___uv3S6, RuntimeObject * ___normals7, RuntimeObject * ___tangents8, const RuntimeMethod* method);
 // System.Void UnityEngine.CanvasRenderer::SplitIndicesStreamsInternal(System.Object,System.Object)
@@ -2684,6 +2686,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasRenderer_get_hasMoved_m7CF5BF1CD65
 	bool icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
 }
+// System.Boolean UnityEngine.CanvasRenderer::get_cullTransparentMesh()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasRenderer_get_cullTransparentMesh_mB1320A5DF37424BA8639DCB74E2A303D53932BDD (CanvasRenderer_tCF8ABE659F7C3A6ED0D99A988D0BDFB651310F0E * __this, const RuntimeMethod* method)
+{
+	typedef bool (*CanvasRenderer_get_cullTransparentMesh_mB1320A5DF37424BA8639DCB74E2A303D53932BDD_ftn) (CanvasRenderer_tCF8ABE659F7C3A6ED0D99A988D0BDFB651310F0E *);
+	static CanvasRenderer_get_cullTransparentMesh_mB1320A5DF37424BA8639DCB74E2A303D53932BDD_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (CanvasRenderer_get_cullTransparentMesh_mB1320A5DF37424BA8639DCB74E2A303D53932BDD_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CanvasRenderer::get_cullTransparentMesh()");
+	bool icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
+// System.Void UnityEngine.CanvasRenderer::set_cullTransparentMesh(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_set_cullTransparentMesh_m7228CA8B15EEA1FF38C1C766806B74153A1E37AB (CanvasRenderer_tCF8ABE659F7C3A6ED0D99A988D0BDFB651310F0E * __this, bool ___value0, const RuntimeMethod* method)
+{
+	typedef void (*CanvasRenderer_set_cullTransparentMesh_m7228CA8B15EEA1FF38C1C766806B74153A1E37AB_ftn) (CanvasRenderer_tCF8ABE659F7C3A6ED0D99A988D0BDFB651310F0E *, bool);
+	static CanvasRenderer_set_cullTransparentMesh_m7228CA8B15EEA1FF38C1C766806B74153A1E37AB_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (CanvasRenderer_set_cullTransparentMesh_m7228CA8B15EEA1FF38C1C766806B74153A1E37AB_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CanvasRenderer::set_cullTransparentMesh(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
+}
 // System.Boolean UnityEngine.CanvasRenderer::get_cull()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasRenderer_get_cull_m214173F051F22A3377BD4C91F91422CB9EEC7581 (CanvasRenderer_tCF8ABE659F7C3A6ED0D99A988D0BDFB651310F0E * __this, const RuntimeMethod* method)
 {
@@ -2755,6 +2776,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetMaterial_m1D7A8BD75D5D
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (CanvasRenderer_SetMaterial_m1D7A8BD75D5DEFC5F0A27FFBA2A2A84755EE421F_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CanvasRenderer::SetMaterial(UnityEngine.Material,System.Int32)");
 	_il2cpp_icall_func(__this, ___material0, ___index1);
+}
+// UnityEngine.Material UnityEngine.CanvasRenderer::GetMaterial(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t8927C00353A72755313F046D0CE85178AE8218EE * CanvasRenderer_GetMaterial_mA674C9DC47C63CCFCDED7382D923A7796C8BE308 (CanvasRenderer_tCF8ABE659F7C3A6ED0D99A988D0BDFB651310F0E * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	typedef Material_t8927C00353A72755313F046D0CE85178AE8218EE * (*CanvasRenderer_GetMaterial_mA674C9DC47C63CCFCDED7382D923A7796C8BE308_ftn) (CanvasRenderer_tCF8ABE659F7C3A6ED0D99A988D0BDFB651310F0E *, int32_t);
+	static CanvasRenderer_GetMaterial_mA674C9DC47C63CCFCDED7382D923A7796C8BE308_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (CanvasRenderer_GetMaterial_mA674C9DC47C63CCFCDED7382D923A7796C8BE308_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CanvasRenderer::GetMaterial(System.Int32)");
+	Material_t8927C00353A72755313F046D0CE85178AE8218EE * icallRetVal = _il2cpp_icall_func(__this, ___index0);
+	return icallRetVal;
 }
 // System.Void UnityEngine.CanvasRenderer::SetPopMaterial(UnityEngine.Material,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetPopMaterial_m2E9BBCA625FAD591DF3480287B318BFCC38A1E49 (CanvasRenderer_tCF8ABE659F7C3A6ED0D99A988D0BDFB651310F0E * __this, Material_t8927C00353A72755313F046D0CE85178AE8218EE * ___material0, int32_t ___index1, const RuntimeMethod* method)
@@ -2856,6 +2887,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetMaterial_mDCF293097429
 		Texture_t9FE0218A1EEDF266E8C85879FE123265CACC95AE * L_3 = ___texture1;
 		CanvasRenderer_SetTexture_m390FCD8FBC6E992F4AAC9967EBFA3F32A2BD93C1(__this, L_3, /*hidden argument*/NULL);
 		return;
+	}
+}
+// UnityEngine.Material UnityEngine.CanvasRenderer::GetMaterial()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t8927C00353A72755313F046D0CE85178AE8218EE * CanvasRenderer_GetMaterial_mBC3956F4758C45F89DC69E4A4AA53FC7B5E78488 (CanvasRenderer_tCF8ABE659F7C3A6ED0D99A988D0BDFB651310F0E * __this, const RuntimeMethod* method)
+{
+	Material_t8927C00353A72755313F046D0CE85178AE8218EE * V_0 = NULL;
+	{
+		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_0;
+		L_0 = CanvasRenderer_GetMaterial_mA674C9DC47C63CCFCDED7382D923A7796C8BE308(__this, 0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_000b;
+	}
+
+IL_000b:
+	{
+		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_1 = V_0;
+		return L_1;
 	}
 }
 // System.Void UnityEngine.CanvasRenderer::SplitUIVertexStreams(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Color32>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<System.Int32>)

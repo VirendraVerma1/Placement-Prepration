@@ -18,7 +18,7 @@ public class LocalTestManager : MonoBehaviour
      int[] subjectDataSelected;
      int[] companyDataSelected;
 
-     bool isNoTimer = true;
+     public bool isNoTimer = true;
      string timerInputed = "";
      bool canSkip = false;
     string quesDuration = "";
@@ -225,6 +225,7 @@ public class LocalTestManager : MonoBehaviour
     public GameObject CustomSubjectScrollView;
     public Text TotalSubjectSelected;
     public Transform SubjectCustomPlaceData;
+    public GameObject SubjectSaveButtonGO;
 
 
     void LoadSubjectDataFromAppManager()
@@ -245,6 +246,7 @@ public class LocalTestManager : MonoBehaviour
             //deselect
             AllSubjectTickButton.GetComponent<Image>().sprite = UnTickSprite;
             CustomSubjectTickButton.GetComponent<Image>().sprite = TickSprite;
+            SubjectSaveButtonGO.SetActive(true);
             InitializeAllScrollSubjectViewData();
         }
         else
@@ -353,6 +355,7 @@ public class LocalTestManager : MonoBehaviour
     public void OnSaveSubjectButtonPressed()
     {
         CustomSubjectScrollView.SetActive(false);
+        SubjectSaveButtonGO.SetActive(false);
     }
 
     #endregion
@@ -365,6 +368,7 @@ public class LocalTestManager : MonoBehaviour
     public GameObject CustomCompanyScrollView;
     public Text TotalCompanySelected;
     public Transform CompanyCustomPlaceData;
+    public GameObject CompanySaveButtonGO;
 
 
     void LoadCompanyDataFromAppManager()
@@ -385,6 +389,7 @@ public class LocalTestManager : MonoBehaviour
             //deselect
             AllCompanyTickButton.GetComponent<Image>().sprite = UnTickSprite;
             CustomCompanyTickButton.GetComponent<Image>().sprite = TickSprite;
+            CompanySaveButtonGO.SetActive(true);
             InitializeAllScrollCompanyViewData();
         }
         else
@@ -493,6 +498,7 @@ public class LocalTestManager : MonoBehaviour
     public void OnSaveCompanyButtonPressed()
     {
         CustomCompanyScrollView.SetActive(false);
+        CompanySaveButtonGO.SetActive(false);
     }
 
     #endregion

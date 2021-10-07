@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 using System;
 
 
@@ -12,6 +13,7 @@ public class JobManager : MonoBehaviour
     List<string> allskills = new List<string>();
     List<GameObject> allskillsgo = new List<GameObject>();
     private float refreshFrequency = 3f;
+    public GameObject LoadingScreen;
 
     private void Start()
     {
@@ -139,8 +141,9 @@ public class JobManager : MonoBehaviour
         form1.AddField("keyskills", madedskills);
         form1.AddField("madedlocation", madedlocation);
         WWW www = new WWW(saveload.LaravelServerLink + saveload.JobDetails, form1);
-        
+        ShowLoadingScreen();
         yield return www;
+        HideLoadingScreen();
         print("JobData:" + www.text);
 
         if (www.error == null)
@@ -477,7 +480,7 @@ public class JobManager : MonoBehaviour
         }
         if (g.Description != "")
         {
-            ggo.transform.Find("Description").transform.GetComponent<Text>().text = "<b>Description:</b> " + g.Description;
+            ggo.transform.Find("Description").transform.GetComponent<TextMeshProUGUI>().text = "<b>Description:</b> " + g.Description;
         }
         else
         {
@@ -485,15 +488,18 @@ public class JobManager : MonoBehaviour
         }
 
         string Link = g.ApplyLink;
-        ggo.transform.Find("ApplyLink").transform.Find("Button").GetComponent<Button>().onClick.AddListener(() => ApplyJob(Link));
+        currentjobLink = Link;
+        //ggo.transform.Find("ApplyLink").transform.Find("Button").GetComponent<Button>().onClick.AddListener(() => ApplyJob());
 
 
     }
 
-    void ApplyJob(string URL)
+    string currentjobLink = "";
+
+    public void ApplyJob()
     {
-        ApplyLinkButton.onClick.RemoveAllListeners();
-        Application.OpenURL(URL);
+        
+        Application.OpenURL(currentjobLink);
         saveload.applyCount++;
         saveload.Save();
     }
@@ -854,6 +860,16 @@ public class JobManager : MonoBehaviour
         yield return www;
         //go.sprite = Sprite.Create(www.texture, new Rect(0, 0, www.texture.width, www.texture.height), new Vector2(0, 0));
 
+    }
+
+    void ShowLoadingScreen()
+    {
+        LoadingScreen.SetActive(true);
+    }
+
+    void HideLoadingScreen()
+    {
+        LoadingScreen.SetActive(false);
     }
 
     #endregion

@@ -90,14 +90,20 @@ public class TestContoller : MonoBehaviour
 
     [Header("Timer section")]
     public Text TimerCountdownText;
+    public GameObject TimerImageGO;
 
     void CheckAndSetTimer()
     {
         TimerCountdownText.text="";
         if(isNoTimer==false)
         {
+            TimerImageGO.SetActive(true);
             int selectedTime=int.Parse(timerInputed);
             StartCoroutine(Countdown(selectedTime));
+        }
+        else
+        {
+            TimerImageGO.SetActive(false);
         }
     }
 
@@ -251,11 +257,11 @@ public class TestContoller : MonoBehaviour
     public Text MarksObtainedText;
     public Text PercentageText;
     public Text TotalTimeTakenText;
-    public Text ReportText;
+    public Text ResultText;
 
     void ShowTestReport()
     {
-        istestOn=false;
+        istestOn =false;
         TopBar.SetActive(true);
         float percent=((float)score/(float)(items.Length-1))*100;
         gameObject.GetComponent<MainManager>().ActivatePanel(TestReportPannel.name);
@@ -265,18 +271,18 @@ public class TestContoller : MonoBehaviour
         MarksObtainedText.text="Marks Obtained :"+score.ToString()+"/"+(items.Length-1).ToString();
         PercentageText.text="Percentage :"+System.Math.Round(percent,2).ToString()+"%";
         TotalTimeTakenText.text="Time Taken Counter :"+timetakenCounter.ToString()+"sec";
-        
-        
+
+        print("percent" + percent);
         if(percent>90)
-        ReportText.text="Excelent";
+            ResultText.text="Excelent";
         else if(percent>70)
-        ReportText.text="Good";
+            ResultText.text="Good";
         else if(percent>50)
-        ReportText.text="Average";
+            ResultText.text="Average";
         else if(percent>30)
-        ReportText.text="Need more practice";
-        else if(percent>0)
-        ReportText.text="Clear your basic concepts";
+            ResultText.text="Need more practice";
+        else if(percent>=0)
+            ResultText.text="Clear your basic concepts";
         
         StartCoroutine(waitAndShowAds());
     }

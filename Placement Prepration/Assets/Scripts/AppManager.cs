@@ -177,6 +177,7 @@ public class AppManager : MonoBehaviour
     public Transform LocationToSpawn;
 
     List<GameObject> SubjectsButtonsGO=new List<GameObject>();
+    List<GameObject> CourseButtonsGO=new List<GameObject>();
 
     void InstantiateLeftPannelThings()
     {
@@ -196,7 +197,8 @@ public class AppManager : MonoBehaviour
                 int mum = i;
                 go.GetComponent<Button>().onClick.AddListener(() => OnCourseButtonPressed(mum));
                 go.name = "Course_"+i.ToString();
-                print(d);
+                CourseButtonsGO.Add(go);
+
                 for (int j = d; j < subjectValues.Count; j++)
                 {
                     //print(subjectValues[j]);
@@ -244,22 +246,42 @@ public class AppManager : MonoBehaviour
             if(secondpart[1]==index.ToString())
             {
                 go.SetActive(true);
-                //Image image = g.transform.Find("Marker").GetComponent<Image>();
-                //var tempColor = image.color;
-                //tempColor.a = 1f;
-                //image.color = tempColor;
-
-                //image.rectTransform.rotation = Quaternion.Euler(0, 0, -90);
+                
             }
             else
             {
                 go.SetActive(false);
-                //Image image = g.transform.Find("Marker").GetComponent<Image>();
-                //var tempColor = image.color;
-                //tempColor.a = 1f;
-                //image.color = tempColor;
+                
+            }
 
-                //image.rectTransform.rotation = Quaternion.Euler(0, 0, 0);
+            GameObject[] ggo = GameObject.FindGameObjectsWithTag("Ques");
+            foreach (GameObject g in ggo)
+            {
+                Destroy(g);
+            }
+        }
+
+        //change the markers
+        foreach(GameObject go in CourseButtonsGO)
+        {
+            if(go.name.Split('_')[1]==index.ToString())
+            {
+                Image image = go.transform.Find("Marker").GetComponent<Image>();
+                var tempColor = image.color;
+                tempColor.a = 1f;
+                image.color = tempColor;
+
+                image.rectTransform.rotation = Quaternion.Euler(0, 0, -90);
+
+            }
+            else
+            {
+                Image image = go.transform.Find("Marker").GetComponent<Image>();
+                var tempColor = image.color;
+                tempColor.a = 1f;
+                image.color = tempColor;
+
+                image.rectTransform.rotation = Quaternion.Euler(0, 0, 0);
             }
         }
     }
@@ -273,6 +295,7 @@ public class AppManager : MonoBehaviour
         int idnum = int.Parse(secondpart[2]);
         string subject = subjectValues[idnum];
         print("current subject=" + subject);
+        currentSubjectIndex = idnum;
 
         GameObject[] go = GameObject.FindGameObjectsWithTag("Subject");
         foreach (GameObject g in go)
@@ -357,12 +380,15 @@ public class AppManager : MonoBehaviour
                 }
             }
         }
+        
 
         int currentsubjectchildindex = 0;
         GameObject[] subjectGO = GameObject.FindGameObjectsWithTag("Subject");
         for (int j = 0; j < subjectGO.Length; j++)
         {
-            if (subjectGO[j].name.ToString() == currentSubjectIndex.ToString())
+            string[] mult = subjectGO[j].name.Split('_');
+            print("this thing=" + mult[2]+"|"+ currentSubjectIndex.ToString());
+            if (mult[2] == currentSubjectIndex.ToString())
             {
                 print("gotit");
                 currentsubjectchildindex = subjectGO[j].transform.GetSiblingIndex();
@@ -394,6 +420,8 @@ public class AppManager : MonoBehaviour
     }
 
     [Header("Center Ques Things")]
+    public GameObject NormalQuestionPannel;
+    public string explanationWritten;
     public Text QuesNumberText;
     public Text QuesTextCenter;
     public Text Option1TextCenter;
@@ -406,6 +434,7 @@ public class AppManager : MonoBehaviour
 
     void OnQuesButtonPressed(int quesid)
     {
+        NormalQuestionPannel.SetActive(true);
         isPanellOpen = 1;
         QuesNumberText.text = "Ques "+(quesid + 1).ToString();
         QuesTextCenter.text = quesData[quesid].Ques;
@@ -413,6 +442,7 @@ public class AppManager : MonoBehaviour
         Option2TextCenter.text = quesData[quesid].Option2;
         Option3TextCenter.text = quesData[quesid].Option3;
         Option4TextCenter.text = quesData[quesid].Option4;
+        explanationWritten =quesData[quesid].Explanation;
         ExplanationTextCenter.text = quesData[quesid].Explanation;
         YoutubeLinkCenter.text = quesData[quesid].YoutubeLink;
 
@@ -588,7 +618,21 @@ public class AppManager : MonoBehaviour
             DisableCheckboxes();
         else
             EnableCheckboxes();
+
+        DisableExplanation();
         InitializeCheckBox(0);
+    }
+
+    void DisableExplanation()
+    {
+        if(explanationWritten==""|| explanationWritten==null)
+        {
+            ExplanationText.SetActive(false);
+            
+            ExplanationText.SetActive(false);
+            ExplanationTextCenter.gameObject.SetActive(false);
+
+        }
     }
 
     void DisableCheckboxes()
@@ -612,7 +656,6 @@ public class AppManager : MonoBehaviour
         SubmitButton.SetActive(true);
         ShowExplanationButton.SetActive(false);
     }
-
 
     public void InitializeCheckBox(int code)
     {
@@ -734,6 +777,7 @@ public class AppManager : MonoBehaviour
         SubmitButton.SetActive(false);
         ExplanationText.SetActive(true);
         ShowExplanationButton.SetActive(false);
+        DisableExplanation();
     }
 
     #endregion
